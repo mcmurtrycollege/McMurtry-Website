@@ -1,0 +1,52 @@
+{
+    "strive_liaisons" : { 
+        "description": "STRIVE is a student-driven coalition that empowers all members of the Rice community to play an active role in eliminating gender-based inequality and sexual violence. We do this by engaging in positive, open dialogue, pooling on and off-campus resources, and providing the tools and skills necessary to create cultural change.",
+        "members":[
+            {
+                "name":"Mitra Mirpour",
+                "phone":"(832) 248-4578",
+                "room": "463"
+            },
+            {
+                "name":"Emily Duffus",
+                "phone":"(973) 508-6538",
+                "room": "230"
+            },
+            {
+                "name":"Melodi Doganay",
+                "phone":"(631) 605-6494",
+                "room": "477"
+            }
+        ]
+    },
+    "RHAs":{
+        "description":"RHAs are students who have been trained on a variety of wellbeing topics. These students work at their college to provide health education opportunities, health supplies and peer guidance. RHAs also act as a liaison between the Student Wellbeing Office and the residential colleges, staying up to date on campus-wide wellbeing programming.",
+        "members":[
+            {
+                "name":"Alex Curylo",
+                "phone":"(314) 971-0876",
+                "room": "OC"
+            },
+            {
+                "name":"Emily Duffus",
+                "phone":"(973) 508-6538",
+                "room": "230"
+            },
+            {
+                "name":"Akshaya Venkatesh",
+                "phone":"(805) 428-9475",
+                "room": "544"
+            },
+            {
+                "name":"Melodi Doganay",
+                "phone":"(631) 605-6494",
+                "room": "477"
+            },
+            {
+                "name":"Caleb Robinson",
+                "phone":"(601) 818-4858",
+                "room": "273"
+            }
+        ]
+    }
+}

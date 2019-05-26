@@ -1,0 +1,69 @@
+@media screen and (min-width: 900px){
+    .mcteam-page {
+        margin-top: 8%;
+        margin-bottom: 5%;
+    }
+}
+
+@media screen and (min-width: 650px){
+    .mcteam-key {
+        font-size: 1em;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    .active-key {
+        border: solid #BFBFCC;
+        border-width: 0 0 2px 0;
+        text-align: center;
+        transition: border-color 0.3s ease-in-out;
+        width: 120px;
+        height: 75px;
+    }
+    
+    .inactive-key {
+        border: solid #2B2F3A;
+        border-width: 0 0 2px 0;
+        color: #2B2F3A;
+        text-align: center;        
+        transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+        width: 120px;
+        height: 75px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .mcteam-key {
+        font-size: 0.9em;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .active-key {
+        width: 62px;
+        height: 50px;
+    }
+    
+    .inactive-key {
+        width: 62px;
+        height: 50px;
+    }
+}
+
+.inactive-key:hover {
+    border-color: #2B2F3A;
+}
+
+.position-content {
+    /* background-color: #BFBFCC; */
+    color: #2B2F3A;
+    margin-top: 30px;
+    /* padding: 5px 30px 5px 30px; */
+    padding:  20px 50px;
+}
+
+.mcteam-name {
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.8em;
+}

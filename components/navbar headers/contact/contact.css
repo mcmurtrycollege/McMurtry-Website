@@ -1,0 +1,40 @@
+.contact-page {
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+
+.contact-card-shell {
+    margin: 2%;
+}
+
+.contact-card {
+    background-color: none;
+    border: 1px solid #BFBFCC;
+    padding: 5px 20px;
+    height: 160px;
+    transition: border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.contact-card:hover {
+    border-color: #2B2F3A;
+}
+
+.contacts-position {
+    color: #2B2F3A;
+    font-size: 1.2em;
+    font-weight: normal;
+    text-align: center;
+}
+
+.contacts-name {
+    color: #2B2F3A;
+    text-align: center;
+    font-weight: normal;
+}
+
+.contacts-email {
+    color: #2B2F3A;
+    font-size: 1em;
+    text-align: center;
+    font-weight: normal;
+}

@@ -1,0 +1,179 @@
+{
+    "fellows_description": "Fellows are upperclassmen who were selected based on proven academic achievement and demonstrated willingness to help fellow students. As part of their charge, Fellows provide free academic assistance on a regular basis through advertised review sessions, “office hours” in the college commons, and individual tutoring by request.",
+    "fellows": [
+        {
+            "name": "Chatham Abate",
+            "email": "caa8@rice.edu",
+            "major":"Computer Science, Math Minor",
+            "subjects": "Computer Science"
+        },
+        {
+            "name": "Jake Bhoi",
+            "email": "jdb15@rice.edu",
+            "major":"Neuroscience",
+            "subjects": "Neuroscience"
+        },
+        {
+            "name": "Lily Cao",
+            "email": "ljc4@rice.edu",
+            "major":"Psychology, Managerial Studies, Business Minor",
+            "subjects": "Business"
+        },
+        {
+            "name": "Tracey Dibbs",
+            "email": "td19@rice.edu",
+            "major":"Kinesiology",
+            "subjects": "English, FWIS"
+        },
+        {
+            "name": "Nick Falkenberg",
+            "email": "nff1@rice.edu",
+            "major":"Mathematical Economic Analysis, Statistics",
+            "subjects": "Economics, Statistics"
+        },
+        {
+            "name": "Sarah Gao",
+            "email": "sg64@rice.edu",
+            "major":"Hist, Study of Women, Gender, and Sexuality",
+            "subjects": "FWIS, Study of Women, Gender, and Sexuality"
+        },
+        {
+            "name": "Elizabeth Hoffman",
+            "email": "eah10@rice.edu",
+            "major":"Civil and Enviromental Engineering",
+            "subjects": "Civil, Mechanical Engineering"
+        },
+        {
+            "name": "Josh Holder",
+            "email": "jgh8@rice.edu",
+            "major":"Mechanical Engineering, Computational and Applied Mathematics Minor",
+            "subjects": "PHYS 101/102, 125/126"
+        },
+        {
+            "name": "Macklyn Hutchinson",
+            "email": "mah19@rice.edu",
+            "major":"Political Science, Music",
+            "subjects": "Political Science, Music"
+        },
+        {
+            "name": "Gabby Jackson",
+            "email": "gej3@rice.edu",
+            "major":"Computer Science",
+            "subjects": "Computer Science"
+        },
+        {
+            "name": "Kaiyi Jiang",
+            "email": "kj16@rice.edu",
+            "major":"Biological Engineering",
+            "subjects": "Math 101/102, 211/212"
+        },
+        {
+            "name": "Shravya Kakulamarri",
+            "email": "sk105@rice.edu",
+            "major":"Kinesiology, Global Health Technologies Minor",
+            "subjects": "Kinesiology, Global Health Technologies Minor, HEAL"
+        },
+        {
+            "name": "Mahesh Krishna",
+            "email": "mk58@rice.edu",
+            "major":"Biochemistry, POST",
+            "subjects": "CHEM 211/212"
+        },
+        {
+            "name": "Rohini Kumar",
+            "email": "rk58@rice.edu",
+            "major":"Neuroscience",
+            "subjects": "Neuroscience"
+        },
+        {
+            "name": "Amesheila Kunia",
+            "email": "agk4@rice.edu",
+            "major":"Biochemistry, POST",
+            "subjects": "BIOC 201/301"
+        },
+        {
+            "name": "Ben Lasota",
+            "email": "bjl8@rice.edu",
+            "major":"Biological Engineering, Math Minor",
+            "subjects": "MATH 101/102, 211/212"
+        },
+        {
+            "name": "Lauren Loh",
+            "email": "lsl3@rice.edu",
+            "major":"Sociology, Business Minor",
+            "subjects": "Sociology"
+        },
+        {
+            "name": "Grant Lu",
+            "email": "gwl3@rice.edu",
+            "major":"Biological Engineering, Global Health Technologies Minor",
+            "subjects": "Biological Engineering"
+        },
+        {
+            "name": "Mitra Mirpour",
+            "email": "mm102@rice.edu",
+            "major":"Civil Enviromental Engineering",
+            "subjects": "CHEM 101/102"
+        },
+        {
+            "name": "Olivia Morris",
+            "email": "ojm2@rice.edu",
+            "major":"Cognitive Science, Sociology Minor",
+            "subjects": "Psychology"
+        },
+        {
+            "name": "Amy Mu",
+            "email": "awm6@@rice.edu",
+            "major":"Biochemistry, Kinesiology",
+            "subjects": "PHYS 125/126"
+        },
+        {
+            "name": "Mariana Najera",
+            "email": "mn39@rice.edu",
+            "major":"Religion, Anthropology, AMCL",
+            "subjects": "Anthropology, Religion, Spanish"
+        },
+        {
+            "name": "Cem Okcu",
+            "email": "ceo2@rice.edu",
+            "major":"Political Science",
+            "subjects": "Political Science"
+        },
+        {
+            "name": "George Pazos",
+            "email": "gap5@rice.edu",
+            "major":"Mathematical Economic Analysis, Philosophy",
+            "subjects": "Philosophy"
+        },
+        {
+            "name": "Ben Ruben",
+            "email": "bsr2@rice.edu",
+            "major":"Physics, Math",
+            "subjects": "PHYS 101/102"
+        },
+        {
+            "name": "Caroline Siegfried",
+            "email": "crs14@rice.edu",
+            "major":"English, Hist",
+            "subjects": "ENGL, HIST"
+        },
+        {
+            "name": "Clay Siminski",
+            "email": "cps4@rice.edu",
+            "major":"Biochemistry",
+            "subjects": "CHEM 211/212"
+        },
+        {
+            "name": "Rebecca Topper",
+            "email": "rmt4@rice.edu",
+            "major":"English, Religion",
+            "subjects": "English"
+        },
+        {
+            "name": "Asli Yilmaz",
+            "email": "ay20@rice.edu",
+            "major":"Chemical Biological Engineering",
+            "subjects": "BIOC 201/301"
+        }
+    ]
+}

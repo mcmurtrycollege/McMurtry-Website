@@ -1,0 +1,29 @@
+@media screen and (min-width: 700px){
+    .wide-tax-exempt-pdf {
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+        display: flex;
+    }
+    .narrow-tax-exempt-pdf {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 699px){
+    .wide-tax-exempt-pdf {
+        display: none;
+    }
+    .narrow-tax-exempt-pdf {
+        width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+        display: flex;
+    }
+}
+
+.tax-exempt-page {
+    padding-top: 5%;
+}

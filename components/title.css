@@ -1,0 +1,32 @@
+.title-container {
+    /* border: 1px solid #2B2F3A; */
+    /* background-color: #BFBFCC; */
+    /* margin-top: -5.7%;
+    background: url("../static/mis.jpg") top center no-repeat;
+    background-size: cover;
+    height: 400px;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.title-theme1 {
+    border: 1px solid #2B2F3A;
+    padding: 25px;
+    font-size: 2em;
+    text-align: center;
+    font-weight: normal;
+    color: #2B2F3A;
+}
+
+.title-theme2 {
+    border: 1px solid #2B2F3A;
+    padding: 25px;
+    font-size: 2em;
+    text-align: center;
+    font-weight: normal;
+    color: #2B2F3A;
+}
+

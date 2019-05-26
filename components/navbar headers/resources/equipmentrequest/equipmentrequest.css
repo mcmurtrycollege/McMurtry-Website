@@ -1,0 +1,22 @@
+.equipment-request-page {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.tech-request {
+    border: 1px solid #2B2F3A;
+    color: #2B2F3A;
+    font-size: 1.2em;
+    font-weight: normal;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+.tech-request:hover {
+    background-color: #BFBFCC;
+}
+
+.tech-request-link {
+    text-decoration: none;
+}
+

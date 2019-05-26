@@ -1,0 +1,71 @@
+{
+    "justices":[
+        {
+            "position": "Chief Justice",
+            "name": "Augi Liebster",
+            "email": "mcmurtrycj@gmail.com",
+            "phone": "(713) 499-0282",
+            "room": "234"
+        },
+        {
+            "position": "Associate Justice",
+            "name": "George Huang",
+            "phone": "(305) 781-2494",
+            "room": "424"
+        },
+        {
+            "position": "Associate Justice",
+            "name": "Ben Lasota",
+            "phone": "(703) 307-4956",
+            "room": "543"
+        },
+        {
+            "position": "Associate Justice",
+            "name": "Liana Hamm",
+            "phone": "(217) 370-0748",
+            "room": "334"
+        },
+        {
+            "position": "Associate Justice",
+            "name": "Aaron Vaughan",
+            "phone": "(469) 247-2607",
+            "room": "323"
+        },
+        {
+            "position": "Associate Justice",
+            "name": "Nneoma Ome",
+            "phone": "(832) 757-7150",
+            "room": "375"
+        },
+        {
+            "position": "Associate Justice",
+            "name": "Adulfo Amador",
+            "phone": "(346) 233-7189",
+            "room": "543"
+        },
+        {
+            "position": "Associate Justice",
+            "name": "Nathan McCoslin",
+            "phone": "(903) 644-1600",
+            "room": "404"
+        },
+        {
+            "position": "Associate Justice",
+            "name": "Krishna Chandra",
+            "phone": "(832) 332-8569",
+            "room": "233"
+        },
+        {
+            "position": "Associate Justice",
+            "name": "Serene Lee",
+            "phone": "(516) 728-5967",
+            "room": "262"
+        },
+        {
+            "position": "Associate Justice",
+            "name": "Claire Wang",
+            "phone": "(309) 634-1978",
+            "room": "441"
+        }
+    ]
+}

@@ -1,0 +1,158 @@
+{
+    "executive_council":[
+        {
+            "position": "President",
+            "name": "Joyce Chen",
+            "year": "2020",
+            "email": "mcmurtrypresident@gmail.com"
+        },
+        {
+            "position": "Chief Justice",
+            "name": "Augi Liebster",
+            "year": "2021",
+            "email": "mcmurtrycj@gmail.com"
+        },
+        {
+            "position": "Prime Minister",
+            "name": "Sam Fowler",
+            "year": "2021",
+            "email": "murtpm@gmail.com"
+        },
+        {
+            "position": "Internal VP",
+            "name": "Matty Whales",
+            "year": "2022",
+            "email": "mcmurtryivp@gmail.com"
+        },
+        {
+            "position": "External VP",
+            "name": "Stephanie Ponce",
+            "year": "2021",
+            "email": "mcmurtryevp@gmail.com"
+        },
+        {
+            "position": "SA Senator",
+            "name": "Dara Okeremi",
+            "year": "2022",
+            "email": "mcmurtrysenator@gmail.com"
+        },
+        {
+            "position": "Secretary",
+            "name": "Aaron Vaughan",
+            "year": "2022",
+            "email": "mcmsecretary@gmail.com"
+        },
+        {
+            "position": "Secretary",
+            "name": "Catherine Hettler",
+            "year": "2022",
+            "email": "mcmsecretary@gmail.com"
+        },
+        {
+            "position": "Treasurer",
+            "name": "Vibha Sastri",
+            "year": "2022",
+            "email": "mcmurtrytreasurer@gmail.com"
+        },
+        {
+            "position": "Treasurer",
+            "name": "Dylan Nguyen",
+            "year": "2022",
+            "email": "mcmurtrytreasurer@gmail.com"
+        }
+    ],
+    "peoples_council":[
+        {
+            "position": "At Large Rep",
+            "name": "Carolyn Daly",
+            "year": "2021",
+            "email": "mcmurtrypc@gmail.com"
+        },
+        {
+            "position": "2 Yellow",
+            "name": "Kelsey Sanders",
+            "year": "2020",
+            "email": "kns4@rice.edu"
+        },
+        {
+            "position": "2 Orange",
+            "name": "Chelsea Morin",
+            "year": "2019",
+            "email": "clm13@rice.edu"
+        },
+        {
+            "position": "3 Yellow",
+            "name": "Anika Jain",
+            "year": "2021",
+            "email": "aaj11@rice.edu"
+        },
+        {
+            "position": "3 Orange",
+            "name": "Julia Reily",
+            "year": "2020",
+            "email": "jmr6@rice.edu"
+        },
+        {
+            "position": "4 Yellow",
+            "name": "Joyce Moon",
+            "year": "2019",
+            "email": "jhm6@rice.edu"
+        },
+        {
+            "position": "4 Orange",
+            "name": "Katie Mackall",
+            "year": "2019",
+            "email": "kmr8@rice.edu"
+        },
+        {
+            "position": "5th Floor",
+            "name": "Mahdi Fariss",
+            "year": "2019",
+            "email": "mzf2@rice.edu"
+        },
+        {
+            "position": "Off Campus",
+            "name": "Jake Bhoi",
+            "year": "2020",
+            "email": "jdb15@rice.edu"
+        },
+        {
+            "position": "First Year Rep",
+            "name": "AJ Valenty",
+            "year": "2022",
+            "email": "amv10@rice.edu"
+        },
+        {
+            "position": "First Year Rep",
+            "name": "Dylan Nguyen",
+            "year": "2022",
+            "email": "dhn5@rice.edu"
+        },
+        {
+            "position": "First Year Rep",
+            "name": "Aruni Areti",
+            "year": "2021",
+            "email": "asa12@rice.edu"
+        },
+        {
+            "position": "RPC Rep",
+            "name": "Maishara Muquith",
+            "year": "2020",
+            "email": "mm100@rice.edu"
+        }
+    ],
+    "mccabinent":[
+        {
+            "position": "Honor Council Rep",
+            "name": "Sanat Mehta",
+            "year": "2021",
+            "email": "sdm9@rice.edu"
+        },
+        {
+            "position": "Parliamentarian",
+            "name": "Emily Duffus",
+            "year": "2021",
+            "email": "mcmurtryparliamentarian@gmail.com"
+        }
+    ]
+}

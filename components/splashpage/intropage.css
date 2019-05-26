@@ -1,0 +1,70 @@
+.intro-page {
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+
+.yurt-graphic {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.quick-links-title {
+    margin-top: 4%;
+    border: 1px solid #2B2F3A;
+    color: #2B2F3A;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+.quick-link-container {
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.quick-link {
+    color: #2B2F3A;
+    border: 1px solid #2B2F3A;
+    padding: 15px;
+    text-align: center;
+    height: 130px;
+    transition: 0.3s ease-in-out;
+}
+
+.quick-link:hover {
+    cursor: pointer;
+    background-color: #BFBFCC;
+}
+
+.quick-link-name {
+    font-weight: normal;
+}
+
+@media screen and (min-width: 801px){
+    .intro-link-img-small {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .quick-link-container {
+        margin-top: 6%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .quick-links-title {
+        font-size: 0.8em;
+    }
+
+    .quick-link {
+        height: 80px;
+        font-size: 0.6em;
+    }
+
+    .intro-link-img-large {
+        display: none;
+    }
+}

@@ -1,0 +1,81 @@
+{
+    "content":[
+    "The McMurtry Innovation Space is an interdisciplinary design space open to all Rice students. The mission of the space is to support the projects of individuals and groups on campus. All students or faculty who complete the safety quiz gain swipe access to the space. In the space we have, Hand tools, Art supplies, Sewing supplies, Electronic prototyping supplies, Computers, Projector, 3D printers, and more! Some of the equipment is locked and you must visit during a time when a member of our team can assist you. Please see the calendar and team descriptions below for more information.",
+    "To gain swipe access to the MIS, first read the following safety guidelines. Then take the safety quiz, which is provided in the guidelines.",
+    "The MIS is located in Room 107 of McMurtry College, between B stairwell and the computer lab. Email us at mcminnovationspace@gmail.com for more information on what we have in the space, room reservations, or any questions."
+    ],
+    "hours": [
+        {
+            "day": "Monday",
+            "hours": "8 AM - Midnight"
+        },
+        {
+            "day": "Tuesday",
+            "hours": "8 AM - Midnight"
+        },
+        {
+            "day": "Wednesday",
+            "hours": "8 AM - Midnight"
+        },
+        {
+            "day": "Thursday",
+            "hours": "8 AM - Midnight"
+        },
+        {
+            "day": "Friday",
+            "hours": "8 AM - 10PM"
+        },
+        {
+            "day": "Saturday",
+            "hours": "8 AM - 10PM"
+        },
+        {
+            "day": "Sunday",
+            "hours": "8 AM - Midnight"
+        }
+    ],
+    "personnel":[
+        {
+            "name":"Grant Lu",
+            "major":"Bioengineering",
+            "college":"McMurtry",
+            "email":"gwl3@rice.edu",
+            "askMeAbout":"Hand Tools, Electronic Prototyping, Power Tools, 3D Printing, Vinyl, Screen Printing, Projector, MATLAB, Soldering, Laminator, Raspberry Pi/Arduino"
+        },
+        {
+            "name":"Jeffrey Sheng",
+            "major":"Computer Science",
+            "college":"McMurtry",
+            "email":"qs4@rice.edu",
+            "askMeAbout":"Hand Tools, Power Tools, Laminator"
+        },
+        {
+            "name":"Matthew Whaley",
+            "major":"Mechanical Engineering",
+            "college":"McMurtry",
+            "email":"mfw3@rice.edu",
+            "askMeAbout":"Hand Tools, Power Tools"
+        },
+        {
+            "name":"Michael Angino",
+            "major":"Electrical Engineering ",
+            "college":"McMurtry",
+            "email":"mfa7@rice.edu",
+            "askMeAbout":"Hand Tools, Adobe Suite, Adobe Illustrator, AutoCAD, Electronic Prototyping, Power Tools, 3D Printing, Vinyl, Projector, Soldering, Laminator, Raspberry Pi/Arduino"
+        },
+        {
+            "name":"Myra Ramdenbourg",
+            "major":"Computer Science",
+            "college":"Will Rice",
+            "email":"mmr7@rice.edu",
+            "askMeAbout":"Electronic Prototyping, 3D Printing, Soldering, Raspberry Pi/Arduino"
+        },
+        {
+            "name":"Shaquille Que",
+            "major":"Computer Science, Mathematics",
+            "college":"McMurtry",
+            "email":"stq1@rice.edu",
+            "askMeAbout":"Adobe Suite, Projector, MATLAB, Soldering, Laminator"
+        }
+    ]
+}

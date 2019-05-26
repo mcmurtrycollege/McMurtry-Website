@@ -1,0 +1,24 @@
+{
+    "advisors":[
+        {
+            "name": "Christopher Jermaine",
+            "school": "Engineering",
+            "bio":"I received a BA from the Mathematics Department at UCSD, an MSc from the Computer Science and Engineering Department at OSU (my advisor at OSU was Renee Miller, who is now at Toronto), and a PhD from the College of Computing at Georgia Tech (my advisor at Georgia Tech was Ed Omiecinski). I am the recipient of a 2008 Alfred P. Sloan Foundation Research Fellowship, a National Science Foundation CAREER award, and a 2007 ACM SIGMOD Best Paper Award. I have been at Rice since January, 2009, and I was on the faculty of the computer science department at the University of Florida from 2002, through August, 2010. \n\tIn my spare time, I enjoy running, gardening, and outdoor activities such as hiking, climbing, and whitewater boating. I've walked the John Muir Trail twice (250+ miles total each time, including side trips) as well as Glyndywr's Way in Wales (135+ miles), carrying my then-3-year-old son on my back. I've walked the Kerry Way in Ireland (130+ miles). For that one, I carried my then-5-year-old son about half the way. I've and hiked and/or climbed 12 out of the 13 14,000 foot peaks in California. In one particular exploit, my wife and I floated a whitewater raft (home-made from scratch using a sewing machine, glue, and plastic) over 100 miles down the Nizina River (and beyond) in Alaska."
+        },
+        {
+            "name": "Joshua Eyler",
+            "school":"Humanities",
+            "bio":"After receiving his Ph.D. in Medieval Studies from the University of Connecticut in 2006, Josh moved to a position as Assistant Professor in the English department at Columbus State University in Georgia. Although he was approved for tenure at CSU, his love for teaching and his desire to work with instructors from many different disciplines led him to the field of faculty development and to George Mason University, where he served as an Associate Director of the Center for Teaching and Faculty Excellence from 2011-2013. In August of 2013, he came to Rice to take the position of Director of the CTE. He has published broadly on medieval literature, and his eclectic research interests include the biological basis of learning, Chaucer, and disability studies. His current projects include the book How Human Beings Learn: A New Paradigm for Teaching in Higher Education, which is under contract with West Virginia University Press."
+        },
+        {
+            "name": "Brain Gibson",
+            "school":"Natural Sciences",
+            "bio":"Dr. Brian T. Gibson earned a Bachelor's degree in Kinesiology with a minor in Biology/Zoology from The University of Texas at Austin in 1990 and continued his academic preparation by earning an MA, and Ph.D. in Kinesiology (specialization: Exercise Physiology) from The University of Texas at Austin in 1993 and 1997 respectively. Dr. Gibson came to Rice University as a Lecturer of Human Performance and Health Science. The department was renamed the Kinesiology Department in 2000. He was an Assistant Professor in the Kinesiology Department from 2000-2004.\n\tDr. Gibson is currently Associate Dean of Undergraduates and Director of Academic Advising, but he continues his part-time appointment on faculty as a Professor in the Practice teaching Human Physiology, Advanced Exercise Physiology and Preventative Medicine, and Muscle Physiology and Plasticity for the Department of Kinesiology on a rotating basis."
+        },
+        {
+            "name": "Ozge Gurcanli",
+            "school":"Social Sciences",
+            "bio":"Özge Gürcanlı received her Ph.D. in Cognitive Science from Johns Hopkins University in 2012. In January 2013, fresh out of grad school, she started her career as a teaching faculty at the Department of Psychology, Rice University. Since then she has taught courses such as Introduction to Psychology, Developmental Psychology, Language Acquisition and Research Methods. In her research, she explores how monolingual and bilingual speakers, both children and adults, about talk about the spatial world around them by using the combinatorial property of language. In her teaching, she uses a healthy combination of traditional and innovative methods. She is a huge believer of experiential learning, and her developmental psychology course got university-wide recognition because of its experiential component. In addition to being a teaching faculty, she serves as a major advisor and the director of the honors program in the Department of Psychology."
+        }
+    ]
+}

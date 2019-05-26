@@ -1,0 +1,139 @@
+@media screen and (min-width: 1000px){
+    .wide-navbar {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+    }
+
+    .narrow-navbar {
+        display: none;
+    }
+
+    .dropdown-subheader {
+        background-color: #2B2F3A;
+        color: #DCDFE5;
+        opacity: 0.8;
+    }
+
+    .dropdown-subheader:hover {
+        opacity: 1;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 999px){
+    .navbar-crest {
+        display: none;
+    }
+
+    .wide-navbar {
+        display: none;
+    }
+
+    .narrow-navbar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dropdown-subheader {
+        color: #2B2F3A;
+    }
+}
+
+.wide-navbar {
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    z-index: 999;
+    width: 100%;
+}
+
+.dropdown-item {
+    display: block;
+    text-align: center;
+}
+
+.dropdown-header-inactive {
+    height: 35px;
+    padding: 10px 0 0px 0;
+    color: #DCDFE5;
+    background-color: #2B2F3A;
+    opacity: 0.8;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.dropdown-header-active {
+    height: 35px;
+    padding: 10px 0 0px 0;
+    background-color: #2B2F3A;
+    opacity: 1;
+    color: #DCDFE5;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.dropdown-header {
+    color: #2B2F3A;
+    display: block;
+    padding: 5px;
+}
+
+.arrow {
+    transition: transform 0.4s ease-in-out;
+}
+
+.dropdown-subheader {
+    text-align: center;
+    padding: 5px;
+    display: block;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.dropdown-subheaders {
+    overflow: hidden;
+    transition: max-height 0.7s ease-in-out;
+    max-height: 0px;
+}
+
+.narrow-navbar-toggle {
+    margin-top: 6%;
+    position: absolute;
+    z-index: 999;
+    margin-left: 6%;
+    margin-right: 90%;
+}
+
+.narrow-navbar-menu {
+    margin-top: 3%;
+    z-index: 999;
+    margin-left: auto;
+    margin-right: auto;
+    transition: max-height 0.8s ease-in-out;
+    overflow: hidden;
+}
+
+.filler-box {
+    width: 10%;
+    padding: 5px 0px;
+    height: 35px;
+    background-color: #2B2F3A;
+    opacity: 0.8;
+    transition: background-color 0.2s ease-in-out;
+}
+
+@media screen and (min-width: 2000px){
+    .dropdown-item {
+        font-size: 1.8em;
+    }
+    
+    .dropdown-header-inactive {
+        height: 80px;
+    }
+
+    .dropdown-header-active {
+        height: 80px;
+    }
+
+    .filler-box {
+        height: 80px;
+    }
+}

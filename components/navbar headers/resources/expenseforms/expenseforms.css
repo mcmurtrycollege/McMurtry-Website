@@ -1,0 +1,95 @@
+@media screen and (min-width: 900px){
+    .reimbursements-page {
+        margin-top: 8%;
+        margin-bottom: 5%;
+    }
+}
+
+.instructions-title {
+    color: #2B2F3A;
+    text-align: center;
+    font-weight: normal;
+}
+
+.instructions-list-item {
+    padding: 5px;
+}
+
+.expense-instructions {
+    color: #2B2F3A;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.active-form {
+    border: solid #2B2F3A;
+    border-width: 0 0 2px 0;
+    text-align: center;
+    color: #2B2F3A;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.inactive-form {
+    border: solid #BFBFCC;
+    border-width: 0 0 2px 0;
+    color: #2B2F3A;
+    text-align: center;        
+    transition: border-color 0.3s ease-in-out;
+}
+
+.inactive-form:hover {
+    border-color: #2B2F3A;
+}
+
+@media screen and (min-width: 651px){
+    .active-form, .inactive-form {
+        width: 150px;
+        height: 75px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .form-key {
+        font-size: 0.5em;
+    }
+
+    .active-form, .inactive-form {
+        width: 75px;
+        height: 50px;
+    }
+}
+
+.embedded-form {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+}
+
+.form-link-container {
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+}
+
+.form-link {
+    color: #2B2F3A;
+    background-color: #BFBFCC;
+    padding: 15px;
+}
+
+@media screen and (max-width: 610px) {
+    .embedded-form {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 611px) {
+    .form-link-container {
+        display: none;
+    }
+}

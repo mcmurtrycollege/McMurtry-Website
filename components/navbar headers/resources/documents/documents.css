@@ -1,0 +1,79 @@
+@media screen and (min-width: 900px){
+    .documents-page {
+        margin-top: 8%;
+        margin-bottom: 5%;
+    }
+}
+
+.active-doc {
+    border: solid #2B2F3A;
+    border-width: 0 0 2px 0;
+    text-align: center;
+    color: #2B2F3A;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.inactive-doc {
+    border: solid #BFBFCC;
+    border-width: 0 0 2px 0;
+    color: #2B2F3A;
+    text-align: center;        
+    transition: border-color 0.3s ease-in-out;
+}
+
+.inactive-doc:hover {
+    border-color: #2B2F3A;
+}
+
+@media screen and (min-width: 651px){
+    .active-doc, .inactive-doc {
+        width: 120px;
+        height: 75px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .doc-key {
+        font-size: 0.7em;
+    }
+
+    .active-doc, .inactive-doc {
+        width: 70px;
+        height: 50px;
+    }
+}
+
+.embedded-doc {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+}
+
+.doc-link-container {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+}
+
+.doc-link {
+    color: #2B2F3A;
+    background-color: #BFBFCC;
+    padding: 15px;
+}
+
+@media screen and (max-width: 610px) {
+    .embedded-doc {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 611px) {
+    .doc-link-container {
+        display: none;
+    }
+}

@@ -14,7 +14,6 @@ Running
 `$ git commit -m <commit message>`
 and 
 `$ git push`
-
-Will push the changes to the website.
+will push the changes to the website.
 
 

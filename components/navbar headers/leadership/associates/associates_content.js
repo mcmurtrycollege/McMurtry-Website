@@ -1,17 +1,17 @@
-import JoshEyler from '../../../../static/associates/JoshEyler.jpg';
-import PeterLoewen from '../../../../static/associates/PeterLoewen.jpg';
-import IskaWire from '../../../../static/associates/IskaWire.jpg';
-import MichellePasso from '../../../../static/associates/MichellePasso.jpg';
-import TheoMallinson from '../../../../static/associates/TheoMallinson.jpg';
-import HoulikRitchey from '../../../../static/associates/HoulikRitchey.png';
-import AlesePickering from '../../../../static/associates/AlesePickering.jpg';
-import DerethPhillips from '../../../../static/associates/DerethPhillips.jpeg';
-import LauraKabiri from '../../../../static/associates/LauraKabiri.jpg';
-import ZoeWool from '../../../../static/associates/ZoeWool.jpeg';
-import ElmerWhitehead from '../../../../static/associates/ElmerWhitehead.jpg';
-import KurtKasper from '../../../../static/associates/KurtKasper.jpg';
-import OzgeGurcanli from '../../../../static/associates/OzgeGurcanli.jpeg';
-import KateAbad from '../../../../static/associates/KateAbad.jpg';
+// import JoshEyler from '../../../../static/associates/JoshEyler.jpg';
+// import PeterLoewen from '../../../../static/associates/PeterLoewen.jpg';
+// import IskaWire from '../../../../static/associates/IskaWire.jpg';
+// import MichellePasso from '../../../../static/associates/MichellePasso.jpg';
+// import TheoMallinson from '../../../../static/associates/TheoMallinson.jpg';
+// import HoulikRitchey from '../../../../static/associates/HoulikRitchey.png';
+// import AlesePickering from '../../../../static/associates/AlesePickering.jpg';
+// import DerethPhillips from '../../../../static/associates/DerethPhillips.jpeg';
+// import LauraKabiri from '../../../../static/associates/LauraKabiri.jpg';
+// import ZoeWool from '../../../../static/associates/ZoeWool.jpeg';
+// import ElmerWhitehead from '../../../../static/associates/ElmerWhitehead.jpg';
+// import KurtKasper from '../../../../static/associates/KurtKasper.jpg';
+// import OzgeGurcanli from '../../../../static/associates/OzgeGurcanli.jpeg';
+// import KateAbad from '../../../../static/associates/KateAbad.jpg';
 
 const associates = [
     {
@@ -21,8 +21,7 @@ const associates = [
         movie_tv: "Game of Thrones",
         hobbies: "Coaching, Reading, Golf, Gardening, Baseball",
         fact: "Josh and Kariann were both athletes growing up.",
-        image: JoshEyler,
-        imageWidth: 0.6
+        image: '../../../../static/associates/JoshEyler.jpg',
     },
     {
         name: "Peter and Cheryl Loewen",
@@ -31,8 +30,7 @@ const associates = [
         movie_tv: "At the moment, Game of Thrones.",
         hobbies: "Beer Brewing",
         fact: "Peter may be a citizen of Uganda.",
-        image: PeterLoewen,
-        imageWidth: 0.5
+        image: '../../../../static/associates/PeterLoewen.jpg',
     },
     {
         name: "Iska Wire",
@@ -41,8 +39,7 @@ const associates = [
         movie_tv: "An Ideal Husband",
         hobbies: "Scrapbooking, Photography, Girl Scouts, Rodeo and country and western dancing",
         fact: "I was a Gold Award Girl Scout and as a kid, sold over 2000 boxes of cookies each year.",
-        image: IskaWire,
-        imageWidth: 0.5
+        image: '../../../../static/associates/IskaWire.jpg',
     },
     {
         name: "Michelle Passo",
@@ -51,8 +48,7 @@ const associates = [
         movie_tv: "Edward Scissorhands and Moulin Rouge",
         hobbies: "Basketball spectating (college and NBA), running, yoga",
         fact: "I used to work in the Commissioner's Office at the National Basketball Association (NBA) in New York City",
-        image: MichellePasso,
-        imageWidth: 0.5
+        image: '../../../../static/associates/MichellePasso.jpg',
     },
     {
         name: "Theo Mallinson",
@@ -61,8 +57,7 @@ const associates = [
         movie_tv: "The Neverending Story",
         hobbies: "Soccer, swimming, gardening, video games.",
         fact: "I enjoy low environmental impact home 'systems' and am currently trying to perfect a kind of urban mini farm at our house.",
-        image: TheoMallinson,
-        imageWidth: 0.5
+        image: '../../../../static/associates/TheoMallinson.jpg',
     },
     {
         name: "Emily Houlik-Ritchey",
@@ -71,8 +66,7 @@ const associates = [
         movie_tv: "Foyle's War; Jane Austen film adaptations; Rogue One",
         hobbies: "Raising my kids; Reading for fun; Hiking",
         fact: "Periodically (as they migrate through Houston) I foster monarch butterfly caterpillars through their metamorphosis into butterflies.",
-        image: HoulikRitchey,
-        imageWidth: 0.6
+        image: '../../../../static/associates/HoulikRitchey.png',
     },
     {
         name: "Alese Pickering",
@@ -81,8 +75,7 @@ const associates = [
         movie_tv: "Murial's Wedding",
         hobbies: "Cooking, photography, reading magazines, collecting art",
         fact: "I love driving long distance. Road trips are the best.",
-        image: AlesePickering,
-        imageWidth: 0.5
+        image: '../../../../static/associates/AlesePickering.jpg',
     },
     {
         name: "Dereth Phillips",
@@ -91,8 +84,7 @@ const associates = [
         movie_tv: "Freaks and Geeks",
         hobbies: "Cooking, ukulele, playing other odd instruments, singing",
         fact: "Rice has a lot of cool nature. Take a look at the lizards around McMurtry. The brown ones with diamonds are invasive Cuban anoles. The green (sometimes plain brown) ones are native.",
-        image: DerethPhillips,
-        imageWidth: 0.5
+        image: '../../../../static/associates/DerethPhillips.jpeg',
     },
     {
         name: "Laura S. Kabiri, PT, DPT, PhD, CSCS",
@@ -101,8 +93,7 @@ const associates = [
         movie_tv: "Frasier",
         hobbies: "Eating",
         fact: "I completed undergrad as a music major (piano and choir) before going on PT school and have volunteered with the Houston Food Bank, Houston Rodeo, and Faithful Paws Animal Therapy Group.",
-        image: LauraKabiri,
-        imageWidth: 0.5
+        image: '../../../../static/associates/LauraKabiri.jpg',
     },
     {
         name: "Zoë Wool",
@@ -111,8 +102,7 @@ const associates = [
         movie_tv: "I don’t like to pick favorites (but maybe Startrek TNG)",
         hobbies: "Making meals, making mischief.",
         fact: "I usually ride my bike to work and have been known to yell at my students who ride theirs without a helemet.",
-        image: ZoeWool,
-        imageWidth: 0.5
+        image: '../../../../static/associates/ZoeWool.jpeg',
     },
     {
         name: "Elmer Whitehead",
@@ -121,8 +111,7 @@ const associates = [
         movie_tv: "Any kung fu movie that shows 'real' martial arts. I also like watching basketball.",
         hobbies: "Kung Fu - Northern Praying Mantis",
         fact: "I love travelling. I have been to Ethiopia, England, Italy, France, Australia",
-        image: ElmerWhitehead,
-        imageWidth: 0.5
+        image: '../../../../static/associates/ElmerWhitehead.jpg',
     },
     {
         name: "Kurt and Stephanie Kasper",
@@ -131,8 +120,7 @@ const associates = [
         movie_tv: "Waiting for Guffman",
         hobbies: "Parks, museums, and cycling with my family",
         fact: "I applied to Rice for undergraduate studies but was not accepted!",
-        image: KurtKasper,
-        imageWidth: 0.5
+        image: '../../../../static/associates/KurtKasper.jpg',
     },
     {
         name: "Ozge Gurcanli, Simon Fischer-Baum, Masal Baby-Murt",
@@ -141,8 +129,7 @@ const associates = [
         movie_tv: "OG: Marvellous Miss Maisel, SFB: Russian Doll, Masal: Daniel Tiger's Neighborhood",
         hobbies: "OG: Photography, SFB: Cooking, Masal: Acting, scooting, and drawing",
         fact: "OG loves tea! A lot. Also sewing. We all love art work with tactile materials.",
-        image: OzgeGurcanli,
-        imageWidth: 0.4
+        image: '../../../../static/associates/OzgeGurcanli.jpeg',
     },
     {
         name: "E. Kate Abad",
@@ -151,8 +138,7 @@ const associates = [
         movie_tv: "Game of Thrones",
         hobbies: "Journaling - bullet, art, classic",
         fact: "I grew up in Japan and on Guam",
-        image: KateAbad,
-        imageWidth: 0.7
+        image: '../../../../static/associates/KateAbad.jpg',
     }
 ]
 

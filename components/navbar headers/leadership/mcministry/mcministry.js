@@ -3,7 +3,7 @@ import { Box } from 'rebass';
 import './mcministry.css';
 import Title from '../../../title';
 import Cards from '../../../contactcards';
-import { executive_council, peoples_council, mccabinent } from './mcministry.json';
+import { executive_council, peoples_council, mccabinet } from './mcministry.json';
 
 export default class McMinistry extends React.Component {
     render() {
@@ -19,9 +19,9 @@ export default class McMinistry extends React.Component {
                 </Box>
                 <Cards content={peoples_council} height={150} width={270} />
                 <Box width={270} ml='auto' mr='auto'>
-                    <h1 className='division-title'>McCabinent</h1>
+                    <h1 className='division-title'>McCabinet</h1>
                 </Box>
-                <Cards content={mccabinent} height={150} width={300} />
+                <Cards content={mccabinet} height={150} width={300} />
             </div>
         )
     }

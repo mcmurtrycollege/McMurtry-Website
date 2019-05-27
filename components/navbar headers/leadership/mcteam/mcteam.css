@@ -5,6 +5,22 @@
     }
 }
 
+.active-key, .inactive-key {
+    border: solid;
+    border-width: 0 0 2px 0;
+    text-align: center;
+    color: #2B2F3A;
+    transition: 0.3s ease-in-out;
+}
+
+.active-key {
+    border-color: #2B2F3A;
+}
+
+.inactive-key {
+    border-color: #BFBFCC;
+}
+
 @media screen and (min-width: 650px){
     .mcteam-key {
         font-size: 1em;
@@ -12,21 +28,12 @@
         padding-left: 5px;
     }
 
-    .active-key {
-        border: solid #BFBFCC;
-        border-width: 0 0 2px 0;
-        text-align: center;
-        transition: border-color 0.3s ease-in-out;
+    .inactive-key {
         width: 120px;
         height: 75px;
     }
     
-    .inactive-key {
-        border: solid #2B2F3A;
-        border-width: 0 0 2px 0;
-        color: #2B2F3A;
-        text-align: center;        
-        transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    .active-key {
         width: 120px;
         height: 75px;
     }

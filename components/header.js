@@ -4,7 +4,7 @@ import NextHead from 'next/head'
 const Header = () => (
     <NextHead>
     <meta charset="utf-8" />
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="../static/favicon.ico"/>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
     <meta
       name="viewport"

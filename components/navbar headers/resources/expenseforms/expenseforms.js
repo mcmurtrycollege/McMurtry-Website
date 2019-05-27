@@ -3,31 +3,31 @@ import { Box, Flex } from 'rebass';
 import Title from '../../../title';
 import './expenseforms.css'
 
-import pettyCash from '../../../../static/reimbursements/PettyCashVoucher.pdf';
-import pettyCashTemplate from '../../../../static/reimbursements/PettyCashVoucherTemplate.pdf';
-import entertainmentExpense from '../../../../static/reimbursements/EntertainmentExpenses.pdf';
-import entertainmentExpenseTemplate from '../../../../static/reimbursements/EntertainmentExpensesTemplate.pdf';
+// import pettyCash from '../../../../static/reimbursements/PettyCashVoucher.pdf';
+// import pettyCashTemplate from '../../../../static/reimbursements/PettyCashVoucherTemplate.pdf';
+// import entertainmentExpense from '../../../../static/reimbursements/EntertainmentExpenses.pdf';
+// import entertainmentExpenseTemplate from '../../../../static/reimbursements/EntertainmentExpensesTemplate.pdf';
 
 
 const forms = [
     {
         name: "Petty Cash Voucher",
-        document: pettyCash,
+        document: '../../../../static/reimbursements/PettyCashVoucher.pdf',
         icon: "https://icon.now.sh/attach_money"
     },
     {
         name: "Petty Cash Voucher Template",
-        document: pettyCashTemplate,
+        document: '../../../../static/reimbursements/PettyCashVoucherTemplate.pdf',
         icon: "https://icon.now.sh/description"
     },
     {
         name: "Entertainment Expense Form",
-        document: entertainmentExpense,
+        document: '../../../../static/reimbursements/EntertainmentExpenses.pdf',
         icon: "https://icon.now.sh/attach_money"
     },
     {
         name: "Entertainment Expense Form Template",
-        document: entertainmentExpenseTemplate,
+        document: '../../../../static/reimbursements/EntertainmentExpensesTemplate.pdf',
         icon: "https://icon.now.sh/description"
     }
 ]

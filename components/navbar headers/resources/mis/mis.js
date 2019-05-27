@@ -3,13 +3,14 @@ import { Box, Flex } from 'rebass';
 import Title from '../../../title';
 import './mis.css';
 import { content, hours, personnel } from './mis.json';
-import mis_safety from '../../../../static/mis_safety.pdf';
+
+// import mis_safety from '../../../../static/mis_safety.pdf';
 
 const MISLinks = [
     {
         text: "Safety Guidlines",
         icon: "https://icon.now.sh/security",
-        link: mis_safety
+        link: '../../../../static/mis_safety.pdf'
     },
     {
         text: "Equipment Information",

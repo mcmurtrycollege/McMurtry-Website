@@ -2,17 +2,16 @@ import React from 'react';
 import Title from '../../../title';
 import './mcmresources.css';
 
-import mcmResources from '../../../../static/mcmurtry_resources.pdf'
-
+// import mcmResources from '../../../../static/mcmurtry_resources.pdf'
 
 const McmResources = () => (
     <div className='mcm-resources-page'>
         <Title width={280} title="McMurtry Resources" />
         <div className='wide-mcm-resources-pdf'>
-            <embed src={mcmResources} type="application/pdf" width="600" height="820px" page="3" scrollbar="1" toolbar="1" />
+            <embed src='../../../../static/mcmurtry_resources.pdf' type="application/pdf" width="600" height="820px" page="3" scrollbar="1" toolbar="1" />
         </div>
         <div className='narrow-mcm-resources-pdf'>
-            <embed src={mcmResources} type="application/pdf" width="360" height="820px" page="3" scrollbar="1" toolbar="1" />
+            <embed src='../../../../static/mcmurtry_resources.pdf' type="application/pdf" width="360" height="820px" page="3" scrollbar="1" toolbar="1" />
         </div>
     </div>
 )

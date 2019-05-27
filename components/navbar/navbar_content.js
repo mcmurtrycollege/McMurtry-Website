@@ -59,7 +59,7 @@ const navbar_items = [
       },
       {
         subheader: "Peer Academic Advisors",
-        to: "/peeracademicadvisors"
+        to: "/paas"
       },
       {
         subheader: "Academic Fellows",
@@ -114,7 +114,7 @@ const navbar_items = [
       },
       {
         subheader: "Work Orders",
-        to: '/workorder'
+        to: '/workorders'
       },
       {
         subheader: "Equipment",
@@ -122,7 +122,7 @@ const navbar_items = [
       },
       {
         subheader: "Initiative Requests",
-        to: '/initiativerequest'
+        to: '/initiativerequests'
       }
     ]
   },

@@ -3,36 +3,36 @@ import { Flex } from 'rebass';
 import Title from '../../../title';
 import './documents.css'
 
-import mcm_constitution from '../../../../static/documents/mcm_constitution.pdf';
-import mcm_bylaws from '../../../../static/documents/mcm_bylaws.pdf';
-import mcm_housing_bylaws from '../../../../static/documents/mcm_housing_bylaws.pdf';
-import mcm_parking_bylaws from '../../../../static/documents/mcm_parking_bylaws.pdf';
-import tax_exempt_form from '../../../../static/documents/tax_exempt_form.pdf';
+// import mcm_constitution from '../../../../static/documents/mcm_constitution.pdf';
+// import mcm_bylaws from '../../../../static/documents/mcm_bylaws.pdf';
+// import mcm_housing_bylaws from '../../../../static/documents/mcm_housing_bylaws.pdf';
+// import mcm_parking_bylaws from '../../../../static/documents/mcm_parking_bylaws.pdf';
+// import tax_exempt_form from '../../../../static/documents/tax_exempt_form.pdf';
 
 const documents = [
     {
         name: "Consitution",
-        document: mcm_constitution,
+        document: '../../../../static/documents/mcm_constitution.pdf',
         icon: "https://icon.now.sh/account_balance"
     },
     {
         name: "Bylaws",
-        document: mcm_bylaws,
+        document: '../../../../static/documents/mcm_bylaws.pdf',
         icon: "https://icon.now.sh/import_contacts"
     },
     {
         name: "Housing Bylaws",
-        document: mcm_housing_bylaws,
+        document: '../../../../static/documents/mcm_housing_bylaws.pdf',
         icon: "https://icon.now.sh/home"
     },
     {
         name: "Parking Bylaws",
-        document: mcm_parking_bylaws,
+        document: '../../../../static/documents/mcm_parking_bylaws.pdf',
         icon: "https://icon.now.sh/directions_car"
     },
     {
         name: "Tax Exempt Form",
-        document: tax_exempt_form,
+        document: '../../../../static/documents/tax_exempt_form.pdf',
         icon: "https://icon.now.sh/attach_money"
     }
 ]

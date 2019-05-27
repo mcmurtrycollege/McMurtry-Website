@@ -1,5 +1,5 @@
 # McMurtry-Website
-The official Mcmurtry College website
+The official McMurtry College website
 
 ### Development
 `$ npm run dev`

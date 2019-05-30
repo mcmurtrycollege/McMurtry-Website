@@ -1,0 +1,1033 @@
+@media screen and (min-width: 900px){
+    .about-page {
+        margin-top: 8%;
+        margin-bottom: 5%;
+    }
+}
+
+.about-subtitle {
+    text-align: center;
+    border: 1px solid #2B2F3A;
+    padding: 10px;
+    margin-bottom: 5%;
+}
+
+.about-text {
+    padding: 20px;
+    color: #2B2F3A;
+}
+@media screen and (min-width: 900px){
+    .associates-page {
+        margin-top: 8%;
+    }
+}
+
+.associates-page {
+    margin-bottom: 5%;
+}
+
+.associate-card {
+    padding: 4%;
+    margin: 2%;
+    font-weight: normal;
+    color: #2B2F3A;
+    border: 1px solid #BFBFCC;
+    transition: 0.2s ease-in-out;
+}
+
+.associate-card:hover {
+    border-color: #2B2F3A;
+    /* background-color: #BFBFCC; */
+}
+
+.associate-dropdown, .associate-image-dropdown {
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+}
+
+.associate-image {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 9%;
+}
+
+.associate-name {
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.2em;
+}
+@media screen and (min-width: 900px){
+    .artevents-page {
+        margin-top: 8%;
+        margin-bottom: 5%;
+    }
+}
+
+.artevent-calendar {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+.contact-page {
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+
+.contact-card-shell {
+    margin: 2%;
+}
+
+.contact-card {
+    background-color: none;
+    border: 1px solid #BFBFCC;
+    padding: 5px 20px;
+    height: 160px;
+    transition: border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.contact-card:hover {
+    border-color: #2B2F3A;
+}
+
+.contacts-position {
+    color: #2B2F3A;
+    font-size: 1.2em;
+    font-weight: normal;
+    text-align: center;
+}
+
+.contacts-name {
+    color: #2B2F3A;
+    text-align: center;
+    font-weight: normal;
+}
+
+.contacts-email {
+    color: #2B2F3A;
+    font-size: 1em;
+    text-align: center;
+    font-weight: normal;
+}
+.divisional-advisors-page  {
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+
+.advisor-column {
+    margin-left: 0.8%;
+    margin-right: 0.8%;
+    margin-top: 2%;
+}
+
+.advisor-card {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    transition: 0.2s ease-in-out;
+    margin-left: auto;
+    margin-right: auto;
+    color: #2B2F3A;
+    border: 1px solid #BFBFCC;
+}
+
+.divisional-advisor-dropdown {
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+}
+
+.advisor-card:hover {
+    border-color: #2B2F3A;
+}
+
+.advisor-name {
+    font-size: 1.75em;
+    font-weight: normal;
+    text-align: center;
+}
+
+.advisor-school {
+    font-size: 1.25em;
+    font-weight: normal;
+    text-align: center;
+}
+
+.advisor-bio {
+    text-align: left;
+    padding: 20px;
+}
+@media screen and (min-width: 900px){
+    .documents-page {
+        margin-top: 8%;
+        margin-bottom: 5%;
+    }
+}
+
+.active-doc {
+    border: solid #2B2F3A;
+    border-width: 0 0 2px 0;
+    text-align: center;
+    color: #2B2F3A;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.inactive-doc {
+    border: solid #BFBFCC;
+    border-width: 0 0 2px 0;
+    color: #2B2F3A;
+    text-align: center;        
+    transition: border-color 0.3s ease-in-out;
+}
+
+.inactive-doc:hover {
+    border-color: #2B2F3A;
+}
+
+@media screen and (min-width: 651px){
+    .active-doc, .inactive-doc {
+        width: 120px;
+        height: 75px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .doc-key {
+        font-size: 0.7em;
+    }
+
+    .active-doc, .inactive-doc {
+        width: 70px;
+        height: 50px;
+    }
+}
+
+.embedded-doc {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+}
+
+.doc-link-container {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+}
+
+.doc-link {
+    color: #2B2F3A;
+    background-color: #BFBFCC;
+    padding: 15px;
+}
+
+@media screen and (max-width: 610px) {
+    .embedded-doc {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 611px) {
+    .doc-link-container {
+        display: none;
+    }
+}
+.equipment-request-page {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.tech-request {
+    border: 1px solid #2B2F3A;
+    color: #2B2F3A;
+    font-size: 1.2em;
+    font-weight: normal;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+.tech-request:hover {
+    background-color: #BFBFCC;
+}
+
+.tech-request-link {
+    text-decoration: none;
+}
+
+
+@media screen and (min-width: 900px){
+    .events-page {
+        margin-top: 8%;
+        margin-bottom: 5%;
+    }
+}
+
+.event-calendar {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+@media screen and (min-width: 900px){
+    .reimbursements-page {
+        margin-top: 8%;
+        margin-bottom: 5%;
+    }
+}
+
+.instructions-title {
+    color: #2B2F3A;
+    text-align: center;
+    font-weight: normal;
+}
+
+.instructions-list-item {
+    padding: 5px;
+}
+
+.expense-instructions {
+    color: #2B2F3A;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.active-form {
+    border: solid #2B2F3A;
+    border-width: 0 0 2px 0;
+    text-align: center;
+    color: #2B2F3A;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.inactive-form {
+    border: solid #BFBFCC;
+    border-width: 0 0 2px 0;
+    color: #2B2F3A;
+    text-align: center;        
+    transition: border-color 0.3s ease-in-out;
+}
+
+.inactive-form:hover {
+    border-color: #2B2F3A;
+}
+
+@media screen and (min-width: 651px){
+    .active-form, .inactive-form {
+        width: 150px;
+        height: 75px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .form-key {
+        font-size: 0.5em;
+    }
+
+    .active-form, .inactive-form {
+        width: 75px;
+        height: 50px;
+    }
+}
+
+.embedded-form {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+}
+
+.form-link-container {
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+}
+
+.form-link {
+    color: #2B2F3A;
+    background-color: #BFBFCC;
+    padding: 15px;
+}
+
+@media screen and (max-width: 610px) {
+    .embedded-form {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 611px) {
+    .form-link-container {
+        display: none;
+    }
+}
+@media screen and (min-width: 900px){
+    .fin-inc-page {
+        margin-top: 8%;
+        margin-bottom: 5%;
+    }
+}
+
+.fin-inc-content {
+    margin-left: auto;
+    margin-right: auto;
+    color: #2B2F3A;
+}
+
+.fin-inc-link {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border: 1px solid #2B2F3A;
+    margin-top: 7%;
+    color: #2B2F3A;
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.fin-inc-link:hover {
+    background-color: #BFBFCC;
+}
+.intro-page {
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+
+.yurt-graphic {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.quick-links-title {
+    margin-top: 4%;
+    border: 1px solid #2B2F3A;
+    color: #2B2F3A;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+.quick-link-container {
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.quick-link {
+    color: #2B2F3A;
+    border: 1px solid #2B2F3A;
+    padding: 15px;
+    text-align: center;
+    height: 130px;
+    transition: 0.3s ease-in-out;
+}
+
+.quick-link:hover {
+    cursor: pointer;
+    background-color: #BFBFCC;
+}
+
+.quick-link-name {
+    font-weight: normal;
+}
+
+@media screen and (min-width: 801px){
+    .intro-link-img-small {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .quick-link-container {
+        margin-top: 6%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .quick-links-title {
+        font-size: 0.8em;
+    }
+
+    .quick-link {
+        height: 80px;
+        font-size: 0.6em;
+    }
+
+    .intro-link-img-large {
+        display: none;
+    }
+}
+@media screen and (min-width: 700px){
+    .wide-initiative-request-form {
+        width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+        display: flex;
+    }
+
+    .narrow-initiative-request-form {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 699px){
+    .wide-initiative-request-form {
+        display: none;
+    }
+
+    .narrow-initiative-request-form {
+        width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+    }
+}
+
+.initiative-request-page {
+    padding-top: 5%;
+}
+@media screen and (min-width: 900px){
+    .mcministry-page {
+        margin-top: 8%;
+        margin-bottom: 5%;
+    }
+}
+
+.division-title {
+    font-size: 2em;
+    text-align: center;
+    font-weight: normal;
+    padding: 8px;
+    color: #2B2F3A;
+}
+.position-card {
+    margin: 10px;
+}
+
+.contact-card-content {
+    color: #2B2F3A;
+    /* border: 1px solid #2B2F3A; */
+    /* border: 1px solid #DCDFE5; */
+    border: 1px solid #BFBFCC;
+    /* box-shadow: 0 0 5px 2px #BFBFCC; */
+    padding: 15px;
+    transition: 0.2s ease-in-out;
+}
+
+.contact-card-content:hover {
+    /* background-color: #BFBFCC; */
+    border-color: #2B2F3A;
+}
+
+.position {
+    font-weight: normal;
+    font-size: 0.9em;
+}
+
+.name {
+    font-size: 1.25em;
+    font-weight: normal;
+}
+
+.link {
+    text-decoration: none;
+    color: #2B2F3A;
+    font-weight: normal;
+}
+
+.year {
+    font-weight: normal;
+    font-size: 0.8em;
+}
+
+.contact-email {
+    font-size: 0.8em;
+    font-weight: normal;
+    transition: 0.3s ease-in-out;
+}
+
+.contact-email:hover {
+    text-decoration: underline;
+}
+
+.contact-phone {
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.major {
+    font-size: 0.9em;
+    font-weight: normal;
+}
+
+.subjects {
+    font-size: 0.9em;
+    font-weight: normal;
+}
+
+.room {
+    font-weight: normal;
+    font-size: 1em;
+}
+.fellows-page {
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+
+.fellows-description {
+    margin-top: 30px;
+    padding: 30px;
+}
+@media screen and (min-width: 900px){
+    .committee-page {
+        margin-top: 8%;
+        margin-bottom: 5%;
+    }
+}
+
+.inactive-division, .active-division {
+    border: solid;
+    border-width: 0 0 2px 0;
+    color: #2B2F3A;
+    padding: 5px;
+    text-align: center;
+    transition: border-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.active-division {
+    border-color: #2B2F3A;
+}
+
+.inactive-division {
+    border-color: #BFBFCC;
+}
+
+.inactive-division:hover {
+    border-color: #2B2F3A;
+}
+
+.inactive-committee, .active-committee {
+    border: solid;
+    border-width: 0 0 2px 0;
+    color: #2B2F3A;
+    padding: 5px;
+    text-align: center;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.inactive-committee {
+    border-color: #BFBFCC;
+}
+
+.active-committee {
+    border-color: #2B2F3A;
+}
+
+.inactive-committee:hover {
+    border-color: #2B2F3A;
+}
+
+@media screen and (max-width: 670px){
+    .division-key  {
+        font-size: 0.6em;
+        max-width: 90px;
+    }
+    
+    .committee-key  {
+        font-size: 0.5em;
+        max-width: 50px;
+        height: 20px;
+        padding: 0px 5px;
+    }
+}
+
+@media screen and (min-width: 671px){
+    .division-key  {
+        font-size: 1em;
+        max-width: 120px;
+        padding: 0px 20px;
+    }
+    
+    .committee-key  {
+        font-size: 0.7em;
+        max-width: 75px;
+        height: 30px;
+        padding: 0px 10px;
+    }
+}
+
+.division-title {
+    font-size: 2em;
+    text-align: center;
+    font-weight: normal;
+    padding: 8px;
+    color: #2B2F3A;
+}
+
+.committee-description {
+    border: 1px solid #2B2F3A;
+    margin-top: 30px;
+    padding: 5px 30px 30px 30px;
+}
+
+.members-title {
+    border: 1px solid #2B2F3A;
+    color: #2B2F3A;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.members-title-content {
+    font-weight: normal;
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+@media screen and (max-width: 899px){
+    .division-title {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (min-width: 900px){
+    .court-page {
+        margin-top: 8%;
+        margin-bottom: 5%;
+    }
+}
+@media screen and (min-width: 700px){
+    .wide-mcm-resources-pdf {
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+        display: flex;
+    }
+    .narrow-mcm-resources-pdf {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 699px){
+    .wide-mcm-resources-pdf {
+        display: none;
+    }
+    .narrow-mcm-resources-pdf {
+        width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+        display: flex;
+    }
+}
+
+.mcm-resources-page {
+    margin-top: 8%;
+}
+@media screen and (min-width: 900px){
+    .mcteam-page {
+        margin-top: 8%;
+        margin-bottom: 5%;
+    }
+}
+
+.active-key, .inactive-key {
+    border: solid;
+    border-width: 0 0 2px 0;
+    text-align: center;
+    color: #2B2F3A;
+    transition: 0.3s ease-in-out;
+}
+
+.active-key {
+    border-color: #2B2F3A;
+}
+
+.inactive-key {
+    border-color: #BFBFCC;
+}
+
+@media screen and (min-width: 650px){
+    .mcteam-key {
+        font-size: 1em;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    .inactive-key, .active-key {
+        max-width: 120px;
+        height: 75px;
+        padding: 0px 20px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .mcteam-key {
+        font-size: 0.6em;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .inactive-key, .active-key {
+        max-width: 70px;
+        height: 50px;
+    }
+}
+
+.inactive-key:hover {
+    border-color: #2B2F3A;
+}
+
+.position-content {
+    color: #2B2F3A;
+    margin-top: 30px;
+    padding:  20px 50px;
+}
+
+.mcteam-name {
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.8em;
+}
+.mis-page {
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+
+.subtitle {
+    margin-top: 3%;
+    margin-bottom: 2%;
+    border: 1px solid #2B2F3A;
+    text-align: center;
+    color: #2B2F3A;
+}
+
+.mis-paragraphs {
+    padding: 20px;
+    color: #2B2F3A;
+}
+
+.schedule-box {
+    margin-top: 2%;
+    margin-bottom: 4%;
+    background-color: #BFBFCC;
+    padding: 1%;
+}
+
+.schedule {
+    border: 1px solid #2B2F3A;
+    margin: 1%;
+}
+
+.schedule-item {
+    text-align: center;
+    color: #2B2F3A;
+    font-size: 1em;
+}
+
+.mis-contact-card {
+    margin: 2%;
+}
+
+.mis-info {
+    padding: 30px;
+    background-color: none;
+    border: 1px solid #2B2F3A;
+    text-align: center;
+    margin: 2%;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.mis-info:hover {
+    background-color: #BFBFCC;
+    cursor: pointer;
+}
+
+.mis-link {
+    text-align: center;
+    font-size: 1.4em;
+    color: #2B2F3A
+}
+
+.mis-contact {
+    /* border: 1px solid #2B2F3A; */
+    border: 1px solid #BFBFCC;
+    padding: 20px;
+    height: 250px;
+    transition: 0.2s ease-in-out;
+}
+
+.mis-contact:hover {
+    /* background-color: #BFBFCC; */
+    border-color: #2B2F3A;
+}
+
+.mis-name {
+    color: #2B2F3A;
+    font-weight: normal;
+}
+
+.mis-major {
+    color: #2B2F3A;
+    font-size: 0.9em;
+    font-weight: normal;
+}
+
+.mis-college {
+    color: #2B2F3A;
+    font-size: 0.9em;
+    font-weight: normal;
+}
+
+.mis-email {
+    color: #2B2F3A;
+    font-size: 1em;
+    transition: transform 0.3s ease-in-out;
+    font-weight: normal;
+}
+
+.mis-email:hover {
+    transform: scale(1.07) translate(15px, 0);
+}
+
+.mis-askMeHeader {
+    font-size: 0.8em;
+    color: #2B2F3A;
+}
+
+.mis-askMeAbout {
+    color: #2B2F3A;
+    font-size: 0.8em;
+}
+.paas-page {
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+
+.paas-description {
+    margin-top: 30px;
+    padding: 30px;
+}
+
+.paas-title {
+    font-size: 2em;
+    text-align: center;
+    font-weight: normal;
+    padding: 8px;
+    color: #2B2F3A;
+}
+.wellbeing-page {
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+
+.wellbeing-description {
+    margin-top: 30px;
+    padding: 30px;
+}
+
+
+.room-reservations-page {
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+
+.room-catagory {
+    /* border: 1px solid #2B2F3A; */
+    color: #2B2F3A;
+    padding: 30px;
+    margin-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.catagory-subheader {
+    text-align: left;
+}
+
+.room-question {
+    font-weight: normal;
+    color: #2B2F3A;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.reservation-email-link {
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 1px solid #2B2F3A;
+    transition: 0.2s ease-in-out;
+}
+
+.reservation-email-link:hover {
+    background-color: #BFBFCC;
+}
+
+.reservation-link {
+    font-size: 1.2em;
+    text-decoration: none;
+    text-align: center;
+    font-weight: normal;
+    color: #2B2F3A;
+}
+
+.scheduler-container {
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 900px){
+    .scheduler {
+        width: 80%;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .scheduler {
+        width: 90%;
+        height: 500px;
+    }
+}
+@media screen and (min-width: 700px){
+    .wide-workorder-form {
+        width: 660px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+        display: flex;
+    }
+
+    .narrow-workorder-form {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 699px){
+    .wide-workorder-form {
+        display: none;
+    }
+
+    .narrow-workorder-form {
+        width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+        display: flex;
+    }
+}
+
+.workorder-page {
+    padding-top: 5%;
+}

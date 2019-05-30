@@ -53,7 +53,7 @@ export default class McTeam extends React.Component {
                     <h2 className='mcteam-name'>{items[this.state.current].names}</h2>
                     {
                         items[this.state.current].body.map(line => (
-                            <p>{line}</p>
+                            <p key={`L-${items[this.state.current].body.indexOf(line)}`}>{line}</p>
                         ))
                     }
                     {

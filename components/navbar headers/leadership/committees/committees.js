@@ -40,7 +40,7 @@ export default class Committees extends React.Component {
                     <Flex justifyContent='center' flex='wrap' flexDirection='row'>
                         {
                             division_names.map(division => (
-                                <Box key={division} width={[100, 150]}>
+                                <Box key={division}>
                                     <div onClick={() => this.changeDivision(division_names.indexOf(division))}
                                         className={this.state.division === division_names.indexOf(division) ? "active-division" : "inactive-division"}>
                                         <p className='division-key'>{`${division}`}</p>
@@ -54,7 +54,7 @@ export default class Committees extends React.Component {
                     <Flex justifyContent='center' flex='wrap' flexDirection='row'>
                         {
                             divisions[this.state.division].map(committee => (
-                                <Box key={committee.name} width={[50, 75]}>
+                                <Box key={committee.name}>
                                     <div onClick={() => this.changeCommittee(divisions[this.state.division].indexOf(committee))}
                                         className={this.state.committee === divisions[this.state.division].indexOf(committee) ? "active-committee" : "inactive-committee"}>
                                         <p className='committee-key'>{committee.name}</p>

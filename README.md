@@ -25,4 +25,6 @@ will push the changes to the website.
 5. The pages of the website are located in the pages directory, each page contains its page specific components as well as the navbar, header, and footer components.
 6. The build files are exported to the docs folder after they are compiled, as part of the `$ npm run deploy` command, the gh-pages site is configured to pull from this folder in the master branch. 
 
+### Contributors
 
+- Nicholas Meisburger

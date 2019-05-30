@@ -1,3 +1,5 @@
+![](https://github.com/mcmurtrycollege/McMurtry-Website/blob/master/static/YurtTrees.svg)
+
 # McMurtry Website
 The official McMurtry College website
 

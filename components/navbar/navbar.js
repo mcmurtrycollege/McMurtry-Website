@@ -4,156 +4,138 @@ import './navbar.css';
 import McmLogo from '../mcmLogo';
 import navbar_items from './navbar_content';
 
-class DropDownWide extends React.Component {
-    constructor(props) {
-        super(props)
-        this.state = {
-            expanded: false
-        }
-        this.handleMouseEnter = this.handleMouseEnter.bind(this);
-        this.handleMouseLeave = this.handleMouseLeave.bind(this);
+const DropDownWide = props => {
+    const h = props.expanded ? (500) : (0)
+    const dropDownHeightStyle = {
+        maxHeight: `${h}px`,
     }
-
-    handleMouseEnter() {
-        this.setState({ expanded: true });
-    }
-
-    handleMouseLeave() {
-        this.setState({ expanded: false })
-    }
-
-    render() {
-        let h;
-        if (this.state.expanded) {
-            h = 500;
-        } else {
-            h = 0;
-        }
-        const dropDownHeightStyle = {
-            maxHeight: `${h}px`,
-        }
-        return (
-            <div className='dropdown-item' onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave} style={{ width: '10%' }}>
-                <div>
-                    {
-                        this.props.headerTo !== undefined ? (
-                            <Link href={this.props.headerTo}>
-                                <div className={this.state.expanded ? ('dropdown-header-active') : ('dropdown-header-inactive')}>
-                                    {this.props.header}
+    return (
+        <div className='dropdown-item' onMouseEnter={props.handleMouseEnter} onMouseLeave={props.handleMouseLeave} style={{ width: '10%' }}>
+            <div>
+                {
+                    props.headerTo !== undefined ? (
+                        <Link href={props.headerTo}>
+                            <div className={props.expanded ? ('dropdown-header-active') : ('dropdown-header-inactive')}>
+                                {props.header}
+                            </div>
+                        </Link>
+                    ) : (
+                            <div className={props.expanded ? ('dropdown-header-active') : ('dropdown-header-inactive')}>
+                                {props.header}
+                            </div>
+                        )
+                }
+            </div>
+            <div className='dropdown-subheaders' style={dropDownHeightStyle}>
+                {
+                    props.dropDownChildren.map(({ subheader, to, href }) => (
+                        href === undefined ? (
+                            <Link href={to} key={`${subheader}`}>
+                                <div className='dropdown-subheader'>
+                                    {subheader}
                                 </div>
                             </Link>
                         ) : (
-                                <div className={this.state.expanded ? ('dropdown-header-active') : ('dropdown-header-inactive')}>
-                                    {this.props.header}
-                                </div>
-                            )
-                    }
-                </div>
-                <div className='dropdown-subheaders' style={dropDownHeightStyle}>
-                    {
-                        this.props.dropDownChildren.map(({ subheader, to, href }) => (
-                            href === undefined ? (
-                                <Link href={to} key={`${subheader}`}>
+                                <a href={href} key={`${subheader}`} style={{ textDecoration: 'none' }} target="_blank" rel="noopener noreferrer">
                                     <div className='dropdown-subheader'>
                                         {subheader}
                                     </div>
-                                </Link>
-                            ) : (
-                                    <a href={href} key={`${subheader}`} style={{ textDecoration: 'none' }} target="_blank" rel="noopener noreferrer">
-                                        <div className='dropdown-subheader'>
-                                            {subheader}
-                                        </div>
-                                    </a>
-                                )
+                                </a>
+                            )
 
-                        ))
-                    }
-                </div>
+                    ))
+                }
             </div>
-        )
-    }
-
+        </div>
+    )
 }
 
-class DropDownNarrow extends React.Component {
-    constructor(props) {
-        super(props)
-        this.state = {
-            expanded: false
-        }
-        this.handleClick = this.handleClick.bind(this);
+
+const DropDownNarrow = props => {
+    const h = props.expanded ? (500) : (0)
+    const dropDownHeightStyle = {
+        maxHeight: `${h}px`,
     }
-
-    handleClick() {
-        this.setState({ expanded: !this.state.expanded })
-    };
-
-    render() {
-        let h;
-        if (this.state.expanded) {
-            h = 500;
-        } else {
-            h = 0;
-        }
-        const dropDownHeightStyle = {
-            maxHeight: `${h}px`,
-        }
-        return (
-            <div className='dropdown-item'>
-                <div>
-                    {
-                        this.props.headerTo !== undefined ? (
-                            <Link href={this.props.headerTo}>
-                                <div className='dropdown-header' onClick={this.handleClick}>
-                                    {this.props.header}
+    return (
+        <div className='dropdown-item'>
+            <div>
+                {
+                    props.headerTo !== undefined ? (
+                        <Link href={props.headerTo}>
+                            <div className='dropdown-header' onClick={props.handleClick}>
+                                {props.header}
+                            </div>
+                        </Link>
+                    ) : (
+                            <div className='dropdown-header' onClick={props.handleClick}>
+                                {props.header}
+                                {'      '}
+                                <img className='arrow' style={props.expanded ? ({ transform: 'rotate(90deg)' }) : ({})} src={`https://icon.now.sh/chevron/2B2F3A/10`} alt=">" />
+                            </div>
+                        )
+                }
+            </div>
+            <div className='dropdown-subheaders' style={dropDownHeightStyle}>
+                {
+                    props.dropDownChildren.map(({ subheader, to, href }) => (
+                        href === undefined ? (
+                            <Link href={to} key={`${subheader}`}>
+                                <div className='dropdown-subheader'>
+                                    {subheader}
                                 </div>
                             </Link>
                         ) : (
-                                <div className='dropdown-header' onClick={this.handleClick}>
-                                    {this.props.header}
-                                    {'      '}
-                                    <img className='arrow' style={this.state.expanded ? ({ transform: 'rotate(90deg)' }) : ({})} src={`https://icon.now.sh/chevron/2B2F3A/10`} alt=">" />
-                                </div>
-                            )
-                    }
-                </div>
-                <div className='dropdown-subheaders' style={dropDownHeightStyle}>
-                    {
-                        this.props.dropDownChildren.map(({ subheader, to, href }) => (
-                            href === undefined ? (
-                                <Link href={to} key={`${subheader}`}>
+                                <a href={href} key={`${subheader}`} style={{ textDecoration: 'none' }} target="_blank" rel="noopener noreferrer">
                                     <div className='dropdown-subheader'>
                                         {subheader}
                                     </div>
-                                </Link>
-                            ) : (
-                                    <a href={href} key={`${subheader}`} style={{ textDecoration: 'none' }} target="_blank" rel="noopener noreferrer">
-                                        <div className='dropdown-subheader'>
-                                            {subheader}
-                                        </div>
-                                    </a>
-                                )
-                        ))
-                    }
-                </div>
+                                </a>
+                            )
+                    ))
+                }
             </div>
-        )
-    }
-
+        </div>
+    )
 }
 
 class NavBar extends React.Component {
     constructor(props) {
         super(props)
+        let headerStates = []
+        for (let i = 0; i < props.dropDownItems.length; i++) {
+            headerStates.push(false)
+        }
         this.state = {
             closed: true,
-            fixedNavbar: false
+            fixedNavbar: false,
+            headerStates: headerStates
         }
-        this.handleClick = this.handleClick.bind(this);
+        this.showSubheader = this.showSubheader.bind(this)
+        this.hideSubheader = this.hideSubheader.bind(this)
+        this.toggleSubheader = this.toggleSubheader.bind(this)
+        this.toggleNavbar = this.toggleNavbar.bind(this);
         this.scrollHandler = this.scrollHandler.bind(this);
     }
 
-    handleClick() {
+    showSubheader(indx) {
+        let current = this.state.headerStates
+        current[indx] = true
+        this.setState({ headerStates: current })
+    }
+
+    hideSubheader(indx) {
+        let current = this.state.headerStates
+        current[indx] = false
+        this.setState({ headerStates: current })
+    }
+
+    toggleSubheader(indx) {
+        let current = this.state.headerStates
+        current[indx] = !this.state.headerStates[indx]
+        this.setState({ headerStates: current })
+    }
+
+    toggleNavbar() {
         this.setState({
             closed: !this.state.closed
         })
@@ -191,31 +173,39 @@ class NavBar extends React.Component {
             fixedNavbar.marginTop = `-${document.getElementById('mcm-header').clientHeight + 0}px`
         }
 
+        let wideNavbar = []
+        let narrowNavbar = []
+
+        for (let k = 0; k < this.props.dropDownItems.length; k++) {
+            let item = this.props.dropDownItems[k]
+            wideNavbar.push(
+                <DropDownWide handleMouseEnter={() => this.showSubheader(k)} handleMouseLeave={() => this.hideSubheader(k)}
+                    expanded={this.state.headerStates[k]} header={item.header} headerTo={item.headerTo} dropDownChildren={item.dropDownChildren}
+                    key={`${item.header}`} />
+            )
+            narrowNavbar.push(
+                <DropDownNarrow handleClick={() => this.toggleSubheader(k)} expanded={this.state.headerStates[k]}
+                    header={item.header} headerTo={item.headerTo} dropDownChildren={item.dropDownChildren} key={`${item.header}`} />
+            )
+        }
+
         return (
             <div>
-                {/* <div className='navbar-crest'>
+                <div className='navbar-crest'>
                     <McmLogo />
                 </div>
                 <div className='wide-navbar' style={fixedNavbar}>
                     <div className='filler-box' />
-                    {
-                        this.props.dropDownItems.map(({ header, headerTo, dropDownChildren }) => (
-                            <DropDownWide header={header} headerTo={headerTo} dropDownChildren={dropDownChildren} key={`${header}`} fixedNavbar={this.state.fixedNavbar} />
-                        ))
-                    }
+                    {wideNavbar}
                     <div className='filler-box' />
-                </div> */}
+                </div>
                 <div className='narrow-navbar'>
                     <div className='narrow-navbar-toggle' >
-                        <img style={burgerStyle} onClick={this.handleClick} src='https://icon.now.sh/burger/2B2F3A/24' alt='burger' />
+                        <img style={burgerStyle} onClick={this.toggleNavbar} src='https://icon.now.sh/burger/2B2F3A/24' alt='burger' />
                     </div>
                     <McmLogo />
                     <div className='narrow-navbar-menu' style={narrowNavBarStyle}>
-                        {
-                            this.props.dropDownItems.map(({ header, headerTo, dropDownChildren }) => (
-                                <DropDownNarrow header={header} headerTo={headerTo} dropDownChildren={dropDownChildren} key={`${header}`} />
-                            ))
-                        }
+                        {narrowNavbar}
                     </div>
                 </div>
             </div>
@@ -225,7 +215,7 @@ class NavBar extends React.Component {
 
 const Navbar = () => (
     <div>
-        {/* <NavBar dropDownItems={navbar_items} /> */}
+        <NavBar dropDownItems={navbar_items} />
     </div>
 )
 

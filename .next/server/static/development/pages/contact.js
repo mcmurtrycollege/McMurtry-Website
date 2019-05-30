@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 13);
+/******/ 	return __webpack_require__(__webpack_require__.s = 6);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -541,8 +541,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _navbar_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_navbar_css__WEBPACK_IMPORTED_MODULE_8__);
 /* harmony import */ var _mcmLogo__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../mcmLogo */ "./components/mcmLogo.js");
 /* harmony import */ var _navbar_content__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./navbar_content */ "./components/navbar/navbar_content.js");
-/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! rebass */ "rebass");
-/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(rebass__WEBPACK_IMPORTED_MODULE_11__);
 
 
 
@@ -556,60 +554,48 @@ var _jsxFileName = "C:\\Users\\nmeis\\github\\McMurtry-Website\\components\\navb
 
 
 
-
 var DropDownWide = function DropDownWide(props) {
-  var h;
-
-  if (props.expanded) {
-    h = 500;
-  } else {
-    h = 0;
-  }
-
+  var h = props.expanded ? 500 : 0;
   var dropDownHeightStyle = {
     maxHeight: "".concat(h, "px")
   };
   return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
     className: "dropdown-item",
-    onMouseEnter: function onMouseEnter() {
-      return props.handleMouseEnter();
-    },
-    onMouseLeave: function onMouseLeave() {
-      return props.handleMouseLeave();
-    },
+    onMouseEnter: props.handleMouseEnter,
+    onMouseLeave: props.handleMouseLeave,
     style: {
       width: '10%'
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 13
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 14
     },
     __self: this
   }, props.headerTo !== undefined ? react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
     href: props.headerTo,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 17
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
     className: props.expanded ? 'dropdown-header-active' : 'dropdown-header-inactive',
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 18
     },
     __self: this
   }, props.header)) : react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
     className: props.expanded ? 'dropdown-header-active' : 'dropdown-header-inactive',
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 23
     },
     __self: this
   }, props.header)), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -617,7 +603,7 @@ var DropDownWide = function DropDownWide(props) {
     style: dropDownHeightStyle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 29
     },
     __self: this
   }, props.dropDownChildren.map(function (_ref) {
@@ -627,6 +613,26 @@ var DropDownWide = function DropDownWide(props) {
     return href === undefined ? react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
       href: to,
       key: "".concat(subheader),
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 33
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+      className: "dropdown-subheader",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 34
+      },
+      __self: this
+    }, subheader)) : react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
+      href: href,
+      key: "".concat(subheader),
+      style: {
+        textDecoration: 'none'
+      },
+      target: "_blank",
+      rel: "noopener noreferrer",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 39
@@ -639,39 +645,12 @@ var DropDownWide = function DropDownWide(props) {
         lineNumber: 40
       },
       __self: this
-    }, subheader)) : react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
-      href: href,
-      key: "".concat(subheader),
-      style: {
-        textDecoration: 'none'
-      },
-      target: "_blank",
-      rel: "noopener noreferrer",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 45
-      },
-      __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-      className: "dropdown-subheader",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 46
-      },
-      __self: this
     }, subheader));
   })));
 };
 
 var DropDownNarrow = function DropDownNarrow(props) {
-  var h;
-
-  if (props.expanded) {
-    h = 500;
-  } else {
-    h = 0;
-  }
-
+  var h = props.expanded ? 500 : 0;
   var dropDownHeightStyle = {
     maxHeight: "".concat(h, "px")
   };
@@ -679,40 +658,36 @@ var DropDownNarrow = function DropDownNarrow(props) {
     className: "dropdown-item",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70
+      lineNumber: 60
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71
+      lineNumber: 61
     },
     __self: this
   }, props.headerTo !== undefined ? react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
     href: props.headerTo,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74
+      lineNumber: 64
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
     className: "dropdown-header",
-    onClick: function onClick() {
-      return props.handleClick();
-    },
+    onClick: props.handleClick,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75
+      lineNumber: 65
     },
     __self: this
   }, props.header)) : react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
     className: "dropdown-header",
-    onClick: function onClick() {
-      return props.handleClick();
-    },
+    onClick: props.handleClick,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80
+      lineNumber: 70
     },
     __self: this
   }, props.header, '      ', react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
@@ -724,7 +699,7 @@ var DropDownNarrow = function DropDownNarrow(props) {
     alt: ">",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83
+      lineNumber: 73
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -732,7 +707,7 @@ var DropDownNarrow = function DropDownNarrow(props) {
     style: dropDownHeightStyle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88
+      lineNumber: 78
     },
     __self: this
   }, props.dropDownChildren.map(function (_ref2) {
@@ -744,14 +719,14 @@ var DropDownNarrow = function DropDownNarrow(props) {
       key: "".concat(subheader),
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 92
+        lineNumber: 82
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
       className: "dropdown-subheader",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 93
+        lineNumber: 83
       },
       __self: this
     }, subheader)) : react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
@@ -764,14 +739,14 @@ var DropDownNarrow = function DropDownNarrow(props) {
       rel: "noopener noreferrer",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 98
+        lineNumber: 88
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
       className: "dropdown-subheader",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 99
+        lineNumber: 89
       },
       __self: this
     }, subheader));
@@ -789,55 +764,55 @@ function (_React$Component) {
     Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, NavBar);
 
     _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(NavBar).call(this, props));
-    var activeIndices = [];
+    var headerStates = [];
 
-    for (var i = 0; i < _this.props.dropDownItems.length; i++) {
-      activeIndices.push(false);
+    for (var i = 0; i < props.dropDownItems.length; i++) {
+      headerStates.push(false);
     }
 
     _this.state = {
-      activeHeaders: activeIndices,
       closed: true,
-      fixedNavbar: false
+      fixedNavbar: false,
+      headerStates: headerStates
     };
-    _this.showSubheaders = _this.showSubheaders.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this));
-    _this.hideSubheaders = _this.hideSubheaders.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this));
-    _this.toggleSubheaders = _this.toggleSubheaders.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this));
-    _this.openNavbar = _this.openNavbar.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this));
+    _this.showSubheader = _this.showSubheader.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this));
+    _this.hideSubheader = _this.hideSubheader.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this));
+    _this.toggleSubheader = _this.toggleSubheader.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this));
+    _this.toggleNavbar = _this.toggleNavbar.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this));
     _this.scrollHandler = _this.scrollHandler.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this));
     return _this;
   }
 
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(NavBar, [{
-    key: "showSubheaders",
-    value: function showSubheaders(indx) {
-      var newActiveHeaders = this.state.activeHeaders;
-      newActiveHeaders[indx] = true;
+    key: "showSubheader",
+    value: function showSubheader(indx) {
+      var current = this.state.headerStates;
+      current[indx] = true;
       this.setState({
-        activeHeaders: newActiveHeaders
+        headerStates: current
       });
     }
   }, {
-    key: "hideSubheaders",
-    value: function hideSubheaders(indx) {
-      var newActiveHeaders = this.state.activeHeaders;
-      newActiveHeaders[indx] = false;
+    key: "hideSubheader",
+    value: function hideSubheader(indx) {
+      var current = this.state.headerStates;
+      current[indx] = false;
       this.setState({
-        activeHeaders: newActiveHeaders
+        headerStates: current
       });
     }
   }, {
-    key: "toggleSubheaders",
-    value: function toggleSubheaders(indx) {
-      var newActiveHeaders = this.state.activeHeaders;
-      newActiveHeaders[indx] = !this.state.activeHeaders[indx];
+    key: "toggleSubheader",
+    value: function toggleSubheader(indx) {
+      var current = this.state.headerStates;
+      current[indx] = !this.state.headerStates[indx];
       this.setState({
-        activeHeaders: newActiveHeaders
+        headerStates: current
       });
     }
   }, {
-    key: "openNavbar",
-    value: function openNavbar() {
+    key: "toggleNavbar",
+    value: function toggleNavbar() {
       this.setState({
         closed: !this.state.closed
       });
@@ -886,70 +861,70 @@ function (_React$Component) {
 
       if (this.state.fixedNavbar) {
         fixedNavbar.position = 'fixed';
-        fixedNavbar.marginTop = "-".concat(document.getElementById('mcm-header').clientHeight, "px");
+        fixedNavbar.marginTop = "-".concat(document.getElementById('mcm-header').clientHeight + 0, "px");
       }
 
-      var wideNavbarItems = [];
-      var narrowNavbarItems = [];
+      var wideNavbar = [];
+      var narrowNavbar = [];
 
-      var _loop = function _loop(i) {
-        var item = _this2.props.dropDownItems[i];
-        wideNavbarItems.push(react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(DropDownWide, {
+      var _loop = function _loop(k) {
+        var item = _this2.props.dropDownItems[k];
+        wideNavbar.push(react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(DropDownWide, {
           handleMouseEnter: function handleMouseEnter() {
-            return _this2.showSubheaders(i);
+            return _this2.showSubheader(k);
           },
           handleMouseLeave: function handleMouseLeave() {
-            return _this2.hideSubheaders(i);
+            return _this2.hideSubheader(k);
           },
+          expanded: _this2.state.headerStates[k],
           header: item.header,
           headerTo: item.headerTo,
           dropDownChildren: item.dropDownChildren,
           key: "".concat(item.header),
-          expanded: _this2.state.activeHeaders[i],
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 193
+            lineNumber: 182
           },
           __self: this
         }));
-        narrowNavbarItems.push(react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(DropDownNarrow, {
-          onClick: function onClick() {
-            return _this2.toggleSubheaders(i);
+        narrowNavbar.push(react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(DropDownNarrow, {
+          handleClick: function handleClick() {
+            return _this2.toggleSubheader(k);
           },
+          expanded: _this2.state.headerStates[k],
           header: item.header,
           headerTo: item.headerTo,
           dropDownChildren: item.dropDownChildren,
           key: "".concat(item.header),
-          expanded: _this2.state.activeHeaders[i],
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 198
+            lineNumber: 187
           },
           __self: this
         }));
       };
 
-      for (var i = 0; i < this.props.dropDownItems.length; i++) {
-        _loop(i);
+      for (var k = 0; k < this.props.dropDownItems.length; k++) {
+        _loop(k);
       }
 
       return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 205
+          lineNumber: 193
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "navbar-crest",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 206
+          lineNumber: 194
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mcmLogo__WEBPACK_IMPORTED_MODULE_9__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 207
+          lineNumber: 195
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -957,51 +932,51 @@ function (_React$Component) {
         style: fixedNavbar,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 209
+          lineNumber: 197
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "filler-box",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 210
+          lineNumber: 198
         },
         __self: this
-      }), wideNavbarItems, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+      }), wideNavbar, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "filler-box",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 212
+          lineNumber: 200
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "narrow-navbar",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 214
+          lineNumber: 202
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "narrow-navbar-toggle",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 215
+          lineNumber: 203
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
         style: burgerStyle,
-        onClick: this.openNavbar,
+        onClick: this.toggleNavbar,
         src: "https://icon.now.sh/burger/2B2F3A/24",
         alt: "burger",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 216
+          lineNumber: 204
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mcmLogo__WEBPACK_IMPORTED_MODULE_9__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 218
+          lineNumber: 206
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -1009,10 +984,10 @@ function (_React$Component) {
         style: narrowNavBarStyle,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 219
+          lineNumber: 207
         },
         __self: this
-      }, narrowNavbarItems)));
+      }, narrowNavbar)));
     }
   }]);
 
@@ -1023,14 +998,14 @@ var Navbar = function Navbar() {
   return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 229
+      lineNumber: 217
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(NavBar, {
     dropDownItems: _navbar_content__WEBPACK_IMPORTED_MODULE_10__["default"],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 230
+      lineNumber: 218
     },
     __self: this
   }));
@@ -2051,7 +2026,7 @@ var ContactPage = function ContactPage() {
 
 /***/ }),
 
-/***/ 13:
+/***/ 6:
 /*!********************************!*\
   !*** multi ./pages/contact.js ***!
   \********************************/

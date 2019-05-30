@@ -20,7 +20,7 @@ const navbar_items = [
         to: "/events"
       },
       {
-        subheader: "Art Calender",
+        subheader: "Art Calendar",
         to: "/artevents"
       }
     ]

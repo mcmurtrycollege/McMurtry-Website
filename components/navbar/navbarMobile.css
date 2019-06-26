@@ -1,0 +1,29 @@
+.fixed-mobile-nav-header {
+    position: fixed;
+    top: 0;
+    border: none;
+    opacity: 0.8;
+    z-index: 999;
+}
+
+.mobile-nav-crest {
+    width: 80%;
+    /* position: fixed; */
+    top: 1%;
+    margin-left: 15%;
+} 
+
+.navbar-toggle {
+    position: fixed;
+    padding: 3%;
+    top: 0%;
+}
+
+.mobile-nav {
+    position: absolute;
+    top: 0;
+    background-color: #2B2F3A;
+    opacity: 0.8;
+    width: 100%;
+    min-height: 100vh;
+}

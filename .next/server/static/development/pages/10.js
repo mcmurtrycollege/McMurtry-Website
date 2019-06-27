@@ -88,10 +88,84 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
+
+/***/ "./components/10/flip/flip.css":
+/*!*************************************!*\
+  !*** ./components/10/flip/flip.css ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "./components/10/flip/flip.js":
+/*!************************************!*\
+  !*** ./components/10/flip/flip.js ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rebass */ "rebass");
+/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(rebass__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _flip_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./flip.css */ "./components/10/flip/flip.css");
+/* harmony import */ var _flip_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_flip_css__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "C:\\Users\\nmeis\\github\\McMurtry-Website\\components\\10\\flip\\flip.js";
+
+
+
+
+var FlipCard = function FlipCard(props) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "flipcard",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "front",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
+    src: props.img,
+    alt: "",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "back",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, "this is the back")));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (FlipCard);
+
+/***/ }),
 
 /***/ "./components/10/homepage/homepage.css":
 /*!*********************************************!*\
@@ -117,9 +191,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_parallax__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-parallax */ "react-parallax");
 /* harmony import */ var react_parallax__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_parallax__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _homepage_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./homepage.css */ "./components/10/homepage/homepage.css");
-/* harmony import */ var _homepage_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_homepage_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rebass */ "rebass");
+/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(rebass__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _homepage_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./homepage.css */ "./components/10/homepage/homepage.css");
+/* harmony import */ var _homepage_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_homepage_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _flip_flip__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../flip/flip */ "./components/10/flip/flip.js");
 var _jsxFileName = "C:\\Users\\nmeis\\github\\McMurtry-Website\\components\\10\\homepage\\homepage.js";
+
+
 
 
 
@@ -128,52 +207,48 @@ var MCM10 = function MCM10() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_parallax__WEBPACK_IMPORTED_MODULE_1__["Parallax"], {
-    bgImage: "../../../static/reserve.jpg",
-    bgImageAlt: "",
-    strength: 300,
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 7
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "parallax-wrapper1",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_parallax__WEBPACK_IMPORTED_MODULE_1__["Parallax"], {
+    bgImage: "../../../static/mcm10bg.svg",
+    bgImageAlt: "",
+    strength: 800,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "mcm10-title-container",
+    className: "parallax-wrapper1",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "mcm10-title",
+    className: "mcm10-title-container",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "mcm10-title",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
-  }, "McMurtry 10th"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Image"], {
+    src: "../../../static/mcm10.svg",
+    alt: "MCM10",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
     },
     __self: this
-  }, "Anniversary"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "mcm10-btn",
     __source: {
       fileName: _jsxFileName,
@@ -354,7 +429,7 @@ var MCM10 = function MCM10() {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!*********************************!*\
   !*** multi ./pages/10/index.js ***!
   \*********************************/
@@ -396,6 +471,17 @@ module.exports = require("react");
 /***/ (function(module, exports) {
 
 module.exports = require("react-parallax");
+
+/***/ }),
+
+/***/ "rebass":
+/*!*************************!*\
+  !*** external "rebass" ***!
+  \*************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("rebass");
 
 /***/ })
 

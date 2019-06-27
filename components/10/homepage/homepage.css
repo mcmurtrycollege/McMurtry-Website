@@ -3,20 +3,9 @@
 }
 
 .mcm10-title-container {
-    width: 40%;
-    height: 33%;
-    margin: 10% auto 0 auto;
-}
-
-.mcm10-title {
-    text-align: center;
-    font-size: 4em;
-    color: white;
-    background: black;
-    opacity: 0.6;
-    animation: reveal 3s 1;
     overflow: hidden;
-    height: 100%;
+    animation: reveal 3s 1;
+    backface-visibility: hidden;
 }
 
 .mcm10-title p {
@@ -25,34 +14,50 @@
 
 @keyframes reveal {
     0% {
-        width: 0%;
-        height: 0%;
+        width: 0;
+        height: 0;
     }
     5% {
-        width: 5%;
-        height: 4px;
+        width: 20px;
+        height: 10px;
     }
     40% {
-        width: 100%;
-        height: 4px;
+        width: 400px;
+        height: 10px;
     }
     100% {
-        width: 100%;
-        height: 100%;
+        width: 400px;
+        height: 200px;
+    }
+}
+
+@keyframes revealMobile {
+    0% {
+        width: 0;
+        height: 0;
+    }
+    5% {
+        width: 20px;
+        height: 5px;
+    }
+    40% {
+        width: 400px;
+        height: 5px;
+    }
+    100% {
+        width: 400px;
+        height: 200px;
     }
 }
 
 .mcm10-btn {
-    width: 30%;
     margin: 3% auto;
-    font-size: 2em;
     text-align: center;
     position: relative;
-    opacity: 0.6;
     z-index: 100;
-    background-color: black;
+    background-color: #2B2F3A;
     transition: 0.5s ease-in-out;
-    color: white;
+    color: #DCDFE5;
     animation: btn-fade 5s 1;
 }
 
@@ -69,9 +74,6 @@
     position: absolute;
     top: 0;
     left: 0;
-    /* top: 50%;
-    left: 50%; */
-    /* transform: translate(-50%, -50%); */
     width: 0%;
     height: 100%;
     background-color: #A499B5;
@@ -88,10 +90,45 @@
     0% {
         opacity: 0;
     }
-    50% {
+    60% {
         opacity: 0;
     }
     100% {
-        opacity: 0.6;
+        opacity: 1;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    .mcm10-title-container {
+        margin: 5% auto 0 auto;
+        width: 400px;
+        height: 200px;
+        animation: reveal 3s 1;
+    }
+    .mcm10-btn {
+        width: 400px;
+        font-size: 2em;
+    }
+    .mcm10-title {
+        width: 400px;
+        height: 200px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .mcm10-title-container {
+        margin: 40% auto 0 auto;
+        width: 300px;
+        height: 150px;
+        animation: revealMobile 3s 1;
+    }
+    .mcm10-btn {
+        width: 300px;
+        font-size: 1.4em;
+    }
+    .mcm10-title {
+        width: 300px;
+        height: 150px;
     }
 }

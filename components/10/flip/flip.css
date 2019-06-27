@@ -1,0 +1,32 @@
+.flipcard {
+    width: 20%;
+    height: 25vh;
+}
+
+.front, .back {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    overflow: hidden;
+    backface-visibility: hidden;
+    transition: 0.5s ease-in-out;
+}
+
+.back {
+    color: aliceblue;
+    text-align: center;
+    background-color: gray;
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.front {
+    transform: perspective(600px) rotateY(0deg);
+}
+
+.flipcard:hover .front {
+    transform: perspective(600px) rotateY(-180deg);
+}
+
+.flipcard:hover .back {
+    transform: perspective(600px) rotateY(0deg);
+}

@@ -1,7 +1,8 @@
 import { Parallax } from 'react-parallax';
-import { Box, Image } from 'rebass';
+import Link from 'next/link';
+import { Image } from 'rebass';
 import './homepage.css';
-import FlipCard from '../flip/flip';
+import Events from '../event/events';
 
 const MCM10 = () => (
     <div>
@@ -15,15 +16,19 @@ const MCM10 = () => (
                 <div className='mcm10-btn'>
                     <p>Get Tickets</p>
                 </div>
-                <div className='mcm10-btn'>
-                    <p>Become a Sponsor</p>
-                </div>
+                <Link href='/mcm10/sponsor'>
+                    <div className='mcm10-btn'>
+                        <p>Become a Sponsor</p>
+                    </div>
+                </Link>
             </div>
         </Parallax>
-
-        <div className='parallax-wrapper2'>
-            <h1>MCM10</h1>
-        </div>
+        <Events />
+        <Link href='/mcm10/faqs'>
+            <div className='faqs-btn'>
+                <p>FAQs <img src="https://icon.now.sh/arrow/DCDFE5/25"/></p>
+            </div>
+        </Link>
     </div>
 )
 

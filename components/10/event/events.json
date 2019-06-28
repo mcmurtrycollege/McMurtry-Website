@@ -1,0 +1,18 @@
+{
+    "events": [
+        {
+            "title": "Opening Ceremonies",
+            "description": "The opening ceremonies will begin on Friday, and will be held in the McMurtry Quad.",
+            "date": "Friday 5pm",
+            "image": "../../../static/mcm_commons.jpg",
+            "caption": "McMurtry Quad and Commons"
+        },
+        {
+            "title": "Welcome Dinner",
+            "description": "The welcome dinner will begin immediately following the opening ceremonies. It will be held in the mcmurtry commons, and will be catered by west servery",
+            "date": "Saturday 7pm",
+            "image": "../../../static/reserve.jpg",
+            "caption": "McMurtry Commons"
+        }
+    ]
+}

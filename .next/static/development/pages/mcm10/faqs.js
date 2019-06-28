@@ -84,15 +84,7 @@ var Faqs = function Faqs() {
       lineNumber: 19
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "https://icon.now.sh/arrow/left/2B2F3A/15",
-    alt: "",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    },
-    __self: this
-  }), ' ', "Back")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+  }, "\u2190 Back")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: "faqs-section-title",
     __source: {
       fileName: _jsxFileName,
@@ -15284,7 +15276,7 @@ var FAQS = function FAQS() {
 
 /***/ }),
 
-/***/ 0:
+/***/ 9:
 /*!*******************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fmcm10%2Ffaqs&absolutePagePath=C%3A%5CUsers%5Cnmeis%5Cgithub%5CMcMurtry-Website%5Cpages%5Cmcm10%5Cfaqs.js ***!
   \*******************************************************************************************************************************************************/
@@ -15307,5 +15299,5 @@ module.exports = dll_af9878b9be933e0a57fb;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js","styles"]]]);
+},[[9,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=faqs.js.map

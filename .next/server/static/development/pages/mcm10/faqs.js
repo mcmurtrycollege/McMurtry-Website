@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -188,15 +188,7 @@ var Faqs = function Faqs() {
       lineNumber: 19
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "https://icon.now.sh/arrow/left/2B2F3A/15",
-    alt: "",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    },
-    __self: this
-  }), ' ', "Back")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+  }, "\u2190 Back")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: "faqs-section-title",
     __source: {
       fileName: _jsxFileName,
@@ -930,7 +922,7 @@ var FAQS = function FAQS() {
 
 /***/ }),
 
-/***/ 3:
+/***/ 5:
 /*!***********************************!*\
   !*** multi ./pages/mcm10/faqs.js ***!
   \***********************************/

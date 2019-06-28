@@ -26,7 +26,7 @@ const tiers = [
 
 const Sponsor = () => (
     <div>
-        <Link href='/mcm10'><a className='back-link'><img src="https://icon.now.sh/arrow/left/2B2F3A/15" alt=""/>{' '}Back</a></Link>
+        <Link href='/mcm10'><a className='back-link'>← Back</a></Link>
         <h1 className='support-mcm'>Support McMurtry</h1>
         <div className='sponsor-tiers'>
             {

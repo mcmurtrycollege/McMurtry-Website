@@ -78,8 +78,12 @@
     right: 0;
 }
 
-.faq-card:focus .faq-answer {
+.faq-card:active .faq-answer {
     right: 0;
+}
+
+.faq-card:active .faq-question {
+    left: 100%;
 }
 
 .faq-question p, .faq-answer p {

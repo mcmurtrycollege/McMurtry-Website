@@ -38,6 +38,18 @@ const Image = (props) => (
                 opacity: 1;
             }
 
+            .image-box${props.index}:active:after {
+                opacity: 0.8;
+            }
+            
+            .image-box${props.index}:active:before {
+                transform: scale(1.3);
+            }
+            
+            .image-box${props.index}:active .image-caption {
+                opacity: 1;
+            }
+
             .image-box${props.index}:before {
                 content: "";
                 width: 100%;

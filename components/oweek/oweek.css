@@ -1,0 +1,52 @@
+@media screen and (min-width: 801px) {
+    .oweek-page {
+        width: 70%;
+        margin-left: 20%;
+        padding: 5%;
+    }
+}
+
+.oweek-title {
+    font-weight: normal;
+    color: #DCDFE5;
+    background-color: #87799C;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 5px 10px;
+}
+
+.oweek-subtitle {
+    width: 100%;
+    font-weight: normal;
+    color: #2B2F3A;
+    display: inline-block;
+}
+
+.oweek-bio {
+    width: 150px;
+    margin: 2%;
+    box-shadow: 0 0 15px 5px #BFBFCC;
+    padding: 10px 20px;
+}
+
+.oweek-bios {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.oweek-page p {
+    color: #2B2F3A;
+}
+
+.oweek-address {
+    border: 1px solid #2B2F3A;
+    width: 180px;
+    padding: 10px;
+    text-align: center;
+}
+
+.oweek-address p {
+    margin: 3px;
+}

@@ -1,12 +1,13 @@
 import Header from '../../components/header';
 import Navbar from '../../components/oweek/navbar/navbar';
+import Page from '../../components/oweek/contact/contact';
 import '../page.css';
 
 const OweekContact = () => (
     <div>
         <Header/>
         <Navbar/>
-        <h1>Oweek contact</h1>
+        <Page/>
     </div>
 )
 

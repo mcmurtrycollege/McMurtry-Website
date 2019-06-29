@@ -1,0 +1,31 @@
+.oweek-groups-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.oweek-group-link {
+    display: inline-block;
+    border: 1px solid #2B2F3A;
+    padding: 5px 10px;
+    margin: 10px;
+    font-size: 1.2em;
+    transition: 0.3s ease-in-out;
+}
+
+.oweek-group-link:hover {
+    background-color: #2B2F3A;
+    color: #DCDFE5;
+}
+
+.oweek-group {
+    padding: 3% 0;
+}
+
+.advisor-bio {
+    width: 15%;
+    margin: 2%;
+    box-shadow: 0 0 15px 5px #BFBFCC;
+    padding: 10px 20px;
+}

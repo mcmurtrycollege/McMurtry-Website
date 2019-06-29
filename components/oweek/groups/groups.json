@@ -1,0 +1,352 @@
+{
+    "oweek_groups": [
+        {
+            "name": "Backgammon Street Boys",
+            "advisors": [
+                {
+                    "name": "Rolando Marquez",
+                    "year": "Senior",
+                    "major": "Bioengineering",
+                    "from": "Pasadena, TX"
+                },
+                {
+                    "name": "Sophie Marx",
+                    "year": "Sophmore",
+                    "major": "Cognitive Sciences",
+                    "from": "Brooklyn, NY"
+                },
+                {
+                    "name": "Krithi Pachipala",
+                    "year": "Sophmore",
+                    "major": "Neuroscience, Social Policy Analysis",
+                    "from": "The Woodlands, TX"
+                },
+                {
+                    "name": "Nathan McCoslin",
+                    "year": "Sophmore",
+                    "major": "Political Science",
+                    "from": "Jewett, TX"
+                }
+            ]
+        },
+        {
+            "name": "Battleship and Boujee",
+            "advisors": [
+                {
+                    "name": "Hayden Mast",
+                    "year": "Sophomore",
+                    "major": "Visual and Dramatic Arts",
+                    "from": "Austin, TX"
+                },
+                {
+                    "name": "Ellery Parish",
+                    "year": "Junior",
+                    "major": "Social Policy Analysis, Sociology",
+                    "from": "San Antonio, TX"
+                },
+                {
+                    "name": "Dara Okeremi",
+                    "year": "Sophomore",
+                    "major": "Bioengineering",
+                    "from": "Houston, TX"
+                },
+                {
+                    "name": "Rohini Kumar",
+                    "year": "Junior",
+                    "major": "Neuroscience",
+                    "from": "Austin, TX"
+                }
+            ]
+        },
+        {
+            "name": "Captain Mancala",
+            "advisors": [
+                {
+                    "name": "Kabir Sood",
+                    "year": "Sophomore",
+                    "major": "Economics",
+                    "from": "Houston, TX"
+                },
+                {
+                    "name": "Stoyan Kimitov",
+                    "year": "Senior",
+                    "major": "Computer Science",
+                    "from": "Chicago, IL"
+                },
+                {
+                    "name": "Sohil Shah",
+                    "year": "Sophomore",
+                    "major": "Mathematical Economic Analysis",
+                    "from": "Singapore"
+                },
+                {
+                    "name": "Lupita Galvan Tinoco",
+                    "year": "Senior",
+                    "major": "Cognitive Science",
+                    "from": "Austin, TX"
+                }
+            ]
+        },
+        {
+            "name": "Dice Dice Baby",
+            "advisors": [
+                {
+                    "name": "Dylan Nguyen",
+                    "year": "Sophomore",
+                    "major": "Social Policy Analysis",
+                    "from": "Dallas, TX"
+                },
+                {
+                    "name": "Alexandra Lim",
+                    "year": "Sophomore",
+                    "major": "Undecided",
+                    "from": "Vancouver, WA"
+                },
+                {
+                    "name": "Natty Askanase",
+                    "year": "Sophomore",
+                    "major": "Sports Management, History",
+                    "from": "New York, NY"
+                },
+                {
+                    "name": "Robert Alexander",
+                    "year": "Junior",
+                    "major": "Cognitive Science",
+                    "from": "Oakland, CA"
+                }
+            ]
+        },
+        {
+            "name": "Hollabackgammon Girl: This Is Bananas",
+            "advisors": [
+                {
+                    "name": "Amy Mu",
+                    "year": "Junior",
+                    "major": "Kinesiology (Health Sciences)",
+                    "from": "Johns Creek, GA"
+                },
+                {
+                    "name": "Raymond Lau",
+                    "year": "Senior",
+                    "major": "Mechanical Engineering",
+                    "from": "Las Vegas, NV"
+                },
+                {
+                    "name": "Hannah Boyd",
+                    "year": "Sophomore",
+                    "major": "Biochemistry",
+                    "from": "Gaithersburg, MD"
+                },
+                {
+                    "name": "Stephanie Xie",
+                    "year": "Junior",
+                    "major": "Computer Science Cognitive Science",
+                    "from": "Wilton, CT"
+                }
+            ]
+        },
+        {
+            "name": "Hungry Hungry Hippo Mode",
+            "advisors": [
+                {
+                    "name": "Nneoma Ome",
+                    "year": "Sophomore",
+                    "major": "Bioengineering",
+                    "from": "Sugar Land, TX"
+                },
+                {
+                    "name": "Jennifer Ho",
+                    "year": "Junior",
+                    "major": "Kinesiology, Health Sciences, Multiple Minors",
+                    "from": "Tomball, TX"
+                },
+                {
+                    "name": "Emma Young",
+                    "year": "Junior",
+                    "major": "Mathematical Economic Analysis",
+                    "from": "Social Analysis Brentwood, TN"
+                },
+                {
+                    "name": "Josh Verne",
+                    "year": "Sophomore",
+                    "major": "Computer Science",
+                    "from": "Raleigh, NC"
+                }
+            ]
+        },
+        {
+            "name": "The Jenga Book",
+            "advisors": [
+                {
+                    "name": "Asli Yilmaz",
+                    "year": "Senior",
+                    "major": "Chemical & Biomolecular Engineering",
+                    "from": "Houston, TX"
+                },
+                {
+                    "name": "Rishi Vas",
+                    "year": "Junior",
+                    "major": "Cognitive Science",
+                    "from": "Dallas, TX"
+                },
+                {
+                    "name": "Natalie Festa",
+                    "year": "Sophomore",
+                    "major": "Anthropology Economics",
+                    "from": "Houston, TX"
+                },
+                {
+                    "name": "Ben Harris",
+                    "year": "Junior",
+                    "major": "Computer Science",
+                    "from": "Charlottesville, VA"
+                }
+            ]
+        },
+        {
+            "name": "La La Candyland",
+            "advisors": [
+                {
+                    "name": "Caleb Robinson",
+                    "year": "Sophomore",
+                    "major": "Physics, Mathematics",
+                    "from": "Hattiesburg, MS"
+                },
+                {
+                    "name": "Jane Clinger",
+                    "year": "Senior",
+                    "major": "Psychology",
+                    "from": "Alexandria, VA"
+                },
+                {
+                    "name": "Aaron Pathak",
+                    "year": "Sophomore",
+                    "major": "Social Policy Analysis",
+                    "from": "Dallas, TX"
+                },
+                {
+                    "name": "Akshaya Venkatesh",
+                    "year": "Sophomore",
+                    "major": "Cognitive Science",
+                    "from": "Los Angeles, CA"
+                }
+            ]
+        },
+        {
+            "name": "Lil’ Yahtzee",
+            "advisors": [
+                {
+                    "name": "Alex Lammers",
+                    "year": "Sophomore",
+                    "major": "Bioengineering",
+                    "from": "Tecumseh, Michigan"
+                },
+                {
+                    "name": "Tatyanna Epps",
+                    "year": "Sophomore",
+                    "major": "Sociology",
+                    "from": "Temple, TX"
+                },
+                {
+                    "name": "Sachi Khemka",
+                    "year": "Sophomore",
+                    "major": "Biological Sciences",
+                    "from": "Katy, TX"
+                },
+                {
+                    "name": "Grant Lu",
+                    "year": "Senior",
+                    "major": "Bioengineering",
+                    "from": "Houston, TX"
+                }
+            ]
+        },
+        {
+            "name": "Panic at the Risk-O",
+            "advisors": [
+                {
+                    "name": "Sean McCormick",
+                    "year": "Junior",
+                    "major": "English, Business",
+                    "from": "Houston, TX"
+                },
+                {
+                    "name": "Callie Carnahan",
+                    "year": "Sophomore",
+                    "major": "History",
+                    "from": "Washington D.C."
+                },
+                {
+                    "name": "Lily Cao",
+                    "year": "Junior",
+                    "major": "Psychology, Managerial Studies",
+                    "from": "Friendswood, TX"
+                },
+                {
+                    "name": "Steven Feng",
+                    "year": "Sophomore",
+                    "major": "Mathematical Economic Analysis",
+                    "from": "Parsippany, NJ"
+                }
+            ]
+        },
+        {
+            "name": "Schoolboy Clue: Collard Mr. Green",
+            "advisors": [
+                {
+                    "name": "Sue Kim",
+                    "year": "Senior",
+                    "major": "Computer Science, Statistics",
+                    "from": "Seattle, WA"
+                },
+                {
+                    "name": "AJ Valenty",
+                    "year": "Sophomore",
+                    "major": "Computer Science",
+                    "from": "Austin, TX"
+                },
+                {
+                    "name": "Meheret Adera",
+                    "year": "Sophomore",
+                    "major": "Kinesiology (Health Sciences), Global Health Technologies",
+                    "from": "Dallas, TX"
+                },
+                {
+                    "name": "Sai Sriram",
+                    "year": "Junior",
+                    "major": "Computer Science, Neuroscience",
+                    "from": "Tampa, FL"
+                }
+            ]
+        },
+        {
+            "name": "UNO Mars: Draw 24k Magic",
+            "advisors": [
+                {
+                    "name": "Eitan Woloski",
+                    "year": "Junior",
+                    "major": "Physics",
+                    "from": "McAllen, TX"
+                },
+                {
+                    "name": "Valerie Kass",
+                    "year": "Senior",
+                    "major": "Civil and Environmental Engineering, Politics, Law, and Social Thought",
+                    "from": "Washington D.C."
+                },
+                {
+                    "name": "Catherine Hettler",
+                    "year": "Sophomore",
+                    "major": "Psychology, Visual and Dramatic Arts, Neuroscience",
+                    "from": "South Korea/San Antonio, TX"
+                },
+                {
+                    "name": "Shaquille Que",
+                    "year": "Sophompore",
+                    "major": "Computer Science, Neuroscience",
+                    "from": "Quezon City, Philippines"
+                }
+            ]
+        }
+    ]
+}

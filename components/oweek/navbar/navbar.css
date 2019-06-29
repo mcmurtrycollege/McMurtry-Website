@@ -16,12 +16,12 @@
 
 @media screen and (min-width: 801px) {
     .oweek-navbar-visible {
-        width: 15%;
-        right: 85%;
+        width: 20%;
+        right: 80%;
     }
     .oweek-navbar-hidden {
-        width: 15%;
-        right: 85%;
+        width: 20%;
+        right: 80%;
     }
     .oweek-navbar-link {
         padding: 1% 5%;

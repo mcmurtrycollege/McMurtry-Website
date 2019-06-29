@@ -145,6 +145,20 @@
     color: #2B2F3A;
 }
 
+.oweek-countdown {
+    width: 320px;
+    margin: 2% auto;
+    font-size: 2em;
+    background-color: #3A3F4F;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.oweek-countdown p {
+    color: #DCDFE5;
+    padding: 10px 20px;
+}
+
 .oweek-address {
     border: 1px solid #2B2F3A;
     width: 180px;
@@ -174,6 +188,53 @@
 
 .oweek-book-download:hover {
     background-color: #87799C;
+}
+
+.oweek-groups-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.oweek-group-link {
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    border: 1px solid #BFBFCC;
+    padding: 5px 10px;
+    margin: 10px;
+    font-size: 1.2em;
+    transition: 0.3s ease-in-out;
+}
+
+.oweek-group-link:hover {
+    /* color: #DCDFE5; */
+    box-shadow: 0 0 10px 3px #BFBFCC;
+    transform: scale(1.07);
+    cursor: pointer;
+}
+
+.oweek-group {
+    padding: 3% 0;
+}
+
+@media screen and (min-width: 1101px) {
+    .advisor-bio {
+        width: 15%;
+        margin: 2%;
+        box-shadow: 0 0 15px 5px #BFBFCC;
+        padding: 10px 20px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .advisor-bio {
+        width: 200px;
+        margin: 2%;
+        box-shadow: 0 0 15px 5px #BFBFCC;
+        padding: 10px 20px;
+    }
 }
 html {
     margin: 0;

@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 7);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -187,22 +187,66 @@ var _jsxFileName = "C:\\Users\\nmeis\\github\\McMurtry-Website\\components\\owee
 
 
 
+var Coundown = function Coundown() {
+  var today = new Date();
+  console.log(today);
+  var day = today.getDate();
+  var month = today.getMonth() + 1;
+  var year = today.getFullYear();
+  var daysToGo = 0;
+
+  if (year === 2019) {
+    if (month === 6) {
+      daysToGo = 18 + 31 + (30 - day);
+    }
+
+    if (month === 7) {
+      daysToGo = 18 + (31 - day);
+    }
+
+    if (month === 8) {
+      daysToGo = 18 - day;
+    }
+  }
+
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "oweek-countdown",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, daysToGo, " until O-Week!"));
+};
+
 var Homepage = function Homepage() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "oweek-page",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 4
+      lineNumber: 33
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: "oweek-welcome",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 34
     },
     __self: this
-  }, "Welcome to McMurtry!"));
+  }, "Welcome to McMurtry!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Coundown, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Homepage);
@@ -1249,7 +1293,7 @@ var Oweek = function Oweek() {
 
 /***/ }),
 
-/***/ 7:
+/***/ 3:
 /*!************************************!*\
   !*** multi ./pages/oweek/index.js ***!
   \************************************/

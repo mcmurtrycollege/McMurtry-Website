@@ -24,7 +24,7 @@ const Coundown = () => {
 
     return (
         <div className='oweek-countdown'>
-            <p>{daysToGo} until O-Week!</p>
+            <p>{daysToGo} days until O-Week!</p>
         </div>
     )
 }

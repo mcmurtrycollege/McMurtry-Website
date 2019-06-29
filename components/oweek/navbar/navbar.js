@@ -9,7 +9,7 @@ class Navbar extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            hidden: false,
+            hidden: true,
         }
         this.toggleNavbar = this.toggleNavbar.bind(this);
     }

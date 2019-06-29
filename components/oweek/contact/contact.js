@@ -3,7 +3,9 @@ import '../oweek.css';
 const Contact = () => (
     <div className='oweek-page'>
         <h1 className='oweek-title'>Contact Information</h1>
-        <h2 className='oweek-subtitle'>Your McMurtry Mailing Address</h2>
+        <div>
+            <h2 className='oweek-subtitle'>Your McMurtry Mailing Address</h2>
+        </div>
         <div className='oweek-address'>
             <p>(Your name here)</p>
             <p>McMurtry College</p>

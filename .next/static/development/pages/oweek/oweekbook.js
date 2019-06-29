@@ -90,10 +90,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _oweek_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../oweek.css */ "./components/oweek/oweek.css");
 /* harmony import */ var _oweek_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_oweek_css__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _book_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./book.css */ "./components/oweek/book/book.css");
-/* harmony import */ var _book_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_book_css__WEBPACK_IMPORTED_MODULE_2__);
 var _jsxFileName = "C:\\Users\\nmeis\\github\\McMurtry-Website\\components\\oweek\\book\\book.js";
-
 
 
 
@@ -102,21 +99,21 @@ var Book = function Book() {
     className: "oweek-page",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 4
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: "oweek-title",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 5
     },
     __self: this
   }, "The O-Week Book"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "oweek-book",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 6
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("embed", {
@@ -129,10 +126,43 @@ var Book = function Book() {
     toolbar: "1",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 7
     },
     __self: this
-  })));
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "../../../static/oweekbook.pdf",
+    target: "_blank",
+    rel: "noopener noreferrer",
+    style: {
+      textDecoration: 'none'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "oweek-book-download",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "https://icon.now.sh/file_download/DCDFE5/60",
+    alt: "",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, "The O-Week Book"))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Book);
@@ -189,7 +219,7 @@ function (_React$Component) {
 
     _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Navbar).call(this, props));
     _this.state = {
-      hidden: false
+      hidden: true
     };
     _this.toggleNavbar = _this.toggleNavbar.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this));
     return _this;
@@ -15404,7 +15434,7 @@ var OweekBook = function OweekBook() {
 
 /***/ }),
 
-/***/ 12:
+/***/ 0:
 /*!*****************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Foweek%2Foweekbook&absolutePagePath=C%3A%5CUsers%5Cnmeis%5Cgithub%5CMcMurtry-Website%5Cpages%5Coweek%5Coweekbook.js ***!
   \*****************************************************************************************************************************************************************/
@@ -15427,5 +15457,5 @@ module.exports = dll_af9878b9be933e0a57fb;
 
 /***/ })
 
-},[[12,"static/runtime/webpack.js","styles"]]]);
+},[[0,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=oweekbook.js.map

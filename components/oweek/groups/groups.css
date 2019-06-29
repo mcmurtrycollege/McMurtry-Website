@@ -6,8 +6,10 @@
 }
 
 .oweek-group-link {
-    display: inline-block;
-    border: 1px solid #2B2F3A;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    border: 1px solid #BFBFCC;
     padding: 5px 10px;
     margin: 10px;
     font-size: 1.2em;
@@ -15,17 +17,30 @@
 }
 
 .oweek-group-link:hover {
-    background-color: #2B2F3A;
-    color: #DCDFE5;
+    /* color: #DCDFE5; */
+    box-shadow: 0 0 10px 3px #BFBFCC;
+    transform: scale(1.07);
+    cursor: pointer;
 }
 
 .oweek-group {
     padding: 3% 0;
 }
 
-.advisor-bio {
-    width: 15%;
-    margin: 2%;
-    box-shadow: 0 0 15px 5px #BFBFCC;
-    padding: 10px 20px;
+@media screen and (min-width: 1101px) {
+    .advisor-bio {
+        width: 15%;
+        margin: 2%;
+        box-shadow: 0 0 15px 5px #BFBFCC;
+        padding: 10px 20px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .advisor-bio {
+        width: 200px;
+        margin: 2%;
+        box-shadow: 0 0 15px 5px #BFBFCC;
+        padding: 10px 20px;
+    }
 }

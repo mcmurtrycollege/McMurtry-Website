@@ -1,4 +1,3 @@
-import './theme.css';
 import '../oweek.css';
 
 const Theme = () => (

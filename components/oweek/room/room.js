@@ -13,18 +13,15 @@ const Room = () => (
             Feel free to move these around as desired!
         </p>
         <h2 className='oweek-subtitle'>Included Furniture</h2>
-        <p>
-            Per Person:
-            <ul>
-                <li>1 Twin XL Sized Bed Frame</li>
-                <li>1 Twin XL Sized Mattress</li>
-                <li>1 Large Dresser</li>
-                <li>1 Small Dresser / Nightstand</li>
-                <li>1 Desk</li>
-                <li>1 Deskchair</li>
-            </ul>
-        </p>
-
+        <p>Per Person:</p>
+        <ul>
+            <li>1 Twin XL Sized Bed Frame</li>
+            <li>1 Twin XL Sized Mattress</li>
+            <li>1 Large Dresser</li>
+            <li>1 Small Dresser / Nightstand</li>
+            <li>1 Desk</li>
+            <li>1 Deskchair</li>
+        </ul>
     </div>
 )
 

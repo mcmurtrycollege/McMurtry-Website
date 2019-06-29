@@ -4,6 +4,47 @@
         margin-left: 20%;
         padding: 5%;
     }
+    .oweek-book {
+        width: 600px;
+        margin: 5% auto;
+    }
+    .oweek-welcome {
+        font-weight: normal;
+        font-size: 5em;
+        text-align: center;
+        color: #87799C;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .oweek-page {
+        width: 85%;
+        padding-top: 10%;
+        padding-bottom: 5%;
+        margin: 0 auto;
+        z-index: -1;
+    }
+    .oweek-title {
+        font-size: 1.5em;
+    }
+    .oweek-subtitle {
+        font-size: 1.2em;
+    }
+    .oweek-bio {
+        width: 250px;
+        margin: 2%;
+        box-shadow: 0 0 15px 5px #BFBFCC;
+        padding: 10px 20px;
+    }
+    .oweek-book {
+        display: none;
+    }
+    .oweek-welcome {
+        font-weight: normal;
+        font-size: 3em;
+        text-align: center;
+        color: #87799C;
+    }
 }
 
 .oweek-title {
@@ -11,15 +52,16 @@
     color: #DCDFE5;
     background-color: #87799C;
     display: inline-block;
-    margin: 0 auto;
     padding: 5px 10px;
 }
 
 .oweek-subtitle {
-    width: 100%;
-    font-weight: normal;
-    color: #2B2F3A;
     display: inline-block;
+    color: #DCDFE5;
+    background-color: #3A3F4F;
+    padding: 5px 10px;
+    font-weight: normal;
+    opacity: 0.7;
 }
 
 .oweek-bio {
@@ -44,9 +86,29 @@
     border: 1px solid #2B2F3A;
     width: 180px;
     padding: 10px;
+    margin: 0 auto;
     text-align: center;
 }
 
 .oweek-address p {
     margin: 3px;
+}
+
+.oweek-book-download {
+    background-color: #3A3F4F;
+    text-align: center;
+    width: 200px;
+    margin: 3% auto;
+    color: #DCDFE5;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.oweek-book-download p {
+    color: #DCDFE5;
+}
+
+.oweek-book-download:hover {
+    background-color: #87799C;
 }

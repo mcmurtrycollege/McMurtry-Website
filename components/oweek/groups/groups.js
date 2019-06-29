@@ -7,7 +7,9 @@ import { oweek_groups } from './groups.json';
 const Groups = () => (
     <div className='oweek-page'>
         <h1 className='oweek-title'>The O-Week Groups</h1>
-        <h2 className='oweek-subtitle'>What is an O-Week Group?</h2>
+        <div>
+            <h2 className='oweek-subtitle'>What is an O-Week Group?</h2>
+        </div>
         <p>
             Your O-Week group consists of 8-9 other New Students, 4 upperclassmen Advisors (one will be a
             Co-Advisor and one may be an Affiliate) who are beyond excited to welcome you to the best residential college on campus! All throughout O-Week, you will be preparing for

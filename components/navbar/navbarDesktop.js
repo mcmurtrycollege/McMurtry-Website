@@ -26,7 +26,7 @@ class NavbarDesktop extends React.Component {
     }
 
     render() {
-        let style = this.state.permanent ? {backgroundColor: "#2B2F3A"} : {paddingTop: '15px', paddingBottom: '15px', color: "#2B2F3A", backgroundColor: "#DCDFE5"}
+        let style = this.state.permanent ? {backgroundColor: "#515768"} : {paddingTop: '15px', paddingBottom: '15px', color: "#515768", backgroundColor: "#DCDFE5"}
         return (
             <div className='navbar-wrapper' style={style}>
                 <Box width={300} className='header-crest'>

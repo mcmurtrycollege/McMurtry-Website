@@ -1,11 +1,12 @@
 .paas-page {
-    margin-top: 12%;
+    padding-top: 10%;
     margin-bottom: 5%;
 }
 
 .paas-description {
     margin-top: 30px;
     padding: 30px;
+    color: #515768;
 }
 
 .paas-title {
@@ -13,5 +14,5 @@
     text-align: center;
     font-weight: normal;
     padding: 8px;
-    color: #2B2F3A;
+    color: #515768;
 }

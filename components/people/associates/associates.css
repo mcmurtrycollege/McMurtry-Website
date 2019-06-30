@@ -1,26 +1,32 @@
-@media screen and (min-width: 900px){
-    .associates-page {
-        margin-top: 12%;
-    }
+.associates-page {
+    padding-top: 12%;
 }
 
 .associates-page {
     margin-bottom: 5%;
 }
 
-.associate-card {
+.associate-card-visible {
     padding: 4%;
-    margin: 2%;
+    margin: 3%;
     font-weight: normal;
-    color: #2B2F3A;
-    border: 1px solid #BFBFCC;
-    /* box-shadow: 0 0 5px 2px #BFBFCC; */
+    color: #DCDFE5;
+    background-color: #515768;
     transition: 0.2s ease-in-out;
 }
 
-.associate-card:hover {
-    border-color: #2B2F3A;
-    /* background-color: #BFBFCC; */
+.associate-card-hidden {
+    padding: 4%;
+    margin: 3%;
+    font-weight: normal;
+    color: #515768;
+    border: 1px solid #DCDFE5;
+    box-shadow: 0 0 5px 2px #BFBFCC;
+    transition: 0.2s ease-in-out;
+}
+
+.associate-card-hidden:hover {
+    border-color: #515768;
 }
 
 .associate-dropdown, .associate-image-dropdown {

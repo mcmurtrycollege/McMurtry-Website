@@ -3,7 +3,7 @@
 }
 
 .contact-card-content {
-    color: #2B2F3A;
+    color: #515768;
     /* border: 1px solid #2B2F3A; */
     border: 1px solid #DCDFE5;
     /* border: 1px solid #BFBFCC; */
@@ -14,7 +14,7 @@
 
 .contact-card-content:hover {
     /* background-color: #BFBFCC; */
-    border-color: #2B2F3A;
+    border-color: #515768;
 }
 
 .position {
@@ -29,7 +29,7 @@
 
 .link {
     text-decoration: none;
-    color: #2B2F3A;
+    color: #515768;
     font-weight: normal;
 }
 

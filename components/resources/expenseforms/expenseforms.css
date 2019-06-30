@@ -1,12 +1,10 @@
-@media screen and (min-width: 900px){
-    .reimbursements-page {
-        margin-top: 12%;
-        margin-bottom: 5%;
-    }
+.reimbursements-page {
+    padding-top: 10%;
+    margin-bottom: 5%;
 }
 
 .instructions-title {
-    color: #2B2F3A;
+    color: #515768;
     text-align: center;
     font-weight: normal;
 }
@@ -16,43 +14,42 @@
 }
 
 .expense-instructions {
-    color: #2B2F3A;
+    color: #515768;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
 .active-form {
-    border: solid #2B2F3A;
+    border: solid #515768;
     border-width: 0 0 2px 0;
     text-align: center;
-    color: #2B2F3A;
+    color: #515768;
     transition: border-color 0.3s ease-in-out;
 }
 
 .inactive-form {
     border: solid #BFBFCC;
     border-width: 0 0 2px 0;
-    color: #2B2F3A;
-    text-align: center;        
+    color: #515768;
+    text-align: center;
     transition: border-color 0.3s ease-in-out;
 }
 
 .inactive-form:hover {
-    border-color: #2B2F3A;
+    border-color: #515768;
 }
 
-@media screen and (min-width: 651px){
+@media screen and (min-width: 651px) {
     .active-form, .inactive-form {
         width: 150px;
         height: 75px;
     }
 }
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 650px) {
     .form-key {
         font-size: 0.5em;
     }
-
     .active-form, .inactive-form {
         width: 75px;
         height: 50px;
@@ -73,11 +70,10 @@
     text-align: center;
     margin-top: 10%;
     margin-bottom: 10%;
-
 }
 
 .form-link {
-    color: #2B2F3A;
+    color: #515768;
     background-color: #BFBFCC;
     padding: 15px;
 }

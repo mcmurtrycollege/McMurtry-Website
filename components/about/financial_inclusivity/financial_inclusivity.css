@@ -1,28 +1,47 @@
-@media screen and (min-width: 900px){
-    .fin-inc-page {
-        margin-top: 8%;
-        margin-bottom: 5%;
-    }
+.fin-inc-page {
+    padding-top: 8%;
+    margin-bottom: 5%;
 }
 
 .fin-inc-content {
     margin-left: auto;
     margin-right: auto;
-    color: #2B2F3A;
+    color: #515768;
 }
 
 .fin-inc-link {
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
-    border: 1px solid #2B2F3A;
+    background: #515768;
     margin-top: 7%;
-    color: #2B2F3A;
     text-align: center;
     font-size: 1.2em;
     margin-bottom: 20px;
+    position: relative;
+    z-index: 100;
+}
+
+.fin-inc-link:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0;
+    width: 100%;
+    transition: 0.3s ease-in-out;
+    background-color: #87799C;
+    z-index: -1;
+}
+
+.fin-inc-link:hover:before {
+    height: 100%;
+}
+
+.fin-inc-link p {
+    color: #DCDFE5;
 }
 
 .fin-inc-link:hover {
-    background-color: #BFBFCC;
+    cursor: pointer;
 }

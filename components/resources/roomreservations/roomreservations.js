@@ -21,7 +21,7 @@ const RoomReservations = () => (
                 </ul>
                 <p>Our online reservation system (directions below) allows you to book rooms under Category 1 up to 3 weeks in advance.</p>
                 <p><strong>When booking for the first time: </strong>Please set up and confirm your account using this{' '}
-                 <strong><a href='https://mcmurtryreservation.skedda.com/register?key=576c21c' target="_blank" style={{ color: '#422a4C' }} rel="noopener noreferrer">link</a></strong>.
+                 <strong><a href='https://mcmurtryreservation.skedda.com/register?key=576c21c' target="_blank" style={{ color: '#515768' }} rel="noopener noreferrer">link</a></strong>.
                  A confirmation of your registration will be sent to your email and will take approximately one minute to complete. Please select the 'Remember Me' option when entering your login information. Once registering, double click on the calendar located below, log in, and create your reservation.</p>
                 <p><strong>For every subsequent booking: </strong>Use the calendar located below to make your reservation. You will automatically be logged in as a registered user. Bookings can be viewed and cancelled through your account after making your first reservation. We ask that you provide a title and brief description for the purpose of your reservation as well as contact information. Note: Failure to include this information may result in the cancellation of your reservation.</p>
             </div>
@@ -39,7 +39,7 @@ const RoomReservations = () => (
         <h2 className='room-question'>Have a Question?</h2>
         <Box width={[0.8, 0.25]} className='reservation-email-link'>
             <a href='mailto:mcmsecretary@gmail.com' style={{ textDecoration: 'none' }} rel="noopener noreferrer">
-                <img src="https://icon.now.sh/email/2B2F3A/80" alt='' />
+                <img src="https://icon.now.sh/email/DCDFE5/80" alt='' />
                 <h2 className='reservation-link'>mcmsecretary@gmail.com</h2>
             </a>
         </Box>

@@ -16,16 +16,14 @@ class AssociateCard extends React.Component {
     }
 
     render() {
-        let cardStyle = {}
         let dropdownStyle = {}
         let dropdownImageStyle = {}
-        cardStyle.backgroundColor = this.state.contentVisible ? ('#BFBFCC') : ('#DCDFE5')
         dropdownStyle.maxHeight = this.state.contentVisible ? ('650px') : ('0')
         dropdownImageStyle.maxHeight = this.state.contentVisible ? ('0') : ('300px')
 
         return (
             <Box width={1} onClick={this.handleClick}>
-                <div className='associate-card' style={cardStyle}>
+                <div className={this.state.contentVisible ? 'associate-card-visible' : 'associate-card-hidden'}>
                     <div className='associate-image-dropdown' style={dropdownImageStyle}>
                         <Box className='associate-image' width={[0.8, 0.5]}>
                             <Image src={this.props.image} alt='' />

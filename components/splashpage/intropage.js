@@ -8,7 +8,7 @@ const quickLinks = [
     {
         name: "Calendar",
         icon: "https://icon.now.sh/event",
-        to: "/events/"
+        to: "/events/calendar"
     },
     {
         name: "O-Week",
@@ -18,12 +18,12 @@ const quickLinks = [
     {
         name: "Book a Room",
         icon: "https://icon.now.sh/event_note",
-        to: "/roomreservations/"
+        to: "/resources/roomreservations/"
     },
     {
-        name: "Contact",
-        icon: "https://icon.now.sh/question_answer",
-        to: "/contact/"
+        name: "Financial Inclusivity",
+        icon: "https://icon.now.sh/public",
+        to: "/about/financialinclusivity"
     }
 ]
 
@@ -32,7 +32,7 @@ const Intro = () => (
         <Box width={[0.95, 0.8]} className='yurt-graphic'>
             <Image src='../../static/YurtTrees.svg' />
         </Box>
-        <Title width={[300, 450]} title='Welcome to McMurtry'/>
+        <h1 className='welcome-title'>Welcome to McMurtry!</h1>
         <Flex justifyContent='center' flexWrap='wrap' flexDirection='row' >
             {
                 quickLinks.map(({ name, icon, href, to }) => (

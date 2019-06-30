@@ -18,14 +18,12 @@ class DivisionalAdvisor extends React.Component {
     };
 
     render() {
-        let cardStyle = {};
         let dropdownStyle = {};
-        cardStyle.backgroundColor = !this.state.closed ? ('#BFBFCC') : ('#DCDFE5')
         dropdownStyle.maxHeight = this.state.closed ? ('0') : ('1000px')
         return (
             <div>
                 <Box width={1}>
-                    <div className="advisor-card" onClick={this.handleClick} style={cardStyle}>
+                    <div className={this.state.closed ? "advisor-card-hidden" : "advisor-card-visible"} onClick={this.handleClick}>
                         <h2 className='advisor-name'>
                             {this.props.name}
                         </h2>

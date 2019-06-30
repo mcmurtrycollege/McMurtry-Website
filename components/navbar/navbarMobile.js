@@ -58,12 +58,14 @@ class Navbar extends React.Component {
 
         return (
             <div>
-                <img className="show-navbar" src='https://icon.now.sh/burger/2B2F3A/30' alt="Menu" onClick={this.toggleNavbar} />
-                <Box width={250} className='header-crest-mobile'>
-                    <Link href='/'>
-                        <Image src='../static/crest.svg' alt="" />
-                    </Link>
-                </Box>
+                <div className='fixed-mobile-header'>
+                    <img className="show-navbar" src='https://icon.now.sh/burger/515768/30' alt="Menu" onClick={this.toggleNavbar} />
+                    <Box width={0.8} className='header-crest-mobile'>
+                        <Link href='/'>
+                            <Image src='../static/crest.svg' alt="" />
+                        </Link>
+                    </Box>
+                </div>
                 <div className='mobile-navbar' style={hidden}>
                     <div className='main-menu'>
                         <img className='close-navbar' src="https://icon.now.sh/x/DCDFE5/25" alt="X" onClick={this.toggleNavbar} />

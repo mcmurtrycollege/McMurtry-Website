@@ -1,5 +1,116 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["styles"],{
 
+/***/ "./components/about/about/about.css":
+/*!******************************************!*\
+  !*** ./components/about/about/about.css ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin;
+    if (true) {
+      var injectCss = function injectCss(prev, href) {
+        var link = prev.cloneNode();
+        link.href = href;
+        link.onload = function() {
+          prev.parentNode.removeChild(prev);
+        };
+        prev.stale = true;
+        prev.parentNode.insertBefore(link, prev);
+      };
+      module.hot.dispose(function() {
+        window.__webpack_reload_css__ = true;
+      });
+      if (window.__webpack_reload_css__) {
+        module.hot.__webpack_reload_css__ = false;
+        console.log("[HMR] Reloading stylesheets...");
+        var prefix = document.location.protocol + '//' + document.location.host;
+        document
+          .querySelectorAll("link[href][rel=stylesheet]")
+          .forEach(function(link) {
+            if (!link.href.match(prefix) || link.stale) return;
+            injectCss(link, link.href.split("?")[0] + "?unix=1561867864923");
+          });
+      }
+    }
+  
+
+/***/ }),
+
+/***/ "./components/about/financial_inclusivity/financial_inclusivity.css":
+/*!**************************************************************************!*\
+  !*** ./components/about/financial_inclusivity/financial_inclusivity.css ***!
+  \**************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin;
+    if (true) {
+      var injectCss = function injectCss(prev, href) {
+        var link = prev.cloneNode();
+        link.href = href;
+        link.onload = function() {
+          prev.parentNode.removeChild(prev);
+        };
+        prev.stale = true;
+        prev.parentNode.insertBefore(link, prev);
+      };
+      module.hot.dispose(function() {
+        window.__webpack_reload_css__ = true;
+      });
+      if (window.__webpack_reload_css__) {
+        module.hot.__webpack_reload_css__ = false;
+        console.log("[HMR] Reloading stylesheets...");
+        var prefix = document.location.protocol + '//' + document.location.host;
+        document
+          .querySelectorAll("link[href][rel=stylesheet]")
+          .forEach(function(link) {
+            if (!link.href.match(prefix) || link.stale) return;
+            injectCss(link, link.href.split("?")[0] + "?unix=1561867524361");
+          });
+      }
+    }
+  
+
+/***/ }),
+
+/***/ "./components/general/contactcards.css":
+/*!*********************************************!*\
+  !*** ./components/general/contactcards.css ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin;
+    if (true) {
+      var injectCss = function injectCss(prev, href) {
+        var link = prev.cloneNode();
+        link.href = href;
+        link.onload = function() {
+          prev.parentNode.removeChild(prev);
+        };
+        prev.stale = true;
+        prev.parentNode.insertBefore(link, prev);
+      };
+      module.hot.dispose(function() {
+        window.__webpack_reload_css__ = true;
+      });
+      if (window.__webpack_reload_css__) {
+        module.hot.__webpack_reload_css__ = false;
+        console.log("[HMR] Reloading stylesheets...");
+        var prefix = document.location.protocol + '//' + document.location.host;
+        document
+          .querySelectorAll("link[href][rel=stylesheet]")
+          .forEach(function(link) {
+            if (!link.href.match(prefix) || link.stale) return;
+            injectCss(link, link.href.split("?")[0] + "?unix=1561866002513");
+          });
+      }
+    }
+  
+
+/***/ }),
+
 /***/ "./components/general/footer/footer.css":
 /*!**********************************************!*\
   !*** ./components/general/footer/footer.css ***!
@@ -29,7 +140,7 @@
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1561856009034");
+            injectCss(link, link.href.split("?")[0] + "?unix=1561865043822");
           });
       }
     }
@@ -66,7 +177,7 @@
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1561856596110");
+            injectCss(link, link.href.split("?")[0] + "?unix=1561862564355");
           });
       }
     }
@@ -103,7 +214,7 @@
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1561855694723");
+            injectCss(link, link.href.split("?")[0] + "?unix=1561862564392");
           });
       }
     }
@@ -140,7 +251,7 @@
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1561859654351");
+            injectCss(link, link.href.split("?")[0] + "?unix=1561867948422");
           });
       }
     }
@@ -177,7 +288,7 @@
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1561859388277");
+            injectCss(link, link.href.split("?")[0] + "?unix=1561867141761");
           });
       }
     }
@@ -185,10 +296,10 @@
 
 /***/ }),
 
-/***/ "./components/people/divisionaladvisors/divisionaladvisors.css":
-/*!*********************************************************************!*\
-  !*** ./components/people/divisionaladvisors/divisionaladvisors.css ***!
-  \*********************************************************************/
+/***/ "./components/people/court/court.css":
+/*!*******************************************!*\
+  !*** ./components/people/court/court.css ***!
+  \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -214,7 +325,44 @@
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1561859407703");
+            injectCss(link, link.href.split("?")[0] + "?unix=1561867874506");
+          });
+      }
+    }
+  
+
+/***/ }),
+
+/***/ "./components/people/mcministry/mcministry.css":
+/*!*****************************************************!*\
+  !*** ./components/people/mcministry/mcministry.css ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin;
+    if (true) {
+      var injectCss = function injectCss(prev, href) {
+        var link = prev.cloneNode();
+        link.href = href;
+        link.onload = function() {
+          prev.parentNode.removeChild(prev);
+        };
+        prev.stale = true;
+        prev.parentNode.insertBefore(link, prev);
+      };
+      module.hot.dispose(function() {
+        window.__webpack_reload_css__ = true;
+      });
+      if (window.__webpack_reload_css__) {
+        module.hot.__webpack_reload_css__ = false;
+        console.log("[HMR] Reloading stylesheets...");
+        var prefix = document.location.protocol + '//' + document.location.host;
+        document
+          .querySelectorAll("link[href][rel=stylesheet]")
+          .forEach(function(link) {
+            if (!link.href.match(prefix) || link.stale) return;
+            injectCss(link, link.href.split("?")[0] + "?unix=1561867886151");
           });
       }
     }
@@ -251,7 +399,7 @@
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1561858968846");
+            injectCss(link, link.href.split("?")[0] + "?unix=1561867882764");
           });
       }
     }
@@ -259,10 +407,10 @@
 
 /***/ }),
 
-/***/ "./components/resources/mis/mis.css":
-/*!******************************************!*\
-  !*** ./components/resources/mis/mis.css ***!
-  \******************************************/
+/***/ "./components/resources/roomreservations/roomreservations.css":
+/*!********************************************************************!*\
+  !*** ./components/resources/roomreservations/roomreservations.css ***!
+  \********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -288,7 +436,7 @@
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1561859654534");
+            injectCss(link, link.href.split("?")[0] + "?unix=1561867948458");
           });
       }
     }
@@ -325,7 +473,7 @@
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1561859581900");
+            injectCss(link, link.href.split("?")[0] + "?unix=1561867549492");
           });
       }
     }

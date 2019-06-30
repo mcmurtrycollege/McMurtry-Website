@@ -309,11 +309,11 @@ function (_React$Component) {
     key: "render",
     value: function render() {
       var style = this.state.permanent ? {
-        backgroundColor: "#2B2F3A"
+        backgroundColor: "#515768"
       } : {
         paddingTop: '15px',
         paddingBottom: '15px',
-        color: "#2B2F3A",
+        color: "#515768",
         backgroundColor: "#DCDFE5"
       };
       return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -575,29 +575,36 @@ function (_React$Component) {
           lineNumber: 60
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
-        className: "show-navbar",
-        src: "https://icon.now.sh/burger/2B2F3A/30",
-        alt: "Menu",
-        onClick: this.toggleNavbar,
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "fixed-mobile-header",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 61
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_9__["Box"], {
-        width: 250,
-        className: "header-crest-mobile",
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
+        className: "show-navbar",
+        src: "https://icon.now.sh/burger/515768/30",
+        alt: "Menu",
+        onClick: this.toggleNavbar,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 62
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_9__["Box"], {
+        width: 0.8,
+        className: "header-crest-mobile",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 63
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
         href: "/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 63
+          lineNumber: 64
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_9__["Image"], {
@@ -605,22 +612,22 @@ function (_React$Component) {
         alt: "",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 64
+          lineNumber: 65
         },
         __self: this
-      }))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+      })))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "mobile-navbar",
         style: hidden,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 67
+          lineNumber: 69
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "main-menu",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 68
+          lineNumber: 70
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
@@ -630,7 +637,7 @@ function (_React$Component) {
         onClick: this.toggleNavbar,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 69
+          lineNumber: 71
         },
         __self: this
       }), mainHeaders), menus));
@@ -15961,7 +15968,7 @@ var McTeamPage = function McTeamPage() {
 
 /***/ }),
 
-/***/ 27:
+/***/ 0:
 /*!*************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fpeople%2Fmcteam&absolutePagePath=C%3A%5CUsers%5Cnmeis%5Cgithub%5CMcMurtry-Website%5Cpages%5Cpeople%5Cmcteam.js ***!
   \*************************************************************************************************************************************************************/
@@ -15984,5 +15991,5 @@ module.exports = dll_af9878b9be933e0a57fb;
 
 /***/ })
 
-},[[27,"static/runtime/webpack.js","styles"]]]);
+},[[0,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=mcteam.js.map

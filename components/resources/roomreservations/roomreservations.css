@@ -1,24 +1,28 @@
 .room-reservations-page {
-    margin-top: 12%;
+    padding-top: 10%;
     margin-bottom: 5%;
 }
 
 .room-catagory {
-    /* border: 1px solid #2B2F3A; */
-    color: #2B2F3A;
+    color: #515768;
     padding: 30px;
-    margin-bottom: 3%;
+    margin-bottom: 1%;
     margin-left: auto;
     margin-right: auto;
 }
 
 .catagory-subheader {
     text-align: left;
+    background-color: #515768;
+    display: inline;
+    color: #DCDFE5;
+    padding: 5px 10px;
+    font-weight: normal;
 }
 
 .room-question {
     font-weight: normal;
-    color: #2B2F3A;
+    color: #515768;
     text-align: center;
     font-size: 1.8em;
 }
@@ -28,12 +32,34 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    border: 1px solid #2B2F3A;
+    background-color: #515768;
     transition: 0.2s ease-in-out;
+    position: relative;
+    z-index: 100;
+}
+
+.reservation-email-link a h2 {
+    color: #DCDFE5;
+}
+
+.reservation-email-link:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0;
+    width: 100%;
+    transition: 0.3s ease-in-out;
+    background-color: #87799C;
+    z-index: -1;
+}
+
+.reservation-email-link:hover:before {
+    height: 100%;
 }
 
 .reservation-email-link:hover {
-    background-color: #BFBFCC;
+    cursor: pointer;
 }
 
 .reservation-link {
@@ -41,7 +67,7 @@
     text-decoration: none;
     text-align: center;
     font-weight: normal;
-    color: #2B2F3A;
+    color: #515768;
 }
 
 .scheduler-container {
@@ -50,14 +76,14 @@
     justify-content: center;
 }
 
-@media screen and (min-width: 900px){
+@media screen and (min-width: 900px) {
     .scheduler {
         width: 80%;
         height: 500px;
     }
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 900px) {
     .scheduler {
         width: 90%;
         height: 500px;

@@ -1,42 +1,39 @@
-@media screen and (min-width: 900px){
-    .documents-page {
-        margin-top: 12%;
-        margin-bottom: 5%;
-    }
+.documents-page {
+    padding-top: 10%;
+    margin-bottom: 5%;
 }
 
 .active-doc {
-    border: solid #2B2F3A;
+    border: solid #515768;
     border-width: 0 0 2px 0;
     text-align: center;
-    color: #2B2F3A;
+    color: #515768;
     transition: border-color 0.3s ease-in-out;
 }
 
 .inactive-doc {
     border: solid #BFBFCC;
     border-width: 0 0 2px 0;
-    color: #2B2F3A;
-    text-align: center;        
+    color: #515768;
+    text-align: center;
     transition: border-color 0.3s ease-in-out;
 }
 
 .inactive-doc:hover {
-    border-color: #2B2F3A;
+    border-color: #515768;
 }
 
-@media screen and (min-width: 651px){
+@media screen and (min-width: 651px) {
     .active-doc, .inactive-doc {
         width: 120px;
         height: 75px;
     }
 }
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 650px) {
     .doc-key {
         font-size: 0.7em;
     }
-
     .active-doc, .inactive-doc {
         width: 70px;
         height: 50px;
@@ -57,11 +54,10 @@
     text-align: center;
     margin-top: 10%;
     margin-bottom: 10%;
-
 }
 
 .doc-link {
-    color: #2B2F3A;
+    color: #515768;
     background-color: #BFBFCC;
     padding: 15px;
 }

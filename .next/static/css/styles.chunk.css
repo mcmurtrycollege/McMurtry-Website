@@ -58,7 +58,7 @@
 .dropdown-subheaders a {
     display: block;
     padding: 10px 10px 10px 20px;
-    background-color: #5C6477;
+    background-color: #515768;
     transition: 0.2s ease-in-out;
     color: #DCDFE5;
     text-decoration: none;
@@ -81,14 +81,22 @@
     position: fixed;
     width: 100%;
     height: 100vh;
-    background-color: #2B2F3A;
+    background-color: #515768;
     top: 0;
     transition: 0.3s ease-in-out;
+    z-index: 999;
+}
+
+.fixed-mobile-header {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    background-color: #DCDFE5;
+    z-index: 600;
 }
 
 .header-crest-mobile {
-    position: fixed;
-    margin-left: 20%;
+    /* margin-left: 20%; */
 }  
 
 .main-header {
@@ -104,7 +112,6 @@
 
 .show-navbar {
     margin: 3%;
-    position: fixed;
 }
 
 .close-navbar {
@@ -142,16 +149,16 @@
     margin: 5% auto auto 10%;
     text-decoration: none;
     font-size: 1.4em;
-    color: #2B2F3A;
+    color: #515768;
 }
 
 .subheader-item {
     color: #DCDFE5;
     margin-top: 10%;
+    margin-left: 10%;
     text-decoration: none;
     font-size: 1.4em;
-    color: #2B2F3A;
-    text-align: center;
+    color: #515768;
 }
 
 .subheader-item:nth-of-type(1) {
@@ -173,8 +180,8 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    color: #2B2F3A;
-    background-color: #87799C;
+    color: #515768;
+    background-color: #BFBFCC;
     padding: 5px 0 40px 0;
 }
 
@@ -183,36 +190,33 @@
     text-align: center;
     font-size: 0.6em;
 }
-@media screen and (min-width: 900px){
-    .mcteam-page {
-        margin-top: 12%;
-        margin-bottom: 5%;
-    }
+.mcteam-page {
+    padding-top: 10%;
+    margin-bottom: 5%;
 }
 
 .active-key, .inactive-key {
     border: solid;
     border-width: 0 0 2px 0;
     text-align: center;
-    color: #2B2F3A;
+    color: #515768;
     transition: 0.3s ease-in-out;
 }
 
 .active-key {
-    border-color: #2B2F3A;
+    border-color: #515768;
 }
 
 .inactive-key {
     border-color: #BFBFCC;
 }
 
-@media screen and (min-width: 650px){
+@media screen and (min-width: 650px) {
     .mcteam-key {
         font-size: 1em;
         padding-right: 5px;
         padding-left: 5px;
     }
-
     .inactive-key, .active-key {
         max-width: 120px;
         height: 75px;
@@ -220,13 +224,12 @@
     }
 }
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 650px) {
     .mcteam-key {
         font-size: 0.6em;
         padding-right: 10px;
         padding-left: 10px;
     }
-
     .inactive-key, .active-key {
         max-width: 70px;
         height: 50px;
@@ -234,19 +237,31 @@
 }
 
 .inactive-key:hover {
-    border-color: #2B2F3A;
+    border-color: #515768;
 }
 
 .position-content {
-    color: #2B2F3A;
+    color: #515768;
     margin-top: 30px;
-    padding:  20px 50px;
+    padding: 20px 50px;
 }
 
 .mcteam-name {
     text-align: center;
     font-weight: normal;
     font-size: 1.8em;
+}
+.mcministry-page {
+    padding-top: 10%;
+    margin-bottom: 5%;
+}
+
+.division-title {
+    font-size: 2em;
+    text-align: center;
+    font-weight: normal;
+    padding: 8px;
+    color: #515768;
 }
 .title-container {
     
@@ -259,6 +274,53 @@
     background-color: #87799C;
     padding: 5px 10px;
     text-align: center;
+}
+.fin-inc-page {
+    padding-top: 8%;
+    margin-bottom: 5%;
+}
+
+.fin-inc-content {
+    margin-left: auto;
+    margin-right: auto;
+    color: #515768;
+}
+
+.fin-inc-link {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    background: #515768;
+    margin-top: 7%;
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 100;
+}
+
+.fin-inc-link:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0;
+    width: 100%;
+    transition: 0.3s ease-in-out;
+    background-color: #87799C;
+    z-index: -1;
+}
+
+.fin-inc-link:hover:before {
+    height: 100%;
+}
+
+.fin-inc-link p {
+    color: #DCDFE5;
+}
+
+.fin-inc-link:hover {
+    cursor: pointer;
 }
 .intro-page {
     padding-top: 10%;
@@ -278,12 +340,10 @@
     text-align: center;
 }
 
-.quick-links-title {
-    margin-top: 4%;
-    border: 1px solid #2B2F3A;
-    color: #2B2F3A;
+.welcome-title {
+    color: #87799C;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 3em;
     font-weight: normal;
 }
 
@@ -295,17 +355,33 @@
 
 .quick-link {
     color: #DCDFE5;
+    position: relative;
     padding: 15px;
     text-align: center;
-    background-color: #2B2F3A;
-    height: 130px;
+    background-color: #515768;
+    height: 150px;
     transition: 0.3s ease-in-out;
-    opacity: 0.7;
+    z-index: 100;
+}
+
+.quick-link:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: #87799C;
+    z-index: -1;
+    transition: 0.3s ease-in-out;
 }
 
 .quick-link:hover {
     cursor: pointer;
-    opacity: 1;
+}
+
+.quick-link:hover:before {
+    height: 100%;
 }
 
 .quick-link-name {
@@ -335,168 +411,180 @@
         display: none;
     }
 }
-.divisional-advisors-page  {
-    margin-top: 12%;
+.about-page {
+    padding-top: 10%;
     margin-bottom: 5%;
 }
 
-.advisor-column {
-    margin-left: 0.8%;
-    margin-right: 0.8%;
-    margin-top: 2%;
+.about-text {
+    padding: 20px;
+    color: #515768;
+}
+.position-card {
+    margin: 10px;
 }
 
-.advisor-card {
-    margin-top: 2%;
-    margin-bottom: 2%;
+.contact-card-content {
+    color: #515768;
+    /* border: 1px solid #2B2F3A; */
+    border: 1px solid #DCDFE5;
+    /* border: 1px solid #BFBFCC; */
+    box-shadow: 0 0 5px 2px #BFBFCC;
+    padding: 15px;
     transition: 0.2s ease-in-out;
-    margin-left: auto;
-    margin-right: auto;
-    color: #2B2F3A;
-    border: 1px solid #BFBFCC;
 }
 
-.divisional-advisor-dropdown {
-    overflow: hidden;
-    transition: 0.6s ease-in-out;
+.contact-card-content:hover {
+    /* background-color: #BFBFCC; */
+    border-color: #515768;
 }
 
-.advisor-card:hover {
-    border-color: #2B2F3A;
-}
-
-.advisor-name {
-    font-size: 1.75em;
+.position {
     font-weight: normal;
-    text-align: center;
+    font-size: 0.9em;
 }
 
-.advisor-school {
+.name {
     font-size: 1.25em;
     font-weight: normal;
-    text-align: center;
 }
 
-.advisor-bio {
-    text-align: left;
-    padding: 20px;
-}
-.mis-page {
-    margin-top: 12%;
-    margin-bottom: 5%;
-}
-
-.subtitle {
-    margin-top: 3%;
-    margin-bottom: 2%;
-    background-color: #2B2F3A;
-    text-align: center;
-    color: #DCDFE5;
+.link {
+    text-decoration: none;
+    color: #515768;
     font-weight: normal;
 }
 
-.subtitle h2 {
+.year {
     font-weight: normal;
-    padding: 5px 10px;
+    font-size: 0.8em;
 }
 
-.mis-paragraphs {
-    padding: 20px;
-    color: #2B2F3A;
-}
-
-.schedule-box {
-    margin-top: 2%;
-    margin-bottom: 4%;
-    /* background-color: #BFBFCC; */
-    padding: 1%;
-}
-
-.schedule {
-    border: 1px solid #2B2F3A;
-    margin: 1%;
-}
-
-.schedule-item {
-    text-align: center;
-    color: #2B2F3A;
-    font-size: 1em;
-}
-
-.mis-contact-card {
-    margin: 2%;
-}
-
-.mis-info {
-    padding: 30px;
-    background-color: none;
-    text-align: center;
-    background-color: #2B2F3A;
-    margin: 2%;
-    opacity: 0.7;
+.contact-email {
+    font-size: 0.8em;
+    font-weight: normal;
     transition: 0.3s ease-in-out;
 }
 
-.mis-info:hover {
-    opacity: 1;
-    cursor: pointer;
+.contact-email:hover {
+    text-decoration: underline;
 }
 
-.mis-link {
+.contact-phone {
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.major {
+    font-size: 0.9em;
+    font-weight: normal;
+}
+
+.subjects {
+    font-size: 0.9em;
+    font-weight: normal;
+}
+
+.room {
+    font-weight: normal;
+    font-size: 1em;
+}
+@media screen and (min-width: 900px){
+    .court-page {
+        margin-top: 12%;
+        margin-bottom: 5%;
+    }
+}
+.room-reservations-page {
+    padding-top: 10%;
+    margin-bottom: 5%;
+}
+
+.room-catagory {
+    color: #515768;
+    padding: 30px;
+    margin-bottom: 1%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.catagory-subheader {
+    text-align: left;
+    background-color: #515768;
+    display: inline;
+    color: #DCDFE5;
+    padding: 5px 10px;
+    font-weight: normal;
+}
+
+.room-question {
+    font-weight: normal;
+    color: #515768;
     text-align: center;
-    font-size: 1.4em;
+    font-size: 1.8em;
+}
+
+.reservation-email-link {
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #515768;
+    transition: 0.2s ease-in-out;
+    position: relative;
+    z-index: 100;
+}
+
+.reservation-email-link a h2 {
     color: #DCDFE5;
 }
 
-.mis-contact {
-    border: 1px solid #DCDFE5;
-    box-shadow: 0 0 5px 2px #BFBFCC;
-    padding: 20px;
-    height: 250px;
-    transition: 0.2s ease-in-out;
+.reservation-email-link:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0;
+    width: 100%;
+    transition: 0.3s ease-in-out;
+    background-color: #87799C;
+    z-index: -1;
 }
 
-.mis-contact:hover {
-    /* background-color: #BFBFCC; */
-    border-color: #2B2F3A;
+.reservation-email-link:hover:before {
+    height: 100%;
 }
 
-.mis-name {
-    color: #2B2F3A;
+.reservation-email-link:hover {
+    cursor: pointer;
+}
+
+.reservation-link {
+    font-size: 1.2em;
+    text-decoration: none;
+    text-align: center;
     font-weight: normal;
+    color: #515768;
 }
 
-.mis-major {
-    color: #2B2F3A;
-    font-size: 0.9em;
-    font-weight: normal;
+.scheduler-container {
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
 }
 
-.mis-college {
-    color: #2B2F3A;
-    font-size: 0.9em;
-    font-weight: normal;
+@media screen and (min-width: 900px) {
+    .scheduler {
+        width: 80%;
+        height: 500px;
+    }
 }
 
-.mis-email {
-    color: #2B2F3A;
-    font-size: 1em;
-    transition: transform 0.3s ease-in-out;
-    font-weight: normal;
-}
-
-.mis-email:hover {
-    transform: scale(1.07) translate(15px, 0);
-}
-
-.mis-askMeHeader {
-    font-size: 0.8em;
-    color: #2B2F3A;
-}
-
-.mis-askMeAbout {
-    color: #2B2F3A;
-    font-size: 0.8em;
+@media screen and (max-width: 900px) {
+    .scheduler {
+        width: 90%;
+        height: 500px;
+    }
 }
 html {
     margin: 0;

@@ -69,9 +69,6 @@ export default class Committees extends React.Component {
                         <h1 className='division-title'>{divisions[this.state.division][this.state.committee].name}</h1>
                         {divisions[this.state.division][this.state.committee].description}
                     </Box>
-                    <Box width={180} className='members-title' ml='auto' mr='auto'>
-                        <h1 className='members-title-content'>Members</h1>
-                    </Box>
                     <Cards content={divisions[this.state.division][this.state.committee].members} height={110} width={240} />
                 </div>
             </div>

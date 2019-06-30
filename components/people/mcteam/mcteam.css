@@ -1,33 +1,30 @@
-@media screen and (min-width: 900px){
-    .mcteam-page {
-        margin-top: 12%;
-        margin-bottom: 5%;
-    }
+.mcteam-page {
+    padding-top: 10%;
+    margin-bottom: 5%;
 }
 
 .active-key, .inactive-key {
     border: solid;
     border-width: 0 0 2px 0;
     text-align: center;
-    color: #2B2F3A;
+    color: #515768;
     transition: 0.3s ease-in-out;
 }
 
 .active-key {
-    border-color: #2B2F3A;
+    border-color: #515768;
 }
 
 .inactive-key {
     border-color: #BFBFCC;
 }
 
-@media screen and (min-width: 650px){
+@media screen and (min-width: 650px) {
     .mcteam-key {
         font-size: 1em;
         padding-right: 5px;
         padding-left: 5px;
     }
-
     .inactive-key, .active-key {
         max-width: 120px;
         height: 75px;
@@ -35,13 +32,12 @@
     }
 }
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 650px) {
     .mcteam-key {
         font-size: 0.6em;
         padding-right: 10px;
         padding-left: 10px;
     }
-
     .inactive-key, .active-key {
         max-width: 70px;
         height: 50px;
@@ -49,13 +45,13 @@
 }
 
 .inactive-key:hover {
-    border-color: #2B2F3A;
+    border-color: #515768;
 }
 
 .position-content {
-    color: #2B2F3A;
+    color: #515768;
     margin-top: 30px;
-    padding:  20px 50px;
+    padding: 20px 50px;
 }
 
 .mcteam-name {

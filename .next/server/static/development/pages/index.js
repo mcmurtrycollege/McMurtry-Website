@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 8);
+/******/ 	return __webpack_require__(__webpack_require__.s = 6);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -446,11 +446,11 @@ function (_React$Component) {
     key: "render",
     value: function render() {
       var style = this.state.permanent ? {
-        backgroundColor: "#2B2F3A"
+        backgroundColor: "#515768"
       } : {
         paddingTop: '15px',
         paddingBottom: '15px',
-        color: "#2B2F3A",
+        color: "#515768",
         backgroundColor: "#DCDFE5"
       };
       return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -723,29 +723,36 @@ function (_React$Component) {
           lineNumber: 60
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
-        className: "show-navbar",
-        src: "https://icon.now.sh/burger/2B2F3A/30",
-        alt: "Menu",
-        onClick: this.toggleNavbar,
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "fixed-mobile-header",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 61
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_9__["Box"], {
-        width: 250,
-        className: "header-crest-mobile",
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
+        className: "show-navbar",
+        src: "https://icon.now.sh/burger/515768/30",
+        alt: "Menu",
+        onClick: this.toggleNavbar,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 62
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_9__["Box"], {
+        width: 0.8,
+        className: "header-crest-mobile",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 63
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
         href: "/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 63
+          lineNumber: 64
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_9__["Image"], {
@@ -753,22 +760,22 @@ function (_React$Component) {
         alt: "",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 64
+          lineNumber: 65
         },
         __self: this
-      }))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+      })))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "mobile-navbar",
         style: hidden,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 67
+          lineNumber: 69
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "main-menu",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 68
+          lineNumber: 70
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
@@ -778,7 +785,7 @@ function (_React$Component) {
         onClick: this.toggleNavbar,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 69
+          lineNumber: 71
         },
         __self: this
       }), mainHeaders), menus));
@@ -830,7 +837,7 @@ var _jsxFileName = "C:\\Users\\nmeis\\github\\McMurtry-Website\\components\\spla
 var quickLinks = [{
   name: "Calendar",
   icon: "https://icon.now.sh/event",
-  to: "/events/"
+  to: "/events/calendar"
 }, {
   name: "O-Week",
   icon: "https://icon.now.sh/people",
@@ -838,11 +845,11 @@ var quickLinks = [{
 }, {
   name: "Book a Room",
   icon: "https://icon.now.sh/event_note",
-  to: "/roomreservations/"
+  to: "/resources/roomreservations/"
 }, {
-  name: "Contact",
-  icon: "https://icon.now.sh/question_answer",
-  to: "/contact/"
+  name: "Financial Inclusivity",
+  icon: "https://icon.now.sh/public",
+  to: "/about/financialinclusivity"
 }];
 
 var Intro = function Intro() {
@@ -868,15 +875,14 @@ var Intro = function Intro() {
       lineNumber: 33
     },
     __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_general_title__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    width: [300, 450],
-    title: "Welcome to McMurtry",
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "welcome-title",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 35
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
+  }, "Welcome to McMurtry!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
     justifyContent: "center",
     flexWrap: "wrap",
     flexDirection: "row",
@@ -1835,7 +1841,7 @@ var Home = function Home() {
 
 /***/ }),
 
-/***/ 8:
+/***/ 6:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

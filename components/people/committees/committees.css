@@ -1,21 +1,19 @@
-@media screen and (min-width: 900px){
-    .committee-page {
-        margin-top: 12%;
-        margin-bottom: 5%;
-    }
+.committee-page {
+    padding-top: 10%;
+    margin-bottom: 5%;
 }
 
 .inactive-division, .active-division {
     border: solid;
     border-width: 0 0 2px 0;
-    color: #2B2F3A;
+    color: #515768;
     padding: 5px;
     text-align: center;
     transition: border-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 .active-division {
-    border-color: #2B2F3A;
+    border-color: #515768;
 }
 
 .inactive-division {
@@ -23,13 +21,13 @@
 }
 
 .inactive-division:hover {
-    border-color: #2B2F3A;
+    border-color: #515768;
 }
 
 .inactive-committee, .active-committee {
     border: solid;
     border-width: 0 0 2px 0;
-    color: #2B2F3A;
+    color: #515768;
     padding: 5px;
     text-align: center;
     transition: border-color 0.3s ease-in-out;
@@ -40,20 +38,19 @@
 }
 
 .active-committee {
-    border-color: #2B2F3A;
+    border-color: #515768;
 }
 
 .inactive-committee:hover {
-    border-color: #2B2F3A;
+    border-color: #515768;
 }
 
-@media screen and (max-width: 670px){
-    .division-key  {
+@media screen and (max-width: 670px) {
+    .division-key {
         font-size: 0.6em;
         max-width: 90px;
     }
-    
-    .committee-key  {
+    .committee-key {
         font-size: 0.5em;
         max-width: 50px;
         height: 20px;
@@ -61,14 +58,13 @@
     }
 }
 
-@media screen and (min-width: 671px){
-    .division-key  {
+@media screen and (min-width: 671px) {
+    .division-key {
         font-size: 1em;
         max-width: 120px;
         padding: 0px 20px;
     }
-    
-    .committee-key  {
+    .committee-key {
         font-size: 0.7em;
         max-width: 75px;
         height: 30px;
@@ -81,31 +77,16 @@
     text-align: center;
     font-weight: normal;
     padding: 8px;
-    color: #2B2F3A;
+    color: #515768;
 }
 
 .committee-description {
-    border: 1px solid #2B2F3A;
+    /* border: 1px solid #515768; */
     margin-top: 30px;
     padding: 5px 30px 30px 30px;
 }
 
-.members-title {
-    background-color: #2B2F3A;
-    color: #DCDFE5;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    padding: 5px;
-}
-
-.members-title-content {
-    font-weight: normal;
-    text-align: center;
-    margin-top: 4px;
-    margin-bottom: 4px;
-}
-
-@media screen and (max-width: 899px){
+@media screen and (max-width: 899px) {
     .division-title {
         margin-top: 40px;
     }

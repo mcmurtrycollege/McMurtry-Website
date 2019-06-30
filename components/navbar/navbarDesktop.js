@@ -14,7 +14,7 @@ class NavbarDesktop extends React.Component {
     }
 
     handleScroll() {
-        this.setState({permanent: (window.scrollY > 0)})
+        this.setState({ permanent: (window.scrollY > 0) })
     }
 
     componentDidMount() {
@@ -26,33 +26,34 @@ class NavbarDesktop extends React.Component {
     }
 
     render() {
-        let style = this.state.permanent ? {backgroundColor: "#515768"} : {paddingTop: '15px', paddingBottom: '15px', color: "#515768", backgroundColor: "#DCDFE5"}
+        let style = this.state.permanent ? { backgroundColor: "#515768" } : { paddingTop: '15px', paddingBottom: '15px', color: "#515768", backgroundColor: "#DCDFE5" }
         return (
             <div className='navbar-wrapper' style={style}>
-                <Box width={300} className='header-crest'>
-                    <Link href='/'>
-                        <Image src='../static/crest.svg' alt="" />
-                    </Link>
-                </Box>
+                <Link href='/'>
+                    <div className='header-crest'>
+                        <Image src='../static/logo.svg' alt="" />
+                        <p>McMurtry College</p>
+                    </div>
+                </Link>
                 <div className='navbar-catagories'>
                     {
-                    navbar_headers.map(({ name, subheaders }) => (
-                        <div className='navbar-category' key={name}>
-                            <button className='navbar-dropdown-opener'>
-                                {name}
-                            </button>
-                            <div className='dropdown-subheaders'>
-                                {
-                                    subheaders.map(({ name, to }) => (
-                                        <Link href={to} key={name}><a>{name}</a></Link>
-                                    ))
-                                }
+                        navbar_headers.map(({ name, subheaders }) => (
+                            <div className='navbar-category' key={name}>
+                                <button className='navbar-dropdown-opener'>
+                                    {name}
+                                </button>
+                                <div className='dropdown-subheaders'>
+                                    {
+                                        subheaders.map(({ name, to }) => (
+                                            <Link href={to} key={name}><a>{name}</a></Link>
+                                        ))
+                                    }
+                                </div>
                             </div>
-                        </div>
-                    ))
-                }
+                        ))
+                    }
                 </div>
-                
+
             </div>
         )
     }

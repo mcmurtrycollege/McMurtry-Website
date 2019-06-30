@@ -177,8 +177,8 @@ var Footer = function Footer() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-    src: "../static/McmCrest.svg",
-    alt: "McMurtry Crest",
+    src: "../static/crest.svg",
+    alt: "McMurtry College",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
@@ -463,34 +463,39 @@ function (_React$Component) {
           lineNumber: 31
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_8__["Box"], {
-        width: 300,
-        className: "header-crest",
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        href: "/",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 32
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
-        href: "/",
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "header-crest",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 33
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_8__["Image"], {
-        src: "../static/crest.svg",
+        src: "../static/logo.svg",
         alt: "",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 34
         },
         __self: this
-      }))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35
+        },
+        __self: this
+      }, "McMurtry College"))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "navbar-catagories",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 37
+          lineNumber: 38
         },
         __self: this
       }, _navbar_json__WEBPACK_IMPORTED_MODULE_9__["navbar_headers"].map(function (_ref) {
@@ -501,21 +506,21 @@ function (_React$Component) {
           key: name,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 40
+            lineNumber: 41
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("button", {
           className: "navbar-dropdown-opener",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 41
+            lineNumber: 42
           },
           __self: this
         }, name), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
           className: "dropdown-subheaders",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 44
+            lineNumber: 45
           },
           __self: this
         }, subheaders.map(function (_ref2) {
@@ -526,13 +531,13 @@ function (_React$Component) {
             key: name,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 47
+              lineNumber: 48
             },
             __self: this
           }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 47
+              lineNumber: 48
             },
             __self: this
           }, name));
@@ -731,42 +736,47 @@ function (_React$Component) {
           lineNumber: 62
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_9__["Box"], {
-        width: 0.8,
-        className: "header-crest-mobile",
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        href: "/",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 63
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
-        href: "/",
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "header-crest-mobile",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 64
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_9__["Image"], {
-        src: "../static/crest.svg",
+        src: "../static/logo.svg",
         alt: "",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 65
         },
         __self: this
-      })))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 66
+        },
+        __self: this
+      }, "McMurtry College")))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "mobile-navbar",
         style: hidden,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 69
+          lineNumber: 70
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "main-menu",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 70
+          lineNumber: 71
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
@@ -776,7 +786,7 @@ function (_React$Component) {
         onClick: this.toggleNavbar,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 71
+          lineNumber: 72
         },
         __self: this
       }), mainHeaders), menus));
@@ -15884,7 +15894,7 @@ var FinancialInclusivtyPage = function FinancialInclusivtyPage() {
 
 /***/ }),
 
-/***/ 24:
+/***/ 9:
 /*!***************************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fabout%2Ffinancialinclusivity&absolutePagePath=C%3A%5CUsers%5Cnmeis%5Cgithub%5CMcMurtry-Website%5Cpages%5Cabout%5Cfinancialinclusivity.js ***!
   \***************************************************************************************************************************************************************************************/
@@ -15907,5 +15917,5 @@ module.exports = dll_af9878b9be933e0a57fb;
 
 /***/ })
 
-},[[24,"static/runtime/webpack.js","styles"]]]);
+},[[9,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=financialinclusivity.js.map

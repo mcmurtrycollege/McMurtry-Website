@@ -11,6 +11,18 @@
 .header-crest {
     float: left;
     margin: 0 20px;
+    display: flex; 
+    flex-direction: row;
+    font-size: 1.7em;
+}
+
+.header-crest p {
+    margin: 13px 0 10px 10px;
+    color: #87799C;
+}
+
+.header-crest img {
+    width: 40px;
 }
 
 .header-crest:hover {

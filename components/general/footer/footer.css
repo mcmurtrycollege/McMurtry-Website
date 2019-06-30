@@ -1,0 +1,14 @@
+.footer-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: #2B2F3A;
+    background-color: #87799C;
+    padding: 5px 0 40px 0;
+}
+
+.footer-item {
+    margin: 4px;
+    text-align: center;
+    font-size: 0.6em;
+}

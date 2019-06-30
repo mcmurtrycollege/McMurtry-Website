@@ -1,0 +1,65 @@
+.room-reservations-page {
+    margin-top: 12%;
+    margin-bottom: 5%;
+}
+
+.room-catagory {
+    /* border: 1px solid #2B2F3A; */
+    color: #2B2F3A;
+    padding: 30px;
+    margin-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.catagory-subheader {
+    text-align: left;
+}
+
+.room-question {
+    font-weight: normal;
+    color: #2B2F3A;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.reservation-email-link {
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 1px solid #2B2F3A;
+    transition: 0.2s ease-in-out;
+}
+
+.reservation-email-link:hover {
+    background-color: #BFBFCC;
+}
+
+.reservation-link {
+    font-size: 1.2em;
+    text-decoration: none;
+    text-align: center;
+    font-weight: normal;
+    color: #2B2F3A;
+}
+
+.scheduler-container {
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 900px){
+    .scheduler {
+        width: 80%;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .scheduler {
+        width: 90%;
+        height: 500px;
+    }
+}

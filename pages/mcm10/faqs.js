@@ -1,7 +1,7 @@
-import Header from '../../components/header';
+import Header from '../../components/general/header';
 import Page from '../../components/10/faqs/faqs';
 
-import '../page.css'
+import '../../components/general/page.css';
 
 const FAQS = () => (
     <div>

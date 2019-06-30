@@ -1,5 +1,6 @@
 import React from 'react';
 import { Box, Flex, Image } from 'rebass';
+import Title from '../general/title';
 import Link from 'next/link';
 import './intropage.css';
 
@@ -31,9 +32,7 @@ const Intro = () => (
         <Box width={[0.95, 0.8]} className='yurt-graphic'>
             <Image src='../../static/YurtTrees.svg' />
         </Box>
-        <Box className='quick-links-title' width={[0.7, 0.35]} ml='auto' mr='auto'>
-            <h2 style={{ margin: '10px', fontWeight: 'normal' }}>Welcome to McMurtry!</h2>
-        </Box>
+        <Title width={[300, 450]} title='Welcome to McMurtry'/>
         <Flex justifyContent='center' flexWrap='wrap' flexDirection='row' >
             {
                 quickLinks.map(({ name, icon, href, to }) => (
@@ -42,8 +41,8 @@ const Intro = () => (
                         <Box className='quick-link-container' width={[130, 220]} key={`${name}`}>
                             <Link href={to}>
                                 <div className='quick-link'>
-                                    <img src={`${icon}/2B2F3A/70`} alt='' className='intro-link-img-large' />
-                                    <img src={`${icon}/2B2F3A/45`} alt='' className='intro-link-img-small' />
+                                    <img src={`${icon}/DCDFE5/70`} alt='' className='intro-link-img-large' />
+                                    <img src={`${icon}/DCDFE5/45`} alt='' className='intro-link-img-small' />
                                     <h2 className='quick-link-name'>{name}</h2>
                                 </div>
                             </Link>
@@ -54,8 +53,8 @@ const Intro = () => (
                             <Box className='quick-link-container' width={[130, 220]} key={`${name}`}>
                                 <a href={href} style={{ textDecoration: 'none' }} target="_blank" rel="noopener noreferrer">
                                     <div className='quick-link'>
-                                        <img src={`${icon}/2B2F3A/70`} alt='' className='intro-link-img-large' />
-                                        <img src={`${icon}/2B2F3A/45`} alt='' className='intro-link-img-small' />
+                                        <img src={`${icon}/DCDFE5/70`} alt='' className='intro-link-img-large' />
+                                        <img src={`${icon}/DCDFE5/45`} alt='' className='intro-link-img-small' />
                                         <h2 className='quick-link-name'>{name}</h2>
                                     </div>
                                 </a>

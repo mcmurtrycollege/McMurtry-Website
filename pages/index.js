@@ -1,14 +1,15 @@
-import Header from '../components/header'
-import Navbar from '../components/navbar/navbar'
-import Footer from '../components/footer/footer'
+import Header from '../components/general/header';
+import Navbar from '../components/navbar/navbarDesktop';
+import NavbarMobile from '../components/navbar/navbarMobile';
+import Footer from '../components/general/footer/footer';
 import Intro from '../components/splashpage/intropage'
-
-import './page.css'
+import '../components/general/page.css'
 
 const Home = () => (
     <div className='page'>
         <Header />
         <Navbar />
+        <NavbarMobile />
         <Intro />
         <Footer />
     </div>

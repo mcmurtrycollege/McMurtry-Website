@@ -1,6 +1,6 @@
-import Header from '../../components/header';
+import Header from '../../components/general/header';
 import Page from '../../components/10/sponsor/sponsor';
-import '../page.css'
+import '../../components/general/page.css';
 
 const Sponsor = () => (
     <div>

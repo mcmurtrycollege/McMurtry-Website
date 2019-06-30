@@ -26,7 +26,7 @@ class NavbarDesktop extends React.Component {
     }
 
     render() {
-        let style = this.state.permanent ? {backgroundColor: "#2B2F3A"} : {paddingTop: '15px', paddingBottom: '15px', color: "#2B2F3A", backgroundColor: "#BFBFCC", opacit: '1'}
+        let style = this.state.permanent ? {backgroundColor: "#2B2F3A"} : {paddingTop: '15px', paddingBottom: '15px', color: "#2B2F3A", backgroundColor: "#DCDFE5"}
         return (
             <div className='navbar-wrapper' style={style}>
                 <Box width={300} className='header-crest'>
@@ -34,7 +34,8 @@ class NavbarDesktop extends React.Component {
                         <Image src='../static/crest.svg' alt="" />
                     </Link>
                 </Box>
-                {
+                <div className='navbar-catagories'>
+                    {
                     navbar_headers.map(({ name, subheaders }) => (
                         <div className='navbar-category' key={name}>
                             <button className='navbar-dropdown-opener'>
@@ -50,8 +51,9 @@ class NavbarDesktop extends React.Component {
                         </div>
                     ))
                 }
+                </div>
+                
             </div>
-
         )
     }
 }

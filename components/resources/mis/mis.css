@@ -1,0 +1,117 @@
+.mis-page {
+    margin-top: 12%;
+    margin-bottom: 5%;
+}
+
+.subtitle {
+    margin-top: 3%;
+    margin-bottom: 2%;
+    background-color: #2B2F3A;
+    text-align: center;
+    color: #DCDFE5;
+    font-weight: normal;
+}
+
+.subtitle h2 {
+    font-weight: normal;
+    padding: 5px 10px;
+}
+
+.mis-paragraphs {
+    padding: 20px;
+    color: #2B2F3A;
+}
+
+.schedule-box {
+    margin-top: 2%;
+    margin-bottom: 4%;
+    /* background-color: #BFBFCC; */
+    padding: 1%;
+}
+
+.schedule {
+    border: 1px solid #2B2F3A;
+    margin: 1%;
+}
+
+.schedule-item {
+    text-align: center;
+    color: #2B2F3A;
+    font-size: 1em;
+}
+
+.mis-contact-card {
+    margin: 2%;
+}
+
+.mis-info {
+    padding: 30px;
+    background-color: none;
+    text-align: center;
+    background-color: #2B2F3A;
+    margin: 2%;
+    opacity: 0.7;
+    transition: 0.3s ease-in-out;
+}
+
+.mis-info:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.mis-link {
+    text-align: center;
+    font-size: 1.4em;
+    color: #DCDFE5;
+}
+
+.mis-contact {
+    border: 1px solid #DCDFE5;
+    box-shadow: 0 0 5px 2px #BFBFCC;
+    padding: 20px;
+    height: 250px;
+    transition: 0.2s ease-in-out;
+}
+
+.mis-contact:hover {
+    /* background-color: #BFBFCC; */
+    border-color: #2B2F3A;
+}
+
+.mis-name {
+    color: #2B2F3A;
+    font-weight: normal;
+}
+
+.mis-major {
+    color: #2B2F3A;
+    font-size: 0.9em;
+    font-weight: normal;
+}
+
+.mis-college {
+    color: #2B2F3A;
+    font-size: 0.9em;
+    font-weight: normal;
+}
+
+.mis-email {
+    color: #2B2F3A;
+    font-size: 1em;
+    transition: transform 0.3s ease-in-out;
+    font-weight: normal;
+}
+
+.mis-email:hover {
+    transform: scale(1.07) translate(15px, 0);
+}
+
+.mis-askMeHeader {
+    font-size: 0.8em;
+    color: #2B2F3A;
+}
+
+.mis-askMeAbout {
+    color: #2B2F3A;
+    font-size: 0.8em;
+}

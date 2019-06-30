@@ -4,67 +4,72 @@ import './navbarMobile.css';
 import { Box, Image } from 'rebass';
 import { navbar_headers } from './navbar.json'
 
-class MobileDropdown extends React.Component {
-    constructor(props) {
-        super(props)
-        this.state = {
-            visible: false
-        }
-        this.handleClick = this.handleClick.bind(this);
-    }
-
-    handleClick() {
-        this.setState({ visible: !this.state.visible })
-    }
-
-    render() {
-        return (
-            <div>
-                <div className='mobile-nav-header'>
-                    {this.props.name}
-                </div>
-                <div className='mobile-navbar-subheaders'>
-                    {
-                        this.props.subheaders.map(({ name, to }) => (
-                            <Link href={to} key={name}>
-                                <div className='mobile-nav-subheader'>{name}</div>
-                            </Link>
-                        ))
-                    }
-                </div>
-
-            </div>
-        )
-    }
-}
-
 class Navbar extends React.Component {
     constructor(props) {
-        super(props)
+        super(props);
         this.state = {
-            hidden: false
+            hidden: true,
+            subheader: null
         }
-        this.toggleNavbar = this.toggleNavbar.bind(this)
+        this.toggleNavbar = this.toggleNavbar.bind(this);
+        this.showSubheader = this.showSubheader.bind(this);
+        this.closeSubheader = this.closeSubheader.bind(this);
     }
 
     toggleNavbar() {
         this.setState({ hidden: !this.state.hidden })
     }
+
+    showSubheader(index) {
+        this.setState({ subheader: index })
+    }
+
+    closeSubheader() {
+        this.setState({ subheader: null })
+    }
+
     render() {
-        return (
-            <div>
-                <div className='fixed-mobile-nav-header'>
-                    <img className='navbar-toggle' onClick={this.handleClick} src='https://icon.now.sh/burger/2B2F3A/30' alt="Menu" />
-                    <Box className='mobile-nav-crest'>
-                        <Image src='../../static/crest.svg' alt="McMurtry College" />
-                    </Box>
+        let mainHeaders = []
+        let menus = []
+        let hidden = this.state.hidden ? { left: '100%' } : { left: 0 }
+        for (let i = 0; i < navbar_headers.length; i++) {
+            mainHeaders.push(
+                <div className='main-header' key={navbar_headers[i].name}>
+                    <a onClick={() => this.showSubheader(i)}>{navbar_headers[i].name}</a>
                 </div>
-                <div className='mobile-nav'>
+            )
+            menus.push(
+                <div className={(this.state.subheader === i) ? ('subheader-display') : ('subheader-hidden')} key={`${navbar_headers[i].name}-menu`}>
+                    <div onClick={this.closeSubheader} className='subheader-back'>
+                        <p>← Back</p>
+                    </div>
                     {
-                        navbar_headers.map(({ name, subheaders }) => (
-                            <MobileDropdown name={name} subheaders={subheaders} />
+                        navbar_headers[i].subheaders.map(({ name, to }) => (
+                            <Link href={to} key={name}>
+                                <div className='subheader-item'>
+                                    {name}
+                                </div>
+                            </Link>
                         ))
                     }
+                </div>
+            )
+        }
+
+        return (
+            <div>
+                <img className="show-navbar" src='https://icon.now.sh/burger/2B2F3A/30' alt="Menu" onClick={this.toggleNavbar} />
+                <Box width={250} className='header-crest-mobile'>
+                    <Link href='/'>
+                        <Image src='../static/crest.svg' alt="" />
+                    </Link>
+                </Box>
+                <div className='mobile-navbar' style={hidden}>
+                    <div className='main-menu'>
+                        <img className='close-navbar' src="https://icon.now.sh/x/DCDFE5/25" alt="X" onClick={this.toggleNavbar} />
+                        {mainHeaders}
+                    </div>
+                    {menus}
                 </div>
             </div>
         )

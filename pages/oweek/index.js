@@ -1,7 +1,7 @@
-import Header from '../../components/header';
+import Header from '../../components/general/header';
 import Navbar from '../../components/oweek/navbar/navbar';
 import Page from '../../components/oweek/homepage/homepage';
-import '../page.css';
+import '../../components/general/page.css';
 
 const Oweek = () => (
     <div>

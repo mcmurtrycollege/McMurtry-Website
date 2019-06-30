@@ -1,0 +1,41 @@
+@media screen and (min-width: 900px){
+    .associates-page {
+        margin-top: 12%;
+    }
+}
+
+.associates-page {
+    margin-bottom: 5%;
+}
+
+.associate-card {
+    padding: 4%;
+    margin: 2%;
+    font-weight: normal;
+    color: #2B2F3A;
+    border: 1px solid #BFBFCC;
+    /* box-shadow: 0 0 5px 2px #BFBFCC; */
+    transition: 0.2s ease-in-out;
+}
+
+.associate-card:hover {
+    border-color: #2B2F3A;
+    /* background-color: #BFBFCC; */
+}
+
+.associate-dropdown, .associate-image-dropdown {
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+}
+
+.associate-image {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 9%;
+}
+
+.associate-name {
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.2em;
+}

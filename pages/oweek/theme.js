@@ -1,7 +1,7 @@
-import Header from '../../components/header';
+import Header from '../../components/general/header';
 import Navbar from '../../components/oweek/navbar/navbar';
 import Page from '../../components/oweek/theme/theme';
-import '../page.css';
+import '../../components/general/page.css';
 
 const Theme = () => (
     <div>

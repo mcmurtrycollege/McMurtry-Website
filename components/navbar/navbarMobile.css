@@ -17,11 +17,11 @@
     z-index: 600;
 }
 
-.header-crest-mobile {
+/* .header-crest-mobile {
     width: 80%;
     display: flex;
     flex-direction: row;
-}  
+}   */
 
 .header-crest-mobile p {
     color: #87799C;

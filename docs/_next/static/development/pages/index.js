@@ -303,7 +303,7 @@ function (_React$Component) {
   }, {
     key: "componentWillUnmount",
     value: function componentWillUnmount() {
-      window.removeEventListener('scroll', this.scrollHandler);
+      document.removeEventListener('scroll', this.handleScroll);
     }
   }, {
     key: "render",

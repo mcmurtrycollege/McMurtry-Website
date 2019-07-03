@@ -22,7 +22,7 @@ class NavbarDesktop extends React.Component {
     }
 
     componentWillUnmount() {
-        window.removeEventListener('scroll', this.scrollHandler)
+        document.removeEventListener('scroll', this.handleScroll)
     }
 
     render() {

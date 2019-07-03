@@ -18,7 +18,7 @@
 }
 
 .header-crest-mobile {
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-direction: row;
 }  
@@ -37,6 +37,10 @@
     cursor: pointer;
 }
 
+.show-navbar {
+    margin: 3%;
+}
+
 .main-header {
     background: none;
     color: #DCDFE5;
@@ -48,9 +52,6 @@
     margin: 10% 0;
 }
 
-.show-navbar {
-    margin: 3%;
-}
 
 .close-navbar {
     margin: 3% auto auto 90%;

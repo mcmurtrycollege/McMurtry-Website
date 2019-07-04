@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\index.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
 
 /***/ "./components/general/footer/footer.js":
 /*!*********************************************!*\
@@ -15,7 +15,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(rebass__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _footer_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./footer.css */ "./components/general/footer/footer.css");
 /* harmony import */ var _footer_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_footer_css__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "C:\\Users\\nmeis\\github\\McMurtry-Website\\components\\general\\footer\\footer.js";
+var _jsxFileName = "/Users/shaquillewyanque/git/McMurtry-Website/components/general/footer/footer.js";
 
 
 
@@ -106,7 +106,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\nmeis\\github\\McMurtry-Website\\components\\general\\header.js";
+var _jsxFileName = "/Users/shaquillewyanque/git/McMurtry-Website/components/general/header.js";
 
 
 
@@ -185,7 +185,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(rebass__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _title_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./title.css */ "./components/general/title.css");
 /* harmony import */ var _title_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_title_css__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "C:\\Users\\nmeis\\github\\McMurtry-Website\\components\\general\\title.js";
+var _jsxFileName = "/Users/shaquillewyanque/git/McMurtry-Website/components/general/title.js";
 
 
 
@@ -263,7 +263,7 @@ var _navbar_json__WEBPACK_IMPORTED_MODULE_9___namespace = /*#__PURE__*/__webpack
 
 
 
-var _jsxFileName = "C:\\Users\\nmeis\\github\\McMurtry-Website\\components\\navbar\\navbarDesktop.js";
+var _jsxFileName = "/Users/shaquillewyanque/git/McMurtry-Website/components/navbar/navbarDesktop.js";
 
 
 
@@ -445,7 +445,7 @@ var _navbar_json__WEBPACK_IMPORTED_MODULE_10___namespace = /*#__PURE__*/__webpac
 
 
 
-var _jsxFileName = "C:\\Users\\nmeis\\github\\McMurtry-Website\\components\\navbar\\navbarMobile.js";
+var _jsxFileName = "/Users/shaquillewyanque/git/McMurtry-Website/components/navbar/navbarMobile.js";
 
 
 
@@ -671,7 +671,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _intropage_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./intropage.css */ "./components/splashpage/intropage.css");
 /* harmony import */ var _intropage_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_intropage_css__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "C:\\Users\\nmeis\\github\\McMurtry-Website\\components\\splashpage\\intropage.js";
+var _jsxFileName = "/Users/shaquillewyanque/git/McMurtry-Website/components/splashpage/intropage.js";
 
 
 
@@ -7202,10 +7202,10 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5Cnmeis%5Cgithub%5CMcMurtry-Website%5Cpages%5Cindex.js!./":
-/*!********************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5Cnmeis%5Cgithub%5CMcMurtry-Website%5Cpages%5Cindex.js ***!
-  \********************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fshaquillewyanque%2Fgit%2FMcMurtry-Website%2Fpages%2Findex.js!./":
+/*!************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fshaquillewyanque%2Fgit%2FMcMurtry-Website%2Fpages%2Findex.js ***!
+  \************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8487,12 +8487,12 @@ module.exports = ReactPropTypesSecret;
 
 /***/ "./node_modules/object-assign/index.js":
 /*!***************************************************************************************************!*\
-  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_af9878b9be933e0a57fb ***!
+  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_7aff549c98b978433226 ***!
   \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_af9878b9be933e0a57fb */ "dll-reference dll_af9878b9be933e0a57fb"))("./node_modules/object-assign/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_7aff549c98b978433226 */ "dll-reference dll_7aff549c98b978433226"))("./node_modules/object-assign/index.js");
 
 /***/ }),
 
@@ -9160,12 +9160,12 @@ module.exports = exports['default'];
 
 /***/ "./node_modules/prop-types/checkPropTypes.js":
 /*!*********************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_af9878b9be933e0a57fb ***!
+  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_7aff549c98b978433226 ***!
   \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_af9878b9be933e0a57fb */ "dll-reference dll_af9878b9be933e0a57fb"))("./node_modules/prop-types/checkPropTypes.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_7aff549c98b978433226 */ "dll-reference dll_7aff549c98b978433226"))("./node_modules/prop-types/checkPropTypes.js");
 
 /***/ }),
 
@@ -9800,12 +9800,12 @@ if (true) {
 
 /***/ "./node_modules/prop-types/lib/ReactPropTypesSecret.js":
 /*!*******************************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_af9878b9be933e0a57fb ***!
+  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_7aff549c98b978433226 ***!
   \*******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_af9878b9be933e0a57fb */ "dll-reference dll_af9878b9be933e0a57fb"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_7aff549c98b978433226 */ "dll-reference dll_7aff549c98b978433226"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
 
 /***/ }),
 
@@ -10551,12 +10551,12 @@ exports.encode = exports.stringify = __webpack_require__(/*! ./encode */ "./node
 
 /***/ "./node_modules/react-dom/index.js":
 /*!***********************************************************************************************!*\
-  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_af9878b9be933e0a57fb ***!
+  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_7aff549c98b978433226 ***!
   \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_af9878b9be933e0a57fb */ "dll-reference dll_af9878b9be933e0a57fb"))("./node_modules/react-dom/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_7aff549c98b978433226 */ "dll-reference dll_7aff549c98b978433226"))("./node_modules/react-dom/index.js");
 
 /***/ }),
 
@@ -10818,12 +10818,12 @@ if (false) {} else {
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_af9878b9be933e0a57fb ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_7aff549c98b978433226 ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_af9878b9be933e0a57fb */ "dll-reference dll_af9878b9be933e0a57fb"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_7aff549c98b978433226 */ "dll-reference dll_7aff549c98b978433226"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -15828,12 +15828,12 @@ module.exports = {
 
 /***/ "./node_modules/webpack/buildin/global.js":
 /*!******************************************************************************************************!*\
-  !*** delegated ./node_modules/webpack/buildin/global.js from dll-reference dll_af9878b9be933e0a57fb ***!
+  !*** delegated ./node_modules/webpack/buildin/global.js from dll-reference dll_7aff549c98b978433226 ***!
   \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_af9878b9be933e0a57fb */ "dll-reference dll_af9878b9be933e0a57fb"))("./node_modules/webpack/buildin/global.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_7aff549c98b978433226 */ "dll-reference dll_7aff549c98b978433226"))("./node_modules/webpack/buildin/global.js");
 
 /***/ }),
 
@@ -15888,7 +15888,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_splashpage_intropage__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/splashpage/intropage */ "./components/splashpage/intropage.js");
 /* harmony import */ var _components_general_page_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/general/page.css */ "./components/general/page.css");
 /* harmony import */ var _components_general_page_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_components_general_page_css__WEBPACK_IMPORTED_MODULE_6__);
-var _jsxFileName = "C:\\Users\\nmeis\\github\\McMurtry-Website\\pages\\index.js";
+var _jsxFileName = "/Users/shaquillewyanque/git/McMurtry-Website/pages/index.js";
 
 
 
@@ -15943,25 +15943,25 @@ var Home = function Home() {
 /***/ }),
 
 /***/ 0:
-/*!************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5Cnmeis%5Cgithub%5CMcMurtry-Website%5Cpages%5Cindex.js ***!
-  \************************************************************************************************************************************/
+/*!****************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fshaquillewyanque%2Fgit%2FMcMurtry-Website%2Fpages%2Findex.js ***!
+  \****************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5Cnmeis%5Cgithub%5CMcMurtry-Website%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5Cnmeis%5Cgithub%5CMcMurtry-Website%5Cpages%5Cindex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fshaquillewyanque%2Fgit%2FMcMurtry-Website%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fshaquillewyanque%2Fgit%2FMcMurtry-Website%2Fpages%2Findex.js!./");
 
 
 /***/ }),
 
-/***/ "dll-reference dll_af9878b9be933e0a57fb":
+/***/ "dll-reference dll_7aff549c98b978433226":
 /*!*******************************************!*\
-  !*** external "dll_af9878b9be933e0a57fb" ***!
+  !*** external "dll_7aff549c98b978433226" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_af9878b9be933e0a57fb;
+module.exports = dll_7aff549c98b978433226;
 
 /***/ })
 

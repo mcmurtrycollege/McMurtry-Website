@@ -119,7 +119,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(rebass__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _footer_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./footer.css */ "./components/general/footer/footer.css");
 /* harmony import */ var _footer_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_footer_css__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "C:\\Users\\nmeis\\github\\McMurtry-Website\\components\\general\\footer\\footer.js";
+var _jsxFileName = "/Users/shaquillewyanque/git/McMurtry-Website/components/general/footer/footer.js";
 
 
 
@@ -210,7 +210,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "next/head");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\nmeis\\github\\McMurtry-Website\\components\\general\\header.js";
+var _jsxFileName = "/Users/shaquillewyanque/git/McMurtry-Website/components/general/header.js";
 
 
 
@@ -311,7 +311,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(rebass__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _title_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./title.css */ "./components/general/title.css");
 /* harmony import */ var _title_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_title_css__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "C:\\Users\\nmeis\\github\\McMurtry-Website\\components\\general\\title.js";
+var _jsxFileName = "/Users/shaquillewyanque/git/McMurtry-Website/components/general/title.js";
 
 
 
@@ -400,7 +400,7 @@ var _navbar_json__WEBPACK_IMPORTED_MODULE_9___namespace = /*#__PURE__*/__webpack
 
 
 
-var _jsxFileName = "C:\\Users\\nmeis\\github\\McMurtry-Website\\components\\navbar\\navbarDesktop.js";
+var _jsxFileName = "/Users/shaquillewyanque/git/McMurtry-Website/components/navbar/navbarDesktop.js";
 
 
 
@@ -593,7 +593,7 @@ var _navbar_json__WEBPACK_IMPORTED_MODULE_10___namespace = /*#__PURE__*/__webpac
 
 
 
-var _jsxFileName = "C:\\Users\\nmeis\\github\\McMurtry-Website\\components\\navbar\\navbarMobile.js";
+var _jsxFileName = "/Users/shaquillewyanque/git/McMurtry-Website/components/navbar/navbarMobile.js";
 
 
 
@@ -830,7 +830,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _intropage_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./intropage.css */ "./components/splashpage/intropage.css");
 /* harmony import */ var _intropage_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_intropage_css__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "C:\\Users\\nmeis\\github\\McMurtry-Website\\components\\splashpage\\intropage.js";
+var _jsxFileName = "/Users/shaquillewyanque/git/McMurtry-Website/components/splashpage/intropage.js";
 
 
 
@@ -1789,7 +1789,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_splashpage_intropage__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/splashpage/intropage */ "./components/splashpage/intropage.js");
 /* harmony import */ var _components_general_page_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/general/page.css */ "./components/general/page.css");
 /* harmony import */ var _components_general_page_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_components_general_page_css__WEBPACK_IMPORTED_MODULE_6__);
-var _jsxFileName = "C:\\Users\\nmeis\\github\\McMurtry-Website\\pages\\index.js";
+var _jsxFileName = "/Users/shaquillewyanque/git/McMurtry-Website/pages/index.js";
 
 
 
@@ -1850,7 +1850,7 @@ var Home = function Home() {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\nmeis\github\McMurtry-Website\pages\index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! /Users/shaquillewyanque/git/McMurtry-Website/pages/index.js */"./pages/index.js");
 
 
 /***/ }),

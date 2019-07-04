@@ -18,7 +18,7 @@ const Room = () => (
                 </ul>
             </Box>
             <Box width={[1, 0.3]}>
-                <Image src='../../../static/oweek/room.jpg' alt='' />
+                <Image src='../../../static/oweek/room.jpg' alt='Error Loading Image' />
             </Box>
         </Flex>
 

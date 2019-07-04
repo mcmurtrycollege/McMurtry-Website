@@ -144,28 +144,28 @@
                     "year": "Junior",
                     "major": "Kinesiology (Health Sciences)",
                     "from": "Johns Creek, GA",
-                    "image": "../../../static/oweek/Hollabackgammon/Amy.jpg"
+                    "image": "../../../static/oweek/Hollabackgammon/Amy.png"
                 },
                 {
                     "name": "Raymond Lau",
                     "year": "Senior",
                     "major": "Mechanical Engineering",
                     "from": "Las Vegas, NV",
-                    "image": "../../../static/oweek/Hollabackgammon/Raymond.jpg"
+                    "image": "../../../static/oweek/Hollabackgammon/Raymond.png"
                 },
                 {
                     "name": "Hannah Boyd",
                     "year": "Sophomore",
                     "major": "Biochemistry",
                     "from": "Gaithersburg, MD",
-                    "image": "../../../static/oweek/Hollabackgammon/Hannah.jpg"
+                    "image": "../../../static/oweek/Hollabackgammon/Hannah.png"
                 },
                 {
                     "name": "Stephanie Xie",
                     "year": "Junior",
                     "major": "Computer Science Cognitive Science",
                     "from": "Wilton, CT",
-                    "image": "../../../static/oweek/Hollabackgammon/Stephanie.jpg"
+                    "image": "../../../static/oweek/Hollabackgammon/Stephanie.png"
                 }
             ],
             "image": "../../../static/oweek/Hollabackgammon/Hollabackgroup.jpg"
@@ -400,8 +400,8 @@
                 },
                 {
                     "name": "Shaquille Que",
-                    "year": "Sophompore",
-                    "major": "Computer Science, Neuroscience",
+                    "year": "Sophomore",
+                    "major": "Computer Science",
                     "from": "Quezon City, Philippines",
                     "image": "../../../static/oweek/uno/Shaquille.jpg"
                 }

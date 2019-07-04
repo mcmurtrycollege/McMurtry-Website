@@ -33,7 +33,7 @@ const Coords = () => (
                 coords.map(({ name, year, major, from, image }) => (
                     <Box width={[1, 0.28]} className='oweek-bio' key={name}>
                         <Box width={0.9} ml='auto' mr='auto'>
-                            <Image src={image} alt='' />
+                            <Image src={image} alt='Error Loading Image' />
                         </Box>
                         <h3>{name}</h3>
                         <p>{year}</p>

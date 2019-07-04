@@ -7,21 +7,21 @@ const coords = [
         year: "Junior",
         major: "Cognitive Sciences, Biochemistry, & Medical Humanities",
         from: "Glen Ridge, NJ",
-        image: "../../../static/oweek/EmilyCoord.jpg"
+        image: "../../../static/oweek/EmilyCoord.JPG"
     },
     {
         name: "Edesiri Mushale",
         year: "Junior",
         major: "Mechanical Engineering",
         from: "Vacaville, CA",
-        image: "../../../static/oweek/EdesiriCoord.jpg"
+        image: "../../../static/oweek/EdesiriCoord.JPG"
     },
     {
         name: "Olivia Morris",
         year: "Junior",
         major: "Cognitive Sciences",
         from: "Tampa, FL",
-        image: "../../../static/oweek/OliviaCoord.jpg"
+        image: "../../../static/oweek/OliviaCoord.JPG"
     }
 ]
 

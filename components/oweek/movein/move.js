@@ -6,10 +6,10 @@ const Move = () => (
         <h1 className='oweek-title'>Arrival and Move In</h1>
         <Flex flexDirection='row' justifyContent='center' flexWrap='wrap'>
             <Box width={[0.8, 0.4]}>
-                <Image src="../../../static/oweek/movein.JPG" alt='' />
+                <Image src="../../../static/oweek/movein.jpg" alt='' />
             </Box>
             <Box width={[0.8, 0.268]}>
-                <Image src="../../../static/oweek/arrival.JPG" alt='' />
+                <Image src="../../../static/oweek/arrival.jpg" alt='' />
             </Box>
         </Flex>
 

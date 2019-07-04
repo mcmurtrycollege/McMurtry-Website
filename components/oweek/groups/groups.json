@@ -144,31 +144,31 @@
                     "year": "Junior",
                     "major": "Kinesiology (Health Sciences)",
                     "from": "Johns Creek, GA",
-                    "image": "../../../static/oweek/Hollabackgammon/Amy.jpg"
+                    "image": "../../../static/oweek/hollabackgammon/Amy.jpg"
                 },
                 {
                     "name": "Raymond Lau",
                     "year": "Senior",
                     "major": "Mechanical Engineering",
                     "from": "Las Vegas, NV",
-                    "image": "../../../static/oweek/Hollabackgammon/Raymond.jpg"
+                    "image": "../../../static/oweek/hollabackgammon/Raymond.jpg"
                 },
                 {
                     "name": "Hannah Boyd",
                     "year": "Sophomore",
                     "major": "Biochemistry",
                     "from": "Gaithersburg, MD",
-                    "image": "../../../static/oweek/Hollabackgammon/Hannah.jpg"
+                    "image": "../../../static/oweek/hollabackgammon/Hannah.jpg"
                 },
                 {
                     "name": "Stephanie Xie",
                     "year": "Junior",
                     "major": "Computer Science Cognitive Science",
                     "from": "Wilton, CT",
-                    "image": "../../../static/oweek/Hollabackgammon/Stephanie.jpg"
+                    "image": "../../../static/oweek/hollabackgammon/Stephanie.jpg"
                 }
             ],
-            "image": "../../../static/oweek/Hollabackgammon/Hollabackgroup.jpg"
+            "image": "../../../static/oweek/hollabackgammon/Hollabackgroup.jpg"
         },
         {
             "name": "Hungry Hungry Hippo Mode",

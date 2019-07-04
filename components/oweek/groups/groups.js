@@ -71,9 +71,9 @@ const Groups = () => (
                     <Element name={name} key={name}>
                         <div className='oweek-group'>
                             <h2 className='oweek-title'>{name}</h2>
-                            {/* <Box width={0.7} ml='auto' mr='auto' style={{marginTop: '1%', marginBottom: '3%'}}>
+                            <Box width={0.7} ml='auto' mr='auto' style={{marginTop: '1%', marginBottom: '3%'}}>
                                 <Image src={image} alt='Error Loading Image' />
-                            </Box> */}
+                            </Box>
                             <div className='oweek-bios'>
                                 {
                                     advisors.map(({ name, year, major, from, image }) => (

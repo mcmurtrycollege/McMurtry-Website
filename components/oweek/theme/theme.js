@@ -8,7 +8,7 @@ const Theme = () => (
 
         <div>
             <Box width={[1, 0.5]} ml='auto' mr='auto' style={{ float: 'left', marginRight: '20px' }}>
-                <Image src="../../../static/oweek/2018AdvisingTeam.jpg" alt='' />
+                <Image src="../../../static/oweek/2018AdvisingTeam.JPG" alt='' />
             </Box>
             <p>
                 Board games are a form of entertainment unique in their ability to rally people of all backgrounds

@@ -1,8 +1,18 @@
+import { Box, Flex, Image } from 'rebass';
 import '../oweek.css';
 
 const Move = () => (
     <div className='oweek-page'>
         <h1 className='oweek-title'>Arrival and Move In</h1>
+        <Flex flexDirection='row' justifyContent='center' flexWrap='wrap'>
+            <Box width={[0.8, 0.4]}>
+                <Image src="../../../static/oweek/movein.jpg" alt='' />
+            </Box>
+            <Box width={[0.8, 0.268]}>
+                <Image src="../../../static/oweek/arrival.jpg" alt='' />
+            </Box>
+        </Flex>
+
         <p>
             Plan to arrive in the morning on Sunday, August 18th. The Coordinators will email you soon about
             exactly what time your floor will move in. Enter Rice through Entrance #1 (the main entrance),

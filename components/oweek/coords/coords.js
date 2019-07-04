@@ -1,24 +1,27 @@
+import { Box, Image } from 'rebass';
 import '../oweek.css';
-import './coords.css';
 
 const coords = [
     {
         name: "Emily Duffus",
         year: "Junior",
         major: "Cognitive Sciences, Biochemistry, & Medical Humanities",
-        from: "Glen Ridge, NJ"
+        from: "Glen Ridge, NJ",
+        image: "../../../static/oweek/EmilyCoord.jpg"
     },
     {
         name: "Edesiri Mushale",
         year: "Junior",
         major: "Mechanical Engineering",
-        from: "Vacaville, CA"
+        from: "Vacaville, CA",
+        image: "../../../static/oweek/EdesiriCoord.jpg"
     },
     {
         name: "Olivia Morris",
         year: "Junior",
         major: "Cognitive Sciences",
-        from: "Tampa, FL"
+        from: "Tampa, FL",
+        image: "../../../static/oweek/OliviaCoord.jpg"
     }
 ]
 
@@ -27,13 +30,16 @@ const Coords = () => (
         <h1 className='oweek-title'>Meet the Coords</h1>
         <div className='oweek-bios'>
             {
-                coords.map(({ name, year, major, from }) => (
-                    <div className='oweek-bio' key={name}>
+                coords.map(({ name, year, major, from, image }) => (
+                    <Box width={[1, 0.28]} className='oweek-bio' key={name}>
+                        <Box width={0.9} ml='auto' mr='auto'>
+                            <Image src={image} alt='' />
+                        </Box>
                         <h3>{name}</h3>
                         <p>{year}</p>
                         <p>{major}</p>
                         <p>{from}</p>
-                    </div>
+                    </Box>
                 ))
             }
         </div>

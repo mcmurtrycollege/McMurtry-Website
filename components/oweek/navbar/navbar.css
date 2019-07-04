@@ -25,7 +25,7 @@
         right: 80%;
     }
     .oweek-navbar-link {
-        padding: 1% 5%;
+        padding: 0.5% 5%;
     }
     .oweek-navbar-close, .oweek-navbar-open {
         display: none;
@@ -47,7 +47,7 @@
         right: 100%;
     }
     .oweek-navbar-link {
-        padding: 1% 10%;
+        padding: 1px 10%;
         text-align: center;
     }
 }

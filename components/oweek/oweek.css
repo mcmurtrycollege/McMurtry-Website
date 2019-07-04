@@ -4,15 +4,19 @@
         margin-left: 20%;
         padding: 5%;
     }
+    .oweek-homepage {
+        width: 80%;
+        margin-left: 20%;
+    }
     .oweek-book {
         width: 600px;
         margin: 5% auto;
     }
     .oweek-welcome {
         font-weight: normal;
-        font-size: 5em;
+        font-size: 3em;
         text-align: center;
-        color: #87799C;
+        color: #DCDFE5;
     }
 }
 
@@ -41,9 +45,9 @@
     }
     .oweek-welcome {
         font-weight: normal;
-        font-size: 3em;
+        font-size: 2em;
         text-align: center;
-        color: #87799C;
+        color: #DCDFE5;
     }
 }
 
@@ -65,7 +69,6 @@
 }
 
 .oweek-bio {
-    width: 150px;
     margin: 2%;
     box-shadow: 0 0 15px 5px #BFBFCC;
     padding: 10px 20px;
@@ -83,17 +86,16 @@
 }
 
 .oweek-countdown {
-    width: 320px;
-    margin: 2% auto;
+    /* width: 320px; */
+    /* margin: 2% auto; */
     font-size: 2em;
-    background-color: #3A3F4F;
+    font-weight: normal;
     text-align: center;
-    border-radius: 5px;
 }
 
 .oweek-countdown p {
-    color: #DCDFE5;
-    padding: 10px 20px;
+    color: #3A3F4F;
+    padding: 5px 20px;
 }
 
 .oweek-address {

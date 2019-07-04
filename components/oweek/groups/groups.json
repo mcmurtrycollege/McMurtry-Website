@@ -7,27 +7,32 @@
                     "name": "Rolando Marquez",
                     "year": "Senior",
                     "major": "Bioengineering",
-                    "from": "Pasadena, TX"
+                    "from": "Pasadena, TX",
+                    "image": "../../../static/oweek/backgammon/Rolando.jpg"
                 },
                 {
                     "name": "Sophie Marx",
                     "year": "Sophmore",
                     "major": "Cognitive Sciences",
-                    "from": "Brooklyn, NY"
+                    "from": "Brooklyn, NY",
+                    "image": "../../../static/oweek/backgammon/Sophie.jpg"
                 },
                 {
                     "name": "Krithi Pachipala",
                     "year": "Sophmore",
                     "major": "Neuroscience, Social Policy Analysis",
-                    "from": "The Woodlands, TX"
+                    "from": "The Woodlands, TX",
+                    "image": "../../../static/oweek/backgammon/Krithi.jpg"
                 },
                 {
                     "name": "Nathan McCoslin",
                     "year": "Sophmore",
                     "major": "Political Science",
-                    "from": "Jewett, TX"
+                    "from": "Jewett, TX",
+                    "image": "../../../static/oweek/backgammon/Nathan.jpg"
                 }
-            ]
+            ],
+            "image": "../../../static/oweek/backgammon/backgammon_1.jpg"
         },
         {
             "name": "Battleship and Boujee",
@@ -36,27 +41,32 @@
                     "name": "Hayden Mast",
                     "year": "Sophomore",
                     "major": "Mathematical Economic Analysis, Statistics",
-                    "from": "Austin, TX"
+                    "from": "Austin, TX",
+                    "image": "../../../static/oweek/battleship/Hayden.jpg"
                 },
                 {
                     "name": "Ellery Parish",
                     "year": "Junior",
                     "major": "Social Policy Analysis, Sociology",
-                    "from": "San Antonio, TX"
+                    "from": "San Antonio, TX",
+                    "image": "../../../static/oweek/battleship/Ellery.jpg"
                 },
                 {
                     "name": "Dara Okeremi",
                     "year": "Sophomore",
                     "major": "Bioengineering",
-                    "from": "Houston, TX"
+                    "from": "Houston, TX",
+                    "image": "../../../static/oweek/battleship/Dara.jpg"
                 },
                 {
                     "name": "Rohini Kumar",
                     "year": "Junior",
                     "major": "Neuroscience",
-                    "from": "Austin, TX"
+                    "from": "Austin, TX",
+                    "image": "../../../static/oweek/battleship/Rohini.jpg"
                 }
-            ]
+            ],
+            "image": "../../../static/oweek/battleship/Battleshipgroup.jpg"
         },
         {
             "name": "Captain Mancala",
@@ -65,27 +75,32 @@
                     "name": "Kabir Sood",
                     "year": "Sophomore",
                     "major": "Economics",
-                    "from": "Houston, TX"
+                    "from": "Houston, TX",
+                    "image": "../../../static/oweek/mancala/Kabir.jpg"
                 },
                 {
                     "name": "Stoyan Kimitov",
                     "year": "Senior",
                     "major": "Computer Science",
-                    "from": "Chicago, IL"
+                    "from": "Chicago, IL",
+                    "image": "../../../static/oweek/mancala/Stoyan.jpg"
                 },
                 {
                     "name": "Sohil Shah",
                     "year": "Sophomore",
                     "major": "Mathematical Economic Analysis",
-                    "from": "Singapore"
+                    "from": "Singapore",
+                    "image": "../../../static/oweek/mancala/Sohil.jpg"
                 },
                 {
                     "name": "Lupita Galvan Tinoco",
                     "year": "Senior",
                     "major": "Cognitive Science",
-                    "from": "Austin, TX"
+                    "from": "Austin, TX",
+                    "image": "../../../static/oweek/mancala/Lupita.jpg"
                 }
-            ]
+            ],
+            "image": "../../../static/oweek/mancala/Capatingroup.jpg"
         },
         {
             "name": "Dice Dice Baby",
@@ -94,27 +109,32 @@
                     "name": "Dylan Nguyen",
                     "year": "Sophomore",
                     "major": "Social Policy Analysis",
-                    "from": "Dallas, TX"
+                    "from": "Dallas, TX",
+                    "image": "../../../static/oweek/dice/Dylan.jpg"
                 },
                 {
                     "name": "Alexandra Lim",
                     "year": "Sophomore",
                     "major": "Undecided",
-                    "from": "Vancouver, WA"
+                    "from": "Vancouver, WA",
+                    "image": "../../../static/oweek/dice/Alexandra.jpg"
                 },
                 {
                     "name": "Natty Askanase",
                     "year": "Sophomore",
                     "major": "Sports Management, History",
-                    "from": "New York, NY"
+                    "from": "New York, NY",
+                    "image": "../../../static/oweek/dice/Natty.jpg"
                 },
                 {
                     "name": "Robert Alexander",
                     "year": "Junior",
                     "major": "Cognitive Science",
-                    "from": "Oakland, CA"
+                    "from": "Oakland, CA",
+                    "image": "../../../static/oweek/dice/Robert.jpg"
                 }
-            ]
+            ],
+            "image": "../../../static/oweek/dice/Dicegroup.jpg"
         },
         {
             "name": "Hollabackgammon Girl: This Is Bananas",
@@ -123,27 +143,32 @@
                     "name": "Amy Mu",
                     "year": "Junior",
                     "major": "Kinesiology (Health Sciences)",
-                    "from": "Johns Creek, GA"
+                    "from": "Johns Creek, GA",
+                    "image": "../../../static/oweek/Hollabackgammon/Amy.jpg"
                 },
                 {
                     "name": "Raymond Lau",
                     "year": "Senior",
                     "major": "Mechanical Engineering",
-                    "from": "Las Vegas, NV"
+                    "from": "Las Vegas, NV",
+                    "image": "../../../static/oweek/Hollabackgammon/Raymond.jpg"
                 },
                 {
                     "name": "Hannah Boyd",
                     "year": "Sophomore",
                     "major": "Biochemistry",
-                    "from": "Gaithersburg, MD"
+                    "from": "Gaithersburg, MD",
+                    "image": "../../../static/oweek/Hollabackgammon/Hannah.jpg"
                 },
                 {
                     "name": "Stephanie Xie",
                     "year": "Junior",
                     "major": "Computer Science Cognitive Science",
-                    "from": "Wilton, CT"
+                    "from": "Wilton, CT",
+                    "image": "../../../static/oweek/Hollabackgammon/Stephanie.jpg"
                 }
-            ]
+            ],
+            "image": "../../../static/oweek/Hollabackgammon/Hollabackgroup.jpg"
         },
         {
             "name": "Hungry Hungry Hippo Mode",
@@ -152,27 +177,32 @@
                     "name": "Nneoma Ome",
                     "year": "Sophomore",
                     "major": "Bioengineering",
-                    "from": "Sugar Land, TX"
+                    "from": "Sugar Land, TX",
+                    "image": "../../../static/oweek/hippo/Nneoma.jpg"
                 },
                 {
                     "name": "Jennifer Ho",
                     "year": "Junior",
                     "major": "Kinesiology, Health Sciences, Multiple Minors",
-                    "from": "Tomball, TX"
+                    "from": "Tomball, TX",
+                    "image": "../../../static/oweek/hippo/Jennifer.jpg"
                 },
                 {
                     "name": "Emma Young",
                     "year": "Junior",
                     "major": "Mathematical Economic Analysis",
-                    "from": "Social Analysis Brentwood, TN"
+                    "from": "Social Analysis Brentwood, TN",
+                    "image": "../../../static/oweek/hippo/Emma.jpg"
                 },
                 {
                     "name": "Josh Verne",
                     "year": "Sophomore",
                     "major": "Computer Science",
-                    "from": "Raleigh, NC"
+                    "from": "Raleigh, NC",
+                    "image": "../../../static/oweek/hippo/Josh.jpg"
                 }
-            ]
+            ],
+            "image": "../../../static/oweek/hippo/Hungrygroup.jpg"
         },
         {
             "name": "The Jenga Book",
@@ -181,27 +211,32 @@
                     "name": "Asli Yilmaz",
                     "year": "Senior",
                     "major": "Chemical & Biomolecular Engineering",
-                    "from": "Houston, TX"
+                    "from": "Houston, TX",
+                    "image": "../../../static/oweek/jenga/Asli.jpg"
                 },
                 {
                     "name": "Rishi Vas",
                     "year": "Junior",
                     "major": "Cognitive Science",
-                    "from": "Dallas, TX"
+                    "from": "Dallas, TX",
+                    "image": "../../../static/oweek/jenga/Rishi.jpg"
                 },
                 {
                     "name": "Natalie Festa",
                     "year": "Sophomore",
                     "major": "Anthropology Economics",
-                    "from": "Houston, TX"
+                    "from": "Houston, TX",
+                    "image": "../../../static/oweek/jenga/Natalie.jpg"
                 },
                 {
                     "name": "Ben Harris",
                     "year": "Junior",
                     "major": "Computer Science",
-                    "from": "Charlottesville, VA"
+                    "from": "Charlottesville, VA",
+                    "image": "../../../static/oweek/jenga/Ben.jpg"
                 }
-            ]
+            ],
+            "image": "../../../static/oweek/jenga/Jengagroup.jpg"
         },
         {
             "name": "La La Candyland",
@@ -210,27 +245,32 @@
                     "name": "Caleb Robinson",
                     "year": "Sophomore",
                     "major": "Physics, Mathematics",
-                    "from": "Hattiesburg, MS"
+                    "from": "Hattiesburg, MS",
+                    "image": "../../../static/oweek/candyland/Caleb.jpg"
                 },
                 {
                     "name": "Jane Clinger",
                     "year": "Senior",
                     "major": "Psychology",
-                    "from": "Alexandria, VA"
+                    "from": "Alexandria, VA",
+                    "image": "../../../static/oweek/candyland/Jane.jpg"
                 },
                 {
                     "name": "Aaron Pathak",
                     "year": "Sophomore",
                     "major": "Social Policy Analysis",
-                    "from": "Dallas, TX"
+                    "from": "Dallas, TX",
+                    "image": "../../../static/oweek/candyland/Aaron.jpg"
                 },
                 {
                     "name": "Akshaya Venkatesh",
                     "year": "Sophomore",
                     "major": "Cognitive Science",
-                    "from": "Los Angeles, CA"
+                    "from": "Los Angeles, CA",
+                    "image": "../../../static/oweek/candyland/Akshaya.jpg"
                 }
-            ]
+            ],
+            "image": "../../../static/oweek/candyland/Lalagroup.jpg"
         },
         {
             "name": "Lil’ Yahtzee",
@@ -239,27 +279,32 @@
                     "name": "Alex Lammers",
                     "year": "Sophomore",
                     "major": "Bioengineering",
-                    "from": "Tecumseh, Michigan"
+                    "from": "Tecumseh, Michigan",
+                    "image": "../../../static/oweek/yahtzee/Alex.jpg"
                 },
                 {
                     "name": "Tatyanna Epps",
                     "year": "Sophomore",
                     "major": "Sociology",
-                    "from": "Temple, TX"
+                    "from": "Temple, TX",
+                    "image": "../../../static/oweek/yahtzee/Tatyanna.jpg"
                 },
                 {
                     "name": "Sachi Khemka",
                     "year": "Sophomore",
                     "major": "Biological Sciences",
-                    "from": "Katy, TX"
+                    "from": "Katy, TX",
+                    "image": "../../../static/oweek/yahtzee/Sachi.jpg"
                 },
                 {
                     "name": "Grant Lu",
                     "year": "Senior",
                     "major": "Bioengineering",
-                    "from": "Houston, TX"
+                    "from": "Houston, TX",
+                    "image": "../../../static/oweek/yahtzee/Grant.jpg"
                 }
-            ]
+            ],
+            "image": "../../../static/oweek/yahtzee/Lilgroup.jpg"
         },
         {
             "name": "Panic at the Risk-O",
@@ -268,27 +313,32 @@
                     "name": "Sean McCormick",
                     "year": "Junior",
                     "major": "English, Business",
-                    "from": "Houston, TX"
+                    "from": "Houston, TX",
+                    "image": "../../../static/oweek/risko/Sean.jpg"
                 },
                 {
                     "name": "Callie Carnahan",
                     "year": "Sophomore",
                     "major": "History",
-                    "from": "Washington D.C."
+                    "from": "Washington D.C.",
+                    "image": "../../../static/oweek/risko/Callie.jpg"
                 },
                 {
                     "name": "Lily Cao",
                     "year": "Junior",
                     "major": "Psychology, Managerial Studies",
-                    "from": "Friendswood, TX"
+                    "from": "Friendswood, TX",
+                    "image": "../../../static/oweek/risko/Lily.jpg"
                 },
                 {
                     "name": "Steven Feng",
                     "year": "Sophomore",
                     "major": "Mathematical Economic Analysis",
-                    "from": "Parsippany, NJ"
+                    "from": "Parsippany, NJ",
+                    "image": "../../../static/oweek/risko/Steven.jpg"
                 }
-            ]
+            ],
+            "image": "../../../static/oweek/risko/Panicgroup.jpg"
         },
         {
             "name": "Schoolboy Clue: Collard Mr. Green",
@@ -297,27 +347,32 @@
                     "name": "Sue Kim",
                     "year": "Senior",
                     "major": "Computer Science, Statistics",
-                    "from": "Seattle, WA"
+                    "from": "Seattle, WA",
+                    "image": "../../../static/oweek/clue/Sue.jpg"
                 },
                 {
                     "name": "AJ Valenty",
                     "year": "Sophomore",
                     "major": "Computer Science",
-                    "from": "Austin, TX"
+                    "from": "Austin, TX",
+                    "image": "../../../static/oweek/clue/AJ.jpg"
                 },
                 {
                     "name": "Meheret Adera",
                     "year": "Sophomore",
                     "major": "Kinesiology (Health Sciences), Global Health Technologies",
-                    "from": "Dallas, TX"
+                    "from": "Dallas, TX",
+                    "image": "../../../static/oweek/clue/Meheret.jpg"
                 },
                 {
                     "name": "Sai Sriram",
                     "year": "Junior",
                     "major": "Computer Science, Neuroscience",
-                    "from": "Tampa, FL"
+                    "from": "Tampa, FL",
+                    "image": "../../../static/oweek/clue/Sai.jpg"
                 }
-            ]
+            ],
+            "image": "../../../static/oweek/clue/Schoolboygroup.jpg"
         },
         {
             "name": "UNO Mars: Draw 24k Magic",
@@ -326,27 +381,32 @@
                     "name": "Eitan Woloski",
                     "year": "Junior",
                     "major": "Physics",
-                    "from": "McAllen, TX"
+                    "from": "McAllen, TX",
+                    "image": "../../../static/oweek/uno/Eitan.jpg"
                 },
                 {
                     "name": "Valerie Kass",
                     "year": "Senior",
                     "major": "Civil and Environmental Engineering, Politics, Law, and Social Thought",
-                    "from": "Washington D.C."
+                    "from": "Washington D.C.",
+                    "image": "../../../static/oweek/uno/Valerie.jpg"
                 },
                 {
                     "name": "Catherine Hettler",
                     "year": "Sophomore",
                     "major": "Psychology, Visual and Dramatic Arts, Neuroscience",
-                    "from": "South Korea/San Antonio, TX"
+                    "from": "South Korea/San Antonio, TX",
+                    "image": "../../../static/oweek/uno/Catherine.jpg"
                 },
                 {
                     "name": "Shaquille Que",
                     "year": "Sophompore",
                     "major": "Computer Science, Neuroscience",
-                    "from": "Quezon City, Philippines"
+                    "from": "Quezon City, Philippines",
+                    "image": "../../../static/oweek/uno/Shaquille.jpg"
                 }
-            ]
+            ],
+            "image": "../../../static/oweek/uno/UNOgroup.jpg"
         }
     ]
 }

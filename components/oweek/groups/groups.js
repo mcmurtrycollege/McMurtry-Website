@@ -1,5 +1,6 @@
 import * as Scroll from 'react-scroll';
 import { Element } from 'react-scroll';
+import { Box, Image } from 'rebass';
 import '../oweek.css';
 import './groups.css';
 import { oweek_groups } from './groups.json';
@@ -66,14 +67,20 @@ const Groups = () => (
         </div>
         <div className='oweek-groups'>
             {
-                oweek_groups.map(({ name, advisors }) => (
+                oweek_groups.map(({ name, advisors, image }) => (
                     <Element name={name} key={name}>
                         <div className='oweek-group'>
                             <h2 className='oweek-title'>{name}</h2>
+                            <Box width={0.7} ml='auto' mr='auto' style={{marginTop: '1%', marginBottom: '3%'}}>
+                                <Image src={image} alt='' />
+                            </Box>
                             <div className='oweek-bios'>
                                 {
-                                    advisors.map(({ name, year, major, from }) => (
+                                    advisors.map(({ name, year, major, from, image }) => (
                                         <div className='advisor-bio' key={name}>
+                                            <Box width={0.9} ml='auto' mr='auto'>
+                                                <Image src={image} alt='' />
+                                            </Box>
                                             <h3>{name}</h3>
                                             <p>{year}</p>
                                             <p>{major}</p>

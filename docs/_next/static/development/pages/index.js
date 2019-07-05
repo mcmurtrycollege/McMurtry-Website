@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\index.js"],{
 
 /***/ "./components/general/footer/footer.js":
 /*!*********************************************!*\
@@ -15,7 +15,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(rebass__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _footer_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./footer.css */ "./components/general/footer/footer.css");
 /* harmony import */ var _footer_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_footer_css__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/shaquillewyanque/git/McMurtry-Website/components/general/footer/footer.js";
+var _jsxFileName = "C:\\Users\\nmeis\\github\\McMurtry-Website\\components\\general\\footer\\footer.js";
 
 
 
@@ -106,7 +106,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/shaquillewyanque/git/McMurtry-Website/components/general/header.js";
+var _jsxFileName = "C:\\Users\\nmeis\\github\\McMurtry-Website\\components\\general\\header.js";
 
 
 
@@ -185,7 +185,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(rebass__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _title_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./title.css */ "./components/general/title.css");
 /* harmony import */ var _title_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_title_css__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/shaquillewyanque/git/McMurtry-Website/components/general/title.js";
+var _jsxFileName = "C:\\Users\\nmeis\\github\\McMurtry-Website\\components\\general\\title.js";
 
 
 
@@ -228,7 +228,7 @@ var Title = function Title(props) {
 /*! exports provided: navbar_headers, default */
 /***/ (function(module) {
 
-module.exports = {"navbar_headers":[{"name":"About","subheaders":[{"name":"About","to":"/about"},{"name":"Finacial Inclusivity","to":"/about/financialinclusivity"}]},{"name":"Events","subheaders":[{"name":"Calendar","to":"/events/calendar"},{"name":"Arts Calendar","to":"/events/artevents"}]},{"name":"People","subheaders":[{"name":"McTeam","to":"/people/mcteam"},{"name":"McMinistry","to":"/people/mcministry"},{"name":"Court","to":"/people/court"},{"name":"Committees","to":"/people/committees"},{"name":"Associates","to":"/people/associates"},{"name":"Divisional Advisors","to":"/people/divisionaladvisors"},{"name":"Peer Academic Advisors","to":"/people/paas"},{"name":"Academic Fellows","to":"/people/academicfellows"},{"name":"RHAs","to":"/people/rhas"},{"name":"Strive Liaisons","to":"/people/striveliaisons"}]},{"name":"Resources","subheaders":[{"name":"Room Reservations","to":"/resources/roomreservations"},{"name":"MIS","to":"/resources/mis"},{"name":"Documents","to":"/resources/documents"},{"name":"Expense Forms","to":"/resources/expenseforms"},{"name":"Work Orders","to":"/resources/workorders"},{"name":"Initiative Requests","to":"/resources/initiativerequests"}]}]};
+module.exports = {"navbar_headers":[{"name":"About","subheaders":[{"name":"About","to":"/about"},{"name":"Finacial Inclusivity","to":"/about/financialinclusivity"},{"name":"O-Week","to":"/oweek"}]},{"name":"Events","subheaders":[{"name":"Calendar","to":"/events/calendar"},{"name":"Arts Calendar","to":"/events/artevents"}]},{"name":"People","subheaders":[{"name":"McTeam","to":"/people/mcteam"},{"name":"McMinistry","to":"/people/mcministry"},{"name":"Court","to":"/people/court"},{"name":"Committees","to":"/people/committees"},{"name":"Associates","to":"/people/associates"},{"name":"Divisional Advisors","to":"/people/divisionaladvisors"},{"name":"Peer Academic Advisors","to":"/people/paas"},{"name":"Academic Fellows","to":"/people/academicfellows"},{"name":"RHAs","to":"/people/rhas"},{"name":"Strive Liaisons","to":"/people/striveliaisons"}]},{"name":"Resources","subheaders":[{"name":"Room Reservations","to":"/resources/roomreservations"},{"name":"MIS","to":"/resources/mis"},{"name":"Documents","to":"/resources/documents"},{"name":"Expense Forms","to":"/resources/expenseforms"},{"name":"Work Orders","to":"/resources/workorders"},{"name":"Initiative Requests","to":"/resources/initiativerequests"}]}]};
 
 /***/ }),
 
@@ -263,7 +263,7 @@ var _navbar_json__WEBPACK_IMPORTED_MODULE_9___namespace = /*#__PURE__*/__webpack
 
 
 
-var _jsxFileName = "/Users/shaquillewyanque/git/McMurtry-Website/components/navbar/navbarDesktop.js";
+var _jsxFileName = "C:\\Users\\nmeis\\github\\McMurtry-Website\\components\\navbar\\navbarDesktop.js";
 
 
 
@@ -445,7 +445,7 @@ var _navbar_json__WEBPACK_IMPORTED_MODULE_10___namespace = /*#__PURE__*/__webpac
 
 
 
-var _jsxFileName = "/Users/shaquillewyanque/git/McMurtry-Website/components/navbar/navbarMobile.js";
+var _jsxFileName = "C:\\Users\\nmeis\\github\\McMurtry-Website\\components\\navbar\\navbarMobile.js";
 
 
 
@@ -671,7 +671,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _intropage_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./intropage.css */ "./components/splashpage/intropage.css");
 /* harmony import */ var _intropage_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_intropage_css__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "/Users/shaquillewyanque/git/McMurtry-Website/components/splashpage/intropage.js";
+var _jsxFileName = "C:\\Users\\nmeis\\github\\McMurtry-Website\\components\\splashpage\\intropage.js";
 
 
 
@@ -684,7 +684,8 @@ var quickLinks = [{
 }, {
   name: "O-Week",
   icon: "https://icon.now.sh/people",
-  href: "https://mcmurtryoweek.wixsite.com/home-page"
+  // href: "https://mcmurtryoweek.wixsite.com/home-page"
+  to: "/oweek"
 }, {
   name: "Book a Room",
   icon: "https://icon.now.sh/event_note",
@@ -700,7 +701,7 @@ var Intro = function Intro() {
     className: "intro-page",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 32
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
@@ -708,21 +709,21 @@ var Intro = function Intro() {
     className: "yurt-graphic",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 33
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
     src: "../../static/YurtTrees.svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 34
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: "welcome-title",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 36
     },
     __self: this
   }, "Welcome to McMurtry!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
@@ -731,113 +732,59 @@ var Intro = function Intro() {
     flexDirection: "row",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 37
     },
     __self: this
   }, quickLinks.map(function (_ref) {
     var name = _ref.name,
         icon = _ref.icon,
-        href = _ref.href,
         to = _ref.to;
-    return href === undefined ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
       className: "quick-link-container",
       width: [130, 220],
       key: "".concat(name),
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 41
+        lineNumber: 40
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
       href: to,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 42
+        lineNumber: 41
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "quick-link",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 42
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      src: "".concat(icon, "/DCDFE5/70"),
+      alt: "",
+      className: "intro-link-img-large",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 43
       },
       __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      src: "".concat(icon, "/DCDFE5/70"),
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      src: "".concat(icon, "/DCDFE5/45"),
       alt: "",
-      className: "intro-link-img-large",
+      className: "intro-link-img-small",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 44
       },
       __self: this
-    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      src: "".concat(icon, "/DCDFE5/45"),
-      alt: "",
-      className: "intro-link-img-small",
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+      className: "quick-link-name",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 45
-      },
-      __self: this
-    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-      className: "quick-link-name",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 46
-      },
-      __self: this
-    }, name)))) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-      className: "quick-link-container",
-      width: [130, 220],
-      key: "".concat(name),
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 53
-      },
-      __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-      href: href,
-      style: {
-        textDecoration: 'none'
-      },
-      target: "_blank",
-      rel: "noopener noreferrer",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 54
-      },
-      __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "quick-link",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 55
-      },
-      __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      src: "".concat(icon, "/DCDFE5/70"),
-      alt: "",
-      className: "intro-link-img-large",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 56
-      },
-      __self: this
-    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      src: "".concat(icon, "/DCDFE5/45"),
-      alt: "",
-      className: "intro-link-img-small",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 57
-      },
-      __self: this
-    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-      className: "quick-link-name",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 58
       },
       __self: this
     }, name))));
@@ -7202,10 +7149,10 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fshaquillewyanque%2Fgit%2FMcMurtry-Website%2Fpages%2Findex.js!./":
-/*!************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fshaquillewyanque%2Fgit%2FMcMurtry-Website%2Fpages%2Findex.js ***!
-  \************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5Cnmeis%5Cgithub%5CMcMurtry-Website%5Cpages%5Cindex.js!./":
+/*!********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5Cnmeis%5Cgithub%5CMcMurtry-Website%5Cpages%5Cindex.js ***!
+  \********************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15888,7 +15835,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_splashpage_intropage__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/splashpage/intropage */ "./components/splashpage/intropage.js");
 /* harmony import */ var _components_general_page_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/general/page.css */ "./components/general/page.css");
 /* harmony import */ var _components_general_page_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_components_general_page_css__WEBPACK_IMPORTED_MODULE_6__);
-var _jsxFileName = "/Users/shaquillewyanque/git/McMurtry-Website/pages/index.js";
+var _jsxFileName = "C:\\Users\\nmeis\\github\\McMurtry-Website\\pages\\index.js";
 
 
 
@@ -15942,14 +15889,14 @@ var Home = function Home() {
 
 /***/ }),
 
-/***/ 0:
-/*!****************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fshaquillewyanque%2Fgit%2FMcMurtry-Website%2Fpages%2Findex.js ***!
-  \****************************************************************************************************************************************/
+/***/ 7:
+/*!************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5Cnmeis%5Cgithub%5CMcMurtry-Website%5Cpages%5Cindex.js ***!
+  \************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fshaquillewyanque%2Fgit%2FMcMurtry-Website%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fshaquillewyanque%2Fgit%2FMcMurtry-Website%2Fpages%2Findex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5Cnmeis%5Cgithub%5CMcMurtry-Website%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5Cnmeis%5Cgithub%5CMcMurtry-Website%5Cpages%5Cindex.js!./");
 
 
 /***/ }),
@@ -15965,5 +15912,5 @@ module.exports = dll_7aff549c98b978433226;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js","styles"]]]);
+},[[7,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

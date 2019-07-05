@@ -1,3 +1,251 @@
+.oweek-navbar-visible, .oweek-navbar-hidden {
+    position: fixed;
+    top: 0;
+    background-color: #2B2F3A;
+    color: #DCDFE5;
+    height: 100vh;
+    opacity: 0.9;
+    transition: 0.5s ease-in-out;
+    z-index: 999;
+}
+
+.oweek-navbar-link {
+    transition: 0.2s ease-in-out;
+    border: solid #2B2F3A;
+    border-width: 0 0 0 3px;
+}
+
+@media screen and (min-width: 801px) {
+    .oweek-navbar-visible {
+        width: 20%;
+        right: 80%;
+    }
+    .oweek-navbar-hidden {
+        width: 20%;
+        right: 80%;
+    }
+    .oweek-navbar-link {
+        padding: 0.5% 5%;
+    }
+    .oweek-navbar-close, .oweek-navbar-open {
+        display: none;
+    }
+    .oweek-navbar-link:hover {
+        background-color: #3A3F4F;
+        cursor: pointer;
+        border-color: #DCDFE5;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .oweek-navbar-visible {
+        width: 100%;
+        right: 0%;
+    }
+    .oweek-navbar-hidden {
+        width: 100%;
+        right: 100%;
+    }
+    .oweek-navbar-link {
+        padding: 1px 10%;
+        text-align: center;
+    }
+}
+
+.oweek-navbar-close {
+    text-align: right;
+    margin: 5% 5% 0 0;
+}
+
+.oweek-navbar-open {
+    position: fixed;
+    margin: 3%;
+}
+@media screen and (min-width: 801px) {
+    .oweek-page {
+        width: 70%;
+        margin-left: 20%;
+        padding: 5%;
+    }
+    .oweek-homepage {
+        width: 80%;
+        margin-left: 20%;
+    }
+    .oweek-book {
+        width: 600px;
+        margin: 5% auto;
+    }
+    .oweek-welcome {
+        font-weight: normal;
+        font-size: 3em;
+        text-align: center;
+        color: #DCDFE5;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .oweek-page {
+        width: 85%;
+        padding-top: 10%;
+        padding-bottom: 5%;
+        margin: 0 auto;
+        z-index: -1;
+    }
+    .oweek-title {
+        font-size: 1.5em;
+    }
+    .oweek-subtitle {
+        font-size: 1.2em;
+    }
+    .oweek-bio {
+        width: 250px;
+        margin: 2%;
+        box-shadow: 0 0 15px 5px #BFBFCC;
+        padding: 10px 20px;
+    }
+    .oweek-book {
+        display: none;
+    }
+    .oweek-welcome {
+        font-weight: normal;
+        font-size: 2em;
+        text-align: center;
+        color: #DCDFE5;
+    }
+}
+
+.oweek-title {
+    font-weight: normal;
+    color: #DCDFE5;
+    background-color: #87799C;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.oweek-subtitle {
+    display: inline-block;
+    color: #DCDFE5;
+    background-color: #3A3F4F;
+    padding: 5px 10px;
+    font-weight: normal;
+    opacity: 0.7;
+}
+
+.oweek-bio {
+    margin: 2%;
+    box-shadow: 0 0 15px 5px #BFBFCC;
+    padding: 10px 20px;
+}
+
+.oweek-bios {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.oweek-page p {
+    color: #2B2F3A;
+}
+
+.oweek-countdown {
+    /* width: 320px; */
+    /* margin: 2% auto; */
+    font-size: 2em;
+    font-weight: normal;
+    text-align: center;
+}
+
+.oweek-countdown p {
+    color: #3A3F4F;
+    padding: 5px 20px;
+}
+
+.oweek-address {
+    border: 1px solid #2B2F3A;
+    width: 180px;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.oweek-address p {
+    margin: 3px;
+}
+
+.oweek-book-download {
+    background-color: #3A3F4F;
+    text-align: center;
+    width: 200px;
+    margin: 3% auto;
+    color: #DCDFE5;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.oweek-book-download p {
+    color: #DCDFE5;
+}
+
+.oweek-book-download:hover {
+    background-color: #87799C;
+}
+.oweek-groups-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.oweek-group-link {
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    border: 1px solid #BFBFCC;
+    padding: 5px 10px;
+    margin: 10px;
+    font-size: 1.2em;
+    transition: 0.3s ease-in-out;
+}
+
+.oweek-group-link:hover {
+    box-shadow: 0 0 10px 3px #BFBFCC;
+    transform: scale(1.07);
+    cursor: pointer;
+}
+
+.oweek-group {
+    padding: 3% 0;
+}
+
+@media screen and (min-width: 1101px) {
+    .advisor-bio {
+        width: 18%;
+        margin: 1%;
+        box-shadow: 0 0 15px 5px #BFBFCC;
+        padding: 10px 20px;
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 1100px) {
+    .advisor-bio {
+        width: 200px;
+        margin: 2%;
+        box-shadow: 0 0 15px 5px #BFBFCC;
+        padding: 10px 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .advisor-bio {
+        width: 85%;
+        margin: 2%;
+        box-shadow: 0 0 15px 5px #BFBFCC;
+        padding: 10px 20px;
+    }
+}
 .navbar-wrapper {
     position: fixed;
     z-index: 9999;
@@ -319,254 +567,6 @@
     }
     .intro-link-img-large {
         display: none;
-    }
-}
-.oweek-navbar-visible, .oweek-navbar-hidden {
-    position: fixed;
-    top: 0;
-    background-color: #2B2F3A;
-    color: #DCDFE5;
-    height: 100vh;
-    opacity: 0.9;
-    transition: 0.5s ease-in-out;
-    z-index: 999;
-}
-
-.oweek-navbar-link {
-    transition: 0.2s ease-in-out;
-    border: solid #2B2F3A;
-    border-width: 0 0 0 3px;
-}
-
-@media screen and (min-width: 801px) {
-    .oweek-navbar-visible {
-        width: 20%;
-        right: 80%;
-    }
-    .oweek-navbar-hidden {
-        width: 20%;
-        right: 80%;
-    }
-    .oweek-navbar-link {
-        padding: 0.5% 5%;
-    }
-    .oweek-navbar-close, .oweek-navbar-open {
-        display: none;
-    }
-    .oweek-navbar-link:hover {
-        background-color: #3A3F4F;
-        cursor: pointer;
-        border-color: #DCDFE5;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .oweek-navbar-visible {
-        width: 100%;
-        right: 0%;
-    }
-    .oweek-navbar-hidden {
-        width: 100%;
-        right: 100%;
-    }
-    .oweek-navbar-link {
-        padding: 1px 10%;
-        text-align: center;
-    }
-}
-
-.oweek-navbar-close {
-    text-align: right;
-    margin: 5% 5% 0 0;
-}
-
-.oweek-navbar-open {
-    position: fixed;
-    margin: 3%;
-}
-@media screen and (min-width: 801px) {
-    .oweek-page {
-        width: 70%;
-        margin-left: 20%;
-        padding: 5%;
-    }
-    .oweek-homepage {
-        width: 80%;
-        margin-left: 20%;
-    }
-    .oweek-book {
-        width: 600px;
-        margin: 5% auto;
-    }
-    .oweek-welcome {
-        font-weight: normal;
-        font-size: 3em;
-        text-align: center;
-        color: #DCDFE5;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .oweek-page {
-        width: 85%;
-        padding-top: 10%;
-        padding-bottom: 5%;
-        margin: 0 auto;
-        z-index: -1;
-    }
-    .oweek-title {
-        font-size: 1.5em;
-    }
-    .oweek-subtitle {
-        font-size: 1.2em;
-    }
-    .oweek-bio {
-        width: 250px;
-        margin: 2%;
-        box-shadow: 0 0 15px 5px #BFBFCC;
-        padding: 10px 20px;
-    }
-    .oweek-book {
-        display: none;
-    }
-    .oweek-welcome {
-        font-weight: normal;
-        font-size: 2em;
-        text-align: center;
-        color: #DCDFE5;
-    }
-}
-
-.oweek-title {
-    font-weight: normal;
-    color: #DCDFE5;
-    background-color: #87799C;
-    display: inline-block;
-    padding: 5px 10px;
-}
-
-.oweek-subtitle {
-    display: inline-block;
-    color: #DCDFE5;
-    background-color: #3A3F4F;
-    padding: 5px 10px;
-    font-weight: normal;
-    opacity: 0.7;
-}
-
-.oweek-bio {
-    margin: 2%;
-    box-shadow: 0 0 15px 5px #BFBFCC;
-    padding: 10px 20px;
-}
-
-.oweek-bios {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.oweek-page p {
-    color: #2B2F3A;
-}
-
-.oweek-countdown {
-    /* width: 320px; */
-    /* margin: 2% auto; */
-    font-size: 2em;
-    font-weight: normal;
-    text-align: center;
-}
-
-.oweek-countdown p {
-    color: #3A3F4F;
-    padding: 5px 20px;
-}
-
-.oweek-address {
-    border: 1px solid #2B2F3A;
-    width: 180px;
-    padding: 10px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.oweek-address p {
-    margin: 3px;
-}
-
-.oweek-book-download {
-    background-color: #3A3F4F;
-    text-align: center;
-    width: 200px;
-    margin: 3% auto;
-    color: #DCDFE5;
-    padding: 10px;
-    border-radius: 10px;
-    transition: 0.3s ease-in-out;
-}
-
-.oweek-book-download p {
-    color: #DCDFE5;
-}
-
-.oweek-book-download:hover {
-    background-color: #87799C;
-}
-.oweek-groups-links {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.oweek-group-link {
-    width: 200px;
-    height: 60px;
-    text-align: center;
-    border: 1px solid #BFBFCC;
-    padding: 5px 10px;
-    margin: 10px;
-    font-size: 1.2em;
-    transition: 0.3s ease-in-out;
-}
-
-.oweek-group-link:hover {
-    box-shadow: 0 0 10px 3px #BFBFCC;
-    transform: scale(1.07);
-    cursor: pointer;
-}
-
-.oweek-group {
-    padding: 3% 0;
-}
-
-@media screen and (min-width: 1101px) {
-    .advisor-bio {
-        width: 18%;
-        margin: 1%;
-        box-shadow: 0 0 15px 5px #BFBFCC;
-        padding: 10px 20px;
-        font-size: 0.8em;
-    }
-}
-
-@media screen and (min-width: 401px) and (max-width: 1100px) {
-    .advisor-bio {
-        width: 200px;
-        margin: 2%;
-        box-shadow: 0 0 15px 5px #BFBFCC;
-        padding: 10px 20px;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .advisor-bio {
-        width: 85%;
-        margin: 2%;
-        box-shadow: 0 0 15px 5px #BFBFCC;
-        padding: 10px 20px;
     }
 }
 html {

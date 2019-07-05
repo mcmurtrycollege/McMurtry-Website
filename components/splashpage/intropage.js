@@ -13,7 +13,8 @@ const quickLinks = [
     {
         name: "O-Week",
         icon: "https://icon.now.sh/people",
-        href: "https://mcmurtryoweek.wixsite.com/home-page"
+        // href: "https://mcmurtryoweek.wixsite.com/home-page"
+        to: "/oweek"
     },
     {
         name: "Book a Room",
@@ -35,31 +36,16 @@ const Intro = () => (
         <h1 className='welcome-title'>Welcome to McMurtry!</h1>
         <Flex justifyContent='center' flexWrap='wrap' flexDirection='row' >
             {
-                quickLinks.map(({ name, icon, href, to }) => (
-                    href === undefined ? (
-
-                        <Box className='quick-link-container' width={[130, 220]} key={`${name}`}>
-                            <Link href={to}>
-                                <div className='quick-link'>
-                                    <img src={`${icon}/DCDFE5/70`} alt='' className='intro-link-img-large' />
-                                    <img src={`${icon}/DCDFE5/45`} alt='' className='intro-link-img-small' />
-                                    <h2 className='quick-link-name'>{name}</h2>
-                                </div>
-                            </Link>
-                        </Box>
-
-                    ) : (
-
-                            <Box className='quick-link-container' width={[130, 220]} key={`${name}`}>
-                                <a href={href} style={{ textDecoration: 'none' }} target="_blank" rel="noopener noreferrer">
-                                    <div className='quick-link'>
-                                        <img src={`${icon}/DCDFE5/70`} alt='' className='intro-link-img-large' />
-                                        <img src={`${icon}/DCDFE5/45`} alt='' className='intro-link-img-small' />
-                                        <h2 className='quick-link-name'>{name}</h2>
-                                    </div>
-                                </a>
-                            </Box>
-                        )
+                quickLinks.map(({ name, icon, to }) => (
+                    <Box className='quick-link-container' width={[130, 220]} key={`${name}`}>
+                        <Link href={to}>
+                            <div className='quick-link'>
+                                <img src={`${icon}/DCDFE5/70`} alt='' className='intro-link-img-large' />
+                                <img src={`${icon}/DCDFE5/45`} alt='' className='intro-link-img-small' />
+                                <h2 className='quick-link-name'>{name}</h2>
+                            </div>
+                        </Link>
+                    </Box>
                 ))
 
             }

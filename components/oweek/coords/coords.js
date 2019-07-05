@@ -19,7 +19,7 @@ const coords = [
     {
         name: "Olivia Morris",
         year: "Junior",
-        major: "Cognitive Sciences",
+        major: "Cognitive Sciences & Psychology",
         from: "Tampa, FL",
         image: "../../../static/oweek/OliviaCoord.JPG"
     }

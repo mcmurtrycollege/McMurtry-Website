@@ -15434,7 +15434,7 @@ var OweekBook = function OweekBook() {
 
 /***/ }),
 
-/***/ 2:
+/***/ 0:
 /*!*****************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Foweek%2Foweekbook&absolutePagePath=C%3A%5CUsers%5Cnmeis%5Cgithub%5CMcMurtry-Website%5Cpages%5Coweek%5Coweekbook.js ***!
   \*****************************************************************************************************************************************************************/
@@ -15457,5 +15457,5 @@ module.exports = dll_7aff549c98b978433226;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js","styles"]]]);
+},[[0,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=oweekbook.js.map

@@ -1,5 +1,6 @@
 .intro-page {
-    padding-top: 10%;
+    /* padding-top: 10%; W/O BANNER*/
+    padding-top: 3%; /* W/ BANNER */
     margin-bottom: 5%;
 }
 

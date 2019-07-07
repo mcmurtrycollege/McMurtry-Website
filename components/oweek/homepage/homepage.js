@@ -4,24 +4,9 @@ import '../oweek.css';
 const Coundown = () => {
 
     var today = new Date();
-    console.log(today);
-    var day = today.getDate();
-    var month = today.getMonth() + 1;
-    var year = today.getFullYear();
+    var oweek = new Date(2019, 8, 18, 0, 0, 0)
 
-    let daysToGo = 0;
-
-    if (year === 2019) {
-        if (month === 6) {
-            daysToGo = 18 + 31 + (30 - day);
-        }
-        if (month === 7) {
-            daysToGo = 18 + (31 - day);
-        }
-        if (month === 8) {
-            daysToGo = (18 - day);
-        }
-    }
+    var daysToGo = (oweek - today) / (24 * 60 * 60 * 1000)
 
     return (
         <h1 className='oweek-welcome'>{daysToGo} days until O-Week!</h1>

@@ -1,16 +1,37 @@
+import React from 'react';
 import { Box, Flex, Image } from 'rebass';
+var countdown = require('countdown');
 import '../oweek.css';
 
-const Coundown = () => {
+class Countdown extends React.Component {
+    constructor(props) {
+        super(props)
+        this.state = {
+            time: countdown(new Date(2019, 7, 18)).toString(),
+            myInterval: null
+        }
+        this.updateTime = this.updateTime.bind(this)
+    }
 
-    var today = new Date();
-    var oweek = new Date(2019, 8, 18, 0, 0, 0)
+    updateTime() {
+        this.setState({ time: countdown(new Date(2019, 7, 18)).toString() })
+    }
 
-    var daysToGo = (oweek - today) / (24 * 60 * 60 * 1000)
+    componentDidMount() {
+        this.state.myInterval = window.setInterval(this.updateTime, 1000)
+    }
+    componentWillUnmount() {
+        clearInterval(this.state.myInterval)
+    }
 
-    return (
-        <h1 className='oweek-welcome'>{daysToGo} days until O-Week!</h1>
-    )
+    render() {
+        return (
+            <div className='oweek-countdown'>
+                <h3>{this.state.time}</h3>
+                <h2>until O-Week!</h2>
+            </div>
+        )
+    }
 }
 
 const Homepage = () => (
@@ -22,7 +43,7 @@ const Homepage = () => (
             <Box width={[1, 1 / 3]}>
                 <Image src='../../../static/oweek/cardmovin.jpg' alt='' />
             </Box>
-            <Box width={[1, 1 / 3]} style={{ backgroundColor: '#2B2F3A', opacity: 0.9, marginBottom: '4px' }}>
+            <Box width={[1, 1 / 3]} style={{ backgroundColor: '#87799C', marginBottom: '4px' }}>
                 <h1 className='oweek-welcome'>Welcome to McMurtry!</h1>
             </Box>
             <Box width={[1, 1 / 3]} style={{ backgroundColor: '#87799C', marginBottom: '4px' }}>
@@ -40,8 +61,8 @@ const Homepage = () => (
             <Box width={[1, 1 / 3]}>
                 <Image src='../../../static/oweek/building.jpg' alt='' />
             </Box>
-            <Box width={[1, 1 / 3]} style={{ backgroundColor: '#2B2F3A', opacity: 0.9, marginBottom: '4px' }}>
-                <Coundown/>
+            <Box width={[1, 1 / 3]} style={{ backgroundColor: '#87799C', marginBottom: '4px' }}>
+                <Countdown />
             </Box>
         </Flex>
     </div>

@@ -88,9 +88,17 @@
 .oweek-countdown {
     /* width: 320px; */
     /* margin: 2% auto; */
-    font-size: 2em;
+    font-size: 1.3em;
+    width: 90%;
+    margin: 0 auto;
+    color: #DCDFE5;
+    font-weight: normal;
     font-weight: normal;
     text-align: center;
+}
+
+.oweek-countdown h2, .oweek-countdown h3 {
+    font-weight: normal;
 }
 
 .oweek-countdown p {

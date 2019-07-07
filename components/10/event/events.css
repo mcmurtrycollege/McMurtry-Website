@@ -9,7 +9,7 @@
         font-size: 4em;
     }
     .events-list {
-        margin-bottom: 10%;
+        margin-bottom: 5%;
     }
     .event-wrapper {
         display: flex;
@@ -31,9 +31,9 @@
         color: #2B2F3A;
         transition: 0.3s ease-in-out;
     }
-    .event-info:hover {
+    /* .event-info:hover {
         transform: scale(1.05);
-    }
+    } */
     .event-date {
         margin-top: 15px;
         font-size: 1.6em;

@@ -26,7 +26,7 @@ const MCM10 = () => (
         <Events />
         <Link href='/mcm10/faqs'>
             <div className='faqs-btn'>
-                <p>FAQs <img src="https://icon.now.sh/arrow/DCDFE5/25"/></p>
+                <p>FAQs</p>
             </div>
         </Link>
     </div>

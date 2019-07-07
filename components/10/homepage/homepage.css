@@ -135,13 +135,27 @@
 }
 
 .faqs-btn {
-    width: 180px;
+    width: 150px;
     text-align: center;
-    margin: 4% auto;
+    margin: 0 auto 8% auto;
     font-size: 3em;
     color: #DCDFE5;
     background-color: #2B2F3A;
     padding: 10px;
+    transition: 0.3s ease-in-out;
+    position: relative;
+    z-index: 999;
+}
+
+.faqs-btn:before {
+    position: absolute;
+    content: "";
+    background-color: #87799C;
+    height: 100%;
+    width: 0;
+    top: 0;
+    left: 0;
+    z-index: -1;
     transition: 0.3s ease-in-out;
 }
 
@@ -149,6 +163,6 @@
     margin: 0;
 }
 
-.faqs-btn:hover {
-    background-color: #87799C;
+.faqs-btn:hover:before {
+    width: 100%;
 }

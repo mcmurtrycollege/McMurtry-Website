@@ -130,10 +130,10 @@ const Groups = () => (
                                 }
                             </div>
                             <div className='oweek-video-desktop'>
-                                <iframe width="560" height="315" src={video} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullScreen></iframe>
+                                <iframe width="560" height="315" src={video} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                             </div>
                             <div className='oweek-video-mobile'>
-                                <iframe width="320" height="200" src={video} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullScreen></iframe>
+                                <iframe width="320" height="200" src={video} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                             </div>
                         </div>
                     </Element>

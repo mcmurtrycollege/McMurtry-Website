@@ -6,7 +6,7 @@ import './footer.css';
 const Footer = () => (
     <div className='footer-container'>
         <Box width={[0.4, 0.3, 0.3, 0.2]} ml='auto' mr='auto'>
-            <Image src='../static/crest.svg' alt="McMurtry College" />
+            <Image src='../../static/crest.svg' alt="McMurtry College" />
         </Box>
         <p className='footer-item'>McMurtry College · MS 761 · Rice University</p>
         <p className='footer-item'>1605 Rice Blvd. · Houston, TX 77005</p>

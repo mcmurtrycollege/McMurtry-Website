@@ -16994,7 +16994,7 @@ var Oweek = function Oweek() {
 
 /***/ }),
 
-/***/ 0:
+/***/ 6:
 /*!*************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Foweek&absolutePagePath=C%3A%5CUsers%5Cnmeis%5Cgithub%5CMcMurtry-Website%5Cpages%5Coweek%5Cindex.js ***!
   \*************************************************************************************************************************************************/
@@ -17017,5 +17017,5 @@ module.exports = dll_7aff549c98b978433226;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js","styles"]]]);
+},[[6,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=oweek.js.map

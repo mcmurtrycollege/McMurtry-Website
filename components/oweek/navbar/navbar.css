@@ -11,8 +11,6 @@
 
 .oweek-navbar-link {
     transition: 0.2s ease-in-out;
-    border: solid #2B2F3A;
-    border-width: 0 0 0 3px;
 }
 
 @media screen and (min-width: 801px) {
@@ -25,7 +23,8 @@
         right: 80%;
     }
     .oweek-navbar-link {
-        padding: 0.5% 5%;
+        padding: 0.5% 3%;
+        text-align: center;
     }
     .oweek-navbar-close, .oweek-navbar-open {
         display: none;
@@ -33,7 +32,6 @@
     .oweek-navbar-link:hover {
         background-color: #3A3F4F;
         cursor: pointer;
-        border-color: #DCDFE5;
     }
 }
 
@@ -47,7 +45,8 @@
         right: 100%;
     }
     .oweek-navbar-link {
-        padding: 1px 10%;
+        padding: 1px 5%;
+        margin: 0;
         text-align: center;
     }
 }

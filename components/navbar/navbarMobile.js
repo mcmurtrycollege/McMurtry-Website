@@ -62,9 +62,9 @@ class Navbar extends React.Component {
                     <img className="show-navbar" src='https://icon.now.sh/burger/515768/30' alt="Menu" onClick={this.toggleNavbar} />
                     <Link href='/'>
                         <div className='header-crest-mobile'>
-                            {/* <Box width={40}>
-                                <Image src='../static/logo.svg' alt="" />
-                            </Box> */}
+                            <Box width={40}>
+                                <Image src='../../static/logo.svg' alt="" />
+                            </Box>
                             <p>McMurtry College</p>
                         </div>
                     </Link>

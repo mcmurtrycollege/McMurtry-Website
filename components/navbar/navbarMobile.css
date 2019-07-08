@@ -29,10 +29,6 @@
     margin: 10px 0 5px 0;
 }
 
-.header-crest-mobile img {
-    width: 40px;
-}
-
 .header-crest-mobile:hover {
     cursor: pointer;
 }

@@ -9,7 +9,9 @@ const Footer = () => (
             <Image src='../../static/crest.svg' alt="McMurtry College" />
         </Box> */}
         <Flex flexDirection='row' justifyContent='center' className='footer-crest'>
-            <Image src='../../../static/logo.svg' alt=""/>
+            <Box width={40}>
+                <Image src='../../../static/logo.svg' alt="" />
+            </Box>
             <p>McMurtry College</p>
         </Flex>
         <p className='footer-item'>McMurtry College · MS 761 · Rice University</p>

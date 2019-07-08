@@ -210,15 +210,39 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    color: #515768;
-    background-color: #BFBFCC;
+    /* color: #515768;
+    background-color: #BFBFCC; */
+    background-color: #515768;
+    color: #DCDFE5;
     padding: 5px 0 40px 0;
+}
+
+.footer-crest p {
+    display: inline;
+    color: #87799C;
+    font-size: 1.2em;
+}
+
+.footer-crest img {
+    width: 40px;
 }
 
 .footer-item {
     margin: 4px;
     text-align: center;
     font-size: 0.6em;
+}
+.mcministry-page {
+    padding-top: 10%;
+    margin-bottom: 5%;
+}
+
+.division-title {
+    font-size: 2em;
+    text-align: center;
+    font-weight: normal;
+    padding: 8px;
+    color: #515768;
 }
 .title-container {
     
@@ -323,6 +347,75 @@
     }
 }
 
+.position-card {
+    margin: 10px;
+}
+
+.contact-card-content {
+    color: #515768;
+    /* border: 1px solid #2B2F3A; */
+    border: 1px solid #DCDFE5;
+    /* border: 1px solid #BFBFCC; */
+    box-shadow: 0 0 5px 2px #BFBFCC;
+    padding: 15px;
+    transition: 0.2s ease-in-out;
+}
+
+.contact-card-content:hover {
+    /* background-color: #BFBFCC; */
+    border-color: #515768;
+}
+
+.position {
+    font-weight: normal;
+    font-size: 0.9em;
+}
+
+.name {
+    font-size: 1.25em;
+    font-weight: normal;
+}
+
+.link {
+    text-decoration: none;
+    color: #515768;
+    font-weight: normal;
+}
+
+.year {
+    font-weight: normal;
+    font-size: 0.8em;
+}
+
+.contact-email {
+    font-size: 0.8em;
+    font-weight: normal;
+    transition: 0.3s ease-in-out;
+}
+
+.contact-email:hover {
+    text-decoration: underline;
+}
+
+.contact-phone {
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.major {
+    font-size: 0.9em;
+    font-weight: normal;
+}
+
+.subjects {
+    font-size: 0.9em;
+    font-weight: normal;
+}
+
+.room {
+    font-weight: normal;
+    font-size: 1em;
+}
 html {
     margin: 0;
     padding: 0;

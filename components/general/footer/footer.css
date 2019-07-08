@@ -2,9 +2,21 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    color: #515768;
-    background-color: #BFBFCC;
+    /* color: #515768;
+    background-color: #BFBFCC; */
+    background-color: #515768;
+    color: #DCDFE5;
     padding: 5px 0 40px 0;
+}
+
+.footer-crest p {
+    display: inline;
+    color: #87799C;
+    font-size: 1.2em;
+}
+
+.footer-crest img {
+    width: 40px;
 }
 
 .footer-item {

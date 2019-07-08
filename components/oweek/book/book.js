@@ -6,7 +6,7 @@ const Book = () => (
         <div className='oweek-book'>
             <embed src='../../../static/oweekbook.pdf' type="application/pdf" width="600" height="820px" page="7" scrollbar="1" toolbar="1" />
         </div>
-        <a href='../../../static/oweekbook.pdf' target='_blank' rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+        <a href='../../../static/oweek/oweekbook.pdf' target='_blank' rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
             <div className='oweek-book-download'>
                 <img src="https://icon.now.sh/file_download/DCDFE5/60" alt="" />
                 <p>The O-Week Book</p>

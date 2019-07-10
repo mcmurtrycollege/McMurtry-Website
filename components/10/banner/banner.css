@@ -39,6 +39,7 @@
 
 .banner-link:hover {
     padding-left: 58%;
+    cursor: pointer;
 }
 
 .banner-line1:before, .banner-line2:before, .banner-link:before {

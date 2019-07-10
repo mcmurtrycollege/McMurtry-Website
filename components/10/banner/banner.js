@@ -4,17 +4,17 @@ import './banner.css';
 const Banner = () => (
     <div className='banner'>
         <div className='banner-line1'>
-            <p>Join us on September 14th and 15th to celebrate</p>
+            <p>Join us on October 18th and 19th to celebrate</p>
         </div>
         <div className='banner-line2'>
             <p>McMurtry's 10th Anniversary!</p>
 
         </div>
-        <div className='banner-link'>
-            <Link href={'/mcm10'}>
+        <Link href={'/mcm10'}>
+            <div className='banner-link'>
                 <p>More Info →</p>
-            </Link>
-        </div>
+            </div>
+        </Link>
     </div>
 )
 

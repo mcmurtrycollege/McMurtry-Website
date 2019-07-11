@@ -11,22 +11,22 @@ import './documents.css'
 
 const documents = [
     {
-        name: "Consitution",
+        name: "Constitution",
         document: '../../../../static/documents/mcm_constitution.pdf',
         icon: "https://icon.now.sh/account_balance"
     },
     {
-        name: "Bylaws",
+        name: "General By-Laws",
         document: '../../../../static/documents/mcm_bylaws.pdf',
         icon: "https://icon.now.sh/import_contacts"
     },
     {
-        name: "Housing Bylaws",
+        name: "Housing By-Laws",
         document: '../../../../static/documents/mcm_housing_bylaws.pdf',
         icon: "https://icon.now.sh/home"
     },
     {
-        name: "Parking Bylaws",
+        name: "Parking By-Laws",
         document: '../../../../static/documents/mcm_parking_bylaws.pdf',
         icon: "https://icon.now.sh/directions_car"
     },

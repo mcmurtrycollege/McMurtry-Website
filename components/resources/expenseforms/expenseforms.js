@@ -56,7 +56,7 @@ class ExpenseForms extends React.Component {
                         <li className='instructions-list-item'>Fill out the <strong>Petty Cash Voucher Form</strong>, following the template provided.</li>
                         <li className='instructions-list-item'>Fill out the <strong>Business Meeting/Entertainment Expenses Form</strong>, following the template provided.</li>
                         <li className='instructions-list-item'>Get Jackie or one of the treasurers to sign the forms.</li>
-                        <li className='instructions-list-item'>Submit the receipts and forms to the registrar</li>
+                        <li className='instructions-list-item'>Submit the receipts and forms to the registrar.</li>
                     </ol>
                     <h2 className='instructions-title'>Account Codes</h2>
                     <ul>

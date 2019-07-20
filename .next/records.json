@@ -16,6 +16,23 @@
       }
     }
   ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/splashpage/intropage.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
   "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/navbar/navbarMobile.css": [
     {
       "modules": {
@@ -50,329 +67,6 @@
       }
     }
   ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/general/footer/footer.css": [
-    {
-      "modules": {
-        "byIdentifier": {},
-        "usedIds": {}
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/people/mcministry/mcministry.css": [
-    {
-      "modules": {
-        "byIdentifier": {},
-        "usedIds": {}
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/people/associates/associates.css": [
-    {
-      "modules": {
-        "byIdentifier": {},
-        "usedIds": {}
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/people/committees/committees.css": [
-    {
-      "modules": {
-        "byIdentifier": {},
-        "usedIds": {}
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/events/artevents/artevents.css": [
-    {
-      "modules": {
-        "byIdentifier": {},
-        "usedIds": {}
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/about/about/about.css": [
-    {
-      "modules": {
-        "byIdentifier": {},
-        "usedIds": {}
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/people/wellbeing/wellbeing.css": [
-    {
-      "modules": {
-        "byIdentifier": {},
-        "usedIds": {}
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/people/paas/paas.css": [
-    {
-      "modules": {
-        "byIdentifier": {},
-        "usedIds": {}
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/people/fellows/fellows.css": [
-    {
-      "modules": {
-        "byIdentifier": {},
-        "usedIds": {}
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/splashpage/intropage.css": [
-    {
-      "modules": {
-        "byIdentifier": {},
-        "usedIds": {}
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/events/events/events.css": [
-    {
-      "modules": {
-        "byIdentifier": {},
-        "usedIds": {}
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/people/divisionaladvisors/divisionaladvisors.css": [
-    {
-      "modules": {
-        "byIdentifier": {},
-        "usedIds": {}
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/resources/initiativerequest/initiativerequest.css": [
-    {
-      "modules": {
-        "byIdentifier": {},
-        "usedIds": {}
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/resources/workorder/workorder.css": [
-    {
-      "modules": {
-        "byIdentifier": {},
-        "usedIds": {}
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/resources/expenseforms/expenseforms.css": [
-    {
-      "modules": {
-        "byIdentifier": {},
-        "usedIds": {}
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/resources/mis/mis.css": [
-    {
-      "modules": {
-        "byIdentifier": {},
-        "usedIds": {}
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/resources/roomreservations/roomreservations.css": [
-    {
-      "modules": {
-        "byIdentifier": {},
-        "usedIds": {}
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/resources/documents/documents.css": [
-    {
-      "modules": {
-        "byIdentifier": {},
-        "usedIds": {}
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/resources/mcmurtryresources/mcmresources.css": [
-    {
-      "modules": {
-        "byIdentifier": {},
-        "usedIds": {}
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
   "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/about/financial_inclusivity/financial_inclusivity.css": [
     {
       "modules": {
@@ -390,41 +84,7 @@
       }
     }
   ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/general/title.css": [
-    {
-      "modules": {
-        "byIdentifier": {},
-        "usedIds": {}
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/general/contactcards.css": [
-    {
-      "modules": {
-        "byIdentifier": {},
-        "usedIds": {}
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/oweek/navbar/navbar.css": [
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/general/footer/footer.css": [
     {
       "modules": {
         "byIdentifier": {},
@@ -458,7 +118,41 @@
       }
     }
   ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/oweek/navbar/navbar.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
   "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/10/sponsor/Sponsor.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/10/faqs/faqs.css": [
     {
       "modules": {
         "byIdentifier": {},
@@ -509,7 +203,211 @@
       }
     }
   ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/events/events/events.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/about/about/about.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/events/artevents/artevents.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/resources/mis/mis.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/resources/roomreservations/roomreservations.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/resources/workorder/workorder.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/people/wellbeing/wellbeing.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/resources/initiativerequest/initiativerequest.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/general/title.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/10/event/events.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/resources/mcmurtryresources/mcmresources.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
   "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/people/mcteam/mcteam.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/resources/expenseforms/expenseforms.css": [
     {
       "modules": {
         "byIdentifier": {},
@@ -543,7 +441,7 @@
       }
     }
   ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/10/faqs/faqs.css": [
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/people/paas/paas.css": [
     {
       "modules": {
         "byIdentifier": {},
@@ -560,7 +458,109 @@
       }
     }
   ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/10/event/events.css": [
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/people/committees/committees.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/people/divisionaladvisors/divisionaladvisors.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/people/fellows/fellows.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/people/associates/associates.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/resources/documents/documents.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/people/mcministry/mcministry.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/general/contactcards.css": [
     {
       "modules": {
         "byIdentifier": {},
@@ -657,121 +657,85 @@
       "static/runtime/webpack.js": 1,
       "styles": 2,
       "static/runtime/main.js": 3,
-      "static\\-HIZqXx4D69nd5YuOpMeX\\pages\\_app.js": 4,
-      "static\\-HIZqXx4D69nd5YuOpMeX\\pages\\_error.js": 5,
-      "static\\-HIZqXx4D69nd5YuOpMeX\\pages\\about.js": 6,
-      "static\\-HIZqXx4D69nd5YuOpMeX\\pages\\about\\financialinclusivity.js": 7,
-      "static\\-HIZqXx4D69nd5YuOpMeX\\pages\\events\\artevents.js": 8,
-      "static\\-HIZqXx4D69nd5YuOpMeX\\pages\\events\\calendar.js": 9,
-      "static\\-HIZqXx4D69nd5YuOpMeX\\pages\\index.js": 10,
-      "static\\-HIZqXx4D69nd5YuOpMeX\\pages\\mcm10.js": 11,
-      "static\\-HIZqXx4D69nd5YuOpMeX\\pages\\mcm10\\faqs.js": 12,
-      "static\\-HIZqXx4D69nd5YuOpMeX\\pages\\mcm10\\sponsor.js": 13,
-      "static\\-HIZqXx4D69nd5YuOpMeX\\pages\\oweek.js": 14,
-      "static\\-HIZqXx4D69nd5YuOpMeX\\pages\\oweek\\coords.js": 15,
-      "static\\-HIZqXx4D69nd5YuOpMeX\\pages\\oweek\\mcmtour.js": 16,
-      "static\\-HIZqXx4D69nd5YuOpMeX\\pages\\oweek\\movein.js": 17,
-      "static\\-HIZqXx4D69nd5YuOpMeX\\pages\\oweek\\oweekbook.js": 18,
-      "static\\-HIZqXx4D69nd5YuOpMeX\\pages\\oweek\\oweekcontact.js": 19,
-      "static\\-HIZqXx4D69nd5YuOpMeX\\pages\\oweek\\oweekgroups.js": 20,
-      "static\\-HIZqXx4D69nd5YuOpMeX\\pages\\oweek\\theme.js": 21,
-      "static\\-HIZqXx4D69nd5YuOpMeX\\pages\\oweek\\yourroom.js": 22,
-      "static\\-HIZqXx4D69nd5YuOpMeX\\pages\\people\\PAAs.js": 23,
-      "static\\-HIZqXx4D69nd5YuOpMeX\\pages\\people\\RHAs.js": 24,
-      "static\\-HIZqXx4D69nd5YuOpMeX\\pages\\people\\academicfellows.js": 25,
-      "static\\-HIZqXx4D69nd5YuOpMeX\\pages\\people\\associates.js": 26,
-      "static\\-HIZqXx4D69nd5YuOpMeX\\pages\\people\\committees.js": 27,
-      "static\\-HIZqXx4D69nd5YuOpMeX\\pages\\people\\court.js": 28,
-      "static\\-HIZqXx4D69nd5YuOpMeX\\pages\\people\\divisionaladvisors.js": 29,
-      "static\\-HIZqXx4D69nd5YuOpMeX\\pages\\people\\mcministry.js": 30,
-      "static\\-HIZqXx4D69nd5YuOpMeX\\pages\\people\\mcteam.js": 31,
-      "static\\-HIZqXx4D69nd5YuOpMeX\\pages\\people\\striveliaisons.js": 32,
-      "static\\-HIZqXx4D69nd5YuOpMeX\\pages\\resources\\documents.js": 33,
-      "static\\-HIZqXx4D69nd5YuOpMeX\\pages\\resources\\expenseforms.js": 34,
-      "static\\-HIZqXx4D69nd5YuOpMeX\\pages\\resources\\initiativerequests.js": 35,
-      "static\\-HIZqXx4D69nd5YuOpMeX\\pages\\resources\\mcmresources.js": 36,
-      "static\\-HIZqXx4D69nd5YuOpMeX\\pages\\resources\\mis.js": 37,
-      "static\\-HIZqXx4D69nd5YuOpMeX\\pages\\resources\\roomreservations.js": 38,
-      "static\\-HIZqXx4D69nd5YuOpMeX\\pages\\resources\\workorders.js": 39,
-      "static\\Sir-craspi3_CbR9TebZt\\pages\\_app.js": 40,
-      "static\\Sir-craspi3_CbR9TebZt\\pages\\_error.js": 41,
-      "static\\Sir-craspi3_CbR9TebZt\\pages\\about.js": 42,
-      "static\\Sir-craspi3_CbR9TebZt\\pages\\about\\financialinclusivity.js": 43,
-      "static\\Sir-craspi3_CbR9TebZt\\pages\\events\\artevents.js": 44,
-      "static\\Sir-craspi3_CbR9TebZt\\pages\\events\\calendar.js": 45,
-      "static\\Sir-craspi3_CbR9TebZt\\pages\\index.js": 46,
-      "static\\Sir-craspi3_CbR9TebZt\\pages\\mcm10.js": 47,
-      "static\\Sir-craspi3_CbR9TebZt\\pages\\mcm10\\faqs.js": 48,
-      "static\\Sir-craspi3_CbR9TebZt\\pages\\mcm10\\sponsor.js": 49,
-      "static\\Sir-craspi3_CbR9TebZt\\pages\\oweek.js": 50,
-      "static\\Sir-craspi3_CbR9TebZt\\pages\\oweek\\coords.js": 51,
-      "static\\Sir-craspi3_CbR9TebZt\\pages\\oweek\\mcmtour.js": 52,
-      "static\\Sir-craspi3_CbR9TebZt\\pages\\oweek\\movein.js": 53,
-      "static\\Sir-craspi3_CbR9TebZt\\pages\\oweek\\oweekbook.js": 54,
-      "static\\Sir-craspi3_CbR9TebZt\\pages\\oweek\\oweekcontact.js": 55,
-      "static\\Sir-craspi3_CbR9TebZt\\pages\\oweek\\oweekgroups.js": 56,
-      "static\\Sir-craspi3_CbR9TebZt\\pages\\oweek\\theme.js": 57,
-      "static\\Sir-craspi3_CbR9TebZt\\pages\\oweek\\yourroom.js": 58,
-      "static\\Sir-craspi3_CbR9TebZt\\pages\\people\\PAAs.js": 59,
-      "static\\Sir-craspi3_CbR9TebZt\\pages\\people\\RHAs.js": 60,
-      "static\\Sir-craspi3_CbR9TebZt\\pages\\people\\academicfellows.js": 61,
-      "static\\Sir-craspi3_CbR9TebZt\\pages\\people\\associates.js": 62,
-      "static\\Sir-craspi3_CbR9TebZt\\pages\\people\\committees.js": 63,
-      "static\\Sir-craspi3_CbR9TebZt\\pages\\people\\court.js": 64,
-      "static\\Sir-craspi3_CbR9TebZt\\pages\\people\\divisionaladvisors.js": 65,
-      "static\\Sir-craspi3_CbR9TebZt\\pages\\people\\mcministry.js": 66,
-      "static\\Sir-craspi3_CbR9TebZt\\pages\\people\\mcteam.js": 67,
-      "static\\Sir-craspi3_CbR9TebZt\\pages\\people\\striveliaisons.js": 68,
-      "static\\Sir-craspi3_CbR9TebZt\\pages\\resources\\documents.js": 69,
-      "static\\Sir-craspi3_CbR9TebZt\\pages\\resources\\expenseforms.js": 70,
-      "static\\Sir-craspi3_CbR9TebZt\\pages\\resources\\initiativerequests.js": 71,
-      "static\\Sir-craspi3_CbR9TebZt\\pages\\resources\\mcmresources.js": 72,
-      "static\\Sir-craspi3_CbR9TebZt\\pages\\resources\\mis.js": 73,
-      "static\\Sir-craspi3_CbR9TebZt\\pages\\resources\\roomreservations.js": 74,
-      "static\\Sir-craspi3_CbR9TebZt\\pages\\resources\\workorders.js": 75
+      "static\\d67TuPRPak339SDdi5pQF\\pages\\_app.js": 4,
+      "static\\d67TuPRPak339SDdi5pQF\\pages\\_error.js": 5,
+      "static\\d67TuPRPak339SDdi5pQF\\pages\\about.js": 6,
+      "static\\d67TuPRPak339SDdi5pQF\\pages\\about\\financialinclusivity.js": 7,
+      "static\\d67TuPRPak339SDdi5pQF\\pages\\events\\artevents.js": 8,
+      "static\\d67TuPRPak339SDdi5pQF\\pages\\events\\calendar.js": 9,
+      "static\\d67TuPRPak339SDdi5pQF\\pages\\index.js": 10,
+      "static\\d67TuPRPak339SDdi5pQF\\pages\\mcm10.js": 11,
+      "static\\d67TuPRPak339SDdi5pQF\\pages\\mcm10\\faqs.js": 12,
+      "static\\d67TuPRPak339SDdi5pQF\\pages\\mcm10\\sponsor.js": 13,
+      "static\\d67TuPRPak339SDdi5pQF\\pages\\oweek.js": 14,
+      "static\\d67TuPRPak339SDdi5pQF\\pages\\oweek\\coords.js": 15,
+      "static\\d67TuPRPak339SDdi5pQF\\pages\\oweek\\mcmtour.js": 16,
+      "static\\d67TuPRPak339SDdi5pQF\\pages\\oweek\\movein.js": 17,
+      "static\\d67TuPRPak339SDdi5pQF\\pages\\oweek\\oweekbook.js": 18,
+      "static\\d67TuPRPak339SDdi5pQF\\pages\\oweek\\oweekcontact.js": 19,
+      "static\\d67TuPRPak339SDdi5pQF\\pages\\oweek\\oweekgroups.js": 20,
+      "static\\d67TuPRPak339SDdi5pQF\\pages\\oweek\\theme.js": 21,
+      "static\\d67TuPRPak339SDdi5pQF\\pages\\oweek\\yourroom.js": 22,
+      "static\\d67TuPRPak339SDdi5pQF\\pages\\people\\PAAs.js": 23,
+      "static\\d67TuPRPak339SDdi5pQF\\pages\\people\\RHAs.js": 24,
+      "static\\d67TuPRPak339SDdi5pQF\\pages\\people\\academicfellows.js": 25,
+      "static\\d67TuPRPak339SDdi5pQF\\pages\\people\\associates.js": 26,
+      "static\\d67TuPRPak339SDdi5pQF\\pages\\people\\committees.js": 27,
+      "static\\d67TuPRPak339SDdi5pQF\\pages\\people\\court.js": 28,
+      "static\\d67TuPRPak339SDdi5pQF\\pages\\people\\divisionaladvisors.js": 29,
+      "static\\d67TuPRPak339SDdi5pQF\\pages\\people\\mcministry.js": 30,
+      "static\\d67TuPRPak339SDdi5pQF\\pages\\people\\mcteam.js": 31,
+      "static\\d67TuPRPak339SDdi5pQF\\pages\\people\\striveliaisons.js": 32,
+      "static\\d67TuPRPak339SDdi5pQF\\pages\\resources\\documents.js": 33,
+      "static\\d67TuPRPak339SDdi5pQF\\pages\\resources\\expenseforms.js": 34,
+      "static\\d67TuPRPak339SDdi5pQF\\pages\\resources\\initiativerequests.js": 35,
+      "static\\d67TuPRPak339SDdi5pQF\\pages\\resources\\mcmresources.js": 36,
+      "static\\d67TuPRPak339SDdi5pQF\\pages\\resources\\mis.js": 37,
+      "static\\d67TuPRPak339SDdi5pQF\\pages\\resources\\roomreservations.js": 38,
+      "static\\d67TuPRPak339SDdi5pQF\\pages\\resources\\workorders.js": 39
     },
     "bySource": {},
     "usedIds": [
       0,
       1,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
       2,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
       3,
-      40,
-      41,
-      42,
-      43,
-      44,
-      45,
-      46,
-      47,
-      48,
-      49,
-      50,
-      51,
-      52,
-      53,
-      54,
-      55,
-      56,
-      57,
-      58,
-      59,
-      60,
-      61,
-      62,
-      63,
-      64,
-      65,
-      66,
-      67,
-      68,
-      69,
-      70,
-      71,
-      72,
-      73,
-      74,
-      75
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
     ]
   }
 }

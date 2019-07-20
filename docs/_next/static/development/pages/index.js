@@ -334,21 +334,21 @@ function (_React$Component) {
         style: style,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31
+          lineNumber: 38
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
         href: "/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32
+          lineNumber: 39
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "header-crest",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33
+          lineNumber: 40
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_8__["Image"], {
@@ -356,20 +356,20 @@ function (_React$Component) {
         alt: "",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 34
+          lineNumber: 41
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 35
+          lineNumber: 42
         },
         __self: this
       }, "McMurtry College"))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "navbar-catagories",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 38
+          lineNumber: 45
         },
         __self: this
       }, _navbar_json__WEBPACK_IMPORTED_MODULE_9__["navbar_headers"].map(function (_ref) {
@@ -380,21 +380,21 @@ function (_React$Component) {
           key: name,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 41
+            lineNumber: 48
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("button", {
           className: "navbar-dropdown-opener",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 42
+            lineNumber: 49
           },
           __self: this
         }, name), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
           className: "dropdown-subheaders",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 45
+            lineNumber: 52
           },
           __self: this
         }, subheaders.map(function (_ref2) {
@@ -405,13 +405,13 @@ function (_React$Component) {
             key: name,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 48
+              lineNumber: 55
             },
             __self: this
           }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 48
+              lineNumber: 55
             },
             __self: this
           }, name));

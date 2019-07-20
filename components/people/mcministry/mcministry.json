@@ -69,76 +69,76 @@
             "email": "mcmurtrypc@gmail.com"
         },
         {
-            "position": "2 Yellow",
-            "name": "Kelsey Sanders",
+            "position": "2Y Hall Rep",
+            "name": "Serene Lee",
+            "year": "2022",
+            "email": "sl122@rice.edu"
+        },
+        {
+            "position": "2O Hall Rep",
+            "name": "Joshua Verne",
+            "year": "2022",
+            "email": "jpv4@rice.edu"
+        },
+        {
+            "position": "3Y Hall Rep",
+            "name": "Lupita Galvan",
             "year": "2020",
-            "email": "kns4@rice.edu"
+            "email": "gag7@rice.edu"
         },
         {
-            "position": "2 Orange",
-            "name": "Chelsea Morin",
-            "year": "2019",
-            "email": "clm13@rice.edu"
+            "position": "3O Hall Rep",
+            "name": "Lily Cao",
+            "year": "2021",
+            "email": "ljc4@rice.edu"
         },
         {
-            "position": "3 Yellow",
+            "position": "4Y Hall Rep",
             "name": "Anika Jain",
             "year": "2021",
-            "email": "aaj11@rice.edu"
+            "email": "aaj@rice.edu"
         },
         {
-            "position": "3 Orange",
-            "name": "Julia Reily",
-            "year": "2020",
-            "email": "jmr6@rice.edu"
+            "position": "4O Hall Rep",
+            "name": "Sophie Marx",
+            "year": "2022",
+            "email": "shm7@rice.edu"
         },
         {
-            "position": "4 Yellow",
-            "name": "Joyce Moon",
-            "year": "2019",
-            "email": "jhm6@rice.edu"
-        },
-        {
-            "position": "4 Orange",
-            "name": "Katie Mackall",
-            "year": "2019",
-            "email": "kmr8@rice.edu"
-        },
-        {
-            "position": "5th Floor",
-            "name": "Mahdi Fariss",
-            "year": "2019",
-            "email": "mzf2@rice.edu"
+            "position": "5th Floor Rep",
+            "name": "Alex Lammers",
+            "year": "2022",
+            "email": "ajl12@rice.edu"
         },
         {
             "position": "Off Campus",
-            "name": "Jake Bhoi",
-            "year": "2020",
-            "email": "jdb15@rice.edu"
-        },
-        {
-            "position": "First Year Rep",
-            "name": "AJ Valenty",
-            "year": "2022",
-            "email": "amv10@rice.edu"
-        },
-        {
-            "position": "First Year Rep",
-            "name": "Dylan Nguyen",
-            "year": "2022",
-            "email": "dhn5@rice.edu"
-        },
-        {
-            "position": "First Year Rep",
-            "name": "Aruni Areti",
+            "name": "Etan Woloski",
             "year": "2021",
-            "email": "asa12@rice.edu"
+            "email": "ew24@rice.edu"
         },
         {
             "position": "RPC Rep",
-            "name": "Maishara Muquith",
-            "year": "2020",
-            "email": "mm100@rice.edu"
+            "name": "Samantha Cheng",
+            "year": "2022",
+            "email": "slc10@rice.edu"
+        },
+        {
+            "position": "First Year Rep",
+            "name": "TBD",
+            "year": "2023",
+            "email": "TBD@rice.edu"
+        },
+        {
+            "position": "First Year Rep",
+            "name": "TBD",
+            "year": "2023",
+            "email": "TBD@rice.edu"
+        },
+        {
+            "position": "First Year Rep",
+            "name": "TBD",
+            "year": "2023",
+            "email": "TBD@rice.edu"
         }
     ],
     "mccabinet":[

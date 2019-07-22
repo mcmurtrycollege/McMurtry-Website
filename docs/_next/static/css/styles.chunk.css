@@ -222,18 +222,6 @@
     text-align: center;
     font-size: 0.6em;
 }
-.mcministry-page {
-    padding-top: 10%;
-    margin-bottom: 5%;
-}
-
-.division-title {
-    font-size: 2em;
-    text-align: center;
-    font-weight: normal;
-    padding: 8px;
-    color: #515768;
-}
 .title-container {
     
 }
@@ -245,75 +233,6 @@
     background-color: #87799C;
     padding: 5px 10px;
     text-align: center;
-}
-.position-card {
-    margin: 10px;
-}
-
-.contact-card-content {
-    color: #515768;
-    /* border: 1px solid #2B2F3A; */
-    border: 1px solid #DCDFE5;
-    /* border: 1px solid #BFBFCC; */
-    box-shadow: 0 0 5px 2px #BFBFCC;
-    padding: 15px;
-    transition: 0.2s ease-in-out;
-}
-
-.contact-card-content:hover {
-    /* background-color: #BFBFCC; */
-    border-color: #515768;
-}
-
-.position {
-    font-weight: normal;
-    font-size: 0.9em;
-}
-
-.name {
-    font-size: 1.25em;
-    font-weight: normal;
-}
-
-.link {
-    text-decoration: none;
-    color: #515768;
-    font-weight: normal;
-}
-
-.year {
-    font-weight: normal;
-    font-size: 0.8em;
-}
-
-.contact-email {
-    font-size: 0.8em;
-    font-weight: normal;
-    transition: 0.3s ease-in-out;
-}
-
-.contact-email:hover {
-    text-decoration: underline;
-}
-
-.contact-phone {
-    font-size: 1em;
-    font-weight: normal;
-}
-
-.major {
-    font-size: 0.9em;
-    font-weight: normal;
-}
-
-.subjects {
-    font-size: 0.9em;
-    font-weight: normal;
-}
-
-.room {
-    font-weight: normal;
-    font-size: 1em;
 }
 .intro-page {
     /* W/O BANNER */
@@ -408,6 +327,139 @@
     }
 }
 
+.mis-page {
+    padding-top: 10%;
+    margin-bottom: 5%;
+}
+
+.subtitle {
+    margin-top: 3%;
+    margin-bottom: 2%;
+    background-color: #515768;
+    text-align: center;
+    color: #DCDFE5;
+    font-weight: normal;
+}
+
+.subtitle h2 {
+    font-weight: normal;
+    padding: 5px 10px;
+}
+
+.mis-paragraphs {
+    padding: 20px;
+    color: #515768;
+}
+
+.schedule-box {
+    margin-top: 2%;
+    margin-bottom: 4%;
+    /* background-color: #BFBFCC; */
+    padding: 1%;
+}
+
+.schedule {
+    border: 1px solid #515768;
+    margin: 1%;
+}
+
+.schedule-item {
+    text-align: center;
+    color: #515768;
+    font-size: 1em;
+}
+
+.mis-contact-card {
+    margin: 2%;
+}
+
+.mis-info {
+    padding: 30px;
+    background-color: none;
+    text-align: center;
+    background-color: #515768;
+    margin: 2%;
+    transition: 0.3s ease-in-out;
+    position: relative;
+    z-index: 100;
+}
+
+.mis-info:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0;
+    width: 100%;
+    transition: 0.3s ease-in-out;
+    background-color: #87799C;
+    z-index: -1;
+}
+
+.mis-info:hover {
+    cursor: pointer;
+}
+
+.mis-info:hover:before {
+    height: 100%;
+}
+
+.mis-link {
+    text-align: center;
+    font-size: 1.4em;
+    color: #DCDFE5;
+}
+
+.mis-contact {
+    border: 1px solid #DCDFE5;
+    box-shadow: 0 0 5px 2px #BFBFCC;
+    padding: 20px;
+    height: 250px;
+    transition: 0.2s ease-in-out;
+}
+
+.mis-contact:hover {
+    /* background-color: #BFBFCC; */
+    border-color: #2B2F3A;
+}
+
+.mis-name {
+    color: #515768;
+    font-weight: normal;
+}
+
+.mis-major {
+    color: #515768;
+    font-size: 0.9em;
+    font-weight: normal;
+}
+
+.mis-college {
+    color: #2B2F3A;
+    font-size: 0.9em;
+    font-weight: normal;
+}
+
+.mis-email {
+    color: #515768;
+    font-size: 1em;
+    transition: transform 0.3s ease-in-out;
+    font-weight: normal;
+}
+
+.mis-email:hover {
+    transform: scale(1.07) translate(15px, 0);
+}
+
+.mis-askMeHeader {
+    font-size: 0.8em;
+    color: #515768;
+}
+
+.mis-askMeAbout {
+    color: #515768;
+    font-size: 0.8em;
+}
 html {
     margin: 0;
     padding: 0;

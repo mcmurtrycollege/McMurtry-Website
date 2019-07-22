@@ -2,12 +2,8 @@ import React from 'react';
 import { Box, Flex } from 'rebass';
 import Cards from '../../general/contactcards';
 import Title from '../../general/title';
-import { internal, external, social } from './committees.json';
+import { committee_divisions } from './committees.json';
 import './committees.css';
-
-const divisions = [internal, external, social];
-
-const division_names = ["Internal Committees", "External Committees", "Social Committees"];
 
 export default class Committees extends React.Component {
     constructor(props) {
@@ -33,43 +29,47 @@ export default class Committees extends React.Component {
 
     render() {
 
+        let division_keys = []
+        for (let i = 0; i < committee_divisions.length; i++) {
+            division_keys.push(
+                <Box key={committee_divisions[i].division}>
+                    <div onClick={() => this.changeDivision(i)} className={this.state.division === i ? "active-division" : "inactive-division"}>
+                        <p className='division-key'>{`${committee_divisions[i].division}`}</p>
+                    </div>
+                </Box>
+            )
+        }
+        const current_division = committee_divisions[this.state.division]
+        let committee_keys = []
+        for (let j = 0; j < current_division.committees.length; j++) {
+            committee_keys.push(
+                <Box key={current_division.committees[j].name}>
+                    <div onClick={() => this.changeCommittee(j)} className={this.state.committee === j ? "active-committee" : "inactive-committee"}>
+                        <p className='committee-key'>{current_division.committees[j].name}</p>
+                    </div>
+                </Box>
+            )
+        }
+
         return (
             <div className="committee-page">
                 <Title width={280} title="Committees" />
                 <div>
                     <Flex justifyContent='center' flex='wrap' flexDirection='row'>
-                        {
-                            division_names.map(division => (
-                                <Box key={division}>
-                                    <div onClick={() => this.changeDivision(division_names.indexOf(division))}
-                                        className={this.state.division === division_names.indexOf(division) ? "active-division" : "inactive-division"}>
-                                        <p className='division-key'>{`${division}`}</p>
-                                    </div>
-                                </Box>
-                            ))
-                        }
+                        {division_keys}
                     </Flex>
                 </div>
                 <div>
                     <Flex justifyContent='center' flex='wrap' flexDirection='row'>
-                        {
-                            divisions[this.state.division].map(committee => (
-                                <Box key={committee.name}>
-                                    <div onClick={() => this.changeCommittee(divisions[this.state.division].indexOf(committee))}
-                                        className={this.state.committee === divisions[this.state.division].indexOf(committee) ? "active-committee" : "inactive-committee"}>
-                                        <p className='committee-key'>{committee.name}</p>
-                                    </div>
-                                </Box>
-                            ))
-                        }
+                        {committee_keys}
                     </Flex>
                 </div>
                 <div>
                     <Box width={[0.9, 0.7, 0.6, 0.5]} ml='auto' mr='auto' className='committee-description'>
-                        <h1 className='division-title'>{divisions[this.state.division][this.state.committee].name}</h1>
-                        {divisions[this.state.division][this.state.committee].description}
+                        <h1 className='division-title'>{committee_divisions[this.state.division].committees[this.state.committee].name}</h1>
+                        {committee_divisions[this.state.division].committees[this.state.committee].description}
                     </Box>
-                    <Cards content={divisions[this.state.division][this.state.committee].members} height={110} width={240} />
+                    <Cards content={committee_divisions[this.state.division].committees[this.state.committee].members} height={110} width={240} />
                 </div>
             </div>
         )

@@ -174,16 +174,16 @@
     color: #DCDFE5;
     margin: 5% auto auto 10%;
     text-decoration: none;
-    font-size: 1.4em;
+    font-size: 1.3em;
     color: #515768;
 }
 
 .subheader-item {
     color: #DCDFE5;
-    margin-top: 10%;
-    margin-left: 10%;
+    margin-top: 5%;
+    margin-left: 13%;
     text-decoration: none;
-    font-size: 1.4em;
+    font-size: 1.3em;
     color: #515768;
 }
 
@@ -327,138 +327,53 @@
     }
 }
 
-.mis-page {
+.divisional-advisors-page {
     padding-top: 10%;
     margin-bottom: 5%;
 }
 
-.subtitle {
-    margin-top: 3%;
-    margin-bottom: 2%;
-    background-color: #515768;
-    text-align: center;
-    color: #DCDFE5;
-    font-weight: normal;
-}
-
-.subtitle h2 {
-    font-weight: normal;
-    padding: 5px 10px;
-}
-
-.mis-paragraphs {
-    padding: 20px;
-    color: #515768;
-}
-
-.schedule-box {
-    margin-top: 2%;
-    margin-bottom: 4%;
-    /* background-color: #BFBFCC; */
-    padding: 1%;
-}
-
-.schedule {
-    border: 1px solid #515768;
-    margin: 1%;
-}
-
-.schedule-item {
-    text-align: center;
-    color: #515768;
-    font-size: 1em;
-}
-
-.mis-contact-card {
-    margin: 2%;
-}
-
-.mis-info {
-    padding: 30px;
-    background-color: none;
-    text-align: center;
-    background-color: #515768;
-    margin: 2%;
-    transition: 0.3s ease-in-out;
-    position: relative;
-    z-index: 100;
-}
-
-.mis-info:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 0;
-    width: 100%;
-    transition: 0.3s ease-in-out;
-    background-color: #87799C;
-    z-index: -1;
-}
-
-.mis-info:hover {
-    cursor: pointer;
-}
-
-.mis-info:hover:before {
-    height: 100%;
-}
-
-.mis-link {
-    text-align: center;
-    font-size: 1.4em;
-    color: #DCDFE5;
-}
-
-.mis-contact {
-    border: 1px solid #DCDFE5;
-    box-shadow: 0 0 5px 2px #BFBFCC;
-    padding: 20px;
-    height: 250px;
+.advisor-card-visible, .advisor-card-hidden {
+    margin: 2% auto;
     transition: 0.2s ease-in-out;
 }
 
-.mis-contact:hover {
-    /* background-color: #BFBFCC; */
-    border-color: #2B2F3A;
+.advisor-card-visible {
+    background-color: #515768;
+    color: #DCDFE5;
+    border: 1px solid #DCDFE5
 }
 
-.mis-name {
+.advisor-card-hidden {
     color: #515768;
+    border: 1px solid #DCDFE5;
+    box-shadow: 0 0 5px 2px #BFBFCC;
+}
+
+.divisional-advisor-dropdown-visible, .divisional-advisor-dropdown-hidden {
+    overflow: hidden;
+    transition: 0.4s ease-in-out;
+}
+
+.divisional-advisor-dropdown-visible {
+    max-height: 1000px;
+}
+
+.divisional-advisor-dropdown-hidden {
+    max-height: 0;
+}
+
+.advisor-card-hidden:hover {
+    border-color: #515768;
+}
+
+.advisor-card-content h1, .advisor-card-content h2, .advisor-card-content h3, .advisor-card-content h4 {
     font-weight: normal;
+    text-align: center;
 }
 
-.mis-major {
-    color: #515768;
-    font-size: 0.9em;
-    font-weight: normal;
-}
-
-.mis-college {
-    color: #2B2F3A;
-    font-size: 0.9em;
-    font-weight: normal;
-}
-
-.mis-email {
-    color: #515768;
-    font-size: 1em;
-    transition: transform 0.3s ease-in-out;
-    font-weight: normal;
-}
-
-.mis-email:hover {
-    transform: scale(1.07) translate(15px, 0);
-}
-
-.mis-askMeHeader {
-    font-size: 0.8em;
-    color: #515768;
-}
-
-.mis-askMeAbout {
-    color: #515768;
-    font-size: 0.8em;
+.advisor-bio {
+    text-align: left;
+    padding: 20px;
 }
 html {
     margin: 0;

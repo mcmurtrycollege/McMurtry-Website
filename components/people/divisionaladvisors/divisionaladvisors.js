@@ -18,50 +18,36 @@ class DivisionalAdvisor extends React.Component {
     };
 
     render() {
-        let dropdownStyle = {};
-        dropdownStyle.maxHeight = this.state.closed ? ('0') : ('1000px')
         return (
-            <div>
-                <Box width={1}>
-                    <div className={this.state.closed ? "advisor-card-hidden" : "advisor-card-visible"} onClick={this.handleClick}>
-                        <h2 className='advisor-name'>
-                            {this.props.name}
-                        </h2>
-                        <h2 className='advisor-school'>{this.props.school}</h2>
-                        <div style={dropdownStyle} className='divisional-advisor-dropdown'>
-                            <p className='advisor-bio'>
-                                {this.props.bio}
-                            </p>
-                        </div>
+            <Box width={[0.9, 0.8, 0.7, 0.6]}>
+                <div className={this.state.closed ? "advisor-card-hidden" : "advisor-card-visible"} onClick={this.handleClick}>
+                    <div className='advisor-card-content'>
+                        <h1>{this.props.name}</h1>
+                        <h2>School of {this.props.school}</h2>
+                        <h4>Department of {this.props.department}</h4>
+                        <h4>Email: {this.props.email}</h4>
+                        <h4>Office: {this.props.office}</h4>
                     </div>
-                </Box>
-            </div>
+                    <div className={this.state.closed ? 'divisional-advisor-dropdown-hidden' : 'divisional-advisor-dropdown-visible'}>
+                        <p className='advisor-bio'>
+                            {this.props.bio}
+                        </p>
+                    </div>
+                </div>
+            </Box>
         )
     }
 }
 
 const DivisionalAdvisors = () => {
-
-    let cols = [[], []]
-
-    for (let i = 0; i < advisors.length; i++) {
-        cols[i % 2].push(
-            <DivisionalAdvisor key={advisors[i].name} name={advisors[i].name} school={advisors[i].school} bio={advisors[i].bio} />
-        )
-    }
-
     return (
         <div className='divisional-advisors-page'>
             <Title width={350} title="Divisional Advisors" />
             <div>
                 <Flex flexDirection='row' justifyContent='center' flexWrap='wrap'>
                     {
-                        cols.map(column => (
-                            <Box width={[0.9, 0.4]} className='advisor-column' key={`C+${cols.indexOf(column)}`}>
-                                <Flex flexDirection='column'>
-                                    {column}
-                                </Flex>
-                            </Box>
+                        advisors.map(({ name, school, department, email, office, bio }) => (
+                            <DivisionalAdvisor key={name} name={name} school={school} department={department} email={email} office={office} bio={bio} />
                         ))
                     }
                 </Flex>

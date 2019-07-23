@@ -29,7 +29,7 @@
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1563831375031");
+            injectCss(link, link.href.split("?")[0] + "?unix=1563838122013");
           });
       }
     }
@@ -66,7 +66,7 @@
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1563831374985");
+            injectCss(link, link.href.split("?")[0] + "?unix=1563838121978");
           });
       }
     }
@@ -103,7 +103,7 @@
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1563831375232");
+            injectCss(link, link.href.split("?")[0] + "?unix=1563838122278");
           });
       }
     }
@@ -140,7 +140,7 @@
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1563833109858");
+            injectCss(link, link.href.split("?")[0] + "?unix=1563840205219");
           });
       }
     }
@@ -177,7 +177,7 @@
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1563831375012");
+            injectCss(link, link.href.split("?")[0] + "?unix=1563838201167");
           });
       }
     }
@@ -185,10 +185,10 @@
 
 /***/ }),
 
-/***/ "./components/resources/mis/mis.css":
-/*!******************************************!*\
-  !*** ./components/resources/mis/mis.css ***!
-  \******************************************/
+/***/ "./components/people/divisionaladvisors/divisionaladvisors.css":
+/*!*********************************************************************!*\
+  !*** ./components/people/divisionaladvisors/divisionaladvisors.css ***!
+  \*********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -214,7 +214,7 @@
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1563833047876");
+            injectCss(link, link.href.split("?")[0] + "?unix=1563840194877");
           });
       }
     }
@@ -251,7 +251,7 @@
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1563832948325");
+            injectCss(link, link.href.split("?")[0] + "?unix=1563838121988");
           });
       }
     }

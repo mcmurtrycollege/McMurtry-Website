@@ -42,7 +42,19 @@
     text-align: center;
 }
 
+.advisor-card-content .h2 {
+    margin: 15px 0;
+}
+
+.advisor-card-content h3, .advisor-card-content h4 {
+    margin: 10px 0;
+}
+
+.advisor-card-content {
+    margin-bottom: 30px;
+}
+
 .advisor-bio {
     text-align: left;
-    padding: 20px;
+    padding-bottom: 30px;
 }

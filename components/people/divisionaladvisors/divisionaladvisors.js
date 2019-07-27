@@ -29,9 +29,11 @@ class DivisionalAdvisor extends React.Component {
                         <h4>Office: {this.props.office}</h4>
                     </div>
                     <div className={this.state.closed ? 'divisional-advisor-dropdown-hidden' : 'divisional-advisor-dropdown-visible'}>
-                        <p className='advisor-bio'>
-                            {this.props.bio}
-                        </p>
+                        <Box width={0.9} ml='auto' mr='auto'>
+                            <p className='advisor-bio'>
+                                {this.props.bio}
+                            </p>
+                        </Box>
                     </div>
                 </div>
             </Box>

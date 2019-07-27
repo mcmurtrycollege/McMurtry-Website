@@ -2,7 +2,7 @@ import React from 'react';
 import { Box, Flex, Image } from 'rebass';
 import Title from '../../general/title';
 import './associates.css';
-import associates from './associates_content';
+import { associates } from './associates.json';
 
 class AssociateCard extends React.Component {
     constructor(props) {

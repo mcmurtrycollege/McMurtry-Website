@@ -29,7 +29,7 @@
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1563838122013");
+            injectCss(link, link.href.split("?")[0] + "?unix=1564201367253");
           });
       }
     }
@@ -66,7 +66,7 @@
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1563838121978");
+            injectCss(link, link.href.split("?")[0] + "?unix=1564201367212");
           });
       }
     }
@@ -103,7 +103,7 @@
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1563838122278");
+            injectCss(link, link.href.split("?")[0] + "?unix=1564201367284");
           });
       }
     }
@@ -140,7 +140,7 @@
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1563840205219");
+            injectCss(link, link.href.split("?")[0] + "?unix=1564202084458");
           });
       }
     }
@@ -177,7 +177,7 @@
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1563838201167");
+            injectCss(link, link.href.split("?")[0] + "?unix=1564201367244");
           });
       }
     }
@@ -185,10 +185,10 @@
 
 /***/ }),
 
-/***/ "./components/people/divisionaladvisors/divisionaladvisors.css":
-/*!*********************************************************************!*\
-  !*** ./components/people/divisionaladvisors/divisionaladvisors.css ***!
-  \*********************************************************************/
+/***/ "./components/people/associates/associates.css":
+/*!*****************************************************!*\
+  !*** ./components/people/associates/associates.css ***!
+  \*****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -214,7 +214,7 @@
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1563840194877");
+            injectCss(link, link.href.split("?")[0] + "?unix=1564202008512");
           });
       }
     }
@@ -251,7 +251,7 @@
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1563838121988");
+            injectCss(link, link.href.split("?")[0] + "?unix=1564201541001");
           });
       }
     }

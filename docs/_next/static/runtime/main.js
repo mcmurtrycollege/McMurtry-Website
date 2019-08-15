@@ -6765,7 +6765,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "/Users/chathamabate/Desktop/Git Workspaces/McMurtry-Website/.next");
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "C:\\Users\\nmeis\\Projects\\Websites\\McMurtry-Website\\.next");
       return error;
     }
   };

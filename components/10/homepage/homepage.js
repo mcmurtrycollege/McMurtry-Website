@@ -1,40 +1,46 @@
-import { Parallax } from 'react-parallax';
 import Link from 'next/link';
+import { Parallax } from 'react-parallax';
 import { Box, Flex, Image } from 'rebass';
 import './homepage.css';
 import Events from '../event/events';
 
 const MCM10 = () => (
     <div>
-        <Parallax bgImage='../../../static/mcm10bg.svg' bgImageAlt='' strength={800}>
-            <div className='parallax-wrapper'>
-                <div className='mcm10-title' style={{ animation: "reveal1 5s 1" }}>
-                    <Image src='../../../static/mcm10.svg' alt="MCM10" />
-                </div>
-                <div className='mcm10-tiles'>
-                    <Flex justifyContent='center' flexDirection='row' flexWrap='wrap'>
-                        <div className='mcm10-tile' style={{ animation: "reveal2 5s 1" }}>
-                            <Box className='mcm10-btn'>
-                                <p>Get Tickets</p>
-                            </Box>
-                        </div>
-                        <div className='mcm10-tile' style={{ animation: "reveal3 5s 1" }}>
-                            <Image src="../../../static/mcm_commons.jpg" alt='' />
-                        </div>
-                        <div className='mcm10-tile' style={{ animation: "reveal4 5s 1" }}>
-                            <Image src="../../../static/reserve.jpg" alt='' />
-                        </div>
-                        <div className='mcm10-tile' style={{ animation: "reveal5 5s 1" }}>
-                            <Link href='/mcm10/sponsor'>
-                                <Box className='mcm10-btn'>
-                                    <p>Become a Sponsor</p>
-                                </Box>
-                            </Link>
-                        </div>
-                    </Flex>
-                </div>
+        <div>
+            <Box width={[0.8, 0.6]} ml='auto' mr='auto' mt={50}>
+                <Image src="/static/mcm10/mcm10.svg" />
+            </Box>
+            <div class='parallax-scaler'>
+                <Parallax bgImage='/static/mcm10/yurt.jpg' strength={400} bgImageAlt=""
+                    renderLayer={percentage => (
+                        <div className='mcm10-link-bg' style={{
+                            opacity: 1.5 * percentage + 0.3,
+                            width: percentage * 200 + 100,
+                            height: percentage * 125 + 50
+                        }} />
+                    )}>
+                    <div className="mcm10-link">
+                        <h1>Get Tickets</h1>
+                    </div>
+                </Parallax>
             </div>
-        </Parallax>
+            <div className='parallax-scaler'>
+                <Parallax bgImage='/static/mcm_commons.jpg' strength={400} bgImageAlt=""
+                    renderLayer={percentage => (
+                        <div className='mcm10-link-bg' style={{
+                            opacity: 1.5 * percentage + 0.3,
+                            width: percentage * 300 + 200,
+                            height: percentage * 125 + 50
+                        }} />
+                    )}>
+                    <div className="mcm10-link">
+                        <Link href='/mcm10/sponsor'>
+                            <h1>Become a Sponsor</h1>
+                        </Link>
+                    </div>
+                </Parallax>
+            </div>
+        </div>
         <Events />
         <Link href='/mcm10/faqs'>
             <div className='faqs-btn'>

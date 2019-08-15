@@ -1,83 +1,67 @@
-.parallax-wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
 .mcm10-title {
-    width: 240px;
+    padding: 70px 0;
 }
 
-.mcm10-btn {
-    text-align: center;
-    position: relative;
-    z-index: 100;
-    background-color: #2B2F3A;
-    transition: 0.5s ease-in-out;
-    color: #DCDFE5;
+.mcm10-title h1 {
+    font-weight: normal;
+    font-size: 3em;
+    margin: 10px 0;
 }
 
-.mcm10-btn p {
-    padding: 10px;
-    margin: 0;
+.mcm10-title h2 {
+    font-weight: normal;
+    font-size: 2em;
+    margin-top: 0px;
 }
 
-.mcm10-btn:hover {
-    color: #2B2F3A;
-    cursor: pointer;
+@media screen and (min-width: 1101px) {
+    .mcm10-link {
+        margin: 300px auto;
+        text-align: center;
+        transition: 0.3s ease-in-out;
+    }
 }
 
-.mcm10-btn:before {
-    content: '';
+@media screen and (min-width: 751px) and (max-width: 1100px) {
+    .mcm10-link {
+        margin: 100px auto;
+        text-align: center;
+        transition: 0.3s ease-in-out;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .mcm10-link {
+        margin: 100px auto;
+        text-align: center;
+        transition: 0.3s ease-in-out;
+    }
+}
+
+
+.parallax-scaler {
+    transform: scale(0.9);
+}
+
+.mcm10-link-bg {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 0%;
-    height: 100%;
-    background-color: #DCDFE5;
-    z-index: -1;
+    background: #DCDFE5;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mcm10-link h1 {
+    font-weight: normal;
+    display: inline;
+    padding: 20px;
+    color: #2B2F3A;
     transition: 0.3s ease-in-out;
 }
 
-.mcm10-btn:hover:before {
-    width: 100%;
-    height: 100%;
-}
-
-@media screen and (min-width: 701px) {
-    .parallax-wrapper {
-        height: 100vh;
-        padding-top: 8%;
-    }
-    .mcm10-tile {
-        width: 260px;
-        height: 170px;
-        margin: 0 10px 20px 10px;
-        overflow: hidden;
-    }
-    .mcm10-btn {
-        font-size: 2em;
-        padding: 40px 0;
-        height: inherit;
-    }
-    .mcm10-tiles {
-        width: 580px;
-    }
-}
-
-@media screen and (max-width: 700px) {
-    .parallax-wrapper {
-        padding-top: 5%;
-    }
-    .mcm10-tile {
-        width: 2400px;
-        margin: 10px 0;
-    }
-    .mcm10-tiles {
-        width: 240px;
-        margin: 30px 0;
-    }
+.mcm10-link:hover {
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 .faqs-btn {
@@ -115,76 +99,4 @@
 
 .faqs-btn:hover:before {
     width: 100%;
-}
-
-@keyframes reveal1 {
-    0% {
-        opacity: 0;
-    }
-    20% {
-        opacity: 0;
-    }
-    36% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@keyframes reveal2 {
-    0% {
-        opacity: 0;
-    }
-    36% {
-        opacity: 0;
-    }
-    52% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@keyframes reveal3 {
-    0% {
-        opacity: 0
-    }
-    52% {
-        opacity: 0;
-    }
-    68% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@keyframes reveal4 {
-    0% {
-        opacity: 0
-    }
-    68% {
-        opacity: 0;
-    }
-    84% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@keyframes reveal5 {
-    0% {
-        opacity: 0;
-    }
-    84% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
 }

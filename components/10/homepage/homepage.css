@@ -31,10 +31,17 @@
 }
 
 @media screen and (max-width: 750px) {
+    .mcm10-link-bg {
+        display: none;
+    }
     .mcm10-link {
         margin: 100px auto;
         text-align: center;
         transition: 0.3s ease-in-out;
+        background-color: #DCDFE5;
+        width: 250px;
+        padding: 10px 0;
+        box-sizing: border-box;
     }
 }
 
@@ -54,7 +61,7 @@
 .mcm10-link h1 {
     font-weight: normal;
     display: inline;
-    padding: 20px;
+    text-align: center;
     color: #2B2F3A;
     transition: 0.3s ease-in-out;
 }

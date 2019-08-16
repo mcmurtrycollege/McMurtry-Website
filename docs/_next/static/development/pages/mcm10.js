@@ -316,8 +316,8 @@ var MCM10 = function MCM10() {
         className: "mcm10-link-bg",
         style: {
           opacity: 1.5 * percentage + 0.3,
-          width: percentage * 200 + 100,
-          height: percentage * 125 + 50
+          width: percentage * 150 + 150,
+          height: percentage * 100 + 50
         },
         __source: {
           fileName: _jsxFileName,
@@ -360,8 +360,8 @@ var MCM10 = function MCM10() {
         className: "mcm10-link-bg",
         style: {
           opacity: 1.5 * percentage + 0.3,
-          width: percentage * 300 + 200,
-          height: percentage * 125 + 50
+          width: percentage * 150 + 300,
+          height: percentage * 100 + 50
         },
         __source: {
           fileName: _jsxFileName,

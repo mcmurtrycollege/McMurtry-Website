@@ -15,8 +15,8 @@ const MCM10 = () => (
                     renderLayer={percentage => (
                         <div className='mcm10-link-bg' style={{
                             opacity: 1.5 * percentage + 0.3,
-                            width: percentage * 200 + 100,
-                            height: percentage * 125 + 50
+                            width: percentage * 150 + 150,
+                            height: percentage * 100 + 50
                         }} />
                     )}>
                     <div className="mcm10-link">
@@ -29,8 +29,8 @@ const MCM10 = () => (
                     renderLayer={percentage => (
                         <div className='mcm10-link-bg' style={{
                             opacity: 1.5 * percentage + 0.3,
-                            width: percentage * 300 + 200,
-                            height: percentage * 125 + 50
+                            width: percentage * 150 + 300,
+                            height: percentage * 100 + 50
                         }} />
                     )}>
                     <div className="mcm10-link">

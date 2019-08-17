@@ -301,7 +301,7 @@ var MCM10 = function MCM10() {
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    "class": "parallax-scaler",
+    className: "parallax-scaler",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
@@ -15422,7 +15422,7 @@ var MCM10 = function MCM10() {
 
 /***/ }),
 
-/***/ 7:
+/***/ 0:
 /*!**************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fmcm10&absolutePagePath=C%3A%5CUsers%5Cnmeis%5CProjects%5CWebsites%5CMcMurtry-Website%5Cpages%5Cmcm10%5Cindex.js ***!
   \**************************************************************************************************************************************************************/
@@ -15445,5 +15445,5 @@ module.exports = dll_829b10deddf10e1653a8;
 
 /***/ })
 
-},[[7,"static/runtime/webpack.js","styles"]]]);
+},[[0,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=mcm10.js.map

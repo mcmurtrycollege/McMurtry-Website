@@ -10,7 +10,7 @@ const MCM10 = () => (
             <Box width={[0.8, 0.6]} ml='auto' mr='auto' mt={50}>
                 <Image src="/static/mcm10/mcm10.svg" />
             </Box>
-            <div class='parallax-scaler'>
+            <div className='parallax-scaler'>
                 <Parallax bgImage='/static/mcm10/yurt.jpg' strength={400} bgImageAlt=""
                     renderLayer={percentage => (
                         <div className='mcm10-link-bg' style={{

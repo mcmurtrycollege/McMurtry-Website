@@ -5,8 +5,8 @@ import '../../components/general/page.css';
 
 const MCM10 = () => (
     <div>
-        <Header/>
-        <Page/>
+        <Header />
+        <Page />
     </div>
 )
 

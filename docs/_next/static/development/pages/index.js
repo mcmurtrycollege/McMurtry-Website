@@ -355,6 +355,7 @@ function (_React$Component) {
         src: "../../static/logo.svg",
         alt: "",
         width: 40,
+        height: 60,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 41
@@ -366,7 +367,7 @@ function (_React$Component) {
           lineNumber: 42
         },
         __self: this
-      }, "McMurtry College"))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+      }, "McMurtry College!"))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "navbar-catagories",
         __source: {
           fileName: _jsxFileName,

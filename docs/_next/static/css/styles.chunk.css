@@ -23,9 +23,7 @@
 
 .header-crest-image {
     width: 40px;
-    display: inline-block;
-    margin: 0;
-    padding: 0;
+    height: 60px;
 }
 
 .header-crest:hover {
@@ -237,52 +235,33 @@
     padding: 5px 10px;
     text-align: center;
 }
-.intro-page {
-    /* W/O BANNER */
+.events-page {
     padding-top: 10%;
-    /* W/ BANNER */
-    /* padding-top: 3%; */
     margin-bottom: 5%;
 }
 
-@media screen and (max-width: 850px) {
-    .intro-page {
-        padding-top: 20%;
-        margin-bottom: 5%;
-    }
-}
-
-.yurt-graphic {
+.event-calendar {
+    width: 800px;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
+    margin-bottom: 5%;
 }
 
-.welcome-title {
-    color: #87799C;
-    text-align: center;
-    font-size: 3em;
-    font-weight: normal;
-}
-
-.quick-link-container {
-    margin-top: 3%;
-    margin-left: 1%;
-    margin-right: 1%;
-}
-
-.quick-link {
+.events-calendar-link {
     color: #DCDFE5;
     position: relative;
-    padding: 15px;
+    width: 300px;
+    padding: 40px 15px;
     text-align: center;
     background-color: #515768;
     height: 150px;
     transition: 0.3s ease-in-out;
     z-index: 100;
+    text-decoration: none;
+    margin: 50px auto;
 }
 
-.quick-link:before {
+.events-calendar-link:before {
     content: '';
     position: absolute;
     width: 100%;
@@ -294,42 +273,104 @@
     transition: 0.3s ease-in-out;
 }
 
-.quick-link:hover {
+.events-calendar-link:hover {
     cursor: pointer;
 }
 
-.quick-link:hover:before {
+.events-calendar-link:hover:before {
     height: 100%;
 }
 
-.quick-link-name {
+.events-calendar-link a {
+    color: #DCDFE5;
+    text-decoration: none;
+}
+
+.events-calendar-link h2 {
     font-weight: normal;
+    text-decoration: none;
 }
 
-@media screen and (min-width: 801px) {
-    .intro-link-img-small {
+@media screen and (min-width: 841px) {
+    .events-calendar-link {
         display: none;
     }
 }
 
-@media screen and (max-width: 800px) {
-    .quick-link-container {
-        margin-top: 6%;
-        margin-left: 3%;
-        margin-right: 3%;
-    }
-    .quick-links-title {
-        font-size: 0.8em;
-    }
-    .quick-link {
-        height: 80px;
-        font-size: 0.6em;
-    }
-    .intro-link-img-large {
+@media screen and (max-width: 840px) {
+    .event-calendar {
         display: none;
     }
 }
 
+
+.artevents-page {
+    padding-top: 10%;
+    margin-bottom: 5%;
+}
+
+.artevent-calendar {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+
+.events-calendar-link {
+    color: #DCDFE5;
+    position: relative;
+    width: 300px;
+    padding: 40px 15px;
+    text-align: center;
+    background-color: #515768;
+    height: 150px;
+    transition: 0.3s ease-in-out;
+    z-index: 100;
+    text-decoration: none;
+    margin: 50px auto;
+}
+
+.events-calendar-link:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: #87799C;
+    z-index: -1;
+    transition: 0.3s ease-in-out;
+}
+
+.events-calendar-link:hover {
+    cursor: pointer;
+}
+
+.events-calendar-link:hover:before {
+    height: 100%;
+}
+
+.events-calendar-link a {
+    color: #DCDFE5;
+    text-decoration: none;
+}
+
+.events-calendar-link h2 {
+    font-weight: normal;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 841px) {
+    .events-calendar-link {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .artevent-calendar {
+        display: none;
+    }
+}
 html {
     margin: 0;
     padding: 0;

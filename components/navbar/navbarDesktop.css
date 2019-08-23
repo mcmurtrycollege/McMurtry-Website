@@ -21,11 +21,6 @@
     color: #87799C;
 }
 
-.header-crest-image {
-    width: 40px;
-    height: 60px;
-}
-
 .header-crest:hover {
     cursor: pointer;
 }

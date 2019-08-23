@@ -21,9 +21,11 @@
     color: #87799C;
 }
 
-.header-crest img {
-    /* width: 40px;
-    display: inline-block; */
+.header-crest-image {
+    width: 40px;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
 }
 
 .header-crest:hover {

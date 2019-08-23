@@ -1,0 +1,249 @@
+.navbar-wrapper {
+    position: fixed;
+    z-index: 9999;
+    display: inline-block;
+    top: 0;
+    width: 100%;
+    transition: 0.5s ease-in-out;
+    color: #DCDFE5;
+}
+
+.header-crest {
+    float: left;
+    margin: 0 20px;
+    display: -webkit-flex;
+    display: flex; 
+    flex-direction: row;
+    font-size: 1.7em;
+}
+
+.header-crest p {
+    margin: 13px 0 10px 10px;
+    color: #87799C;
+}
+
+.header-crest img {
+    width: 40px;
+}
+
+.header-crest:hover {
+    cursor: pointer;
+}
+
+.navbar-catagories {
+    float: right;
+}
+
+.navbar-category {
+    float: left;
+}
+
+.navbar-category:nth-of-type(4) {
+    padding-right: 40px;
+}
+
+.navbar-dropdown-opener {
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    padding: 17px 20px 10px 20px;
+    font-size: 1.3em;
+    color: inherit;
+    background-color: inherit;
+}
+
+.navbar-category:hover .navbar-dropdown-opener {
+    color: #87799C;
+}
+
+.navbar-dropdown-opener:focus {
+    outline: none;
+}
+
+.dropdown-subheaders {
+    display: block;
+    position: absolute;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+    color: #DCDFE5;
+}
+
+.dropdown-subheaders a {
+    display: block;
+    padding: 10px 10px 10px 20px;
+    background-color: #515768;
+    transition: 0.2s ease-in-out;
+    color: #DCDFE5;
+    text-decoration: none;
+}
+
+.dropdown-subheaders a:hover {
+    color: #87799C;
+}
+
+.navbar-category:hover .dropdown-subheaders {
+    max-height: 500px;
+}
+
+@media screen and (max-width: 860px) {
+    .navbar-wrapper {
+        display: none;
+    }
+}
+.mobile-navbar {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: #515768;
+    top: 0;
+    transition: 0.3s ease-in-out;
+    z-index: 999;
+}
+
+.fixed-mobile-header {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    background-color: #DCDFE5;
+    width: 100%;
+    z-index: 600;
+}
+
+.header-crest-mobile {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}  
+
+.header-crest-mobile p {
+    color: #87799C;
+    font-size: 1.8em;
+    margin: 10px 0 5px 0;
+}
+
+.header-crest-mobile:hover {
+    cursor: pointer;
+}
+
+.show-navbar {
+    margin: 3%;
+}
+
+.main-header {
+    background: none;
+    color: #DCDFE5;
+    border: none;
+    font-size: 2em;
+    width: 100%;
+    font-weight: normal;
+    text-align: center;
+    margin: 10% 0;
+}
+
+
+.close-navbar {
+    margin: 3% auto auto 90%;
+}
+
+.main-header:nth-of-type(1) {
+    margin-top: 40%;
+}
+
+.main-header a {
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.subheader-hidden, .subheader-display {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    background-color: #DCDFE5;
+    transition: 0.4s ease-in-out;
+}
+
+.subheader-hidden {
+    left: 100%;
+}
+
+.subheader-display {
+    left: 0;
+}
+
+.subheader-back {
+    color: #DCDFE5;
+    margin: 5% auto auto 10%;
+    text-decoration: none;
+    font-size: 1.3em;
+    color: #515768;
+}
+
+.subheader-item {
+    color: #DCDFE5;
+    margin-top: 5%;
+    margin-left: 13%;
+    text-decoration: none;
+    font-size: 1.3em;
+    color: #515768;
+}
+
+.subheader-item:nth-of-type(1) {
+    margin-top: 20%;
+}
+
+@media screen and (min-width: 861px) {
+    .mobile-navbar {
+        display: none;
+    }
+    .show-navbar {
+        display: none;
+    }
+    .header-crest-mobile {
+        display: none;
+    }
+}
+.footer-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #515768;
+    color: #DCDFE5;
+    padding: 5px 0 40px 0;
+}
+
+.footer-crest p {
+    display: inline;
+    color: #87799C;
+    font-size: 1.2em;
+}
+
+.footer-item {
+    margin: 4px;
+    text-align: center;
+    font-size: 0.6em;
+}
+.title-container {
+    
+}
+
+.title-theme {
+    font-weight: normal;
+    color: #DCDFE5;
+    font-size: 2.3em;
+    background-color: #87799C;
+    padding: 5px 10px;
+    text-align: center;
+}
+html {
+    margin: 0;
+    padding: 0;
+    background-color: #DCDFE5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+

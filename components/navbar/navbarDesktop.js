@@ -38,7 +38,7 @@ class NavbarDesktop extends React.Component {
             <div className='navbar-wrapper' style={style}>
                 <Link href='/'>
                     <div className='header-crest'>
-                        <Image src='../../static/logo.svg' alt="" />
+                        {/* <Image src='../../static/logo.svg' alt="" /> */}
                         <p>McMurtry College</p>
                     </div>
                 </Link>

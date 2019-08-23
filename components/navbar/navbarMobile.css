@@ -100,7 +100,7 @@
     margin-top: 20%;
 }
 
-@media screen and (min-width: 860px) {
+@media screen and (min-width: 861px) {
     .mobile-navbar {
         display: none;
     }

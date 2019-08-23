@@ -84,7 +84,7 @@
     max-height: 500px;
 }
 
-@media screen and (max-width: 861px) {
+@media screen and (max-width: 860px) {
     .navbar-wrapper {
         display: none;
     }

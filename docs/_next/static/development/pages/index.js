@@ -354,6 +354,7 @@ function (_React$Component) {
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_8__["Image"], {
         src: "../../static/logo.svg",
         alt: "",
+        width: 40,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 41

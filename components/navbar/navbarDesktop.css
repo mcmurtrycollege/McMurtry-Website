@@ -22,8 +22,8 @@
 }
 
 .header-crest img {
-    width: 40px;
-    display: inline-block;
+    /* width: 40px;
+    display: inline-block; */
 }
 
 .header-crest:hover {

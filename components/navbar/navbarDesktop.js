@@ -39,7 +39,7 @@ class NavbarDesktop extends React.Component {
                 <Link href='/'>
                     <div className='header-crest'>
                         <Image src='../../static/logo.svg' alt="" width={40} height={60} />
-                        <p>McMurtry College</p>
+                        <p>Matty Whales</p>
                     </div>
                 </Link>
                 <div className='navbar-catagories'>

@@ -152,6 +152,33 @@
             "hobbies": "Playing volleyball, video games, collecting 1980-present toys, making fine furniture.",
             "fact": "I have 3 ferrets and a Great Dane.",
             "image": "../../../../static/associates/MarkKrouskop.jpeg"
+        },
+        {
+            "name": "Keri Bas",
+            "career": "I teach sewing & textile arts, often with a non-profit working in schools & shelters.",
+            "bio": "After years in professional marketing and web design, I now split my time between sewing/quilting and working with private tech/web support clients. I share my house with my parents and two cats. I serve on the board of a local arts non-profit and lead several groups of creatives. I'm an interfaith minister, ordained in New York in 2005 - ask me about it sometime.",
+            "movie_tv": "Good Omens, The Princess Bride, Ladyhawke, Iron Man, The Lion in Winter, Harvey, Moana / Babylon 5, Star Trek, Midsomer Murders, Bob's Burgers, Brooklyn 99, Vera",
+            "hobbies": "Advanced Dungeons & Dragons; making & drinking fine teas; arguing about Marvel & Harry Potter & scifi movies over coffee late into the night; reading; writing; painting; drawing; traveling when the budget allows",
+            "fact": "I was on a TV game show in the early 00s when I lived in New York; people still text me when they catch the re-runs.",
+            "image": "../../../../static/associates/KeriBas.jpg"
+        },
+        {
+            "name": "Nicole Van Den Heuvel",
+            "career": "Executive Director -Center for Career Development",
+            "bio": "'81 Rice alumna - Love being back at Rice and helping our students find their career paths and gain confidence in their career development process.",
+            "movie_tv": "Parent Trap",
+            "hobbies": "Horseback riding, travel, museums",
+            "fact": "From Aruba. Lived in 8 different countries. Went to 13 schools in 12 years.",
+            "image": "../../../../static/associates/NicoleVanDenHeuvel.jpg"
+        },
+        {
+            "name": "Lauren Stadler",
+            "career": "Assistant Professor, CEVE",
+            "bio": "I am an environmental engineer and my research and teaching focus on biological water treatment processes and the microbes in our water systems. I am a mom to one toddler and two sweet but poorly behaved doggies.",
+            "movie_tv": "Friday Night Lights",
+            "hobbies": "Biking, soccer, eating ice cream",
+            "fact": "I kill most plants that I try and grow.",
+            "image": "../../../../static/associates/LaurenStadler.jpg"
         }
     ]
 }

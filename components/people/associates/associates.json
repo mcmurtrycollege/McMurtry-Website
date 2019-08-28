@@ -136,24 +136,6 @@
             "image": "../../../../static/associates/ChanPham.jpg"
         },
         {
-            "name": "Elizabeth Festa",
-            "career": "Rice Program for Writing and Communication",
-            "bio": "I teach research writing and communication across all disciplines and levels of study. My research focuses on supporting graduate writers.  I have two children (including one Murt!) and have one very demanding Siamese cat, Percival. I hail from the Virginia side of Washington, D.C., but Houston is by far my most favorite place. It's an incredibly warm city...in temperature and temperament.",
-            "movie_tv": "All international crime dramas--Hinterland, Shetland, The Break, Innocent, The Mechanism, Undercover, Wallander, etc.",
-            "hobbies": "Dining out (Tex-Mex!), museums, reading, walking at the Arboretum, and arthouse cinema",
-            "fact": "Before going to graduate school, I was a military officer",
-            "image": "../../../../static/associates/ElizabethFesta.jpg"
-        },
-        {
-            "name": "Mark Krouskop",
-            "career": "Rice University, Hamman Hall, Lecturer Theater Design",
-            "bio": "My name is Mark Krouskop. I am a theater design lecturer in VADA. Come by Hamman Hall and I’d be happy to give you more details.",
-            "movie_tv": "Real Genius",
-            "hobbies": "Playing volleyball, video games, collecting 1980-present toys, making fine furniture.",
-            "fact": "I have 3 ferrets and a Great Dane.",
-            "image": "../../../../static/associates/MarkKrouskop.jpeg"
-        },
-        {
             "name": "Keri Bas",
             "career": "I teach sewing & textile arts, often with a non-profit working in schools & shelters.",
             "bio": "After years in professional marketing and web design, I now split my time between sewing/quilting and working with private tech/web support clients. I share my house with my parents and two cats. I serve on the board of a local arts non-profit and lead several groups of creatives. I'm an interfaith minister, ordained in New York in 2005 - ask me about it sometime.",
@@ -178,7 +160,25 @@
             "movie_tv": "Friday Night Lights",
             "hobbies": "Biking, soccer, eating ice cream",
             "fact": "I kill most plants that I try and grow.",
-            "image": "../../../../static/associates/LaurenStadler.jpg"
+            "image": "../../../../static/associates/LaurenStadler.JPG"
+        },
+        {
+            "name": "Mark Krouskop",
+            "career": "Rice University, Hamman Hall, Lecturer Theater Design",
+            "bio": "My name is Mark Krouskop. I am a theater design lecturer in VADA. Come by Hamman Hall and I’d be happy to give you more details.",
+            "movie_tv": "Real Genius",
+            "hobbies": "Playing volleyball, video games, collecting 1980-present toys, making fine furniture.",
+            "fact": "I have 3 ferrets and a Great Dane.",
+            "image": "../../../../static/associates/MarkKrouskop.jpeg"
+        },
+        {
+            "name": "Elizabeth Festa",
+            "career": "Rice Program for Writing and Communication",
+            "bio": "I teach research writing and communication across all disciplines and levels of study. My research focuses on supporting graduate writers.  I have two children (including one Murt!) and have one very demanding Siamese cat, Percival. I hail from the Virginia side of Washington, D.C., but Houston is by far my most favorite place. It's an incredibly warm city...in temperature and temperament.",
+            "movie_tv": "All international crime dramas--Hinterland, Shetland, The Break, Innocent, The Mechanism, Undercover, Wallander, etc.",
+            "hobbies": "Dining out (Tex-Mex!), museums, reading, walking at the Arboretum, and arthouse cinema",
+            "fact": "Before going to graduate school, I was a military officer",
+            "image": "../../../../static/associates/ElizabethFesta.jpg"
         }
     ]
 }

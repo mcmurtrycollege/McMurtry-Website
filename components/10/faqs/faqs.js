@@ -16,7 +16,7 @@ const Faq = props => (
 
 const Faqs = () => (
     <div>
-        <Link href='/mcm10'><a className='back-link'>← Back</a></Link>
+        <Link href='/10'><a className='back-link'>← Back</a></Link>
         <h1 className='faqs-section-title'>FAQs</h1>
         <Box className='faqs-list' width={[0.9, 0.7, 0.6, 0.5]}>
             {

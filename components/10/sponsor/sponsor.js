@@ -27,7 +27,7 @@ const tiers = [
 
 const Sponsor = () => (
     <div className="sponsor-page">
-        <Link href='/mcm10'><a className='back-link'>← Back</a></Link>
+        <Link href='/10'><a className='back-link'>← Back</a></Link>
         <h1 className='support-mcm'>Support McMurtry</h1>
         <Box ml='auto' mr='auto' width={[1, 0.6]} className="sponsor-instructions">
             <ol>

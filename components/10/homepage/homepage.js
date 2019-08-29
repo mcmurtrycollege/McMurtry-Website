@@ -34,7 +34,7 @@ const MCM10 = () => (
                         }} />
                     )}>
                     <div className="mcm10-link">
-                        <Link href='/mcm10/sponsor'>
+                        <Link href='/10/sponsor'>
                             <h1>Become a Sponsor</h1>
                         </Link>
                     </div>
@@ -42,7 +42,7 @@ const MCM10 = () => (
             </div>
         </div>
         <Events />
-        <Link href='/mcm10/faqs'>
+        <Link href='/10/faqs'>
             <div className='faqs-btn'>
                 <p>FAQs</p>
             </div>

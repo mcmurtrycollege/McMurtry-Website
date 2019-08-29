@@ -10,7 +10,7 @@ const Banner = () => (
             <p>McMurtry's 10th Anniversary!</p>
 
         </div>
-        <Link href={'/mcm10'}>
+        <Link href={'/10'}>
             <div className='banner-link'>
                 <p>More Info →</p>
             </div>

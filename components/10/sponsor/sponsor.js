@@ -42,14 +42,14 @@ const Sponsor = () => (
                 </li>
             </ol>
         </Box>
-        <Flex justifyContent='center' flexDirection='row' flexWrap='wrap' className="sponsor-screenshots">
+        {/* <Flex justifyContent='center' flexDirection='row' flexWrap='wrap' className="sponsor-screenshots">
             <Box width={350}>
                 <Image src='/static/donor1.png' alt="" />
             </Box>
             <Box width={350}>
                 <Image src='/static/donor2.png' alt="" />
             </Box>
-        </Flex>
+        </Flex> */}
         <div className='sponsor-tiers'>
             {
                 tiers.map(({ name, amount, link }) => (

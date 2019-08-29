@@ -1,3 +1,7 @@
+.sponsor-page {
+    padding-bottom: 10%;
+}
+
 .back-link {
     position: fixed;
     margin: 3%;
@@ -35,6 +39,20 @@
         font-weight: normal;
         font-size: 2em;
     }
+}
+
+.sponsor-instructions {
+    text-align: left;
+    opacity: 0.8;
+    margin: 40px 0 0 0;
+}
+
+.sponsor-instructions li {
+    margin: 10px 20px;
+}
+
+.sponsor-screenshots div{
+    margin: 0 10px;
 }
 
 .sponsor-tiers {
@@ -88,8 +106,9 @@
 
 .donate-btn {
     position: absolute;
-    width: inherit;
+    width: 180px;
     height: 30px;
     margin-top: 50px;
     font-size: 1.4em;
+    text-align: center;
 }

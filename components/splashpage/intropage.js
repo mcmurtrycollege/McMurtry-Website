@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Flex, Image } from 'rebass';
-import Title from '../general/title';
 import Link from 'next/link';
+import Banner from '../10/banner/banner';
 import './intropage.css';
 
 const quickLinks = [
@@ -30,6 +30,7 @@ const quickLinks = [
 
 const Intro = () => (
     <div className='intro-page'>
+        <Banner />
         <Box width={[0.95, 0.8]} className='yurt-graphic'>
             <Image src='../../static/YurtTrees.svg' />
         </Box>

@@ -218,23 +218,124 @@
     text-align: center;
     font-size: 0.6em;
 }
-.title-container {
-    
+.banner {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    overflow: hidden;
+    color: #DCDFE5;
 }
 
-.title-theme {
-    font-weight: normal;
-    color: #DCDFE5;
-    font-size: 2.3em;
+.banner-line1, .banner-line2, .banner-link {
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 1px 0;
+    transition: 0.3s ease-in-out;
+    position: relative;
+    z-index: 1;
+}
+
+.banner-line1 p, .banner-line2 p, .banner-link p {
+    margin: 0;
+}
+
+.banner-line1 {
+    padding: 5px 20px 5px 20%;
+}
+
+.banner-line2 {
+    padding: 5px 20px 5px 32%;
+}
+
+.banner-link {
+    padding: 5px 20px 5px 53%;
+}
+
+.banner-line1:hover {
+    padding-left: 15%;
+}
+
+.banner-line2:hover {
+    padding-left: 37%;
+}
+
+.banner-link:hover {
+    padding-left: 58%;
+    cursor: pointer;
+}
+
+.banner-line1:before, .banner-line2:before, .banner-link:before {
+    content: "";
+    top: 0;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1
+}
+
+.banner-line1:before {
+    background-color: #A499B5;
+    animation: slide1 2s 1;
+}
+
+.banner-line2:before {
     background-color: #87799C;
-    padding: 5px 10px;
-    text-align: center;
+    animation: slide2 2s 1;
+}
+
+.banner-link:before {
+    background-color: #645B72;
+    animation: slide3 2s 1;
+}
+
+@keyframes slide1 {
+    0% {
+        width: 0;
+    }
+    25% {
+        width: 0;
+    }
+    50% {
+        width: 100%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+
+@keyframes slide2 {
+    0% {
+        width: 0;
+    }
+    50% {
+        width: 0%;
+    }
+    75% {
+        width: 100%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+
+@keyframes slide3 {
+    0% {
+        width: 0;
+    }
+    75% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
 }
 .intro-page {
     /* W/O BANNER */
-    padding-top: 10%;
+    /* padding-top: 10%; */
     /* W/ BANNER */
-    /* padding-top: 3%; */
+    padding-top: 3%;
     margin-bottom: 5%;
 }
 

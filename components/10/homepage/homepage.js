@@ -15,12 +15,12 @@ const MCM10 = () => (
                     renderLayer={percentage => (
                         <div className='mcm10-link-bg' style={{
                             opacity: 1.5 * percentage + 0.3,
-                            width: percentage * 150 + 150,
+                            width: percentage * 150 + 300,
                             height: percentage * 100 + 50
                         }} />
                     )}>
                     <div className="mcm10-link">
-                        <h1>Get Tickets</h1>
+                        <h1>Get Tickets (soon)</h1>
                     </div>
                 </Parallax>
             </div>
@@ -42,11 +42,11 @@ const MCM10 = () => (
             </div>
         </div>
         <Events />
-        <Link href='/10/faqs'>
+        {/* <Link href='/10/faqs'>
             <div className='faqs-btn'>
                 <p>FAQs</p>
             </div>
-        </Link>
+        </Link> */}
     </div>
 )
 

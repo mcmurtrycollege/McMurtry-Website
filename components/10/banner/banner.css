@@ -1,5 +1,6 @@
 .banner {
-    margin-top: 7%;
+    margin-top: 5%;
+    margin-bottom: 2%;
     overflow: hidden;
     color: #DCDFE5;
 }
@@ -18,7 +19,7 @@
 }
 
 .banner-line1 {
-    padding: 5px 20px 5px 10%;
+    padding: 5px 20px 5px 20%;
 }
 
 .banner-line2 {

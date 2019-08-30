@@ -4,7 +4,7 @@ import './banner.css';
 const Banner = () => (
     <div className='banner'>
         <div className='banner-line1'>
-            <p>Join us on October 18th and 19th to celebrate</p>
+            <p>Join us on November 1st to celebrate</p>
         </div>
         <div className='banner-line2'>
             <p>McMurtry's 10th Anniversary!</p>

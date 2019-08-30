@@ -238,7 +238,7 @@ var EventsComponent = function EventsComponent() {
 /*! exports provided: events, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"events\":[{\"title\":\"Opening Ceremonies\",\"description\":\"The opening ceremonies will begin on Friday, and will be held in the McMurtry Quad.\",\"date\":\"Friday 5pm\",\"image\":\"../../../static/mcm10/ufoweek.jpg\",\"caption\":\"UFO-Week Day 1 - 2016\"},{\"title\":\"Welcome Dinner\",\"description\":\"The welcome dinner will begin immediately following the opening ceremonies. It will be held in the mcmurtry commons, and will be catered by west servery\",\"date\":\"Saturday 7pm\",\"image\":\"../../../static/mcm10/marshmalloweek.jpg\",\"caption\":\"MarshmallO-Week Day 4 - 2015\"}]}");
+module.exports = JSON.parse("{\"events\":[{\"title\":\"McScottish Night\",\"description\":\"Stay tuned for more information!\",\"date\":\"Friday 5pm\",\"image\":\"../../../static/mcm10/ufoweek.jpg\",\"caption\":\"UFO-Week Day 1 - 2016\"}]}");
 
 /***/ }),
 
@@ -316,7 +316,7 @@ var MCM10 = function MCM10() {
         className: "mcm10-link-bg",
         style: {
           opacity: 1.5 * percentage + 0.3,
-          width: percentage * 150 + 150,
+          width: percentage * 150 + 300,
           height: percentage * 100 + 50
         },
         __source: {
@@ -344,7 +344,7 @@ var MCM10 = function MCM10() {
       lineNumber: 23
     },
     __self: this
-  }, "Get Tickets")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "Get Tickets (soon)")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "parallax-scaler",
     __source: {
       fileName: _jsxFileName,
@@ -401,27 +401,7 @@ var MCM10 = function MCM10() {
       lineNumber: 44
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/10/faqs",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "faqs-btn",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 47
-    },
-    __self: this
-  }, "FAQs"))));
+  }));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (MCM10);

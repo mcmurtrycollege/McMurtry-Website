@@ -49,7 +49,7 @@ var Sponsor = function Sponsor() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/mcm10",
+    href: "/10",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 30
@@ -121,47 +121,7 @@ var Sponsor = function Sponsor() {
       lineNumber: 40
     },
     __self: this
-  }, "In the \u201CSpecial Instructions\u201D box (appears after clicking add donation), type: McMurtry College 10th Anniversary Fund (G83450-5053000)"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Flex"], {
-    justifyContent: "center",
-    flexDirection: "row",
-    flexWrap: "wrap",
-    className: "sponsor-screenshots",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
-    width: 350,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Image"], {
-    src: "/static/donor1.png",
-    alt: "",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 47
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
-    width: 350,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 49
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Image"], {
-    src: "/static/donor2.png",
-    alt: "",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 50
-    },
-    __self: this
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "In the \u201CSpecial Instructions\u201D box (appears after clicking add donation), type: McMurtry College 10th Anniversary Fund (G83450-5053000)"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "sponsor-tiers",
     __source: {
       fileName: _jsxFileName,
@@ -15148,7 +15108,7 @@ var Sponsor = function Sponsor() {
 
 /***/ }),
 
-/***/ 11:
+/***/ 10:
 /*!********************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F10%2Fsponsor&absolutePagePath=C%3A%5CUsers%5Cnmeis%5CProjects%5CWebsites%5CMcMurtry-Website%5Cpages%5C10%5Csponsor.js ***!
   \********************************************************************************************************************************************************************/
@@ -15171,5 +15131,5 @@ module.exports = dll_829b10deddf10e1653a8;
 
 /***/ })
 
-},[[11,"static/runtime/webpack.js","styles"]]]);
+},[[10,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=sponsor.js.map

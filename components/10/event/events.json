@@ -1,18 +1,11 @@
 {
     "events": [
         {
-            "title": "Opening Ceremonies",
-            "description": "The opening ceremonies will begin on Friday, and will be held in the McMurtry Quad.",
+            "title": "McScottish Night",
+            "description": "Stay tuned for more information!",
             "date": "Friday 5pm",
             "image": "../../../static/mcm10/ufoweek.jpg",
             "caption": "UFO-Week Day 1 - 2016"
-        },
-        {
-            "title": "Welcome Dinner",
-            "description": "The welcome dinner will begin immediately following the opening ceremonies. It will be held in the mcmurtry commons, and will be catered by west servery",
-            "date": "Saturday 7pm",
-            "image": "../../../static/mcm10/marshmalloweek.jpg",
-            "caption": "MarshmallO-Week Day 4 - 2015"
         }
     ]
 }

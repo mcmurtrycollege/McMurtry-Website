@@ -218,49 +218,63 @@
     text-align: center;
     font-size: 0.6em;
 }
-.banner {
-    margin-top: 5%;
-    margin-bottom: 2%;
-    overflow: hidden;
-    color: #DCDFE5;
+@media screen and (min-width: 951px) {
+    .banner {
+        margin-top: 6%;
+        margin-bottom: 2%;
+        overflow: hidden;
+        color: #DCDFE5;
+    }
+    .banner-line1, .banner-line2, .banner-link {
+        display: inline-block;
+        font-size: 1.2em;
+        margin: 1px 0;
+        transition: 0.3s ease-in-out;
+        position: relative;
+        z-index: 1;
+    }
+    .banner-line1 p, .banner-line2 p, .banner-link p {
+        margin: 0;
+    }
+    .banner-line1 {
+        padding: 5px 20px 5px 20%;
+    }
+    .banner-line2 {
+        padding: 5px 20px 5px 32%;
+    }
+    .banner-link {
+        padding: 5px 20px 5px 53%;
+    }
+    .banner-link:hover {
+        padding-left: 58%;
+        cursor: pointer;
+    }
 }
 
-.banner-line1, .banner-line2, .banner-link {
-    display: inline-block;
-    font-size: 1.2em;
-    margin: 1px 0;
-    transition: 0.3s ease-in-out;
-    position: relative;
-    z-index: 1;
-}
-
-.banner-line1 p, .banner-line2 p, .banner-link p {
-    margin: 0;
-}
-
-.banner-line1 {
-    padding: 5px 20px 5px 20%;
-}
-
-.banner-line2 {
-    padding: 5px 20px 5px 32%;
-}
-
-.banner-link {
-    padding: 5px 20px 5px 53%;
-}
-
-.banner-line1:hover {
-    padding-left: 15%;
-}
-
-.banner-line2:hover {
-    padding-left: 37%;
-}
-
-.banner-link:hover {
-    padding-left: 58%;
-    cursor: pointer;
+@media screen and (max-width: 950px) {
+    .banner {
+        margin-top: 6%;
+        margin-bottom: 2%;
+        overflow: hidden;
+        color: #DCDFE5;
+    }
+    .banner-line1, .banner-line2, .banner-link {
+        width: 100%;
+        display: inline-block;
+        font-size: 1.2em;
+        text-align: center;
+        margin: 1px 0;
+        padding: 5px 0;
+        transition: 0.3s ease-in-out;
+        position: relative;
+        z-index: 1;
+    }
+    .banner-line1 p, .banner-line2 p, .banner-link p {
+        margin: 0;
+    }
+    .banner-link:hover {
+        cursor: pointer;
+    }
 }
 
 .banner-line1:before, .banner-line2:before, .banner-link:before {
@@ -303,7 +317,6 @@
     }
 }
 
-
 @keyframes slide2 {
     0% {
         width: 0;
@@ -318,7 +331,6 @@
         width: 100%;
     }
 }
-
 
 @keyframes slide3 {
     0% {
@@ -626,120 +638,6 @@
     .desktop-right {
         display: none;
     }
-}
-.sponsor-page {
-    padding-bottom: 10%;
-}
-
-.back-link {
-    position: fixed;
-    margin: 3%;
-    font-size: 1.5em;
-    text-decoration: none;
-    color: #2B2F3A;
-    transition: 0.3s ease-in-out
-}
-
-.back-link:hover {
-    transform: translateX(-10px);
-}
-
-@media screen and (min-width: 801px) {
-    .support-mcm {
-        width: 800px;
-        padding-top: 5%;
-        margin: 0 auto 0 auto;
-        text-align: center;
-        border: solid #2B2F3A;
-        border-width: 0 0 1px 0;
-        font-weight: normal;
-        font-size: 4em;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .support-mcm {
-        width: 350px;
-        padding-top: 13%;
-        margin: 0 auto 0 auto;
-        text-align: center;
-        border: solid #2B2F3A;
-        border-width: 0 0 1px 0;
-        font-weight: normal;
-        font-size: 2em;
-    }
-}
-
-.sponsor-instructions {
-    text-align: left;
-    opacity: 0.8;
-    margin: 40px 0 0 0;
-}
-
-.sponsor-instructions li {
-    margin: 10px 20px;
-}
-
-.sponsor-screenshots div{
-    margin: 0 10px;
-}
-
-.sponsor-tiers {
-    margin-top: 5%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.tier {
-    width: 180px;
-    height: 250px;
-    margin: 15px;
-    box-shadow: 0 0 15px 5px #BFBFCC;
-    text-align: center;
-    transition: 0.4s ease-in-out;
-}
-
-.tier-name {
-    font-size: 2em;
-    width: 100%;
-    background-color: #2B2F3A;
-    height: 50px;
-    margin: 0;
-    padding-top: 10px;
-    color: #DCDFE5;
-}
-
-.tier-amount {
-    padding-top: 20px;
-    font-size: 1.4em;
-}
-
-.tier:hover {
-    transform: translateY(-20px);
-    height: 270px;
-    background-color: #87799C;
-    color: #DCDFE5;
-}
-
-.tier:hover a {
-    color: #DCDFE5;
-}
-
-.tier a {
-    text-decoration: none;
-    color: #87799C;
-    transition: 0.3s ease-in-out;
-}
-
-.donate-btn {
-    position: absolute;
-    width: 180px;
-    height: 30px;
-    margin-top: 50px;
-    font-size: 1.4em;
-    text-align: center;
 }
 html {
     margin: 0;

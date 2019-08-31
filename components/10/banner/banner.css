@@ -1,46 +1,60 @@
-.banner {
-    margin-top: 5%;
-    margin-bottom: 2%;
-    overflow: hidden;
-    color: #DCDFE5;
+@media screen and (min-width: 951px) {
+    .banner {
+        margin-top: 6%;
+        margin-bottom: 2%;
+        overflow: hidden;
+        color: #DCDFE5;
+    }
+    .banner-line1, .banner-line2, .banner-link {
+        display: inline-block;
+        font-size: 1.2em;
+        margin: 1px 0;
+        transition: 0.3s ease-in-out;
+        position: relative;
+        z-index: 1;
+    }
+    .banner-line1 p, .banner-line2 p, .banner-link p {
+        margin: 0;
+    }
+    .banner-line1 {
+        padding: 5px 20px 5px 20%;
+    }
+    .banner-line2 {
+        padding: 5px 20px 5px 32%;
+    }
+    .banner-link {
+        padding: 5px 20px 5px 53%;
+    }
+    .banner-link:hover {
+        padding-left: 58%;
+        cursor: pointer;
+    }
 }
 
-.banner-line1, .banner-line2, .banner-link {
-    display: inline-block;
-    font-size: 1.2em;
-    margin: 1px 0;
-    transition: 0.3s ease-in-out;
-    position: relative;
-    z-index: 1;
-}
-
-.banner-line1 p, .banner-line2 p, .banner-link p {
-    margin: 0;
-}
-
-.banner-line1 {
-    padding: 5px 20px 5px 20%;
-}
-
-.banner-line2 {
-    padding: 5px 20px 5px 32%;
-}
-
-.banner-link {
-    padding: 5px 20px 5px 53%;
-}
-
-.banner-line1:hover {
-    padding-left: 15%;
-}
-
-.banner-line2:hover {
-    padding-left: 37%;
-}
-
-.banner-link:hover {
-    padding-left: 58%;
-    cursor: pointer;
+@media screen and (max-width: 950px) {
+    .banner {
+        margin-top: 6%;
+        margin-bottom: 2%;
+        overflow: hidden;
+        color: #DCDFE5;
+    }
+    .banner-line1, .banner-line2, .banner-link {
+        width: 100%;
+        display: inline-block;
+        font-size: 1.2em;
+        text-align: center;
+        margin: 1px 0;
+        padding: 5px 0;
+        transition: 0.3s ease-in-out;
+        position: relative;
+        z-index: 1;
+    }
+    .banner-line1 p, .banner-line2 p, .banner-link p {
+        margin: 0;
+    }
+    .banner-link:hover {
+        cursor: pointer;
+    }
 }
 
 .banner-line1:before, .banner-line2:before, .banner-link:before {
@@ -83,7 +97,6 @@
     }
 }
 
-
 @keyframes slide2 {
     0% {
         width: 0;
@@ -98,7 +111,6 @@
         width: 100%;
     }
 }
-
 
 @keyframes slide3 {
     0% {

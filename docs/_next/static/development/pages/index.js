@@ -29,52 +29,70 @@ var Banner = function Banner() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "banner-line1",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "banner-line1",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
     },
     __self: this
-  }, "Join us on November 1st to celebrate")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, "Join us on November 1st to celebrate"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "banner-line2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 12
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 13
     },
     __self: this
-  }, "McMurtry's 10th Anniversary!")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  }, "McMurtry's 10th Anniversary!"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: '/10',
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 17
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "banner-link",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 18
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 19
     },
     __self: this
-  }, "More Info \u2192"))));
+  }, "More Info \u2192")))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Banner);

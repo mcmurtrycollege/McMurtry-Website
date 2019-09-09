@@ -3,18 +3,23 @@ import './banner.css';
 
 const Banner = () => (
     <div className='banner'>
-        <div className='banner-line1'>
-            <p>Join us on November 1st to celebrate</p>
-        </div>
-        <div className='banner-line2'>
-            <p>McMurtry's 10th Anniversary!</p>
-
-        </div>
-        <Link href={'/10'}>
-            <div className='banner-link'>
-                <p>More Info →</p>
+        <div>
+            <div className='banner-line1'>
+                <p>Join us on November 1st to celebrate</p>
             </div>
-        </Link>
+        </div>
+        <div>
+            <div className='banner-line2'>
+                <p>McMurtry's 10th Anniversary!</p>
+            </div>
+        </div>
+        <div>
+            <Link href={'/10'}>
+                <div className='banner-link'>
+                    <p>More Info →</p>
+                </div>
+            </Link>
+        </div>
     </div>
 )
 

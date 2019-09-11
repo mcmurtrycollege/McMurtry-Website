@@ -4,23 +4,33 @@ import './Sponsor.css';
 
 const tiers = [
     {
-        name: "Level 1",
-        amount: "$100",
+        name: "Purple and Silver Sponsor",
+        amount: "$250",
         link: "https://riceconnect.rice.edu/giving"
     },
     {
-        name: "Level 2",
-        amount: "$200",
+        name: "Coat of Arms Sponsor",
+        amount: "$500",
         link: "https://riceconnect.rice.edu/giving"
     },
     {
-        name: "Level 3",
-        amount: "$300",
+        name: "Cookie Defense Sponsor",
+        amount: "$1,000",
         link: "https://riceconnect.rice.edu/giving"
     },
     {
-        name: "Level 4",
-        amount: "$400",
+        name: "Conch Wielder Sponsor",
+        amount: "$2,500",
+        link: "https://riceconnect.rice.edu/giving"
+    },
+    {
+        name: "Highland Champion",
+        amount: "$5,000",
+        link: "https://riceconnect.rice.edu/giving"
+    },
+    {
+        name: "Burt and DeeDee McMurtry Sponsor",
+        amount: "$10,000",
         link: "https://riceconnect.rice.edu/giving"
     }
 ]
@@ -55,8 +65,8 @@ const Sponsor = () => (
                 tiers.map(({ name, amount, link }) => (
                     <div className='tier' key={name}>
                         <p className='tier-name'>{name}</p>
-                        <p className='tier-amount'>{amount}</p>
                         <a href={link} target="_blank" rel="noopener noreferrer">
+                            <p className='tier-amount'>{amount}</p>
                             <div className='donate-btn'>
                                 Donate Now
                             </div>

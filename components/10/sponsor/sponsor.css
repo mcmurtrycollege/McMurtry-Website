@@ -64,7 +64,7 @@
 }
 
 .tier {
-    width: 180px;
+    width: 320px;
     height: 250px;
     margin: 15px;
     box-shadow: 0 0 15px 5px #BFBFCC;
@@ -73,17 +73,22 @@
 }
 
 .tier-name {
-    font-size: 2em;
+    font-size: 1.7em;
     width: 100%;
     background-color: #2B2F3A;
-    height: 50px;
+    height: 90px;
     margin: 0;
     padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 30px;
     color: #DCDFE5;
+    box-sizing: border-box;
 }
 
 .tier-amount {
-    padding-top: 20px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    margin: 0;
     font-size: 1.4em;
 }
 
@@ -106,9 +111,9 @@
 
 .donate-btn {
     position: absolute;
-    width: 180px;
     height: 30px;
-    margin-top: 50px;
+    width: 320px;
+    padding-top: 30px;
     font-size: 1.4em;
     text-align: center;
 }

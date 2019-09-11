@@ -78,62 +78,104 @@ var Sponsor = function Sponsor() {
     },
     __self: this
   }, "Support McMurtry"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
+    width: [0.8, 0.6],
+    ml: "auto",
+    mr: "auto",
+    className: "mcm10-message",
+    mt: 50,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: this
+  }, "Dear Donors,"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44
+    },
+    __self: this
+  }, "Thank you for your willingness to support McMurtry, your generosity makes events like these possible, and will let us do even more to help the students in our college."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: this
+  }, "All donors will recieve 2 tickets to the event, and donations meeting the \"Conch Weilder\" sponsorship tier or above will recieve a variable number of tickets. Reach out to ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "mailto:mcmurtry@rice.edu",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: this
+  }, "mcmurtry@rice.edu"), " for more information."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: this
+  }, "Please follow the instructions below to donate, thank you again for your support!")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
     ml: "auto",
     mr: "auto",
     width: [1, 0.6],
     className: "sponsor-instructions",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 48
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ol", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 49
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 50
     },
     __self: this
   }, "Click \"Become a Sponsor\" on one of the sponsorship levels below to be directed to the Rice University secure giving site."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 51
     },
     __self: this
   }, "After filling in your personal and contact information, fill in the donation information as follows:", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 53
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 54
     },
     __self: this
   }, "In the \"Amount\" box near the bottom of the form, enter the amount of your sponsorship"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 55
     },
     __self: this
   }, "In the \"Designation\" box next to that, use the drop-down menu and select \"Other\""), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 56
     },
     __self: this
   }, "In the \u201CSpecial Instructions\u201D box (appears after clicking add donation), type: McMurtry College 10th Anniversary Fund (G83450-5053000)"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "sponsor-tiers",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 69
     },
     __self: this
   }, tiers.map(function (_ref) {
@@ -145,14 +187,14 @@ var Sponsor = function Sponsor() {
       key: name,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 66
+        lineNumber: 72
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
       className: "tier-name",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 67
+        lineNumber: 73
       },
       __self: this
     }, name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -161,21 +203,21 @@ var Sponsor = function Sponsor() {
       rel: "noopener noreferrer",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 68
+        lineNumber: 74
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
       className: "tier-amount",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 69
+        lineNumber: 75
       },
       __self: this
     }, amount), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "donate-btn",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 70
+        lineNumber: 76
       },
       __self: this
     }, "Donate Now")));
@@ -15116,7 +15158,7 @@ var Sponsor = function Sponsor() {
 
 /***/ }),
 
-/***/ 10:
+/***/ 0:
 /*!********************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F10%2Fsponsor&absolutePagePath=C%3A%5CUsers%5Cnmeis%5CProjects%5CWebsites%5CMcMurtry-Website%5Cpages%5C10%5Csponsor.js ***!
   \********************************************************************************************************************************************************************/
@@ -15139,5 +15181,5 @@ module.exports = dll_829b10deddf10e1653a8;
 
 /***/ })
 
-},[[10,"static/runtime/webpack.js","styles"]]]);
+},[[0,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=sponsor.js.map

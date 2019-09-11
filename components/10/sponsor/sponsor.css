@@ -2,6 +2,15 @@
     padding-bottom: 10%;
 }
 
+.mcm10-message p {
+    color: #2B2F3A;
+}
+
+.mcm10-message p a {
+    text-decoration: none;
+    color: #87799C;
+}
+
 .back-link {
     position: fixed;
     margin: 3%;

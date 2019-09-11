@@ -39,6 +39,12 @@ const Sponsor = () => (
     <div className="sponsor-page">
         <Link href='/10'><a className='back-link'>← Back</a></Link>
         <h1 className='support-mcm'>Support McMurtry</h1>
+        <Box width={[0.8, 0.6]} ml='auto' mr='auto' className='mcm10-message' mt={50}>
+            <p>Dear Donors,</p>
+            <p>Thank you for your willingness to support McMurtry, your generosity makes events like these possible, and will let us do even more to help the students in our college.</p>
+            <p>All donors will recieve 2 tickets to the event, and donations meeting the "Conch Weilder" sponsorship tier or above will recieve a variable number of tickets. Reach out to <a href="mailto:mcmurtry@rice.edu">mcmurtry@rice.edu</a> for more information.</p>
+            <p>Please follow the instructions below to donate, thank you again for your support!</p>
+        </Box>
         <Box ml='auto' mr='auto' width={[1, 0.6]} className="sponsor-instructions">
             <ol>
                 <li>Click "Become a Sponsor" on one of the sponsorship levels below to be directed to the Rice University secure giving site.</li>

@@ -2,46 +2,52 @@
     padding: 70px 0;
 }
 
-.mcm10-title h1 {
-    font-weight: normal;
-    font-size: 3em;
-    margin: 10px 0;
+.mcm10-message p {
+    color: #2B2F3A;
 }
 
-.mcm10-title h2 {
-    font-weight: normal;
-    font-size: 2em;
-    margin-top: 0px;
+.mcm10-message p a {
+    text-decoration: none;
+    color: #87799C;
+}
+
+.mcm10-link {
+    text-align: center;
+    transition: 0.3s ease-in-out;
+    background-color: #2B2F3A;
+    width: 350px;
+    padding: 20px 0;
+    position: relative;
+    z-index: 999;
+}
+
+.mcm10-link:before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    background-color: #87799C;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.3s ease-in-out;
 }
 
 @media screen and (min-width: 1101px) {
     .mcm10-link {
         margin: 300px auto;
-        text-align: center;
-        transition: 0.3s ease-in-out;
     }
 }
 
 @media screen and (min-width: 751px) and (max-width: 1100px) {
     .mcm10-link {
         margin: 100px auto;
-        text-align: center;
-        transition: 0.3s ease-in-out;
     }
 }
 
 @media screen and (max-width: 750px) {
-    .mcm10-link-bg {
-        display: none;
-    }
     .mcm10-link {
         margin: 100px auto;
-        text-align: center;
-        transition: 0.3s ease-in-out;
-        background-color: #DCDFE5;
-        width: 250px;
-        padding: 10px 0;
-        box-sizing: border-box;
     }
 }
 
@@ -50,25 +56,21 @@
     transform: scale(0.9);
 }
 
-.mcm10-link-bg {
-    position: absolute;
-    background: #DCDFE5;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 .mcm10-link h1 {
     font-weight: normal;
     display: inline;
     text-align: center;
-    color: #2B2F3A;
+    color: #DCDFE5;
+    padding: 15px;
     transition: 0.3s ease-in-out;
 }
 
 .mcm10-link:hover {
     cursor: pointer;
-    transform: scale(1.1);
+}
+
+.mcm10-link:hover::before {
+    width: 100%;
 }
 
 .faqs-btn {

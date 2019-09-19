@@ -72,6 +72,10 @@
                 {
                     "name": "Strive Liaisons",
                     "to": "/people/striveliaisons"
+                },
+                {
+                    "name": "SMR",
+                    "to": "/people/SMR"
                 }
             ]
         },

@@ -1,110 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\people\\SMR.js"],{
-
-/***/ "./components/general/footer/footer.js":
-/*!*********************************************!*\
-  !*** ./components/general/footer/footer.js ***!
-  \*********************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rebass */ "./node_modules/rebass/dist/index.js");
-/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(rebass__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _footer_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./footer.css */ "./components/general/footer/footer.css");
-/* harmony import */ var _footer_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_footer_css__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\McMurtry-Website\\components\\general\\footer\\footer.js";
-
-
-
-
-var Footer = function Footer() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "footer-container",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
-    flexDirection: "row",
-    justifyContent: "center",
-    className: "footer-crest",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    width: 40,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-    src: "../../../static/logo.svg",
-    alt: "",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
-  }, "McMurtry College")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "footer-item",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }, "McMurtry College \xB7 MS 761 \xB7 Rice University"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "footer-item",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    },
-    __self: this
-  }, "1605 Rice Blvd \xB7 Houston, TX 77005"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "footer-item",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    },
-    __self: this
-  }, "Phone: (713) 348-4583 \xB7 Fax: (713) 348-3135"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "footer-item",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20
-    },
-    __self: this
-  }, "Email: mcmurtry@rice.edu"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "footer-item",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: this
-  }, "Copyright \xA9 McMurtry College, 2019"));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Footer);
-
-/***/ }),
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\oweek.js"],{
 
 /***/ "./components/general/header.js":
 /*!**************************************!*\
@@ -183,72 +77,285 @@ var Header = function Header() {
 
 /***/ }),
 
-/***/ "./components/general/title.js":
-/*!*************************************!*\
-  !*** ./components/general/title.js ***!
-  \*************************************/
+/***/ "./components/oweek/homepage/homepage.js":
+/*!***********************************************!*\
+  !*** ./components/oweek/homepage/homepage.js ***!
+  \***********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rebass */ "./node_modules/rebass/dist/index.js");
-/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(rebass__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _title_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./title.css */ "./components/general/title.css");
-/* harmony import */ var _title_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_title_css__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\McMurtry-Website\\components\\general\\title.js";
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! rebass */ "./node_modules/rebass/dist/index.js");
+/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(rebass__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _oweek_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../oweek.css */ "./components/oweek/oweek.css");
+/* harmony import */ var _oweek_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_oweek_css__WEBPACK_IMPORTED_MODULE_8__);
 
 
 
 
-var Title = function Title(props) {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+
+
+var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\McMurtry-Website\\components\\oweek\\homepage\\homepage.js";
+
+
+
+var countdown = __webpack_require__(/*! countdown */ "./node_modules/countdown/countdown.js");
+
+
+
+var Countdown =
+/*#__PURE__*/
+function (_React$Component) {
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(Countdown, _React$Component);
+
+  function Countdown(props) {
+    var _this;
+
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Countdown);
+
+    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Countdown).call(this, props));
+    _this.state = {
+      time: countdown(new Date(2020, 7, 18)).toString(),
+      myInterval: null
+    };
+    _this.updateTime = _this.updateTime.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this));
+    return _this;
+  }
+
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Countdown, [{
+    key: "updateTime",
+    value: function updateTime() {
+      this.setState({
+        time: countdown(new Date(2020, 7, 18)).toString()
+      });
+    }
+  }, {
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      this.state.myInterval = window.setInterval(this.updateTime, 1000);
+    }
+  }, {
+    key: "componentWillUnmount",
+    value: function componentWillUnmount() {
+      clearInterval(this.state.myInterval);
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "oweek-countdown",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 29
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h3", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 30
+        },
+        __self: this
+      }, this.state.time), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h2", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 31
+        },
+        __self: this
+      }, "until O-Week!"));
+    }
+  }]);
+
+  return Countdown;
+}(react__WEBPACK_IMPORTED_MODULE_6___default.a.Component);
+
+var Homepage = function Homepage() {
+  return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+    className: "oweek-homepage",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 38
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    width: props.width,
-    ml: "auto",
-    mr: "auto",
-    className: "title-container",
+  }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_7__["Flex"], {
+    flexDirection: "row",
+    justifyContent: "center",
+    flexWrap: "wrap",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 39
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    className: "title-theme",
+  }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_7__["Box"], {
+    width: [1, 1 / 3],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 40
     },
     __self: this
-  }, props.title)));
+  }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_7__["Image"], {
+    src: "../../../static/oweek/mcscottishyurt.jpg",
+    alt: "",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_7__["Box"], {
+    width: [1, 1 / 3],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_7__["Image"], {
+    src: "../../../static/oweek/cardmovin.jpg",
+    alt: "",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_7__["Box"], {
+    width: [1, 1 / 3],
+    style: {
+      backgroundColor: '#87799C',
+      marginBottom: '4px'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h1", {
+    className: "oweek-welcome",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: this
+  }, "Welcome to McMurtry!")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_7__["Box"], {
+    width: [1, 1 / 3],
+    style: {
+      backgroundColor: '#87799C',
+      marginBottom: '4px'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h1", {
+    className: "oweek-welcome",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50
+    },
+    __self: this
+  }, "Advance to Go-Week")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_7__["Box"], {
+    width: [1, 1 / 3],
+    style: {
+      margin: 0,
+      padding: 0
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_7__["Image"], {
+    src: "../../../static/oweek/jumpingCoords.jpg",
+    alt: "",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_7__["Box"], {
+    width: [1, 1 / 3],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_7__["Image"], {
+    src: "../../../static/oweek/colorceleb.jpg",
+    alt: "",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_7__["Box"], {
+    width: [1, 1 / 3],
+    style: {
+      margin: 0,
+      padding: 0
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_7__["Image"], {
+    src: "../../../static/oweek/mcteam.jpg",
+    alt: "",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_7__["Box"], {
+    width: [1, 1 / 3],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_7__["Image"], {
+    src: "../../../static/oweek/building.jpg",
+    alt: "",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_7__["Box"], {
+    width: [1, 1 / 3],
+    style: {
+      backgroundColor: '#87799C',
+      marginBottom: '4px'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(Countdown, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 65
+    },
+    __self: this
+  }))));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Title);
+/* harmony default export */ __webpack_exports__["default"] = (Homepage);
 
 /***/ }),
 
-/***/ "./components/navbar/navbar.json":
-/*!***************************************!*\
-  !*** ./components/navbar/navbar.json ***!
-  \***************************************/
-/*! exports provided: navbar_headers, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("{\"navbar_headers\":[{\"name\":\"About\",\"subheaders\":[{\"name\":\"About\",\"to\":\"/about\"},{\"name\":\"Financial Inclusivity\",\"to\":\"/about/financialinclusivity\"},{\"name\":\"O-Week\",\"to\":\"/oweek\"}]},{\"name\":\"Events\",\"subheaders\":[{\"name\":\"Calendar\",\"to\":\"/events/calendar\"},{\"name\":\"Arts Calendar\",\"to\":\"/events/artevents\"}]},{\"name\":\"People\",\"subheaders\":[{\"name\":\"McTeam\",\"to\":\"/people/mcteam\"},{\"name\":\"McMinistry\",\"to\":\"/people/mcministry\"},{\"name\":\"Court\",\"to\":\"/people/court\"},{\"name\":\"Committees\",\"to\":\"/people/committees\"},{\"name\":\"Associates\",\"to\":\"/people/associates\"},{\"name\":\"Divisional Advisors\",\"to\":\"/people/divisionaladvisors\"},{\"name\":\"Peer Academic Advisors\",\"to\":\"/people/PAAs\"},{\"name\":\"Academic Fellows\",\"to\":\"/people/academicfellows\"},{\"name\":\"RHAs\",\"to\":\"/people/RHAs\"},{\"name\":\"Strive Liaisons\",\"to\":\"/people/striveliaisons\"},{\"name\":\"SMR\",\"to\":\"/people/SMR\"}]},{\"name\":\"Resources\",\"subheaders\":[{\"name\":\"Room Reservations\",\"to\":\"/resources/roomreservations\"},{\"name\":\"MIS\",\"to\":\"/resources/mis\"},{\"name\":\"Documents\",\"to\":\"/resources/documents\"},{\"name\":\"Expense Forms\",\"to\":\"/resources/expenseforms\"},{\"name\":\"Work Orders\",\"to\":\"/resources/workorders\"},{\"name\":\"Initiative Requests\",\"to\":\"/resources/initiativerequests\"}]}]}");
-
-/***/ }),
-
-/***/ "./components/navbar/navbarDesktop.js":
-/*!********************************************!*\
-  !*** ./components/navbar/navbarDesktop.js ***!
-  \********************************************/
+/***/ "./components/oweek/navbar/navbar.js":
+/*!*******************************************!*\
+  !*** ./components/oweek/navbar/navbar.js ***!
+  \*******************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -266,201 +373,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_7__);
 /* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! rebass */ "./node_modules/rebass/dist/index.js");
 /* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(rebass__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _navbar_json__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./navbar.json */ "./components/navbar/navbar.json");
-var _navbar_json__WEBPACK_IMPORTED_MODULE_9___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./navbar.json */ "./components/navbar/navbar.json", 1);
-/* harmony import */ var _NavbarDesktop_css__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./NavbarDesktop.css */ "./components/navbar/NavbarDesktop.css");
-/* harmony import */ var _NavbarDesktop_css__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_NavbarDesktop_css__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _navbar_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./navbar.css */ "./components/oweek/navbar/navbar.css");
+/* harmony import */ var _navbar_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_navbar_css__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _navbar_json__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./navbar.json */ "./components/oweek/navbar/navbar.json");
+var _navbar_json__WEBPACK_IMPORTED_MODULE_10___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./navbar.json */ "./components/oweek/navbar/navbar.json", 1);
 
 
 
 
 
 
-var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\McMurtry-Website\\components\\navbar\\navbarDesktop.js";
-
-
-
-
-
-
-var NavbarDesktop =
-/*#__PURE__*/
-function (_React$Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(NavbarDesktop, _React$Component);
-
-  function NavbarDesktop(props) {
-    var _this;
-
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, NavbarDesktop);
-
-    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(NavbarDesktop).call(this, props));
-    _this.state = {
-      permanent: false
-    };
-    _this.handleScroll = _this.handleScroll.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this));
-    return _this;
-  }
-
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(NavbarDesktop, [{
-    key: "handleScroll",
-    value: function handleScroll() {
-      this.setState({
-        permanent: window.scrollY > 0
-      });
-    }
-  }, {
-    key: "componentDidMount",
-    value: function componentDidMount() {
-      document.addEventListener('scroll', this.handleScroll);
-    }
-  }, {
-    key: "componentWillUnmount",
-    value: function componentWillUnmount() {
-      document.removeEventListener('scroll', this.handleScroll);
-    }
-  }, {
-    key: "render",
-    value: function render() {
-      var style = this.state.permanent ? {
-        backgroundColor: "#515768"
-      } : {
-        paddingTop: '15px',
-        paddingBottom: '15px',
-        color: "#515768",
-        backgroundColor: "#DCDFE5"
-      };
-      return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "navbar-wrapper",
-        style: style,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 38
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
-        href: "/",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 39
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "header-crest",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 40
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_8__["Image"], {
-        src: "../../static/logo.svg",
-        alt: "",
-        width: 40,
-        height: 60,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 41
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 42
-        },
-        __self: this
-      }, "McMurtry College"))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "navbar-catagories",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 45
-        },
-        __self: this
-      }, _navbar_json__WEBPACK_IMPORTED_MODULE_9__["navbar_headers"].map(function (_ref) {
-        var name = _ref.name,
-            subheaders = _ref.subheaders;
-        return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-          className: "navbar-category",
-          key: name,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 48
-          },
-          __self: this
-        }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("button", {
-          className: "navbar-dropdown-opener",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 49
-          },
-          __self: this
-        }, name), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-          className: "dropdown-subheaders",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 52
-          },
-          __self: this
-        }, subheaders.map(function (_ref2) {
-          var name = _ref2.name,
-              to = _ref2.to;
-          return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
-            href: to,
-            key: name,
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 55
-            },
-            __self: this
-          }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 55
-            },
-            __self: this
-          }, name));
-        })));
-      })));
-    }
-  }]);
-
-  return NavbarDesktop;
-}(react__WEBPACK_IMPORTED_MODULE_6___default.a.Component);
-
-/* harmony default export */ __webpack_exports__["default"] = (NavbarDesktop);
-
-/***/ }),
-
-/***/ "./components/navbar/navbarMobile.js":
-/*!*******************************************!*\
-  !*** ./components/navbar/navbarMobile.js ***!
-  \*******************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _navbarMobile_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./navbarMobile.css */ "./components/navbar/navbarMobile.css");
-/* harmony import */ var _navbarMobile_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_navbarMobile_css__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! rebass */ "./node_modules/rebass/dist/index.js");
-/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(rebass__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var _navbar_json__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./navbar.json */ "./components/navbar/navbar.json");
-var _navbar_json__WEBPACK_IMPORTED_MODULE_10___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./navbar.json */ "./components/navbar/navbar.json", 1);
-
-
-
-
-
-
-var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\McMurtry-Website\\components\\navbar\\navbarMobile.js";
+var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\McMurtry-Website\\components\\oweek\\navbar\\navbar.js";
 
 
 
@@ -479,12 +402,9 @@ function (_React$Component) {
 
     _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Navbar).call(this, props));
     _this.state = {
-      hidden: true,
-      subheader: null
+      hidden: true
     };
     _this.toggleNavbar = _this.toggleNavbar.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this));
-    _this.showSubheader = _this.showSubheader.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this));
-    _this.closeSubheader = _this.closeSubheader.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this));
     return _this;
   }
 
@@ -496,62 +416,96 @@ function (_React$Component) {
       });
     }
   }, {
-    key: "showSubheader",
-    value: function showSubheader(index) {
-      this.setState({
-        subheader: index
-      });
-    }
-  }, {
-    key: "closeSubheader",
-    value: function closeSubheader() {
-      this.setState({
-        subheader: null
-      });
-    }
-  }, {
     key: "render",
     value: function render() {
-      var _this2 = this;
-
-      var mainHeaders = [];
-      var menus = [];
-      var hidden = this.state.hidden ? {
-        left: '100%'
-      } : {
-        left: 0
-      };
-
-      var _loop = function _loop(i) {
-        mainHeaders.push(react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-          className: "main-header",
-          key: _navbar_json__WEBPACK_IMPORTED_MODULE_10__["navbar_headers"][i].name,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 37
-          },
-          __self: this
-        }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
-          onClick: function onClick() {
-            return _this2.showSubheader(i);
-          },
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 38
-          },
-          __self: this
-        }, _navbar_json__WEBPACK_IMPORTED_MODULE_10__["navbar_headers"][i].name)));
-        menus.push(react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-          className: _this2.state.subheader === i ? 'subheader-display' : 'subheader-hidden',
-          key: "".concat(_navbar_json__WEBPACK_IMPORTED_MODULE_10__["navbar_headers"][i].name, "-menu"),
+      return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 25
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "oweek-navbar-open",
+        onClick: this.toggleNavbar,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
+        src: "https://icon.now.sh/burger/3A3F4F/30",
+        alt: "Menu",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: this.state.hidden ? 'oweek-navbar-hidden' : 'oweek-navbar-visible',
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 29
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "oweek-navbar-close",
+        onClick: this.toggleNavbar,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 30
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
+        src: "https://icon.now.sh/x/DCDFE5/20",
+        alt: "X",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 31
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        href: "/oweek",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_8__["Box"], {
+        width: [0.2, 0.3],
+        ml: "auto",
+        mr: "auto",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_8__["Image"], {
+        src: "../../../static/logo.svg",
+        alt: "",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 36
+        },
+        __self: this
+      })))), _navbar_json__WEBPACK_IMPORTED_MODULE_10__["navbar_links"].map(function (_ref) {
+        var name = _ref.name,
+            link = _ref.link;
+        return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
+          href: link,
+          key: name,
           __source: {
             fileName: _jsxFileName,
             lineNumber: 42
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-          onClick: _this2.closeSubheader,
-          className: "subheader-back",
+          className: "oweek-navbar-link",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 43
@@ -563,116 +517,8 @@ function (_React$Component) {
             lineNumber: 44
           },
           __self: this
-        }, "\u2190 Back")), _navbar_json__WEBPACK_IMPORTED_MODULE_10__["navbar_headers"][i].subheaders.map(function (_ref) {
-          var name = _ref.name,
-              to = _ref.to;
-          return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
-            href: to,
-            key: name,
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 48
-            },
-            __self: this
-          }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-            className: "subheader-item",
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 49
-            },
-            __self: this
-          }, name));
-        })));
-      };
-
-      for (var i = 0; i < _navbar_json__WEBPACK_IMPORTED_MODULE_10__["navbar_headers"].length; i++) {
-        _loop(i);
-      }
-
-      return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 60
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "fixed-mobile-header",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 61
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
-        className: "show-navbar",
-        src: "https://icon.now.sh/burger/515768/30",
-        alt: "Menu",
-        onClick: this.toggleNavbar,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 62
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
-        href: "/",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 63
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "header-crest-mobile",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 64
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_9__["Box"], {
-        width: 40,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 65
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_9__["Image"], {
-        src: "../../static/logo.svg",
-        alt: "",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 66
-        },
-        __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 68
-        },
-        __self: this
-      }, "McMurtry College")))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "mobile-navbar",
-        style: hidden,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 72
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "main-menu",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 73
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
-        className: "close-navbar",
-        src: "https://icon.now.sh/x/DCDFE5/25",
-        alt: "X",
-        onClick: this.toggleNavbar,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 74
-        },
-        __self: this
-      }), mainHeaders), menus));
+        }, name)));
+      })));
     }
   }]);
 
@@ -683,78 +529,14 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ "./components/people/smr/smr.js":
-/*!**************************************!*\
-  !*** ./components/people/smr/smr.js ***!
-  \**************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _general_title__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../general/title */ "./components/general/title.js");
-/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rebass */ "./node_modules/rebass/dist/index.js");
-/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(rebass__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _smr_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./smr.json */ "./components/people/smr/smr.json");
-var _smr_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./smr.json */ "./components/people/smr/smr.json", 1);
-/* harmony import */ var _smr_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./smr.css */ "./components/people/smr/smr.css");
-/* harmony import */ var _smr_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_smr_css__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\McMurtry-Website\\components\\people\\smr\\smr.js";
-
-
-
-
-
-
-var SMR = function SMR() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "smr-page",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_general_title__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    title: "Student Maintenance Rep",
-    width: 350,
-    smallTest: true,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
-    width: [0.8, 0.5],
-    ml: "auto",
-    mr: "auto",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  }, _smr_json__WEBPACK_IMPORTED_MODULE_3__["smr_bio"])));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (SMR);
-
-/***/ }),
-
-/***/ "./components/people/smr/smr.json":
-/*!****************************************!*\
-  !*** ./components/people/smr/smr.json ***!
-  \****************************************/
-/*! exports provided: smr_bio, default */
+/***/ "./components/oweek/navbar/navbar.json":
+/*!*********************************************!*\
+  !*** ./components/oweek/navbar/navbar.json ***!
+  \*********************************************/
+/*! exports provided: navbar_links, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"smr_bio\":\"I'm Kim, a senior from Austin, TX, double majoring in History and Psychology with a minor in Politics, Law and Social Thought. I'm here to be a liaison between McMurtry and Housing and Dining. I can help with lofting/lowering beds, resetting thermostats, resetting lights, and other simple issues. If you have questions, feel free to email me at keo5@rice.edu or text at 512-487-0392!\"}");
+module.exports = JSON.parse("{\"navbar_links\":[{\"name\":\"About the Theme\",\"link\":\"/oweek/theme\"},{\"name\":\"Meet the Coords\",\"link\":\"/oweek/coords\"},{\"name\":\"O-Week Groups\",\"link\":\"/oweek/oweekgroups\"},{\"name\":\"Move-In Info\",\"link\":\"/oweek/movein\"},{\"name\":\"Tour of McMurtry\",\"link\":\"/oweek/mcmtour\"},{\"name\":\"Your Room\",\"link\":\"/oweek/yourroom\"},{\"name\":\"O-Week Book\",\"link\":\"/oweek/oweekbook\"},{\"name\":\"Contact Info\",\"link\":\"/oweek/oweekcontact\"}]}");
 
 /***/ }),
 
@@ -5463,6 +5245,1383 @@ for (var i = 0; i < DOMIterables.length; i++) {
 
 /***/ }),
 
+/***/ "./node_modules/countdown/countdown.js":
+/*!*********************************************!*\
+  !*** ./node_modules/countdown/countdown.js ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/*global window */
+/**
+ * @license countdown.js v2.6.0 http://countdownjs.org
+ * Copyright (c)2006-2014 Stephen M. McKamey.
+ * Licensed under The MIT License.
+ */
+/*jshint bitwise:false */
+
+/**
+ * @public
+ * @type {Object|null}
+ */
+var module;
+
+/**
+ * API entry
+ * @public
+ * @param {function(Object)|Date|number} start the starting date
+ * @param {function(Object)|Date|number} end the ending date
+ * @param {number} units the units to populate
+ * @return {Object|number}
+ */
+var countdown = (
+
+/**
+ * @param {Object} module CommonJS Module
+ */
+function(module) {
+	/*jshint smarttabs:true */
+
+	'use strict';
+
+	/**
+	 * @private
+	 * @const
+	 * @type {number}
+	 */
+	var MILLISECONDS	= 0x001;
+
+	/**
+	 * @private
+	 * @const
+	 * @type {number}
+	 */
+	var SECONDS			= 0x002;
+
+	/**
+	 * @private
+	 * @const
+	 * @type {number}
+	 */
+	var MINUTES			= 0x004;
+
+	/**
+	 * @private
+	 * @const
+	 * @type {number}
+	 */
+	var HOURS			= 0x008;
+
+	/**
+	 * @private
+	 * @const
+	 * @type {number}
+	 */
+	var DAYS			= 0x010;
+
+	/**
+	 * @private
+	 * @const
+	 * @type {number}
+	 */
+	var WEEKS			= 0x020;
+
+	/**
+	 * @private
+	 * @const
+	 * @type {number}
+	 */
+	var MONTHS			= 0x040;
+
+	/**
+	 * @private
+	 * @const
+	 * @type {number}
+	 */
+	var YEARS			= 0x080;
+
+	/**
+	 * @private
+	 * @const
+	 * @type {number}
+	 */
+	var DECADES			= 0x100;
+
+	/**
+	 * @private
+	 * @const
+	 * @type {number}
+	 */
+	var CENTURIES		= 0x200;
+
+	/**
+	 * @private
+	 * @const
+	 * @type {number}
+	 */
+	var MILLENNIA		= 0x400;
+
+	/**
+	 * @private
+	 * @const
+	 * @type {number}
+	 */
+	var DEFAULTS		= YEARS|MONTHS|DAYS|HOURS|MINUTES|SECONDS;
+
+	/**
+	 * @private
+	 * @const
+	 * @type {number}
+	 */
+	var MILLISECONDS_PER_SECOND = 1000;
+
+	/**
+	 * @private
+	 * @const
+	 * @type {number}
+	 */
+	var SECONDS_PER_MINUTE = 60;
+
+	/**
+	 * @private
+	 * @const
+	 * @type {number}
+	 */
+	var MINUTES_PER_HOUR = 60;
+
+	/**
+	 * @private
+	 * @const
+	 * @type {number}
+	 */
+	var HOURS_PER_DAY = 24;
+
+	/**
+	 * @private
+	 * @const
+	 * @type {number}
+	 */
+	var MILLISECONDS_PER_DAY = HOURS_PER_DAY * MINUTES_PER_HOUR * SECONDS_PER_MINUTE * MILLISECONDS_PER_SECOND;
+
+	/**
+	 * @private
+	 * @const
+	 * @type {number}
+	 */
+	var DAYS_PER_WEEK = 7;
+
+	/**
+	 * @private
+	 * @const
+	 * @type {number}
+	 */
+	var MONTHS_PER_YEAR = 12;
+
+	/**
+	 * @private
+	 * @const
+	 * @type {number}
+	 */
+	var YEARS_PER_DECADE = 10;
+
+	/**
+	 * @private
+	 * @const
+	 * @type {number}
+	 */
+	var DECADES_PER_CENTURY = 10;
+
+	/**
+	 * @private
+	 * @const
+	 * @type {number}
+	 */
+	var CENTURIES_PER_MILLENNIUM = 10;
+
+	/**
+	 * @private
+	 * @param {number} x number
+	 * @return {number}
+	 */
+	var ceil = Math.ceil;
+
+	/**
+	 * @private
+	 * @param {number} x number
+	 * @return {number}
+	 */
+	var floor = Math.floor;
+
+	/**
+	 * @private
+	 * @param {Date} ref reference date
+	 * @param {number} shift number of months to shift
+	 * @return {number} number of days shifted
+	 */
+	function borrowMonths(ref, shift) {
+		var prevTime = ref.getTime();
+
+		// increment month by shift
+		ref.setMonth( ref.getMonth() + shift );
+
+		// this is the trickiest since months vary in length
+		return Math.round( (ref.getTime() - prevTime) / MILLISECONDS_PER_DAY );
+	}
+
+	/**
+	 * @private
+	 * @param {Date} ref reference date
+	 * @return {number} number of days
+	 */
+	function daysPerMonth(ref) {
+		var a = ref.getTime();
+
+		// increment month by 1
+		var b = new Date(a);
+		b.setMonth( ref.getMonth() + 1 );
+
+		// this is the trickiest since months vary in length
+		return Math.round( (b.getTime() - a) / MILLISECONDS_PER_DAY );
+	}
+
+	/**
+	 * @private
+	 * @param {Date} ref reference date
+	 * @return {number} number of days
+	 */
+	function daysPerYear(ref) {
+		var a = ref.getTime();
+
+		// increment year by 1
+		var b = new Date(a);
+		b.setFullYear( ref.getFullYear() + 1 );
+
+		// this is the trickiest since years (periodically) vary in length
+		return Math.round( (b.getTime() - a) / MILLISECONDS_PER_DAY );
+	}
+
+	/**
+	 * Applies the Timespan to the given date.
+	 * 
+	 * @private
+	 * @param {Timespan} ts
+	 * @param {Date=} date
+	 * @return {Date}
+	 */
+	function addToDate(ts, date) {
+		date = (date instanceof Date) || ((date !== null) && isFinite(date)) ? new Date(+date) : new Date();
+		if (!ts) {
+			return date;
+		}
+
+		// if there is a value field, use it directly
+		var value = +ts.value || 0;
+		if (value) {
+			date.setTime(date.getTime() + value);
+			return date;
+		}
+
+		value = +ts.milliseconds || 0;
+		if (value) {
+			date.setMilliseconds(date.getMilliseconds() + value);
+		}
+
+		value = +ts.seconds || 0;
+		if (value) {
+			date.setSeconds(date.getSeconds() + value);
+		}
+
+		value = +ts.minutes || 0;
+		if (value) {
+			date.setMinutes(date.getMinutes() + value);
+		}
+
+		value = +ts.hours || 0;
+		if (value) {
+			date.setHours(date.getHours() + value);
+		}
+
+		value = +ts.weeks || 0;
+		if (value) {
+			value *= DAYS_PER_WEEK;
+		}
+
+		value += +ts.days || 0;
+		if (value) {
+			date.setDate(date.getDate() + value);
+		}
+
+		value = +ts.months || 0;
+		if (value) {
+			date.setMonth(date.getMonth() + value);
+		}
+
+		value = +ts.millennia || 0;
+		if (value) {
+			value *= CENTURIES_PER_MILLENNIUM;
+		}
+
+		value += +ts.centuries || 0;
+		if (value) {
+			value *= DECADES_PER_CENTURY;
+		}
+
+		value += +ts.decades || 0;
+		if (value) {
+			value *= YEARS_PER_DECADE;
+		}
+
+		value += +ts.years || 0;
+		if (value) {
+			date.setFullYear(date.getFullYear() + value);
+		}
+
+		return date;
+	}
+
+	/**
+	 * @private
+	 * @const
+	 * @type {number}
+	 */
+	var LABEL_MILLISECONDS	= 0;
+
+	/**
+	 * @private
+	 * @const
+	 * @type {number}
+	 */
+	var LABEL_SECONDS		= 1;
+
+	/**
+	 * @private
+	 * @const
+	 * @type {number}
+	 */
+	var LABEL_MINUTES		= 2;
+
+	/**
+	 * @private
+	 * @const
+	 * @type {number}
+	 */
+	var LABEL_HOURS			= 3;
+
+	/**
+	 * @private
+	 * @const
+	 * @type {number}
+	 */
+	var LABEL_DAYS			= 4;
+
+	/**
+	 * @private
+	 * @const
+	 * @type {number}
+	 */
+	var LABEL_WEEKS			= 5;
+
+	/**
+	 * @private
+	 * @const
+	 * @type {number}
+	 */
+	var LABEL_MONTHS		= 6;
+
+	/**
+	 * @private
+	 * @const
+	 * @type {number}
+	 */
+	var LABEL_YEARS			= 7;
+
+	/**
+	 * @private
+	 * @const
+	 * @type {number}
+	 */
+	var LABEL_DECADES		= 8;
+
+	/**
+	 * @private
+	 * @const
+	 * @type {number}
+	 */
+	var LABEL_CENTURIES		= 9;
+
+	/**
+	 * @private
+	 * @const
+	 * @type {number}
+	 */
+	var LABEL_MILLENNIA		= 10;
+
+	/**
+	 * @private
+	 * @type {Array}
+	 */
+	var LABELS_SINGLUAR;
+
+	/**
+	 * @private
+	 * @type {Array}
+	 */
+	var LABELS_PLURAL;
+
+	/**
+	 * @private
+	 * @type {string}
+	 */
+	var LABEL_LAST;
+
+	/**
+	 * @private
+	 * @type {string}
+	 */
+	var LABEL_DELIM;
+
+	/**
+	 * @private
+	 * @type {string}
+	 */
+	var LABEL_NOW;
+
+	/**
+	 * Formats a number & unit as a string
+	 * 
+	 * @param {number} value
+	 * @param {number} unit
+	 * @return {string}
+	 */
+	var formatter;
+
+	/**
+	 * Formats a number as a string
+	 * 
+	 * @private
+	 * @param {number} value
+	 * @return {string}
+	 */
+	var formatNumber;
+
+	/**
+	 * @private
+	 * @param {number} value
+	 * @param {number} unit unit index into label list
+	 * @return {string}
+	 */
+	function plurality(value, unit) {
+		return formatNumber(value)+((value === 1) ? LABELS_SINGLUAR[unit] : LABELS_PLURAL[unit]);
+	}
+
+	/**
+	 * Formats the entries with singular or plural labels
+	 * 
+	 * @private
+	 * @param {Timespan} ts
+	 * @return {Array}
+	 */
+	var formatList;
+
+	/**
+	 * Timespan representation of a duration of time
+	 * 
+	 * @private
+	 * @this {Timespan}
+	 * @constructor
+	 */
+	function Timespan() {}
+
+	/**
+	 * Formats the Timespan as a sentence
+	 * 
+	 * @param {string=} emptyLabel the string to use when no values returned
+	 * @return {string}
+	 */
+	Timespan.prototype.toString = function(emptyLabel) {
+		var label = formatList(this);
+
+		var count = label.length;
+		if (!count) {
+			return emptyLabel ? ''+emptyLabel : LABEL_NOW;
+		}
+		if (count === 1) {
+			return label[0];
+		}
+
+		var last = LABEL_LAST+label.pop();
+		return label.join(LABEL_DELIM)+last;
+	};
+
+	/**
+	 * Formats the Timespan as a sentence in HTML
+	 * 
+	 * @param {string=} tag HTML tag name to wrap each value
+	 * @param {string=} emptyLabel the string to use when no values returned
+	 * @return {string}
+	 */
+	Timespan.prototype.toHTML = function(tag, emptyLabel) {
+		tag = tag || 'span';
+		var label = formatList(this);
+
+		var count = label.length;
+		if (!count) {
+			emptyLabel = emptyLabel || LABEL_NOW;
+			return emptyLabel ? '<'+tag+'>'+emptyLabel+'</'+tag+'>' : emptyLabel;
+		}
+		for (var i=0; i<count; i++) {
+			// wrap each unit in tag
+			label[i] = '<'+tag+'>'+label[i]+'</'+tag+'>';
+		}
+		if (count === 1) {
+			return label[0];
+		}
+
+		var last = LABEL_LAST+label.pop();
+		return label.join(LABEL_DELIM)+last;
+	};
+
+	/**
+	 * Applies the Timespan to the given date
+	 * 
+	 * @param {Date=} date the date to which the timespan is added.
+	 * @return {Date}
+	 */
+	Timespan.prototype.addTo = function(date) {
+		return addToDate(this, date);
+	};
+
+	/**
+	 * Formats the entries as English labels
+	 * 
+	 * @private
+	 * @param {Timespan} ts
+	 * @return {Array}
+	 */
+	formatList = function(ts) {
+		var list = [];
+
+		var value = ts.millennia;
+		if (value) {
+			list.push(formatter(value, LABEL_MILLENNIA));
+		}
+
+		value = ts.centuries;
+		if (value) {
+			list.push(formatter(value, LABEL_CENTURIES));
+		}
+
+		value = ts.decades;
+		if (value) {
+			list.push(formatter(value, LABEL_DECADES));
+		}
+
+		value = ts.years;
+		if (value) {
+			list.push(formatter(value, LABEL_YEARS));
+		}
+
+		value = ts.months;
+		if (value) {
+			list.push(formatter(value, LABEL_MONTHS));
+		}
+
+		value = ts.weeks;
+		if (value) {
+			list.push(formatter(value, LABEL_WEEKS));
+		}
+
+		value = ts.days;
+		if (value) {
+			list.push(formatter(value, LABEL_DAYS));
+		}
+
+		value = ts.hours;
+		if (value) {
+			list.push(formatter(value, LABEL_HOURS));
+		}
+
+		value = ts.minutes;
+		if (value) {
+			list.push(formatter(value, LABEL_MINUTES));
+		}
+
+		value = ts.seconds;
+		if (value) {
+			list.push(formatter(value, LABEL_SECONDS));
+		}
+
+		value = ts.milliseconds;
+		if (value) {
+			list.push(formatter(value, LABEL_MILLISECONDS));
+		}
+
+		return list;
+	};
+
+	/**
+	 * Borrow any underflow units, carry any overflow units
+	 * 
+	 * @private
+	 * @param {Timespan} ts
+	 * @param {string} toUnit
+	 */
+	function rippleRounded(ts, toUnit) {
+		switch (toUnit) {
+			case 'seconds':
+				if (ts.seconds !== SECONDS_PER_MINUTE || isNaN(ts.minutes)) {
+					return;
+				}
+				// ripple seconds up to minutes
+				ts.minutes++;
+				ts.seconds = 0;
+
+				/* falls through */
+			case 'minutes':
+				if (ts.minutes !== MINUTES_PER_HOUR || isNaN(ts.hours)) {
+					return;
+				}
+				// ripple minutes up to hours
+				ts.hours++;
+				ts.minutes = 0;
+
+				/* falls through */
+			case 'hours':
+				if (ts.hours !== HOURS_PER_DAY || isNaN(ts.days)) {
+					return;
+				}
+				// ripple hours up to days
+				ts.days++;
+				ts.hours = 0;
+
+				/* falls through */
+			case 'days':
+				if (ts.days !== DAYS_PER_WEEK || isNaN(ts.weeks)) {
+					return;
+				}
+				// ripple days up to weeks
+				ts.weeks++;
+				ts.days = 0;
+
+				/* falls through */
+			case 'weeks':
+				if (ts.weeks !== daysPerMonth(ts.refMonth)/DAYS_PER_WEEK || isNaN(ts.months)) {
+					return;
+				}
+				// ripple weeks up to months
+				ts.months++;
+				ts.weeks = 0;
+
+				/* falls through */
+			case 'months':
+				if (ts.months !== MONTHS_PER_YEAR || isNaN(ts.years)) {
+					return;
+				}
+				// ripple months up to years
+				ts.years++;
+				ts.months = 0;
+
+				/* falls through */
+			case 'years':
+				if (ts.years !== YEARS_PER_DECADE || isNaN(ts.decades)) {
+					return;
+				}
+				// ripple years up to decades
+				ts.decades++;
+				ts.years = 0;
+
+				/* falls through */
+			case 'decades':
+				if (ts.decades !== DECADES_PER_CENTURY || isNaN(ts.centuries)) {
+					return;
+				}
+				// ripple decades up to centuries
+				ts.centuries++;
+				ts.decades = 0;
+
+				/* falls through */
+			case 'centuries':
+				if (ts.centuries !== CENTURIES_PER_MILLENNIUM || isNaN(ts.millennia)) {
+					return;
+				}
+				// ripple centuries up to millennia
+				ts.millennia++;
+				ts.centuries = 0;
+				/* falls through */
+			}
+	}
+
+	/**
+	 * Ripple up partial units one place
+	 * 
+	 * @private
+	 * @param {Timespan} ts timespan
+	 * @param {number} frac accumulated fractional value
+	 * @param {string} fromUnit source unit name
+	 * @param {string} toUnit target unit name
+	 * @param {number} conversion multiplier between units
+	 * @param {number} digits max number of decimal digits to output
+	 * @return {number} new fractional value
+	 */
+	function fraction(ts, frac, fromUnit, toUnit, conversion, digits) {
+		if (ts[fromUnit] >= 0) {
+			frac += ts[fromUnit];
+			delete ts[fromUnit];
+		}
+
+		frac /= conversion;
+		if (frac + 1 <= 1) {
+			// drop if below machine epsilon
+			return 0;
+		}
+
+		if (ts[toUnit] >= 0) {
+			// ensure does not have more than specified number of digits
+			ts[toUnit] = +(ts[toUnit] + frac).toFixed(digits);
+			rippleRounded(ts, toUnit);
+			return 0;
+		}
+
+		return frac;
+	}
+
+	/**
+	 * Ripple up partial units to next existing
+	 * 
+	 * @private
+	 * @param {Timespan} ts
+	 * @param {number} digits max number of decimal digits to output
+	 */
+	function fractional(ts, digits) {
+		var frac = fraction(ts, 0, 'milliseconds', 'seconds', MILLISECONDS_PER_SECOND, digits);
+		if (!frac) { return; }
+
+		frac = fraction(ts, frac, 'seconds', 'minutes', SECONDS_PER_MINUTE, digits);
+		if (!frac) { return; }
+
+		frac = fraction(ts, frac, 'minutes', 'hours', MINUTES_PER_HOUR, digits);
+		if (!frac) { return; }
+
+		frac = fraction(ts, frac, 'hours', 'days', HOURS_PER_DAY, digits);
+		if (!frac) { return; }
+
+		frac = fraction(ts, frac, 'days', 'weeks', DAYS_PER_WEEK, digits);
+		if (!frac) { return; }
+
+		frac = fraction(ts, frac, 'weeks', 'months', daysPerMonth(ts.refMonth)/DAYS_PER_WEEK, digits);
+		if (!frac) { return; }
+
+		frac = fraction(ts, frac, 'months', 'years', daysPerYear(ts.refMonth)/daysPerMonth(ts.refMonth), digits);
+		if (!frac) { return; }
+
+		frac = fraction(ts, frac, 'years', 'decades', YEARS_PER_DECADE, digits);
+		if (!frac) { return; }
+
+		frac = fraction(ts, frac, 'decades', 'centuries', DECADES_PER_CENTURY, digits);
+		if (!frac) { return; }
+
+		frac = fraction(ts, frac, 'centuries', 'millennia', CENTURIES_PER_MILLENNIUM, digits);
+
+		// should never reach this with remaining fractional value
+		if (frac) { throw new Error('Fractional unit overflow'); }
+	}
+
+	/**
+	 * Borrow any underflow units, carry any overflow units
+	 * 
+	 * @private
+	 * @param {Timespan} ts
+	 */
+	function ripple(ts) {
+		var x;
+
+		if (ts.milliseconds < 0) {
+			// ripple seconds down to milliseconds
+			x = ceil(-ts.milliseconds / MILLISECONDS_PER_SECOND);
+			ts.seconds -= x;
+			ts.milliseconds += x * MILLISECONDS_PER_SECOND;
+
+		} else if (ts.milliseconds >= MILLISECONDS_PER_SECOND) {
+			// ripple milliseconds up to seconds
+			ts.seconds += floor(ts.milliseconds / MILLISECONDS_PER_SECOND);
+			ts.milliseconds %= MILLISECONDS_PER_SECOND;
+		}
+
+		if (ts.seconds < 0) {
+			// ripple minutes down to seconds
+			x = ceil(-ts.seconds / SECONDS_PER_MINUTE);
+			ts.minutes -= x;
+			ts.seconds += x * SECONDS_PER_MINUTE;
+
+		} else if (ts.seconds >= SECONDS_PER_MINUTE) {
+			// ripple seconds up to minutes
+			ts.minutes += floor(ts.seconds / SECONDS_PER_MINUTE);
+			ts.seconds %= SECONDS_PER_MINUTE;
+		}
+
+		if (ts.minutes < 0) {
+			// ripple hours down to minutes
+			x = ceil(-ts.minutes / MINUTES_PER_HOUR);
+			ts.hours -= x;
+			ts.minutes += x * MINUTES_PER_HOUR;
+
+		} else if (ts.minutes >= MINUTES_PER_HOUR) {
+			// ripple minutes up to hours
+			ts.hours += floor(ts.minutes / MINUTES_PER_HOUR);
+			ts.minutes %= MINUTES_PER_HOUR;
+		}
+
+		if (ts.hours < 0) {
+			// ripple days down to hours
+			x = ceil(-ts.hours / HOURS_PER_DAY);
+			ts.days -= x;
+			ts.hours += x * HOURS_PER_DAY;
+
+		} else if (ts.hours >= HOURS_PER_DAY) {
+			// ripple hours up to days
+			ts.days += floor(ts.hours / HOURS_PER_DAY);
+			ts.hours %= HOURS_PER_DAY;
+		}
+
+		while (ts.days < 0) {
+			// NOTE: never actually seen this loop more than once
+
+			// ripple months down to days
+			ts.months--;
+			ts.days += borrowMonths(ts.refMonth, 1);
+		}
+
+		// weeks is always zero here
+
+		if (ts.days >= DAYS_PER_WEEK) {
+			// ripple days up to weeks
+			ts.weeks += floor(ts.days / DAYS_PER_WEEK);
+			ts.days %= DAYS_PER_WEEK;
+		}
+
+		if (ts.months < 0) {
+			// ripple years down to months
+			x = ceil(-ts.months / MONTHS_PER_YEAR);
+			ts.years -= x;
+			ts.months += x * MONTHS_PER_YEAR;
+
+		} else if (ts.months >= MONTHS_PER_YEAR) {
+			// ripple months up to years
+			ts.years += floor(ts.months / MONTHS_PER_YEAR);
+			ts.months %= MONTHS_PER_YEAR;
+		}
+
+		// years is always non-negative here
+		// decades, centuries and millennia are always zero here
+
+		if (ts.years >= YEARS_PER_DECADE) {
+			// ripple years up to decades
+			ts.decades += floor(ts.years / YEARS_PER_DECADE);
+			ts.years %= YEARS_PER_DECADE;
+
+			if (ts.decades >= DECADES_PER_CENTURY) {
+				// ripple decades up to centuries
+				ts.centuries += floor(ts.decades / DECADES_PER_CENTURY);
+				ts.decades %= DECADES_PER_CENTURY;
+
+				if (ts.centuries >= CENTURIES_PER_MILLENNIUM) {
+					// ripple centuries up to millennia
+					ts.millennia += floor(ts.centuries / CENTURIES_PER_MILLENNIUM);
+					ts.centuries %= CENTURIES_PER_MILLENNIUM;
+				}
+			}
+		}
+	}
+
+	/**
+	 * Remove any units not requested
+	 * 
+	 * @private
+	 * @param {Timespan} ts
+	 * @param {number} units the units to populate
+	 * @param {number} max number of labels to output
+	 * @param {number} digits max number of decimal digits to output
+	 */
+	function pruneUnits(ts, units, max, digits) {
+		var count = 0;
+
+		// Calc from largest unit to smallest to prevent underflow
+		if (!(units & MILLENNIA) || (count >= max)) {
+			// ripple millennia down to centuries
+			ts.centuries += ts.millennia * CENTURIES_PER_MILLENNIUM;
+			delete ts.millennia;
+
+		} else if (ts.millennia) {
+			count++;
+		}
+
+		if (!(units & CENTURIES) || (count >= max)) {
+			// ripple centuries down to decades
+			ts.decades += ts.centuries * DECADES_PER_CENTURY;
+			delete ts.centuries;
+
+		} else if (ts.centuries) {
+			count++;
+		}
+
+		if (!(units & DECADES) || (count >= max)) {
+			// ripple decades down to years
+			ts.years += ts.decades * YEARS_PER_DECADE;
+			delete ts.decades;
+
+		} else if (ts.decades) {
+			count++;
+		}
+
+		if (!(units & YEARS) || (count >= max)) {
+			// ripple years down to months
+			ts.months += ts.years * MONTHS_PER_YEAR;
+			delete ts.years;
+
+		} else if (ts.years) {
+			count++;
+		}
+
+		if (!(units & MONTHS) || (count >= max)) {
+			// ripple months down to days
+			if (ts.months) {
+				ts.days += borrowMonths(ts.refMonth, ts.months);
+			}
+			delete ts.months;
+
+			if (ts.days >= DAYS_PER_WEEK) {
+				// ripple day overflow back up to weeks
+				ts.weeks += floor(ts.days / DAYS_PER_WEEK);
+				ts.days %= DAYS_PER_WEEK;
+			}
+
+		} else if (ts.months) {
+			count++;
+		}
+
+		if (!(units & WEEKS) || (count >= max)) {
+			// ripple weeks down to days
+			ts.days += ts.weeks * DAYS_PER_WEEK;
+			delete ts.weeks;
+
+		} else if (ts.weeks) {
+			count++;
+		}
+
+		if (!(units & DAYS) || (count >= max)) {
+			//ripple days down to hours
+			ts.hours += ts.days * HOURS_PER_DAY;
+			delete ts.days;
+
+		} else if (ts.days) {
+			count++;
+		}
+
+		if (!(units & HOURS) || (count >= max)) {
+			// ripple hours down to minutes
+			ts.minutes += ts.hours * MINUTES_PER_HOUR;
+			delete ts.hours;
+
+		} else if (ts.hours) {
+			count++;
+		}
+
+		if (!(units & MINUTES) || (count >= max)) {
+			// ripple minutes down to seconds
+			ts.seconds += ts.minutes * SECONDS_PER_MINUTE;
+			delete ts.minutes;
+
+		} else if (ts.minutes) {
+			count++;
+		}
+
+		if (!(units & SECONDS) || (count >= max)) {
+			// ripple seconds down to milliseconds
+			ts.milliseconds += ts.seconds * MILLISECONDS_PER_SECOND;
+			delete ts.seconds;
+
+		} else if (ts.seconds) {
+			count++;
+		}
+
+		// nothing to ripple milliseconds down to
+		// so ripple back up to smallest existing unit as a fractional value
+		if (!(units & MILLISECONDS) || (count >= max)) {
+			fractional(ts, digits);
+		}
+	}
+
+	/**
+	 * Populates the Timespan object
+	 * 
+	 * @private
+	 * @param {Timespan} ts
+	 * @param {?Date} start the starting date
+	 * @param {?Date} end the ending date
+	 * @param {number} units the units to populate
+	 * @param {number} max number of labels to output
+	 * @param {number} digits max number of decimal digits to output
+	 */
+	function populate(ts, start, end, units, max, digits) {
+		var now = new Date();
+
+		ts.start = start = start || now;
+		ts.end = end = end || now;
+		ts.units = units;
+
+		ts.value = end.getTime() - start.getTime();
+		if (ts.value < 0) {
+			// swap if reversed
+			var tmp = end;
+			end = start;
+			start = tmp;
+		}
+
+		// reference month for determining days in month
+		ts.refMonth = new Date(start.getFullYear(), start.getMonth(), 15, 12, 0, 0);
+		try {
+			// reset to initial deltas
+			ts.millennia = 0;
+			ts.centuries = 0;
+			ts.decades = 0;
+			ts.years = end.getFullYear() - start.getFullYear();
+			ts.months = end.getMonth() - start.getMonth();
+			ts.weeks = 0;
+			ts.days = end.getDate() - start.getDate();
+			ts.hours = end.getHours() - start.getHours();
+			ts.minutes = end.getMinutes() - start.getMinutes();
+			ts.seconds = end.getSeconds() - start.getSeconds();
+			ts.milliseconds = end.getMilliseconds() - start.getMilliseconds();
+
+			ripple(ts);
+			pruneUnits(ts, units, max, digits);
+
+		} finally {
+			delete ts.refMonth;
+		}
+
+		return ts;
+	}
+
+	/**
+	 * Determine an appropriate refresh rate based upon units
+	 * 
+	 * @private
+	 * @param {number} units the units to populate
+	 * @return {number} milliseconds to delay
+	 */
+	function getDelay(units) {
+		if (units & MILLISECONDS) {
+			// refresh very quickly
+			return MILLISECONDS_PER_SECOND / 30; //30Hz
+		}
+
+		if (units & SECONDS) {
+			// refresh every second
+			return MILLISECONDS_PER_SECOND; //1Hz
+		}
+
+		if (units & MINUTES) {
+			// refresh every minute
+			return MILLISECONDS_PER_SECOND * SECONDS_PER_MINUTE;
+		}
+
+		if (units & HOURS) {
+			// refresh hourly
+			return MILLISECONDS_PER_SECOND * SECONDS_PER_MINUTE * MINUTES_PER_HOUR;
+		}
+		
+		if (units & DAYS) {
+			// refresh daily
+			return MILLISECONDS_PER_SECOND * SECONDS_PER_MINUTE * MINUTES_PER_HOUR * HOURS_PER_DAY;
+		}
+
+		// refresh the rest weekly
+		return MILLISECONDS_PER_SECOND * SECONDS_PER_MINUTE * MINUTES_PER_HOUR * HOURS_PER_DAY * DAYS_PER_WEEK;
+	}
+
+	/**
+	 * API entry point
+	 * 
+	 * @public
+	 * @param {Date|number|Timespan|null|function(Timespan,number)} start the starting date
+	 * @param {Date|number|Timespan|null|function(Timespan,number)} end the ending date
+	 * @param {number=} units the units to populate
+	 * @param {number=} max number of labels to output
+	 * @param {number=} digits max number of decimal digits to output
+	 * @return {Timespan|number}
+	 */
+	function countdown(start, end, units, max, digits) {
+		var callback;
+
+		// ensure some units or use defaults
+		units = +units || DEFAULTS;
+		// max must be positive
+		max = (max > 0) ? max : NaN;
+		// clamp digits to an integer between [0, 20]
+		digits = (digits > 0) ? (digits < 20) ? Math.round(digits) : 20 : 0;
+
+		// ensure start date
+		var startTS = null;
+		if ('function' === typeof start) {
+			callback = start;
+			start = null;
+
+		} else if (!(start instanceof Date)) {
+			if ((start !== null) && isFinite(start)) {
+				start = new Date(+start);
+			} else {
+				if ('object' === typeof startTS) {
+					startTS = /** @type{Timespan} */(start);
+				}
+				start = null;
+			}
+		}
+
+		// ensure end date
+		var endTS = null;
+		if ('function' === typeof end) {
+			callback = end;
+			end = null;
+
+		} else if (!(end instanceof Date)) {
+			if ((end !== null) && isFinite(end)) {
+				end = new Date(+end);
+			} else {
+				if ('object' === typeof end) {
+					endTS = /** @type{Timespan} */(end);
+				}
+				end = null;
+			}
+		}
+
+		// must wait to interpret timespans until after resolving dates
+		if (startTS) {
+			start = addToDate(startTS, end);
+		}
+		if (endTS) {
+			end = addToDate(endTS, start);
+		}
+
+		if (!start && !end) {
+			// used for unit testing
+			return new Timespan();
+		}
+
+		if (!callback) {
+			return populate(new Timespan(), /** @type{Date} */(start), /** @type{Date} */(end), /** @type{number} */(units), /** @type{number} */(max), /** @type{number} */(digits));
+		}
+
+		// base delay off units
+		var delay = getDelay(units),
+			timerId,
+			fn = function() {
+				callback(
+					populate(new Timespan(), /** @type{Date} */(start), /** @type{Date} */(end), /** @type{number} */(units), /** @type{number} */(max), /** @type{number} */(digits)),
+					timerId
+				);
+			};
+
+		fn();
+		return (timerId = setInterval(fn, delay));
+	}
+
+	/**
+	 * @public
+	 * @const
+	 * @type {number}
+	 */
+	countdown.MILLISECONDS = MILLISECONDS;
+
+	/**
+	 * @public
+	 * @const
+	 * @type {number}
+	 */
+	countdown.SECONDS = SECONDS;
+
+	/**
+	 * @public
+	 * @const
+	 * @type {number}
+	 */
+	countdown.MINUTES = MINUTES;
+
+	/**
+	 * @public
+	 * @const
+	 * @type {number}
+	 */
+	countdown.HOURS = HOURS;
+
+	/**
+	 * @public
+	 * @const
+	 * @type {number}
+	 */
+	countdown.DAYS = DAYS;
+
+	/**
+	 * @public
+	 * @const
+	 * @type {number}
+	 */
+	countdown.WEEKS = WEEKS;
+
+	/**
+	 * @public
+	 * @const
+	 * @type {number}
+	 */
+	countdown.MONTHS = MONTHS;
+
+	/**
+	 * @public
+	 * @const
+	 * @type {number}
+	 */
+	countdown.YEARS = YEARS;
+
+	/**
+	 * @public
+	 * @const
+	 * @type {number}
+	 */
+	countdown.DECADES = DECADES;
+
+	/**
+	 * @public
+	 * @const
+	 * @type {number}
+	 */
+	countdown.CENTURIES = CENTURIES;
+
+	/**
+	 * @public
+	 * @const
+	 * @type {number}
+	 */
+	countdown.MILLENNIA = MILLENNIA;
+
+	/**
+	 * @public
+	 * @const
+	 * @type {number}
+	 */
+	countdown.DEFAULTS = DEFAULTS;
+
+	/**
+	 * @public
+	 * @const
+	 * @type {number}
+	 */
+	countdown.ALL = MILLENNIA|CENTURIES|DECADES|YEARS|MONTHS|WEEKS|DAYS|HOURS|MINUTES|SECONDS|MILLISECONDS;
+
+	/**
+	 * Customize the format settings.
+	 * @public
+	 * @param {Object} format settings object
+	 */
+	var setFormat = countdown.setFormat = function(format) {
+		if (!format) { return; }
+
+		if ('singular' in format || 'plural' in format) {
+			var singular = format.singular || [];
+			if (singular.split) {
+				singular = singular.split('|');
+			}
+			var plural = format.plural || [];
+			if (plural.split) {
+				plural = plural.split('|');
+			}
+
+			for (var i=LABEL_MILLISECONDS; i<=LABEL_MILLENNIA; i++) {
+				// override any specified units
+				LABELS_SINGLUAR[i] = singular[i] || LABELS_SINGLUAR[i];
+				LABELS_PLURAL[i] = plural[i] || LABELS_PLURAL[i];
+			}
+		}
+
+		if ('string' === typeof format.last) {
+			LABEL_LAST = format.last;
+		}
+		if ('string' === typeof format.delim) {
+			LABEL_DELIM = format.delim;
+		}
+		if ('string' === typeof format.empty) {
+			LABEL_NOW = format.empty;
+		}
+		if ('function' === typeof format.formatNumber) {
+			formatNumber = format.formatNumber;
+		}
+		if ('function' === typeof format.formatter) {
+			formatter = format.formatter;
+		}
+	};
+
+	/**
+	 * Revert to the default formatting.
+	 * @public
+	 */
+	var resetFormat = countdown.resetFormat = function() {
+		LABELS_SINGLUAR = ' millisecond| second| minute| hour| day| week| month| year| decade| century| millennium'.split('|');
+		LABELS_PLURAL = ' milliseconds| seconds| minutes| hours| days| weeks| months| years| decades| centuries| millennia'.split('|');
+		LABEL_LAST = ' and ';
+		LABEL_DELIM = ', ';
+		LABEL_NOW = '';
+		formatNumber = function(value) { return value; };
+		formatter = plurality;
+	};
+
+	/**
+	 * Override the unit labels.
+	 * @public
+	 * @param {string|Array=} singular a pipe ('|') delimited list of singular unit name overrides
+	 * @param {string|Array=} plural a pipe ('|') delimited list of plural unit name overrides
+	 * @param {string=} last a delimiter before the last unit (default: ' and ')
+	 * @param {string=} delim a delimiter to use between all other units (default: ', ')
+	 * @param {string=} empty a label to use when all units are zero (default: '')
+	 * @param {function(number):string=} formatNumber a function which formats numbers as a string
+	 * @param {function(number,number):string=} formatter a function which formats a number/unit pair as a string
+	 * @deprecated since version 2.6.0
+	 */
+	countdown.setLabels = function(singular, plural, last, delim, empty, formatNumber, formatter) {
+		setFormat({
+			singular: singular,
+			plural: plural,
+			last: last,
+			delim: delim,
+			empty: empty,
+			formatNumber: formatNumber,
+			formatter: formatter
+		});
+	};
+
+	/**
+	 * Revert to the default unit labels.
+	 * @public
+	 * @deprecated since version 2.6.0
+	 */
+	countdown.resetLabels = resetFormat;
+
+	resetFormat();
+
+	if (module && module.exports) {
+		module.exports = countdown;
+
+	} else if (typeof window.define === 'function' && typeof window.define.amd !== 'undefined') {
+		window.define('countdown', [], function() {
+			return countdown;
+		});
+	}
+
+	return countdown;
+
+})(module);
+
+
+/***/ }),
+
 /***/ "./node_modules/define-properties/index.js":
 /*!*************************************************!*\
   !*** ./node_modules/define-properties/index.js ***!
@@ -7669,21 +8828,21 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fpeople%2FSMR&absolutePagePath=C%3A%5CUsers%5Cnmeis%5CProjects%5CWebsites%5CMcMurtry-Website%5Cpages%5Cpeople%5CSMR.js!./":
-/*!****************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fpeople%2FSMR&absolutePagePath=C%3A%5CUsers%5Cnmeis%5CProjects%5CWebsites%5CMcMurtry-Website%5Cpages%5Cpeople%5CSMR.js ***!
-  \****************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Foweek&absolutePagePath=C%3A%5CUsers%5Cnmeis%5CProjects%5CWebsites%5CMcMurtry-Website%5Cpages%5Coweek%5Cindex.js!./":
+/*!**********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Foweek&absolutePagePath=C%3A%5CUsers%5Cnmeis%5CProjects%5CWebsites%5CMcMurtry-Website%5Cpages%5Coweek%5Cindex.js ***!
+  \**********************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/people/SMR", function() {
-      var page = __webpack_require__(/*! ./pages/people/SMR.js */ "./pages/people/SMR.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/oweek", function() {
+      var page = __webpack_require__(/*! ./pages/oweek/index.js */ "./pages/oweek/index.js")
       if(true) {
-        module.hot.accept(/*! ./pages/people/SMR.js */ "./pages/people/SMR.js", function() {
-          if(!next.router.components["/people/SMR"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/people/SMR.js */ "./pages/people/SMR.js")
-          next.router.update("/people/SMR", updatedPage.default || updatedPage)
+        module.hot.accept(/*! ./pages/oweek/index.js */ "./pages/oweek/index.js", function() {
+          if(!next.router.components["/oweek"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/oweek/index.js */ "./pages/oweek/index.js")
+          next.router.update("/oweek", updatedPage.default || updatedPage)
         })
       }
       return { page: page.default || page }
@@ -15564,10 +16723,10 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/people/SMR.js":
-/*!*****************************!*\
-  !*** ./pages/people/SMR.js ***!
-  \*****************************/
+/***/ "./pages/oweek/index.js":
+/*!******************************!*\
+  !*** ./pages/oweek/index.js ***!
+  \******************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -15576,74 +16735,57 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_general_header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/general/header */ "./components/general/header.js");
-/* harmony import */ var _components_navbar_navbarDesktop__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/navbar/navbarDesktop */ "./components/navbar/navbarDesktop.js");
-/* harmony import */ var _components_navbar_navbarMobile__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/navbar/navbarMobile */ "./components/navbar/navbarMobile.js");
-/* harmony import */ var _components_general_footer_footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/general/footer/footer */ "./components/general/footer/footer.js");
-/* harmony import */ var _components_people_smr_smr__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/people/smr/smr */ "./components/people/smr/smr.js");
-/* harmony import */ var _components_general_page_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/general/page.css */ "./components/general/page.css");
-/* harmony import */ var _components_general_page_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_components_general_page_css__WEBPACK_IMPORTED_MODULE_6__);
-var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\McMurtry-Website\\pages\\people\\SMR.js";
+/* harmony import */ var _components_oweek_navbar_navbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/oweek/navbar/navbar */ "./components/oweek/navbar/navbar.js");
+/* harmony import */ var _components_oweek_homepage_homepage__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/oweek/homepage/homepage */ "./components/oweek/homepage/homepage.js");
+/* harmony import */ var _components_general_page_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/general/page.css */ "./components/general/page.css");
+/* harmony import */ var _components_general_page_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_components_general_page_css__WEBPACK_IMPORTED_MODULE_4__);
+var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\McMurtry-Website\\pages\\oweek\\index.js";
 
 
 
 
 
 
-
-
-var SMRPage = function SMRPage() {
+var Oweek = function Oweek() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "page",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 7
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_general_header__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_oweek_navbar_navbar__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_oweek_homepage_homepage__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __source: {
+      fileName: _jsxFileName,
       lineNumber: 10
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_navbar_navbarDesktop__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_navbar_navbarMobile__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_people_smr_smr__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_general_footer_footer__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
     },
     __self: this
   }));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (SMRPage);
+/* harmony default export */ __webpack_exports__["default"] = (Oweek);
 
 /***/ }),
 
 /***/ 7:
-/*!********************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fpeople%2FSMR&absolutePagePath=C%3A%5CUsers%5Cnmeis%5CProjects%5CWebsites%5CMcMurtry-Website%5Cpages%5Cpeople%5CSMR.js ***!
-  \********************************************************************************************************************************************************************/
+/*!**************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Foweek&absolutePagePath=C%3A%5CUsers%5Cnmeis%5CProjects%5CWebsites%5CMcMurtry-Website%5Cpages%5Coweek%5Cindex.js ***!
+  \**************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fpeople%2FSMR&absolutePagePath=C%3A%5CUsers%5Cnmeis%5CProjects%5CWebsites%5CMcMurtry-Website%5Cpages%5Cpeople%5CSMR.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fpeople%2FSMR&absolutePagePath=C%3A%5CUsers%5Cnmeis%5CProjects%5CWebsites%5CMcMurtry-Website%5Cpages%5Cpeople%5CSMR.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Foweek&absolutePagePath=C%3A%5CUsers%5Cnmeis%5CProjects%5CWebsites%5CMcMurtry-Website%5Cpages%5Coweek%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Foweek&absolutePagePath=C%3A%5CUsers%5Cnmeis%5CProjects%5CWebsites%5CMcMurtry-Website%5Cpages%5Coweek%5Cindex.js!./");
 
 
 /***/ }),
@@ -15660,4 +16802,4 @@ module.exports = dll_829b10deddf10e1653a8;
 /***/ })
 
 },[[7,"static/runtime/webpack.js","styles"]]]);
-//# sourceMappingURL=SMR.js.map
+//# sourceMappingURL=oweek.js.map

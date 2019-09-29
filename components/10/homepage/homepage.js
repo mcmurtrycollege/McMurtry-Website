@@ -14,11 +14,11 @@ class MCM10 extends React.Component {
     }
 
     componentDidMount() {
-        this.setState({loaded: true});
+        this.setState({ loaded: true });
     }
 
     componentWillUnmount() {
-        this.setState({loaded: false})
+        this.setState({ loaded: false })
     }
 
     render() {
@@ -36,18 +36,6 @@ class MCM10 extends React.Component {
                         <p>Please RSVP by October 28th.  We look forward to seeing you this Fall!</p>
                     </Box>
                     <div className='parallax-scaler'>
-                        <Parallax bgImage='/static/mcm10/yurt.jpg' strength={400} bgImageAlt=""
-                            renderLayer={percentage => {
-                                if (this.state.loaded) {
-                                    window.document.getElementById('tickets').style.opacity = percentage + 0.5;
-                                }
-                            }}>
-                            <div className="mcm10-link" id='tickets'>
-                                <h1>Get Tickets (soon)</h1>
-                            </div>
-                        </Parallax>
-                    </div>
-                    <div className='parallax-scaler'>
                         <Parallax bgImage='/static/mcm_commons.jpg' strength={400} bgImageAlt=""
                             renderLayer={percentage => {
                                 if (this.state.loaded) {
@@ -58,6 +46,20 @@ class MCM10 extends React.Component {
                                 <Link href='/10/sponsor'>
                                     <h1>Become a Sponsor</h1>
                                 </Link>
+                            </div>
+                        </Parallax>
+                    </div>
+                    <div className='parallax-scaler'>
+                        <Parallax bgImage='/static/mcm10/yurt.jpg' strength={400} bgImageAlt=""
+                            renderLayer={percentage => {
+                                if (this.state.loaded) {
+                                    window.document.getElementById('tickets').style.opacity = percentage + 0.5;
+                                }
+                            }}>
+                            <div className="mcm10-link" id='tickets'>
+                                <a href='https://riceconnect.rice.edu/events/2019/mcmurtry-10th-anniversary-celebration' style={{textDecoration: 'none'}}>
+                                    <h1>Get Tickets</h1>
+                                </a>
                             </div>
                         </Parallax>
                     </div>

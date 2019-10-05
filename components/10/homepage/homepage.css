@@ -109,3 +109,23 @@
 .faqs-btn:hover:before {
     width: 100%;
 }
+
+@media screen and (min-width: 801px) {
+    .survey-mobile {
+        display: none;
+    }
+    .survey-desktop {
+        width: 700px;
+        margin: 20px auto;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .survey-desktop {
+        display: none;
+    }
+    .survey-mobile {
+        width: 350px;
+        margin: 20px auto;
+    }
+}

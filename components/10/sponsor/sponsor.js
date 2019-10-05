@@ -16,22 +16,22 @@ const tiers = [
     {
         name: "Cookie Defense Sponsor",
         amount: "$1,000",
-        link: "https://riceconnect.rice.edu/events/2019/mcmurtry-10th-anniversary-celebration"
+        link: "https://riceconnect.rice.edu/donation/mcmurtry-college"
     },
     {
         name: "Conch Wielder Sponsor",
         amount: "$2,500",
-        link: "https://riceconnect.rice.edu/events/2019/mcmurtry-10th-anniversary-celebration"
+        link: "https://riceconnect.rice.edu/donation/mcmurtry-college"
     },
     {
         name: "Highland Champion",
         amount: "$5,000",
-        link: "https://riceconnect.rice.edu/events/2019/mcmurtry-10th-anniversary-celebration"
+        link: "https://riceconnect.rice.edu/donation/mcmurtry-college"
     },
     {
         name: "Burt and DeeDee McMurtry Sponsor",
         amount: "$10,000",
-        link: "https://riceconnect.rice.edu/events/2019/mcmurtry-10th-anniversary-celebration"
+        link: "https://riceconnect.rice.edu/donation/mcmurtry-college"
     }
 ]
 

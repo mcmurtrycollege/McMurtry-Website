@@ -2,9 +2,9 @@ import React from 'react'
 import NextHead from 'next/head'
 
 const Header = () => (
-    <NextHead>
+  <NextHead>
     <meta charSet="utf-8" />
-    <link rel="shortcut icon" type="image/x-icon" href="../static/favicon.ico"/>
+    <link rel="shortcut icon" type="image/x-icon" href="../static/favicon.ico" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
     <meta
       name="viewport"

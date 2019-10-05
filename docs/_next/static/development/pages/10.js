@@ -11,194 +11,191 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _events_json__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./events.json */ "./components/10/event/events.json");
-var _events_json__WEBPACK_IMPORTED_MODULE_1___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./events.json */ "./components/10/event/events.json", 1);
-/* harmony import */ var _image__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../image */ "./components/10/image.js");
-/* harmony import */ var _events_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./events.css */ "./components/10/event/events.css");
-/* harmony import */ var _events_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_events_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _image__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../image */ "./components/10/image.js");
+/* harmony import */ var _events_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./events.css */ "./components/10/event/events.css");
+/* harmony import */ var _events_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_events_css__WEBPACK_IMPORTED_MODULE_2__);
 var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\McMurtry-Website\\components\\10\\event\\events.js";
 
 
 
 
-
-var EventsComponent = function EventsComponent() {
+var EventsComponent = function EventsComponent(props) {
   var eventsList = [];
 
-  for (var i = 0; i < _events_json__WEBPACK_IMPORTED_MODULE_1__["events"].length; i++) {
+  for (var i = 0; i < props.events.length; i++) {
     i % 2 === 0 ? eventsList.push(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "event-wrapper",
-      key: _events_json__WEBPACK_IMPORTED_MODULE_1__["events"][i].title,
+      key: props.events[i].title + props.title,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 10
+        lineNumber: 9
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "event-left",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 11
+        lineNumber: 10
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
       className: "event-date",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 12
+        lineNumber: 11
       },
       __self: this
-    }, _events_json__WEBPACK_IMPORTED_MODULE_1__["events"][i].date), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    }, props.events[i].date), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "event-info",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 13
+        lineNumber: 12
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
       className: "event-title",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 14
+        lineNumber: 13
       },
       __self: this
-    }, _events_json__WEBPACK_IMPORTED_MODULE_1__["events"][i].title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    }, props.events[i].title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
       className: "event-description",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 15
+        lineNumber: 14
       },
       __self: this
-    }, _events_json__WEBPACK_IMPORTED_MODULE_1__["events"][i].description))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_image__WEBPACK_IMPORTED_MODULE_2__["default"], {
-      caption: _events_json__WEBPACK_IMPORTED_MODULE_1__["events"][i].caption,
+    }, props.events[i].description))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_image__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      caption: props.events[i].caption,
       index: i,
-      image: _events_json__WEBPACK_IMPORTED_MODULE_1__["events"][i].image,
+      image: props.events[i].image,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 18
+        lineNumber: 17
       },
       __self: this
     }))) : eventsList.push(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      key: _events_json__WEBPACK_IMPORTED_MODULE_1__["events"][i].title,
+      key: props.events[i].title + props.title,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 23
+        lineNumber: 22
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "desktop-right",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 24
+        lineNumber: 23
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "event-wrapper",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 25
+        lineNumber: 24
       },
       __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_image__WEBPACK_IMPORTED_MODULE_2__["default"], {
-      caption: _events_json__WEBPACK_IMPORTED_MODULE_1__["events"][i].caption,
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_image__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      caption: props.events[i].caption,
       index: i,
-      image: _events_json__WEBPACK_IMPORTED_MODULE_1__["events"][i].image,
+      image: props.events[i].image,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 26
+        lineNumber: 25
       },
       __self: this
     }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "event-right",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 27
+        lineNumber: 26
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
       className: "event-date",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 28
+        lineNumber: 27
       },
       __self: this
-    }, _events_json__WEBPACK_IMPORTED_MODULE_1__["events"][i].date), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    }, props.events[i].date), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "event-info",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 29
+        lineNumber: 28
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
       className: "event-title",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 30
+        lineNumber: 29
       },
       __self: this
-    }, _events_json__WEBPACK_IMPORTED_MODULE_1__["events"][i].title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    }, props.events[i].title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
       className: "event-description",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 31
+        lineNumber: 30
       },
       __self: this
-    }, _events_json__WEBPACK_IMPORTED_MODULE_1__["events"][i].description))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    }, props.events[i].description))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "mobile-right",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 36
+        lineNumber: 35
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "event-wrapper",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 37
+        lineNumber: 36
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "event-right",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 38
+        lineNumber: 37
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
       className: "event-date",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 39
+        lineNumber: 38
       },
       __self: this
-    }, _events_json__WEBPACK_IMPORTED_MODULE_1__["events"][i].date), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    }, props.events[i].date), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "event-info",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 40
+        lineNumber: 39
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
       className: "event-title",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 41
+        lineNumber: 40
       },
       __self: this
-    }, _events_json__WEBPACK_IMPORTED_MODULE_1__["events"][i].title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    }, props.events[i].title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
       className: "event-description",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 42
+        lineNumber: 41
       },
       __self: this
-    }, _events_json__WEBPACK_IMPORTED_MODULE_1__["events"][i].description))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_image__WEBPACK_IMPORTED_MODULE_2__["default"], {
-      caption: _events_json__WEBPACK_IMPORTED_MODULE_1__["events"][i].caption,
+    }, props.events[i].description))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_image__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      caption: props.events[i].caption,
       index: i,
-      image: _events_json__WEBPACK_IMPORTED_MODULE_1__["events"][i].image,
+      image: props.events[i].image,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 45
+        lineNumber: 44
       },
       __self: this
     })))));
@@ -207,21 +204,21 @@ var EventsComponent = function EventsComponent() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 53
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: "mcm10-schedule",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 54
     },
     __self: this
-  }, "Schedule"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, props.title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "events-list",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 55
     },
     __self: this
   }, eventsList));
@@ -238,7 +235,18 @@ var EventsComponent = function EventsComponent() {
 /*! exports provided: events, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"events\":[{\"title\":\"McScottish Night\",\"description\":\"Stay tuned for more information!\",\"date\":\"Friday 5pm\",\"image\":\"../../../static/mcm10/ufoweek.jpg\",\"caption\":\"UFO-Week Day 1 - 2016\"}]}");
+module.exports = JSON.parse("{\"events\":[{\"title\":\"Movie Night\",\"date\":\"Monday\",\"description\":\"Join us for a movie!\",\"image\":\"../../../static/mcm10/ufoweek.jpg\",\"caption\":\"UFO-Week Day 1 - 2016\"},{\"title\":\"Y2K Karaoke\",\"date\":\"Tuesday\",\"description\":\"Sing along to all your favorite Y2K songs!\",\"image\":\"../../../static/mcm10/marshmalloweek2.jpg\",\"caption\":\"Marshamalloweek Day 6 - 2015\"},{\"title\":\"Painting with a Twist\",\"date\":\"Wednesday\",\"description\":\"Painting...but with a twist!\",\"image\":\"../../../static/mcm10/marshmalloweek.jpg\",\"caption\":\"Marshamalloweek Day 4 - 2015\"},{\"title\":\"Trick or Suite\",\"date\":\"Thursday\",\"description\":\"Enjoy candy and treats at all of the suites!\",\"image\":\"../../../static/mcm10/nintendoweek.jpg\",\"caption\":\"Nintendoweek Day 6 - 2017\"},{\"title\":\"McScottish Night\",\"date\":\"Friday\",\"description\":\"Everyone's favorite McMurtry tradition!\",\"image\":\"../../../static/mcm10/mcscottishnight.jpg\",\"caption\":\"McScottish Night- 2015\"}]}");
+
+/***/ }),
+
+/***/ "./components/10/event/mcscottish.json":
+/*!*********************************************!*\
+  !*** ./components/10/event/mcscottish.json ***!
+  \*********************************************/
+/*! exports provided: mcscottish, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"mcscottish\":[{\"title\":\"Opening Ceremonies\",\"date\":\"5pm\",\"description\":\"Let McScottish Night Begin!\",\"image\":\"../../../static/mcm10/ufoweek.jpg\",\"caption\":\"UFO-Week Day 1 - 2016\"},{\"title\":\"Dinner\",\"date\":\"5pm - 7pm\",\"description\":\"Join us for a Scottish feast!\",\"image\":\"../../../static/mcm10/marshmalloweek2.jpg\",\"caption\":\"Marshamalloweek Day 6 - 2015\"},{\"title\":\"Highland Games\",\"date\":\"6pm - 7:30pm\",\"description\":\"Come for some fun Scottish games\",\"image\":\"../../../static/mcm10/marshmalloweek.jpg\",\"caption\":\"Marshamalloweek Day 4 - 2015\"},{\"title\":\"Scottish Dancing\",\"date\":\"7:30pm - 8:30pm\",\"description\":\"Learn how to do a scottish jig\",\"image\":\"../../../static/mcm10/associates.jpg\",\"caption\":\"Associates Night - Spring 2016\"},{\"title\":\"Wicker Man Burning\",\"date\":\"8:45pm - 9:00pm\",\"description\":\"Don't worry its safe!\",\"image\":\"../../../static/mcm10/mcscottishnight.jpg\",\"caption\":\"McScottish Night- 2015\"},{\"title\":\"Concert\",\"date\":\"9pm - 10pm\",\"description\":\"Come enjoy some music in the quad\",\"image\":\"../../../static/mcm10/accioweek.jpg\",\"caption\":\"Accioweek - 2014\"}]}");
 
 /***/ }),
 
@@ -267,12 +275,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _homepage_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./homepage.css */ "./components/10/homepage/homepage.css");
 /* harmony import */ var _homepage_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_homepage_css__WEBPACK_IMPORTED_MODULE_9__);
 /* harmony import */ var _event_events__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../event/events */ "./components/10/event/events.js");
+/* harmony import */ var _event_events_json__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../event/events.json */ "./components/10/event/events.json");
+var _event_events_json__WEBPACK_IMPORTED_MODULE_11___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../event/events.json */ "./components/10/event/events.json", 1);
+/* harmony import */ var _event_mcscottish_json__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../event/mcscottish.json */ "./components/10/event/mcscottish.json");
+var _event_mcscottish_json__WEBPACK_IMPORTED_MODULE_12___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../event/mcscottish.json */ "./components/10/event/mcscottish.json", 1);
 
 
 
 
 
 var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\McMurtry-Website\\components\\10\\homepage\\homepage.js";
+
+
 
 
 
@@ -319,13 +333,13 @@ function (_React$Component) {
       return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 26
+          lineNumber: 28
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 27
+          lineNumber: 29
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_8__["Box"], {
@@ -335,14 +349,14 @@ function (_React$Component) {
         mt: 50,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 28
+          lineNumber: 30
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_8__["Image"], {
         src: "/static/mcm10/mcm10.svg",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 29
+          lineNumber: 31
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_8__["Box"], {
@@ -352,51 +366,51 @@ function (_React$Component) {
         className: "mcm10-message",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31
+          lineNumber: 33
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32
+          lineNumber: 34
         },
         __self: this
       }, "Dear McMurtry Students, Alumns, Affiliates, and Families,"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33
+          lineNumber: 35
         },
         __self: this
       }, "We are exited to invite you to the McMurtry College 10th Anniversary celebration! Come join us on November 1st to enjoy in McMurtry's vibrant community and experience our college's traditions while reveling fun activities and great food."), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 34
+          lineNumber: 36
         },
         __self: this
       }, "As part of our commitment to continuing McMurtry's ability to provide for comfort and happiness to all members of our community we are soliciting donations to help fund the event, with all leftover funds going to the establishment of a McMurtry endowment that will be used to help students for years to come!"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 35
+          lineNumber: 37
         },
         __self: this
       }, "All of our sponsors will receive tickets to the event (for more information check out the ", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
         href: "/10/sponsor",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 35
+          lineNumber: 37
         },
         __self: this
       }, "sponsorship page"), " for more info). For others interested in attending the event, you can purchase tickets below."), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 36
+          lineNumber: 38
         },
         __self: this
       }, "Please RSVP by October 28th.  We look forward to seeing you this Fall!")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "parallax-scaler",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 38
+          lineNumber: 40
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(react_parallax__WEBPACK_IMPORTED_MODULE_7__["Parallax"], {
@@ -410,7 +424,7 @@ function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 39
+          lineNumber: 41
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -418,27 +432,27 @@ function (_React$Component) {
         id: "sponsor",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45
+          lineNumber: 47
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
         href: "/10/sponsor",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 46
+          lineNumber: 48
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h1", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47
+          lineNumber: 49
         },
         __self: this
       }, "Become a Sponsor"))))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "parallax-scaler",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52
+          lineNumber: 54
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(react_parallax__WEBPACK_IMPORTED_MODULE_7__["Parallax"], {
@@ -452,7 +466,7 @@ function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 53
+          lineNumber: 55
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -460,7 +474,7 @@ function (_React$Component) {
         id: "tickets",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59
+          lineNumber: 61
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
@@ -470,22 +484,70 @@ function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60
+          lineNumber: 62
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h1", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 61
+          lineNumber: 63
         },
         __self: this
       }, "Get Tickets")))))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_event_events__WEBPACK_IMPORTED_MODULE_10__["default"], {
+        events: _event_events_json__WEBPACK_IMPORTED_MODULE_11__["events"],
+        title: "Schedule",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 67
+          lineNumber: 69
         },
         __self: this
-      }));
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_event_events__WEBPACK_IMPORTED_MODULE_10__["default"], {
+        events: _event_mcscottish_json__WEBPACK_IMPORTED_MODULE_12__["mcscottish"],
+        title: "McScottish Night",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 70
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "survey-desktop",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 71
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("iframe", {
+        src: "https://docs.google.com/forms/d/e/1FAIpQLSclr5oUyZeIAxm4AjfQdnKsrY0riUKTgoC70kTHezbSWKDAtw/viewform?embedded=true",
+        width: "700",
+        height: "1155",
+        frameborder: "0",
+        marginheight: "0",
+        marginwidth: "0",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 72
+        },
+        __self: this
+      }, "Loading\u2026")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "survey-mobile",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 74
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("iframe", {
+        src: "https://docs.google.com/forms/d/e/1FAIpQLSclr5oUyZeIAxm4AjfQdnKsrY0riUKTgoC70kTHezbSWKDAtw/viewform?embedded=true",
+        width: "350",
+        height: "1400",
+        frameborder: "0",
+        marginheight: "0",
+        marginwidth: "0",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 75
+        },
+        __self: this
+      }, "Loading\u2026")));
     }
   }]);
 

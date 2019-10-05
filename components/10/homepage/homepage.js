@@ -4,6 +4,8 @@ import { Parallax } from 'react-parallax';
 import { Box, Image } from 'rebass';
 import './homepage.css';
 import Events from '../event/events';
+import { events } from '../event/events.json';
+import { mcscottish } from '../event/mcscottish.json';
 
 class MCM10 extends React.Component {
     constructor(props) {
@@ -57,14 +59,21 @@ class MCM10 extends React.Component {
                                 }
                             }}>
                             <div className="mcm10-link" id='tickets'>
-                                <a href='https://riceconnect.rice.edu/events/2019/mcmurtry-10th-anniversary-celebration' style={{textDecoration: 'none'}}>
+                                <a href='https://riceconnect.rice.edu/events/2019/mcmurtry-10th-anniversary-celebration' style={{ textDecoration: 'none' }}>
                                     <h1>Get Tickets</h1>
                                 </a>
                             </div>
                         </Parallax>
                     </div>
                 </div>
-                <Events />
+                <Events events={events} title="Schedule" />
+                <Events events={mcscottish} title="McScottish Night" />
+                <div className='survey-desktop'>
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSclr5oUyZeIAxm4AjfQdnKsrY0riUKTgoC70kTHezbSWKDAtw/viewform?embedded=true" width="700" height="1155" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                </div>
+                <div className='survey-mobile'>
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSclr5oUyZeIAxm4AjfQdnKsrY0riUKTgoC70kTHezbSWKDAtw/viewform?embedded=true" width="350" height="1400" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                </div>
                 {/* <Link href='/10/faqs'>
                     <div className='faqs-btn'>
                         <p>FAQs</p>

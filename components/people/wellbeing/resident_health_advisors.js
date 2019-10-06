@@ -5,14 +5,6 @@ import ContactCards from '../../general/contactcards';
 import './wellbeing.css';
 import { RHAs } from './wellbeing.json';
 
-var rrha = [
-    {
-        name: "Shaquille Que",
-        phone: "I have a hammer",
-        room: "781"
-    }
-]
-
 const ResidentHealthAdvisors = () => (
     <div className='wellbeing-page'>
         <Title width={300} title="Rice Health Advisors" smallText={true} />

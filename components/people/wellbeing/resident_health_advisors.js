@@ -22,10 +22,6 @@ const ResidentHealthAdvisors = () => (
         <div>
             <ContactCards content={RHAs.members} width={250} />
         </div>
-        <Title width={300} title="Reverse Rice Health Advisor" smallText={true} />
-        <div>
-            <ContactCards content={rrha} width={250} />
-        </div>
     </div>
 )
 

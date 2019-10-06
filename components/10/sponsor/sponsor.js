@@ -6,12 +6,12 @@ const tiers = [
     {
         name: "Purple and Silver Sponsor",
         amount: "$250",
-        link: "https://riceconnect.rice.edu/events/2019/mcmurtry-10th-anniversary-celebration"
+        link: "https://riceconnect.rice.edu/donation/mcmurtry-college"
     },
     {
         name: "Coat of Arms Sponsor",
         amount: "$500",
-        link: "https://riceconnect.rice.edu/events/2019/mcmurtry-10th-anniversary-celebration"
+        link: "https://riceconnect.rice.edu/donation/mcmurtry-college"
     },
     {
         name: "Cookie Defense Sponsor",

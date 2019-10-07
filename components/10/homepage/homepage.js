@@ -31,10 +31,10 @@ class MCM10 extends React.Component {
                         <Image src="/static/mcm10/mcm10.svg" />
                     </Box>
                     <Box width={[0.8, 0.6]} ml='auto' mr='auto' className='mcm10-message'>
-                        <p>Dear McMurtry Students, Alumns, Affiliates, and Families,</p>
-                        <p>We are exited to invite you to the McMurtry College 10th Anniversary celebration! Come join us on November 1st to enjoy in McMurtry's vibrant community and experience our college's traditions while reveling fun activities and great food.</p>
+                        <p>Dear McMurtry Students, Alums, Affiliates, and Families,</p>
+                        <p>We are exited to invite you to the McMurtry College 10th Anniversary celebration! Come join us on November 1st to enjoy McMurtry's vibrant community and experience our college's traditions while reveling in fun activities and great food.</p>
                         <p>As part of our commitment to continuing McMurtry's ability to provide for comfort and happiness to all members of our community we are soliciting donations to help fund the event, with all leftover funds going to the establishment of a McMurtry endowment that will be used to help students for years to come!</p>
-                        <p>All of our sponsors will receive tickets to the event (for more information check out the <Link href="/10/sponsor">sponsorship page</Link> for more info). For others interested in attending the event, you can purchase tickets below.</p>
+                        <p>All of our sponsors will receive tickets to the event (for more information check out the <Link href="/10/sponsor">sponsorship page</Link>). For others interested in attending the event, you can purchase tickets below.</p>
                         <p>Please RSVP by October 28th.  We look forward to seeing you this Fall!</p>
                     </Box>
                     <div className='parallax-scaler'>

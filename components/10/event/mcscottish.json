@@ -24,14 +24,14 @@
         {
             "title": "Scottish Dancing",
             "date": "7:30pm - 8:30pm",
-            "description": "Learn how to do a scottish jig",
+            "description": "Learn how to do a Scottish jig",
             "image": "../../../static/mcm10/associates.jpg",
             "caption": "Associates Night - Spring 2016"
         },
         {
             "title": "Wicker Man Burning",
             "date": "8:45pm - 9:00pm",
-            "description": "Don't worry its safe!",
+            "description": "Don't worry, its safe (we think)!",
             "image": "../../../static/mcm10/mcscottishnight.jpg",
             "caption": "McScottish Night- 2015"
         },

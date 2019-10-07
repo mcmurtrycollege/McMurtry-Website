@@ -42,7 +42,7 @@ const Sponsor = () => (
         <Box width={[0.8, 0.6]} ml='auto' mr='auto' className='mcm10-message' mt={50}>
             <p>Dear Donors,</p>
             <p>Thank you for your willingness to support McMurtry, your generosity makes events like these possible, and will let us do even more to help the students in our college.</p>
-            <p>All donors will recieve 2 tickets to the event. Reach out to <a href="mailto:mcmurtry@rice.edu">mcmurtry@rice.edu</a> for more information.</p>
+            <p>All donors will have the option to recieve 2 tickets to the event. Reach out to <a href="mailto:mcmurtry@rice.edu">mcmurtry@rice.edu</a> if you have any questions</p>
             <p>Please follow the links below to donate, thank you again for your support!</p>
         </Box>
         {/* <Flex justifyContent='center' flexDirection='row' flexWrap='wrap' className="sponsor-screenshots">

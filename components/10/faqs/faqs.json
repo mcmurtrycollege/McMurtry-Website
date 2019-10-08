@@ -1,12 +1,20 @@
 {
     "faqs": [
         {
-            "question": "Do you have to have register for all of the events during the celebration?",
-            "answer": "No, some of the events will require registration, others, will be open to all alumni, students, and families."
+            "question": "Where should I park?",
+            "answer": "North Lot is the best place to park for McScottish Night (https://map.concept3d.com/?id=473#!m/126305)."
         },
         {
-            "question": "How long is the whole event?",
-            "answer": "The festivities will start on friday, and end somtime on the weekend."
+            "question": "I already bought a ticket, can I donate more?",
+            "answer": "If you would like to donate more, you can visit the donations page linked above."
+        },
+        {
+            "question": "Should I bring my kids?",
+            "answer": "McScottish Night will be Mini Murt friendly!  There will also be babysitting services."
+        },
+        {
+            "question": "Will McScottish Nigh be held outside?",
+            "answer": "There will be both indoor events such as Scottish Dancing and outdoor events such as the Highland games."
         }
     ]
 }

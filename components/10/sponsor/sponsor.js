@@ -45,14 +45,6 @@ const Sponsor = () => (
             <p>All donors will have the option to recieve 2 tickets to the event. Reach out to <a href="mailto:mcmurtry@rice.edu">mcmurtry@rice.edu</a> if you have any questions</p>
             <p>Please follow the links below to donate, thank you again for your support!</p>
         </Box>
-        {/* <Flex justifyContent='center' flexDirection='row' flexWrap='wrap' className="sponsor-screenshots">
-            <Box width={350}>
-                <Image src='/static/donor1.png' alt="" />
-            </Box>
-            <Box width={350}>
-                <Image src='/static/donor2.png' alt="" />
-            </Box>
-        </Flex> */}
         <div className='sponsor-tiers'>
             {
                 tiers.map(({ name, amount, link }) => (

@@ -1,0 +1,34 @@
+.mcm10-burger {
+    position: fixed;
+    top: 0;
+    transition: 0.4s ease-in-out;
+    margin: 25px;
+}
+
+.mcm10-nav {
+    width: 250px;
+    background-color: #2B2F3A;
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    z-index: 9999;
+    transition: 0.4s ease-in-out;
+}
+
+.mcm10-nav-link {
+    color: #DCDFE5;
+    font-size: 1.4em;
+    padding: 15px;
+    transition: 0.1s ease-in-out;
+    border: solid #2B2F3A;
+    border-width: 0 0 0 6px;
+}
+
+.mcm10-nav-link:hover {
+    border-color: #87799C; 
+    color: #87799C;
+}
+
+.mcm10-nav-link:nth-of-type(1) {
+    margin-top: 60px;
+}

@@ -129,3 +129,35 @@
         margin: 20px auto;
     }
 }
+
+.mcm10-contact {
+    font-weight: normal;
+    width: 300px;
+    text-align: center;
+    margin: 50px auto 10% auto;
+}
+
+@media screen and (min-width: 801px) {
+    .contact-section-title {
+        width: 800px;
+        margin: 4% auto;
+        text-align: center;
+        border: solid #2B2F3A;
+        border-width: 0 0 1px 0;
+        font-weight: normal;
+        font-size: 4em;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .contact-section-title {
+        width: 350px;
+        padding-top: 10%;
+        margin: 0 auto;
+        text-align: center;
+        border: solid #2B2F3A;
+        border-width: 0 0 1px 0;
+        font-weight: normal;
+        font-size: 2em;
+    }
+}

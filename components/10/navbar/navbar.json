@@ -1,0 +1,24 @@
+{
+    "links": [
+        {
+            "name": "Home",
+            "to": "home"
+        },
+        {
+            "name": "Schedule",
+            "to": "schedule"
+        },
+        {
+            "name": "Memories",
+            "to": "memories"
+        },
+        {
+            "name": "FAQs",
+            "to": "faqs"
+        },
+        {
+            "name": "Contact",
+            "to": "contact"
+        }
+    ]
+}

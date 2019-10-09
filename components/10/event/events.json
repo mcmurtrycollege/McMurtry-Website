@@ -34,6 +34,13 @@
             "description": "Everyone's favorite McMurtry tradition!",
             "image": "../../../static/mcm10/mcscottishnight.jpg",
             "caption": "McScottish Night- 2015"
+        },
+        {
+            "title": "Magisters’ Brunch for Alumni and Sponsors",
+            "date": "Saturday",
+            "description": "10am - 12pm",
+            "image": "../../../static/mcm10/accioweek.jpg",
+            "caption": "Accioweek - 2014"
         }
     ]
 }

@@ -17,6 +17,10 @@
             "to": "faqs"
         },
         {
+            "name": "Registration for Current Students",
+            "to": "register"
+        },
+        {
             "name": "Contact",
             "to": "contact"
         }

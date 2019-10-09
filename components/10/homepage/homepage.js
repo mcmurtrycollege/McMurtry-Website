@@ -85,6 +85,14 @@ class MCM10 extends React.Component {
                 <Element name='faqs'>
                     <FAQs />
                 </Element>
+                <Element name='register'>
+                    <div className='survey-desktop'>
+                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdKZQt5Hp2XtouRxykhsfdl4t8rwo6wnctRgrWi_h7AEMumBg/viewform?embedded=true" width="700" height="864" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                    </div>
+                    <div className='survey-mobile'>
+                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdKZQt5Hp2XtouRxykhsfdl4t8rwo6wnctRgrWi_h7AEMumBg/viewform?embedded=true" width="350" height="1100" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                    </div>
+                </Element>
                 <Element name='contact'>
                     <h1 className='contact-section-title'>Contact</h1>
                         <h2 className='mcm10-contact'>If you have any questions reach out to <a href="mailto:mcmurtry@rice.edu">mcmurtry@rice.edu</a></h2>

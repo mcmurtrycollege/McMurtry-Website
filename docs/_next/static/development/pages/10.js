@@ -662,9 +662,9 @@ function (_React$Component) {
         src: "https://docs.google.com/forms/d/e/1FAIpQLSclr5oUyZeIAxm4AjfQdnKsrY0riUKTgoC70kTHezbSWKDAtw/viewform?embedded=true",
         width: "700",
         height: "1155",
-        frameborder: "0",
-        marginheight: "0",
-        marginwidth: "0",
+        frameBorder: "0",
+        marginHeight: "0",
+        marginWidth: "0",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 79
@@ -681,9 +681,9 @@ function (_React$Component) {
         src: "https://docs.google.com/forms/d/e/1FAIpQLSclr5oUyZeIAxm4AjfQdnKsrY0riUKTgoC70kTHezbSWKDAtw/viewform?embedded=true",
         width: "350",
         height: "1400",
-        frameborder: "0",
-        marginheight: "0",
-        marginwidth: "0",
+        frameBorder: "0",
+        marginHeight: "0",
+        marginWidth: "0",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 82
@@ -720,9 +720,9 @@ function (_React$Component) {
         src: "https://docs.google.com/forms/d/e/1FAIpQLSdKZQt5Hp2XtouRxykhsfdl4t8rwo6wnctRgrWi_h7AEMumBg/viewform?embedded=true",
         width: "700",
         height: "864",
-        frameborder: "0",
-        marginheight: "0",
-        marginwidth: "0",
+        frameBorder: "0",
+        marginHeight: "0",
+        marginWidth: "0",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 90
@@ -739,9 +739,9 @@ function (_React$Component) {
         src: "https://docs.google.com/forms/d/e/1FAIpQLSdKZQt5Hp2XtouRxykhsfdl4t8rwo6wnctRgrWi_h7AEMumBg/viewform?embedded=true",
         width: "350",
         height: "1100",
-        frameborder: "0",
-        marginheight: "0",
-        marginwidth: "0",
+        frameBorder: "0",
+        marginHeight: "0",
+        marginWidth: "0",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 93
@@ -952,7 +952,16 @@ function (_React$Component) {
             lineNumber: 28
           },
           __self: this
-        }, name));
+        }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+          style: {
+            padding: '15px'
+          },
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 29
+          },
+          __self: this
+        }, name)));
       })));
     }
   }]);

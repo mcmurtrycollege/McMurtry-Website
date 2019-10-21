@@ -76,10 +76,10 @@ class MCM10 extends React.Component {
                 </Element>
                 <Element name='memories'>
                     <div className='survey-desktop'>
-                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSclr5oUyZeIAxm4AjfQdnKsrY0riUKTgoC70kTHezbSWKDAtw/viewform?embedded=true" width="700" height="1155" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSclr5oUyZeIAxm4AjfQdnKsrY0riUKTgoC70kTHezbSWKDAtw/viewform?embedded=true" width="700" height="1155" frameBorder="0" marginHeight="0" marginWidth="0">Loading…</iframe>
                     </div>
                     <div className='survey-mobile'>
-                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSclr5oUyZeIAxm4AjfQdnKsrY0riUKTgoC70kTHezbSWKDAtw/viewform?embedded=true" width="350" height="1400" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSclr5oUyZeIAxm4AjfQdnKsrY0riUKTgoC70kTHezbSWKDAtw/viewform?embedded=true" width="350" height="1400" frameBorder="0" marginHeight="0" marginWidth="0">Loading…</iframe>
                     </div>
                 </Element>
                 <Element name='faqs'>
@@ -87,10 +87,10 @@ class MCM10 extends React.Component {
                 </Element>
                 <Element name='register'>
                     <div className='survey-desktop'>
-                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdKZQt5Hp2XtouRxykhsfdl4t8rwo6wnctRgrWi_h7AEMumBg/viewform?embedded=true" width="700" height="864" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdKZQt5Hp2XtouRxykhsfdl4t8rwo6wnctRgrWi_h7AEMumBg/viewform?embedded=true" width="700" height="864" frameBorder="0" marginHeight="0" marginWidth="0">Loading…</iframe>
                     </div>
                     <div className='survey-mobile'>
-                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdKZQt5Hp2XtouRxykhsfdl4t8rwo6wnctRgrWi_h7AEMumBg/viewform?embedded=true" width="350" height="1100" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdKZQt5Hp2XtouRxykhsfdl4t8rwo6wnctRgrWi_h7AEMumBg/viewform?embedded=true" width="350" height="1100" frameBorder="0" marginHeight="0" marginWidth="0">Loading…</iframe>
                     </div>
                 </Element>
                 <Element name='contact'>

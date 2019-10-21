@@ -26,7 +26,9 @@ class Navbar extends React.Component {
                         this.props.links.map(({ name, to }) => (
                             <div key={name} className='mcm10-nav-link'>
                                 <Scroll.Link to={to} smooth={true} duration={400}>
-                                    {name}
+                                    <div style={{padding: '15px'}}>
+                                        {name}
+                                    </div>
                                 </Scroll.Link>
                             </div>
                         ))

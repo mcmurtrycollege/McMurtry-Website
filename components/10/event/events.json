@@ -2,35 +2,35 @@
     "events": [
         {
             "title": "Movie Night",
-            "date": "Monday",
+            "date": "Monday 9:00pm",
             "description": "Join us for a movie!",
             "image": "../../../static/mcm10/ufoweek.jpg",
             "caption": "UFO-Week Day 1 - 2016"
         },
         {
             "title": "Y2K Karaoke",
-            "date": "Tuesday",
+            "date": "Tuesday 9:00pm",
             "description": "Sing along to all your favorite Y2K songs!",
             "image": "../../../static/mcm10/marshmalloweek2.jpg",
             "caption": "Marshamalloweek Day 6 - 2015"
         },
         {
             "title": "Painting with a Twist",
-            "date": "Wednesday",
+            "date": "Wednesday 9:00pm",
             "description": "Painting...but with a twist!",
             "image": "../../../static/mcm10/marshmalloweek.jpg",
             "caption": "Marshamalloweek Day 4 - 2015"
         },
         {
             "title": "Trick or Suite",
-            "date": "Thursday",
+            "date": "Thursday 7:00pm",
             "description": "Enjoy candy and treats at all of the suites!",
             "image": "../../../static/mcm10/nintendoweek.jpg",
             "caption": "Nintendoweek Day 6 - 2017"
         },
         {
             "title": "McScottish Night",
-            "date": "Friday",
+            "date": "Friday (Look below for times)",
             "description": "Everyone's favorite McMurtry tradition!",
             "image": "../../../static/mcm10/mcscottishnight.jpg",
             "caption": "McScottish Night- 2015"

@@ -38,7 +38,7 @@ class MCM10 extends React.Component {
                             <p>We are exited to invite you to the McMurtry College 10th Anniversary celebration! Come join us on November 1st to enjoy McMurtry's vibrant community and experience our college's traditions while reveling in fun activities and great food.</p>
                             <p>As part of our commitment to continuing McMurtry's ability to provide for comfort and happiness to all members of our community we are soliciting donations to help fund the event, with all leftover funds going to the establishment of a McMurtry endowment that will be used to help students for years to come!</p>
                             <p>All of our sponsors will have the option to receive tickets to the event (for more information check out the <Link href="/10/sponsor">sponsorship page</Link>). For others interested in attending the event, you can purchase tickets below.</p>
-                            <p>Please RSVP by October 28th.  We look forward to seeing you this Fall!</p>
+                            <p>Please RSVP by October 25th.  We look forward to seeing you this Fall!</p>
                         </Box>
                         <div className='parallax-scaler'>
                             <Parallax bgImage='/static/mcm_commons.jpg' strength={400} bgImageAlt=""

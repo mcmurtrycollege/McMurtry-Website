@@ -2,28 +2,28 @@
     "events": [
         {
             "title": "Movie Night",
-            "date": "Monday 9:00pm",
+            "date": "Monday 9pm",
             "description": "Join us for a movie!",
             "image": "../../../static/mcm10/ufoweek.jpg",
             "caption": "UFO-Week Day 1 - 2016"
         },
         {
             "title": "Y2K Karaoke",
-            "date": "Tuesday 9:00pm",
+            "date": "Tuesday 9pm",
             "description": "Sing along to all your favorite Y2K songs!",
             "image": "../../../static/mcm10/marshmalloweek2.jpg",
             "caption": "Marshamalloweek Day 6 - 2015"
         },
         {
             "title": "Painting with a Twist",
-            "date": "Wednesday 9:00pm",
+            "date": "Wednesday 9pm",
             "description": "Painting...but with a twist!",
             "image": "../../../static/mcm10/marshmalloweek.jpg",
             "caption": "Marshamalloweek Day 4 - 2015"
         },
         {
             "title": "Trick or Suite",
-            "date": "Thursday 7:00pm",
+            "date": "Thursday 7pm",
             "description": "Enjoy candy and treats at all of the suites!",
             "image": "../../../static/mcm10/nintendoweek.jpg",
             "caption": "Nintendoweek Day 6 - 2017"
@@ -37,7 +37,7 @@
         },
         {
             "title": "Magisters’ Brunch for Alumni and Sponsors",
-            "date": "Saturday",
+            "date": "Saturday 10am - 12pm",
             "description": "10am - 12pm",
             "image": "../../../static/mcm10/accioweek.jpg",
             "caption": "Accioweek - 2014"

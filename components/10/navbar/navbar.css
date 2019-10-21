@@ -27,6 +27,7 @@
 .mcm10-nav-link:hover {
     border-color: #87799C; 
     color: #87799C;
+    cursor: pointer;
 }
 
 .mcm10-nav-link:nth-of-type(1) {

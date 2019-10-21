@@ -16,28 +16,28 @@
         },
         {
             "title": "Highland Games",
-            "date": "6pm - 7:30pm",
+            "date": "6:30pm - 8:00pm",
             "description": "Come for some fun Scottish games",
             "image": "../../../static/mcm10/marshmalloweek.jpg",
             "caption": "Marshamalloweek Day 4 - 2015"
         },
         {
-            "title": "Scottish Dancing",
-            "date": "7:30pm - 8:30pm",
-            "description": "Learn how to do a Scottish jig",
+            "title": "Wicker Man Burning",
+            "date": "8:00pm - 8:30pm",
+            "description": "Don't worry, its safe (we think)!",
             "image": "../../../static/mcm10/associates.jpg",
             "caption": "Associates Night - Spring 2016"
         },
         {
-            "title": "Wicker Man Burning",
-            "date": "8:45pm - 9:00pm",
-            "description": "Don't worry, its safe (we think)!",
+            "title": "Scottish Dancing",
+            "date": "8:30pm - 9:30pm",
+            "description": "Learn how to do a Scottish jig",
             "image": "../../../static/mcm10/mcscottishnight.jpg",
             "caption": "McScottish Night- 2015"
         },
         {
             "title": "Concert",
-            "date": "9pm - 10pm",
+            "date": "9:30pm",
             "description": "Come enjoy some music in the quad",
             "image": "../../../static/mcm10/accioweek.jpg",
             "caption": "Accioweek - 2014"

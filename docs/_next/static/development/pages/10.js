@@ -235,7 +235,7 @@ var EventsComponent = function EventsComponent(props) {
 /*! exports provided: events, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"events\":[{\"title\":\"Movie Night\",\"date\":\"Monday\",\"description\":\"Join us for a movie!\",\"image\":\"../../../static/mcm10/ufoweek.jpg\",\"caption\":\"UFO-Week Day 1 - 2016\"},{\"title\":\"Y2K Karaoke\",\"date\":\"Tuesday\",\"description\":\"Sing along to all your favorite Y2K songs!\",\"image\":\"../../../static/mcm10/marshmalloweek2.jpg\",\"caption\":\"Marshamalloweek Day 6 - 2015\"},{\"title\":\"Painting with a Twist\",\"date\":\"Wednesday\",\"description\":\"Painting...but with a twist!\",\"image\":\"../../../static/mcm10/marshmalloweek.jpg\",\"caption\":\"Marshamalloweek Day 4 - 2015\"},{\"title\":\"Trick or Suite\",\"date\":\"Thursday\",\"description\":\"Enjoy candy and treats at all of the suites!\",\"image\":\"../../../static/mcm10/nintendoweek.jpg\",\"caption\":\"Nintendoweek Day 6 - 2017\"},{\"title\":\"McScottish Night\",\"date\":\"Friday\",\"description\":\"Everyone's favorite McMurtry tradition!\",\"image\":\"../../../static/mcm10/mcscottishnight.jpg\",\"caption\":\"McScottish Night- 2015\"}]}");
+module.exports = JSON.parse("{\"events\":[{\"title\":\"Movie Night\",\"date\":\"Monday\",\"description\":\"Join us for a movie!\",\"image\":\"../../../static/mcm10/ufoweek.jpg\",\"caption\":\"UFO-Week Day 1 - 2016\"},{\"title\":\"Y2K Karaoke\",\"date\":\"Tuesday\",\"description\":\"Sing along to all your favorite Y2K songs!\",\"image\":\"../../../static/mcm10/marshmalloweek2.jpg\",\"caption\":\"Marshamalloweek Day 6 - 2015\"},{\"title\":\"Painting with a Twist\",\"date\":\"Wednesday\",\"description\":\"Painting...but with a twist!\",\"image\":\"../../../static/mcm10/marshmalloweek.jpg\",\"caption\":\"Marshamalloweek Day 4 - 2015\"},{\"title\":\"Trick or Suite\",\"date\":\"Thursday\",\"description\":\"Enjoy candy and treats at all of the suites!\",\"image\":\"../../../static/mcm10/nintendoweek.jpg\",\"caption\":\"Nintendoweek Day 6 - 2017\"},{\"title\":\"McScottish Night\",\"date\":\"Friday\",\"description\":\"Everyone's favorite McMurtry tradition!\",\"image\":\"../../../static/mcm10/mcscottishnight.jpg\",\"caption\":\"McScottish Night- 2015\"},{\"title\":\"Magisters’ Brunch for Alumni and Sponsors\",\"date\":\"Saturday\",\"description\":\"10am - 12pm\",\"image\":\"../../../static/mcm10/accioweek.jpg\",\"caption\":\"Accioweek - 2014\"}]}");
 
 /***/ }),
 
@@ -246,7 +246,7 @@ module.exports = JSON.parse("{\"events\":[{\"title\":\"Movie Night\",\"date\":\"
 /*! exports provided: mcscottish, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"mcscottish\":[{\"title\":\"Opening Ceremonies\",\"date\":\"5pm\",\"description\":\"Let McScottish Night Begin!\",\"image\":\"../../../static/mcm10/ufoweek.jpg\",\"caption\":\"UFO-Week Day 1 - 2016\"},{\"title\":\"Dinner\",\"date\":\"5pm - 7pm\",\"description\":\"Join us for a Scottish feast!\",\"image\":\"../../../static/mcm10/marshmalloweek2.jpg\",\"caption\":\"Marshamalloweek Day 6 - 2015\"},{\"title\":\"Highland Games\",\"date\":\"6pm - 7:30pm\",\"description\":\"Come for some fun Scottish games\",\"image\":\"../../../static/mcm10/marshmalloweek.jpg\",\"caption\":\"Marshamalloweek Day 4 - 2015\"},{\"title\":\"Scottish Dancing\",\"date\":\"7:30pm - 8:30pm\",\"description\":\"Learn how to do a Scottish jig\",\"image\":\"../../../static/mcm10/associates.jpg\",\"caption\":\"Associates Night - Spring 2016\"},{\"title\":\"Wicker Man Burning\",\"date\":\"8:45pm - 9:00pm\",\"description\":\"Don't worry, its safe (we think)!\",\"image\":\"../../../static/mcm10/mcscottishnight.jpg\",\"caption\":\"McScottish Night- 2015\"},{\"title\":\"Concert\",\"date\":\"9pm - 10pm\",\"description\":\"Come enjoy some music in the quad\",\"image\":\"../../../static/mcm10/accioweek.jpg\",\"caption\":\"Accioweek - 2014\"}]}");
+module.exports = JSON.parse("{\"mcscottish\":[{\"title\":\"Opening Ceremonies\",\"date\":\"5pm\",\"description\":\"Let McScottish Night Begin!\",\"image\":\"../../../static/mcm10/ufoweek.jpg\",\"caption\":\"UFO-Week Day 1 - 2016\"},{\"title\":\"Dinner\",\"date\":\"5pm - 7pm\",\"description\":\"Join us for a Scottish feast!\",\"image\":\"../../../static/mcm10/marshmalloweek2.jpg\",\"caption\":\"Marshamalloweek Day 6 - 2015\"},{\"title\":\"Highland Games\",\"date\":\"6:30pm - 8:00pm\",\"description\":\"Come for some fun Scottish games\",\"image\":\"../../../static/mcm10/marshmalloweek.jpg\",\"caption\":\"Marshamalloweek Day 4 - 2015\"},{\"title\":\"Wicker Man Burning\",\"date\":\"8:00pm - 8:30pm\",\"description\":\"Don't worry, its safe (we think)!\",\"image\":\"../../../static/mcm10/associates.jpg\",\"caption\":\"Associates Night - Spring 2016\"},{\"title\":\"Scottish Dancing\",\"date\":\"8:30pm - 9:30pm\",\"description\":\"Learn how to do a Scottish jig\",\"image\":\"../../../static/mcm10/mcscottishnight.jpg\",\"caption\":\"McScottish Night- 2015\"},{\"title\":\"Concert\",\"date\":\"9:30pm\",\"description\":\"Come enjoy some music in the quad\",\"image\":\"../../../static/mcm10/accioweek.jpg\",\"caption\":\"Accioweek - 2014\"}]}");
 
 /***/ }),
 
@@ -703,34 +703,79 @@ function (_React$Component) {
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_8__["Element"], {
-        name: "contact",
+        name: "register",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 88
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "survey-desktop",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 89
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("iframe", {
+        src: "https://docs.google.com/forms/d/e/1FAIpQLSdKZQt5Hp2XtouRxykhsfdl4t8rwo6wnctRgrWi_h7AEMumBg/viewform?embedded=true",
+        width: "700",
+        height: "864",
+        frameborder: "0",
+        marginheight: "0",
+        marginwidth: "0",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 90
+        },
+        __self: this
+      }, "Loading\u2026")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "survey-mobile",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 92
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("iframe", {
+        src: "https://docs.google.com/forms/d/e/1FAIpQLSdKZQt5Hp2XtouRxykhsfdl4t8rwo6wnctRgrWi_h7AEMumBg/viewform?embedded=true",
+        width: "350",
+        height: "1100",
+        frameborder: "0",
+        marginheight: "0",
+        marginwidth: "0",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 93
+        },
+        __self: this
+      }, "Loading\u2026"))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_8__["Element"], {
+        name: "contact",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 96
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h1", {
         className: "contact-section-title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 89
+          lineNumber: 97
         },
         __self: this
       }, "Contact"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h2", {
         className: "mcm10-contact",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 90
+          lineNumber: 98
         },
         __self: this
-      }, "If you have any questions reach out to ", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
+      }, "If you have any questions reach out to Jackie Carrizales at ", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
         href: "mailto:mcmurtry@rice.edu",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 90
+          lineNumber: 98
         },
         __self: this
-      }, "mcmurtry@rice.edu"))));
+      }, "mcmurtry@rice.edu"), " or call (713) 348-4583")));
     }
   }]);
 
@@ -926,7 +971,7 @@ function (_React$Component) {
 /*! exports provided: links, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"links\":[{\"name\":\"Home\",\"to\":\"home\"},{\"name\":\"Schedule\",\"to\":\"schedule\"},{\"name\":\"Memories\",\"to\":\"memories\"},{\"name\":\"FAQs\",\"to\":\"faqs\"},{\"name\":\"Contact\",\"to\":\"contact\"}]}");
+module.exports = JSON.parse("{\"links\":[{\"name\":\"Home\",\"to\":\"home\"},{\"name\":\"Schedule\",\"to\":\"schedule\"},{\"name\":\"Memories\",\"to\":\"memories\"},{\"name\":\"FAQs\",\"to\":\"faqs\"},{\"name\":\"Registration for Current Students\",\"to\":\"register\"},{\"name\":\"Contact\",\"to\":\"contact\"}]}");
 
 /***/ }),
 

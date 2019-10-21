@@ -95,7 +95,7 @@ class MCM10 extends React.Component {
                 </Element>
                 <Element name='contact'>
                     <h1 className='contact-section-title'>Contact</h1>
-                        <h2 className='mcm10-contact'>If you have any questions reach out to <a href="mailto:mcmurtry@rice.edu">mcmurtry@rice.edu</a></h2>
+                        <h2 className='mcm10-contact'>If you have any questions reach out to Jackie Carrizales at <a href="mailto:mcmurtry@rice.edu">mcmurtry@rice.edu</a> or call (713) 348-4583</h2>
                 </Element>
             </div>
         )

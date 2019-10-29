@@ -41,6 +41,13 @@
             "description": "10am - 12pm",
             "image": "../../../static/mcm10/accioweek.jpg",
             "caption": "Accioweek - 2014"
+        },
+        {
+            "title": "Alumni Mixer",
+            "date": "Saturday 7:30 - 9pm",
+            "description": "Come meet and spend time with McMurtry Alumns",
+            "image": "../../../static/mcm10/ufoweek.jpg",
+            "caption": "UFO-Week Day 1 - 2016"
         }
     ]
 }

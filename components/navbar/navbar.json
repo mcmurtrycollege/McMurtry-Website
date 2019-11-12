@@ -8,10 +8,6 @@
                     "to": "/about"
                 },
                 {
-                    "name": "Financial Inclusivity",
-                    "to": "/about/financialinclusivity"
-                },
-                {
                     "name": "O-Week",
                     "to": "/oweek"
                 }
@@ -85,6 +81,10 @@
                 {
                     "name": "Room Reservations",
                     "to": "/resources/roomreservations"
+                },
+                {
+                    "name": "Financial Inclusivity",
+                    "to": "/about/financialinclusivity"
                 },
                 {
                     "name": "MIS",

@@ -95,6 +95,10 @@
                     "to": "/resources/documents"
                 },
                 {
+                    "name": "Diversity Resources",
+                    "to": "/resources/diversityResources"
+                },
+                {
                     "name": "Expense Forms",
                     "to": "/resources/expenseforms"
                 },

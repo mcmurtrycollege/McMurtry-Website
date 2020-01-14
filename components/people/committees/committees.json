@@ -240,10 +240,10 @@
                             "year": "2022",
                             "email": "ijs1@rice.edu"
                         },
-                        {	
-                            "name": "Benjamin Collier",	
-                            "year": "2022",	
-                            "email": "blc5@rice.edu"	
+                        {
+                            "name": "Benjamin Collier",
+                            "year": "2022",
+                            "email": "blc5@rice.edu"
                         }
                     ]
                 },
@@ -295,7 +295,7 @@
                     ]
                 },
                 {
-                    "name": "Burts",
+                    "name": "McMurtry Window Cleanup Committee (formerly Burts)",
                     "description": "The Burts committee is dedicated to putting on quirky, intellectual events in our unique Burt’s Lounge! Anyone is always welcome to our tea breaks, faculty-hosted talks, or just to hang out!",
                     "members": [
                         {

@@ -23,6 +23,11 @@
         "description":"RHAs are students who have been trained on a variety of wellbeing topics. These students work at their college to provide health education opportunities, health supplies and peer guidance. RHAs also act as a liaison between the Student Wellbeing Office and the residential colleges, staying up to date on campus-wide wellbeing programming.",
         "members":[
             {
+                "name": "Akshaya Venkatesh",
+                "phone": "(805) 428-9475",
+                "room": "544"
+            },
+            {
                 "name":"Alex Curylo",
                 "phone":"(314) 971-0876",
                 "room": "OC"
@@ -33,11 +38,6 @@
                 "room": "230"
             },
             {
-                "name":"Akshaya Venkatesh",
-                "phone":"(805) 428-9475",
-                "room": "544"
-            },
-            {
                 "name":"Melodi Doganay",
                 "phone":"(631) 605-6494",
                 "room": "477"
@@ -46,6 +46,21 @@
                 "name":"Caleb Robinson",
                 "phone":"(601) 818-4858",
                 "room": "273"
+            },
+            {
+                "name": "Aaron Vaughan",
+                "phone": "(469) 247-2607",
+                "room": "323"
+            },
+            {
+                "name": "Jennifer Ho",
+                "phone": "(832) 773-2341",
+                "room": "328"
+            },
+            {
+                "name": "Rishi Vas",
+                "phone": "(214) 603-1931",
+                "room": "447"
             }
         ]
     }

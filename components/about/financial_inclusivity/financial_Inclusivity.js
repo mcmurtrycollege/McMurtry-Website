@@ -1,6 +1,6 @@
 import React from 'react';
 import Title from '../../general/title';
-import { Box } from 'rebass';
+import { Box, Flex } from 'rebass';
 import './financial_inclusivity.css';
 
 const FinancialInclusivity = () => (
@@ -16,13 +16,21 @@ const FinancialInclusivity = () => (
                 <li>Provide Beer Bike shirts free of cost.</li>
                 <li>Establish the Magister's Fund so students (when in need) can opt into extra funding. This fund is intended to cover ground we may miss with blanket subsidization, to offer extra support to students in difficult circumstances, and to avoid limiting students to social events that the college has deemed essential.</li>
             </ul>
-            <Box width={220} className='fin-inc-link'>
-                <a href='https://goo.gl/forms/KEyPplLhclljdSOm2' style={{ textDecoration: 'none', color: '#2B2F3A' }} rel="noopener noreferrer">
-                    <p>Click here for more info or to apply!</p>
-                </a>
-            </Box>
+            <Flex flexDirection='row' justifyContent='center' flexWrap='wrap'>
+                <Box width={250} className='fin-inc-link'>
+                    <a href='https://goo.gl/forms/KEyPplLhclljdSOm2' style={{ textDecoration: 'none', color: '#2B2F3A' }} rel="noopener noreferrer">
+                        <p><strong>McMurtry Magisters' Fund</strong></p><p>Click here for more info or to apply! →</p>
+                    </a>
+                </Box>
+                <Box width={250} className='fin-inc-link'>
+                    <a href='https://aop.rice.edu/application' style={{ textDecoration: 'none', color: '#2B2F3A' }} rel="noopener noreferrer">
+                        <p><strong>Rice Access and Opportunity Portal</strong></p><p>For academic related expenses →</p>
+                    </a>
+                </Box>
+            </Flex>
+
         </Box>
-    </div>
+    </div >
 )
 
 export default FinancialInclusivity;

@@ -10,14 +10,11 @@
 }
 
 .fin-inc-link {
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
+    margin: 30px;
+    padding: 10px 20px;
     background: #515768;
-    margin-top: 7%;
     text-align: center;
     font-size: 1.2em;
-    margin-bottom: 20px;
     position: relative;
     z-index: 100;
 }

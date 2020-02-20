@@ -172,6 +172,15 @@
             "image": "../../../../static/associates/MarkKrouskop.jpeg"
         },
         {
+            "name": "Danielle King",
+            "career": "Rice University, Assistant Professor in Psychological Sciences",
+            "bio": "I started at Rice in 2018, after completing my undergrad training in Psychology at Spelman College and my MA and PhD in Organizational Psychology at Michigan State. I am originally from New Orleans, LA. I started the WorKing Resilience Research Lab at Rice because I am passionate about understanding how we can foster resilience and wellbeing in employees and organizations.",
+            "movie_tv": "Black Panther. The Notebook. Big Bang Theory. Good Trouble.",
+            "hobbies": "Traveling. Trying new workouts. Painting.",
+            "fact": "I love adventure: I went skydiving in New Zealand and swimming with sharks in Belize.",
+            "image": "../../../../static/associates/DanielleKing.png"
+        },
+        {
             "name": "Elizabeth Festa",
             "career": "Rice Program for Writing and Communication",
             "bio": "I teach research writing and communication across all disciplines and levels of study. My research focuses on supporting graduate writers.  I have two children (including one Murt!) and have one very demanding Siamese cat, Percival. I hail from the Virginia side of Washington, D.C., but Houston is by far my most favorite place. It's an incredibly warm city...in temperature and temperament.",
@@ -179,6 +188,42 @@
             "hobbies": "Dining out (Tex-Mex!), museums, reading, walking at the Arboretum, and arthouse cinema",
             "fact": "Before going to graduate school, I was a military officer",
             "image": "../../../../static/associates/ElizabethFesta.jpg"
+        },
+        {
+            "name": "Cassandra Diep & Jeffrey Yeung",
+            "career": "Assistant Teaching Professor, Kinesiology Department (CD); Senior Accounting & Business Analyst, Controller’s Office (JY)",
+            "bio": "Cassie and Jeff grew up in Houston and attended the same middle and high schools, but didn’t start dating until they were both in graduate school at Texas A&M. Cassie is an Owl-Aggie (Rice for undergrad and A&M for grad school), and Jeff is a full-blown Aggie. They have been married since 2013, and have an energetic and vehicle-loving toddler (Alex) and not-so-energetic and not-so-vehicle-loving cat (Miso). Cassie currently teaches and advises in the Health Sciences program within Kinesiology, while Jeff is involved with various aspects of Rice’s accounting.",
+            "movie_tv": "The Good Place",
+            "hobbies": "Arts and crafts, baking (CD); Cars, cooking, shoes (JY)",
+            "fact": "Cassie and Jeff’s cat does tricks, including “sit,” “high five,” “up,” and “leave it.”",
+            "image": "../../../../static/associates/Yeung.jpg"
+        },
+        {
+            "name": "Geoff Wehmeyer",
+            "career": "Assistant Professor Rice Department of Mechanical Engineering",
+            "bio": "I'm a mechanical engineer, and my research focuses on understanding heat transport at the nanoscale. I was born in Dallas, went to undergrad at UT Austin, and came to Rice in 2018 after finishing my Ph.D. at Berkeley. My wife Lauren is also a mechanical engineer from Texas, and we love spending time with our niece and nephews in San Antonio and exploring Houston.",
+            "movie_tv": "The Sopranos",
+            "hobbies": "Hiking, camping, reading fiction, going to shows",
+            "fact": "At one point, I could throw a javelin >130 feet",
+            "image": "../../../../static/associates/GeoffWehmeyer.jpg"
+        },
+        {
+            "name": "Jennifer Zinn-Winkler",
+            "career": "Department Administrator - Department of Kinesiology at Rice University",
+            "bio": "I have been at Rice since moving to the Houston area in 2012.  Originally from Austin, I received my BS degree in Kinesiology from UT Austin.  My husband Lance & I have an almost 2 year old daughter who keeps us on our toes.",
+            "movie_tv": "Chicago Fire",
+            "hobbies": "Traveling, movies w/ friends, building blocks w/ the toddler",
+            "fact": "I've met Matthew McConaughey twice & have two pictures with him.  He's so awesome!",
+            "image": "../../../../static/associates/JenniferZinn-Winkler.jpg"
+        },
+        {
+            "name": "Kasey Leigh and Cam Yearty",
+            "career": "Dr. Yearty: Wiess Instructor of Chemistry at Rice; Cam: Public Private Partnership Manager at the City of Sugar Land",
+            "bio": "Dr. Kasey Leigh Yearty and her husband Cam are proud to be new Texans and McMurts! They joined the Rice community in 2019, where Dr. Yearty is the Wiess Instructor of Chemistry, specifically teaching organic chemistry courses; Cam works in Sugar Land, The Sweetest City in Texas. They are joined as Associates in McMurtry by their dog, BoBo. The Yeartys are excited to get to know their extended McMurtry family!",
+            "movie_tv": "Dr. Yearty: The West Wing; Cam: Jurassic Park",
+            "hobbies": "We enjoy baking, exploring Houston (especially the food scene), and trying new restaurants. Basically, we like food.",
+            "fact": "Dr. Yearty: I taught approximately 40 three-year-old children music a few years ago. Cam: I was an NCAA Division I Athlete at Mercer University.",
+            "image": "../../../../static/associates/Yearty.jpg"
         }
     ]
 }

@@ -30,8 +30,8 @@ class AssociateCard extends React.Component {
                         </Box>
                     </div>
                     <h2 className='associate-name'>{this.props.name}</h2>
+                    <p><strong>Career/Profession: </strong>{this.props.career}</p>
                     <div style={dropdownStyle} className='associate-dropdown'>
-                        <p><strong>Career/Profession: </strong>{this.props.career}</p>
                         <p><strong>Bio: </strong>{this.props.bio}</p>
                         <p><strong>Favorite Movie/TV Show: </strong>{this.props.movie_tv}</p>
                         <p><strong>Hobbies: </strong>{this.props.hobbies}</p>
@@ -55,6 +55,9 @@ const Associates = () => {
     return (
         <div className='associates-page'>
             <Title title={'Associates'} width={240} smallText={false} />
+            <Box width={[0.9, 0.55]} ml='auto' mr='auto'>
+                <p className="associates-mission">Every residential college at Rice has an associates program, where faculty, staff, and community members support students in their intellectual, cultural and social lives through providing mentorship, guidance and support.</p>
+            </Box>
             <Flex justifyContent='center' flexDirection='row' flexWrap='wrap' style={{ marginTop: '3%' }}>
                 {
                     columns.map(column => (

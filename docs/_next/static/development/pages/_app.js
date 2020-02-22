@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\_app.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/_app.js"],{
 
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/array/is-array.js":
 /*!***********************************************************************!*\
@@ -4103,12 +4103,12 @@ for (var i = 0; i < DOMIterables.length; i++) {
 
 /***/ "./node_modules/next/dist/build/polyfills/object-assign.js":
 /*!***********************************************************************************************************************!*\
-  !*** delegated ./node_modules/next/dist/build/polyfills/object-assign.js from dll-reference dll_fc878a605ca7bff75bfb ***!
+  !*** delegated ./node_modules/next/dist/build/polyfills/object-assign.js from dll-reference dll_817bc00842ec66b68155 ***!
   \***********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_fc878a605ca7bff75bfb */ "dll-reference dll_fc878a605ca7bff75bfb"))("./node_modules/next/dist/build/polyfills/object-assign.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_817bc00842ec66b68155 */ "dll-reference dll_817bc00842ec66b68155"))("./node_modules/next/dist/build/polyfills/object-assign.js");
 
 /***/ }),
 
@@ -6683,12 +6683,12 @@ if (false) {} else {
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_fc878a605ca7bff75bfb ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_817bc00842ec66b68155 ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_fc878a605ca7bff75bfb */ "dll-reference dll_fc878a605ca7bff75bfb"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_817bc00842ec66b68155 */ "dll-reference dll_817bc00842ec66b68155"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -8203,12 +8203,12 @@ module.exports = {
 
 /***/ "./node_modules/webpack/buildin/global.js":
 /*!******************************************************************************************************!*\
-  !*** delegated ./node_modules/webpack/buildin/global.js from dll-reference dll_fc878a605ca7bff75bfb ***!
+  !*** delegated ./node_modules/webpack/buildin/global.js from dll-reference dll_817bc00842ec66b68155 ***!
   \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_fc878a605ca7bff75bfb */ "dll-reference dll_fc878a605ca7bff75bfb"))("./node_modules/webpack/buildin/global.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_817bc00842ec66b68155 */ "dll-reference dll_817bc00842ec66b68155"))("./node_modules/webpack/buildin/global.js");
 
 /***/ }),
 
@@ -8253,19 +8253,19 @@ module.exports = function(module) {
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! next-client-pages-loader?page=%2F_app&absolutePagePath=next%2Fdist%2Fpages%2F_app! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=next%2Fdist%2Fpages%2F_app!./");
-module.exports = __webpack_require__(/*! C:\Users\nmeis\Projects\Websites\McMurtry-Website\node_modules\next\dist\client\router.js */"./node_modules/next/dist/client/router.js");
+module.exports = __webpack_require__(/*! /Users/shaquillewyanque/git/McMurtry-Website/node_modules/next/dist/client/router.js */"./node_modules/next/dist/client/router.js");
 
 
 /***/ }),
 
-/***/ "dll-reference dll_fc878a605ca7bff75bfb":
+/***/ "dll-reference dll_817bc00842ec66b68155":
 /*!*******************************************!*\
-  !*** external "dll_fc878a605ca7bff75bfb" ***!
+  !*** external "dll_817bc00842ec66b68155" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_fc878a605ca7bff75bfb;
+module.exports = dll_817bc00842ec66b68155;
 
 /***/ })
 

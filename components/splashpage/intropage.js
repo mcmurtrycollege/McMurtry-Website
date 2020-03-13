@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Flex, Image } from 'rebass';
 import Link from 'next/link';
-import Banner from '../10/banner/banner';
+// import Banner from '../10/banner/banner';
 import './intropage.css';
 
 const quickLinks = [
@@ -30,7 +30,12 @@ const quickLinks = [
 
 const Intro = () => (
     <div className='intro-page'>
-        <Banner />
+        {/* <Banner /> */}
+        <Link href={"/resources/coronavirus"}>
+            <Box className="coronavirus-banner" width={[0.9, 0.5]}>
+                <p>Click here for Resources and Questions regarding the coronavirus response at Rice/McMurtry</p>
+            </Box>
+        </Link>
         <Box width={[0.95, 0.8]} className='yurt-graphic'>
             <Image src='../../static/YurtTrees.svg' />
         </Box>

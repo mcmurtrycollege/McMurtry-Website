@@ -13,6 +13,19 @@
     }
 }
 
+.coronavirus-banner {
+    margin: 8% auto 4% auto;
+    background-color: #87799C;
+    color: #DCDFE5;
+    font-size: 1.4em;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.coronavirus-banner:hover {
+    cursor: pointer;
+}
+
 .yurt-graphic {
     margin-left: auto;
     margin-right: auto;

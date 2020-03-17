@@ -364,7 +364,7 @@
     color: #DCDFE5;
     padding: 10px 20px;
     font-size: 1.2em;
-    display: inline;
+    display: inline-block;
 }
 
 .covid-answer {
@@ -380,7 +380,7 @@
 
 .covid-subtitle {
     text-align: center;
-    margin: 5% 0;
+    margin: 40px 0;
 }
 
 .covid-subtitle p {

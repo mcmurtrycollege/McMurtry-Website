@@ -3,7 +3,9 @@ const content = [
         question: "What about my stuff?",
         answer: <div>
             <p><strong>First, we ask all students to fill out the following <a href="https://docs.google.com/forms/d/e/1FAIpQLSerKXrTN94F3Kf0iKHNJfD5zYkI8Rt_GHpUSAxhuY_M71YucA/viewform">form</a> to help us with the move-out process.</strong></p>
-            <p><strong>If you are still on campus</strong>, the best thing to do is to pack up your things and take them with you by March 25. Packing supplies are now available in Jackie’s office. One POD is here and others will arrive by 6 p.m. today.</p>
+            <p><strong>If you are still on campus</strong>, the best thing to do is to pack up your things and take them with you by March 25. Packing supplies are now available in Jackie’s office. PODS are here. Here are the times that the PODS are available:</p>
+            <p>Week of 3/16: Tuesday,  Wednesday, and Thursday 10-12, Friday through Sunday 1 - 3</p>
+            <p>Week of 3/23: Monday and Tuesday 1-3, and Wednesday 2-4.</p>
             <p><strong>If you are away from campus right now, but you have all that is necessary for you to finish the semester</strong> (i.e., books, computer equipment, medication), you should not return to campus. Instead, we ask that you designate another Murt who is still at McMurtry to pack your belongings for you.</p>
             <p><strong>If you are away from campus right now, but do NOT have what you need to finish the semester</strong>  (i.e., books, computer equipment, medication), you may return to campus before 3/25 to pick up the equipment you need to finish out the semester. While you are on campus, you can pack up your belongings and store them.</p>
             <p><strong>Senior students: </strong>If you cannot take your belongings with you, pack them and leave them in your room, the Committee Closet, or the T.V. Room (room 120). Make sure they are well labeled (first and last name, college, graduating year, phone number, email).</p>

@@ -741,64 +741,76 @@ var content = [{
       lineNumber: 6
     },
     __self: undefined
-  }, "If you are still on campus"), ", the best thing to do is to pack up your things and take them with you by March 25. Packing supplies are now available in Jackie\u2019s office. One POD is here and others will arrive by 6 p.m. today."), __jsx("p", {
+  }, "If you are still on campus"), ", the best thing to do is to pack up your things and take them with you by March 25. Packing supplies are now available in Jackie\u2019s office. PODS are here. Here are the times that the PODS are available:"), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
     },
     __self: undefined
+  }, "Week of 3/16: Tuesday,  Wednesday, and Thursday 10-12, Friday through Sunday 1 - 3"), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: undefined
+  }, "Week of 3/23: Monday and Tuesday 1-3, and Wednesday 2-4."), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: undefined
   }, __jsx("strong", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 9
     },
     __self: undefined
   }, "If you are away from campus right now, but you have all that is necessary for you to finish the semester"), " (i.e., books, computer equipment, medication), you should not return to campus. Instead, we ask that you designate another Murt who is still at McMurtry to pack your belongings for you."), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 10
     },
     __self: undefined
   }, __jsx("strong", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 10
     },
     __self: undefined
   }, "If you are away from campus right now, but do NOT have what you need to finish the semester"), "  (i.e., books, computer equipment, medication), you may return to campus before 3/25 to pick up the equipment you need to finish out the semester. While you are on campus, you can pack up your belongings and store them."), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 11
     },
     __self: undefined
   }, __jsx("strong", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 11
     },
     __self: undefined
   }, "Senior students: "), "If you cannot take your belongings with you, pack them and leave them in your room, the Committee Closet, or the T.V. Room (room 120). Make sure they are well labeled (first and last name, college, graduating year, phone number, email)."), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 12
     },
     __self: undefined
   }, __jsx("strong", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 12
     },
     __self: undefined
   }, "Room Keys: "), "After your belongings have been packed and stored, you are required to return your room key to Jackie Carrizales. Note that OC students are also required to return their keys to McMurtry. If you are not coming back to campus, please notify Jackie that you will be mailing it back to her as soon as possible. Please use a padded envelope so the key doesn\u2019t escape in transport. The mailing address is 1605 Rice Blvd, Houston, TX 77005."), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 13
     },
     __self: undefined
   }, __jsx("strong", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 13
     },
     __self: undefined
   }, "Cars: "), "Students who are not taking their car with them should move it to West Lot 5 before they go. If they are away and won\u2019t be able to move it from its current spot, they need to email parking@rice.edu and tell them where it is."))
@@ -807,7 +819,7 @@ var content = [{
   answer: __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 18
     },
     __self: undefined
   }, "Right now, the restrictions outlined in the letter are in effect until April 30th. You can come back for your belongings or arrange to have them shipped to you after that date. Please note, however, that this date may change depending on the fluid situation. If your belongings are stored in a POD you will be able to retrieve them in August.")
@@ -816,32 +828,32 @@ var content = [{
   answer: __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 22
     },
     __self: undefined
   }, __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 23
     },
     __self: undefined
   }, "You can petition to the Dean of Undergraduates if exceptional circumstances make it very difficult for you to leave campus. This process, however, will be quite stringent. Possible conditions include (but are not limited to) international students going home to countries that have travel restrictions, students who face housing insecurity, or those in a precarious living situation that would make remote completion of the semester unduly difficult."), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 24
     },
     __self: undefined
   }, "To file a Petition to Live on Campus, please use the following ", __jsx("a", {
     href: "https://cm.maxient.com/reportingform.php?RiceUniv&layout_id=14",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 24
     },
     __self: undefined
   }, "link"), ". ", __jsx("strong", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 24
     },
     __self: undefined
   }, "Please do not directly contact the Office of the Dean of Undergraduates for these matters. Instead, use the form.")))
@@ -850,20 +862,20 @@ var content = [{
   answer: __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 29
     },
     __self: undefined
   }, "We do realize that the hardship of leaving campus is even more severe for people who may depend on a campus job or lack the necessary financial resources to move right away. Students facing financial barriers to leaving campus, to remaining on campus, or in staying in an off-campus residence should complete this form so that the Dean of Undergraduates office can assess and support their needs. ", __jsx("strong", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 29
     },
     __self: undefined
   }, "Please do not directly contact the Office of the Dean of Undergraduates for these matters. Instead, use the ", __jsx("a", {
     href: "https://riceuniversity.co1.qualtrics.com/jfe/form/SV_eKDTQqSH7z2f41f",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 29
     },
     __self: undefined
   }, "form"), "."))
@@ -872,13 +884,13 @@ var content = [{
   answer: __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 33
     },
     __self: undefined
   }, "All students who have left campus for break are strongly encouraged not to return, and all who live on campus and remain in Houston are encouraged to return home or remain in Houston in their off campus location for the duration of the semester. The basic idea behind classes going virtual is to diminish the density of our social network. To this effect, access to campus will be restricted to students who received permission to stay in their rooms [as outlined in (3)] and employees who cannot work from home.", __jsx("strong", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 33
     },
     __self: undefined
   }, " Note: the maximum size of social gatherings on Rice campus is now 25 people."))
@@ -887,32 +899,32 @@ var content = [{
   answer: __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 37
     },
     __self: undefined
   }, __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 38
     },
     __self: undefined
   }, "In this very fluid situation, we unfortunately do not have answers for many of the questions that you may have beyond the move-out process at McMurtry. As such, we recommend that you follow the directions given by each office. For example, academic matters should be directed to relevant departments. Financial issues should be addressed by the Office of Financial Aid, etc. If you have any questions as to where you should direct your inquiries, the McTeam are here to help. Please also refer to ", __jsx("a", {
     href: "https://emergency.rice.edu/coronavirus-faq",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 38
     },
     __self: undefined
   }, "https://emergency.rice.edu/coronavirus-faq"), " for updated information on any other questions you may have."), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 39
     },
     __self: undefined
   }, __jsx("strong", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 39
     },
     __self: undefined
   }, "McTeam Contact Information")), __jsx("p", {
@@ -921,14 +933,14 @@ var content = [{
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 40
     },
     __self: undefined
   }, "Margaret Beier, Magister (", __jsx("a", {
     href: "mailto:beier@rice.edu",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 40
     },
     __self: undefined
   }, "beier@rice.edu"), ")"), __jsx("p", {
@@ -937,14 +949,14 @@ var content = [{
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 41
     },
     __self: undefined
   }, "Chris Stickney, Magister (", __jsx("a", {
     href: "mailto:stickney@rice.edu",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 41
     },
     __self: undefined
   }, "stickney@rice.edu"), ")"), __jsx("p", {
@@ -953,14 +965,14 @@ var content = [{
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 42
     },
     __self: undefined
   }, "Jackie Carrizales, College Coordinator (", __jsx("a", {
     href: "mailto:jjc3@rice.edu",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 42
     },
     __self: undefined
   }, "jjc3@rice.edu"), ")"), __jsx("p", {
@@ -969,14 +981,14 @@ var content = [{
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 43
     },
     __self: undefined
   }, "Brian Gibson, Head Resident Fellow (", __jsx("a", {
     href: "mailto:hoot@rice.edu",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 43
     },
     __self: undefined
   }, "hoot@rice.edu"), ")"), __jsx("p", {
@@ -985,14 +997,14 @@ var content = [{
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 44
     },
     __self: undefined
   }, "Alana Lemay-Gibson, Head Resident Fellow (", __jsx("a", {
     href: "mailto:nyxer@rice.edu",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 44
     },
     __self: undefined
   }, "nyxer@rice.edu"), ")"), __jsx("p", {
@@ -1001,14 +1013,14 @@ var content = [{
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 45
     },
     __self: undefined
   }, "Tamara Cobb, Resident Associate (", __jsx("a", {
     href: "mailto:tamaracobb@rice.edu",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 45
     },
     __self: undefined
   }, "tamaracobb@rice.edu"), ")"), __jsx("p", {
@@ -1017,14 +1029,14 @@ var content = [{
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 46
     },
     __self: undefined
   }, "Deirdre Hunter, Resident Associate (", __jsx("a", {
     href: "mailto:dnh1@rice.edu",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 46
     },
     __self: undefined
   }, "dnh1@rice.edu"), ")"))
@@ -1128,23 +1140,42 @@ var Coronavirus = function Coronavirus() {
   }, "Hey McMurtry!"), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 27
     },
     __self: this
-  }, "As you know, Rice students living on campus have been asked to vacate the campus by March 25th, unless they petition and receive special consideration from Dean Gorman. To complement the information you are receiving from the administration, the McTeam created this FAQ that addresses some of your questions regarding the move-out process at McMurtry."), __jsx("p", {
+  }, "As you know, Rice students living on campus have been asked to vacate the campus by March 25th, unless they petition and receive special consideration from Dean Gorman. Students are strongly urged to leave campus as soon as arrangements can be made. To complement the information you are receiving from the administration, the McTeam created this FAQ that addresses some of your questions regarding the move-out process at McMurtry."), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 28
+    },
+    __self: this
+  }, "Petitions to stay on campus were due on 3/15, so the deadline has passed. If special circumstances have come up since then, please contact Margaret at beier@rice.edu. "), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
     },
     __self: this
   }, "Murt Love!"), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 30
     },
     __self: this
   }, "The McTeam")), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
     className: "covid-subtitle",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: this
+  }, __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: this
+  }, "Quick Links")), __jsx("div", {
+    className: "covid-quick-links",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 35
@@ -1156,76 +1187,50 @@ var Coronavirus = function Coronavirus() {
       lineNumber: 36
     },
     __self: this
-  }, "Quick Links")), __jsx("div", {
-    className: "covid-quick-links",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38
-    },
-    __self: this
-  }, __jsx("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39
-    },
-    __self: this
   }, __jsx("a", {
     href: "https://www.google.com/url?q=https://forms.gle/fRJt9AgJMwQFGcif6&sa=D&ust=1584139514566000&usg=AFQjCNGcJYyedOD--DNa6s8nmOT_ljXAuQ",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 36
     },
     __self: this
   }, "McMurtry Move Out Form")), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
-    },
-    __self: this
-  }, __jsx("a", {
-    href: "https://cm.maxient.com/reportingform.php?RiceUniv&layout_id=14",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40
-    },
-    __self: this
-  }, "Petition to Stay on Campus")), __jsx("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 37
     },
     __self: this
   }, __jsx("a", {
     href: "https://riceuniversity.co1.qualtrics.com/jfe/form/SV_eKDTQqSH7z2f41f",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 37
     },
     __self: this
   }, "Financial Burder Relief Form")), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 38
     },
     __self: this
   }, __jsx("a", {
     href: "https://emergency.rice.edu/coronavirus-faq",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 38
     },
     __self: this
   }, "Rice Emergency Services"))), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
     className: "covid-subtitle",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 41
     },
     __self: this
   }, __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 42
     },
     __self: this
   }, "FAQs")), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
@@ -1235,7 +1240,7 @@ var Coronavirus = function Coronavirus() {
     width: [0.9, 0.55],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 44
     },
     __self: this
   }, faqs));
@@ -15903,7 +15908,7 @@ var CoronavirusPage = function CoronavirusPage() {
 
 /***/ }),
 
-/***/ 9:
+/***/ 7:
 /*!******************************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fresources%2Fcoronavirus&absolutePagePath=C%3A%5CUsers%5Cnmeis%5CProjects%5CWebsites%5CMcMurtry-Website%5Cpages%5Cresources%5Ccoronavirus.js ***!
   \******************************************************************************************************************************************************************************************/
@@ -15926,5 +15931,5 @@ module.exports = dll_fc878a605ca7bff75bfb;
 
 /***/ })
 
-},[[9,"static/runtime/webpack.js","styles"]]]);
+},[[7,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=coronavirus.js.map

@@ -66,6 +66,10 @@
                     "to": "/people/RHAs"
                 },
                 {
+                    "name": "Head Caregivers",
+                    "to": "/people/headcaregivers"
+                },
+                {
                     "name": "Strive Liaisons",
                     "to": "/people/striveliaisons"
                 },
@@ -109,6 +113,10 @@
                 {
                     "name": "Initiative Requests",
                     "to": "/resources/initiativerequests"
+                },
+                {
+                  "name": "Feedback Form",
+                  "to": "/resources/feedbackform"
                 }
             ]
         }

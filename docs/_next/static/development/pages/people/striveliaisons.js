@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/people/mcministry.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/people/striveliaisons.js"],{
 
 /***/ "./components/general/contactcards.js":
 /*!********************************************!*\
@@ -968,42 +968,29 @@ var Navbar = /*#__PURE__*/function (_React$Component) {
 
 /***/ }),
 
-/***/ "./components/people/mcministry/mcministry.js":
-/*!****************************************************!*\
-  !*** ./components/people/mcministry/mcministry.js ***!
-  \****************************************************/
+/***/ "./components/people/wellbeing/strive_liaisons.js":
+/*!********************************************************!*\
+  !*** ./components/people/wellbeing/strive_liaisons.js ***!
+  \********************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return McMinistry; });
-/* harmony import */ var _babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
-/* harmony import */ var _babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
-/* harmony import */ var _babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! rebass */ "./node_modules/rebass/dist/index.js");
-/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(rebass__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _mcministry_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./mcministry.css */ "./components/people/mcministry/mcministry.css");
-/* harmony import */ var _mcministry_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_mcministry_css__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _general_title__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../general/title */ "./components/general/title.js");
-/* harmony import */ var _general_contactcards__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../general/contactcards */ "./components/general/contactcards.js");
-/* harmony import */ var _mcministry_json__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./mcministry.json */ "./components/people/mcministry/mcministry.json");
-var _mcministry_json__WEBPACK_IMPORTED_MODULE_10___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./mcministry.json */ "./components/people/mcministry/mcministry.json", 1);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rebass */ "./node_modules/rebass/dist/index.js");
+/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(rebass__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _general_title__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../general/title */ "./components/general/title.js");
+/* harmony import */ var _general_contactcards__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../general/contactcards */ "./components/general/contactcards.js");
+/* harmony import */ var _wellbeing_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./wellbeing.css */ "./components/people/wellbeing/wellbeing.css");
+/* harmony import */ var _wellbeing_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_wellbeing_css__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _wellbeing_json__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./wellbeing.json */ "./components/people/wellbeing/wellbeing.json");
+var _wellbeing_json__WEBPACK_IMPORTED_MODULE_5___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./wellbeing.json */ "./components/people/wellbeing/wellbeing.json", 1);
+var _this = undefined,
+    _jsxFileName = "/Users/shaquillewyanque/git/McMurtry-Website/components/people/wellbeing/strive_liaisons.js";
 
-
-
-
-
-var _jsxFileName = "/Users/shaquillewyanque/git/McMurtry-Website/components/people/mcministry/mcministry.js";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
-
-function _createSuper(Derived) { return function () { var Super = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Derived), result; if (_isNativeReflectConstruct()) { var NewTarget = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return Object(_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, result); }; }
-
-function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
@@ -1011,141 +998,66 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Re
 
 
 
-
-var McMinistry = /*#__PURE__*/function (_React$Component) {
-  Object(_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(McMinistry, _React$Component);
-
-  var _super = _createSuper(McMinistry);
-
-  function McMinistry() {
-    Object(_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, McMinistry);
-
-    return _super.apply(this, arguments);
-  }
-
-  Object(_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(McMinistry, [{
-    key: "render",
-    value: function render() {
-      return __jsx("div", {
-        className: "mcministry-page",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 11,
-          columnNumber: 13
-        }
-      }, __jsx(_general_title__WEBPACK_IMPORTED_MODULE_8__["default"], {
-        width: 240,
-        title: "McMinistry",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 12,
-          columnNumber: 17
-        }
-      }), __jsx(rebass__WEBPACK_IMPORTED_MODULE_6__["Box"], {
-        width: [330],
-        ml: "auto",
-        mr: "auto",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 13,
-          columnNumber: 17
-        }
-      }, __jsx("h1", {
-        className: "division-title",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 14,
-          columnNumber: 21
-        }
-      }, "Executive Council")), __jsx(_general_contactcards__WEBPACK_IMPORTED_MODULE_9__["default"], {
-        content: _mcministry_json__WEBPACK_IMPORTED_MODULE_10__["executive_council"],
-        height: 150,
-        width: [270],
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 16,
-          columnNumber: 17
-        }
-      }), __jsx(rebass__WEBPACK_IMPORTED_MODULE_6__["Box"], {
-        width: 300,
-        ml: "auto",
-        mr: "auto",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 17,
-          columnNumber: 17
-        }
-      }, __jsx("h1", {
-        className: "division-title",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 18,
-          columnNumber: 21
-        }
-      }, "People's Council")), __jsx(_general_contactcards__WEBPACK_IMPORTED_MODULE_9__["default"], {
-        content: _mcministry_json__WEBPACK_IMPORTED_MODULE_10__["peoples_council"],
-        height: 150,
-        width: 270,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 20,
-          columnNumber: 17
-        }
-      }), __jsx(rebass__WEBPACK_IMPORTED_MODULE_6__["Box"], {
-        width: 270,
-        ml: "auto",
-        mr: "auto",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 21,
-          columnNumber: 17
-        }
-      }, __jsx("h1", {
-        className: "division-title",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 22,
-          columnNumber: 21
-        }
-      }, "McCabinet")), __jsx(_general_contactcards__WEBPACK_IMPORTED_MODULE_9__["default"], {
-        content: _mcministry_json__WEBPACK_IMPORTED_MODULE_10__["mccabinet"],
-        height: 150,
-        width: 300,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 24,
-          columnNumber: 17
-        }
-      }));
+var StriveLiaisons = function StriveLiaisons() {
+  return __jsx("div", {
+    className: "wellbeing-page",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9,
+      columnNumber: 5
     }
-  }]);
+  }, __jsx(_general_title__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    width: 300,
+    title: "Strive Liaisons",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 9
+    }
+  }), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+    width: [1, 0.7, 0.6, 0.5],
+    ml: "auto",
+    mr: "auto",
+    className: "wellbeing-description",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 9
+    }
+  }, _wellbeing_json__WEBPACK_IMPORTED_MODULE_5__["strive_liaisons"].description), __jsx("div", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 9
+    }
+  }, __jsx(_general_contactcards__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    content: _wellbeing_json__WEBPACK_IMPORTED_MODULE_5__["strive_liaisons"].members,
+    width: 200,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 13
+    }
+  })));
+};
 
-  return McMinistry;
-}(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
-
-
+/* harmony default export */ __webpack_exports__["default"] = (StriveLiaisons);
 
 /***/ }),
 
-/***/ "./components/people/mcministry/mcministry.json":
-/*!******************************************************!*\
-  !*** ./components/people/mcministry/mcministry.json ***!
-  \******************************************************/
-/*! exports provided: executive_council, peoples_council, mccabinet, default */
+/***/ "./components/people/wellbeing/wellbeing.json":
+/*!****************************************************!*\
+  !*** ./components/people/wellbeing/wellbeing.json ***!
+  \****************************************************/
+/*! exports provided: strive_liaisons, RHAs, head_caregivers, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"executive_council\":[{\"position\":\"President\",\"name\":\"Carolyn Daly\",\"year\":\"2021\",\"email\":\"mcmurtrypresident@gmail.com\"},{\"position\":\"Chief Justice\",\"name\":\"Lola Torres\",\"year\":\"2022\",\"email\":\"mcmurtrycj@gmail.com\"},{\"position\":\"Prime Minister\",\"name\":\"Isabel Sjodin\",\"year\":\"2022\",\"email\":\"murtpm@gmail.com\"},{\"position\":\"Internal VP\",\"name\":\"Luey Garcia\",\"year\":\"2023\",\"email\":\"mcmurtryivp@gmail.com\"},{\"position\":\"External VP\",\"name\":\"Rachel Moore\",\"year\":\"2022\",\"email\":\"mcmurtryevp@gmail.com\"},{\"position\":\"SA Senator\",\"name\":\"Hunter Brown\",\"year\":\"2023\",\"email\":\"mcmurtrysenator@gmail.com\"},{\"position\":\"Secretary\",\"name\":\"Morgan Gage\",\"year\":\"2023\",\"email\":\"mcmsecretary@gmail.com\"},{\"position\":\"Secretary\",\"name\":\"Jazmine Castillo\",\"year\":\"2023\",\"email\":\"mcmsecretary@gmail.com\"},{\"position\":\"Treasurer\",\"name\":\"Eliot Solomon\",\"year\":\"2023\",\"email\":\"mcmurtrytreasurer@gmail.com\"},{\"position\":\"Treasurer\",\"name\":\"Brandon Zimmer\",\"year\":\"2023\",\"email\":\"mcmurtrytreasurer@gmail.com\"}],\"peoples_council\":[{\"position\":\"At Large Rep\",\"name\":\"Christa Westheimer\",\"year\":\"2023\",\"email\":\"mcmurtrypc@gmail.com\"},{\"position\":\"2Y Hall Rep\",\"name\":\"Aman Shanbhag\",\"year\":\"2023\"},{\"position\":\"2O Hall Rep\",\"name\":\"Chloe Liebenthal\",\"year\":\"2023\"},{\"position\":\"3Y Hall Rep\",\"name\":\"Megan Liu\",\"year\":\"2022\"},{\"position\":\"3O Hall Rep\",\"name\":\"Grayson Kotzur\",\"year\":\"2022\"},{\"position\":\"4Y Hall Rep\",\"name\":\"Anika Jain\",\"year\":\"2021\",\"email\":\"aaj@rice.edu\"},{\"position\":\"4O Hall Rep\",\"name\":\"Emily Duffus\",\"year\":\"2021\"},{\"position\":\"5th Floor Rep\",\"name\":\"Saanya Bhargava\",\"year\":\"2023\"},{\"position\":\"Off Campus\",\"name\":\"This could be you! :)\"},{\"position\":\"RPC Rep\",\"name\":\"Samantha Cheng\",\"year\":\"2022\",\"email\":\"slc10@rice.edu\"},{\"position\":\"U Court Rep\",\"name\":\"Prince Alino\",\"year\":\"2023\"},{\"position\":\"First Year Rep\",\"name\":\"Maybe you'd be interested in this? ;)\"},{\"position\":\"First Year Rep\",\"name\":\"or this? :)\"},{\"position\":\"First Year Rep\",\"name\":\"Seriously, this position is open :)\"},{\"position\":\"Sophomore Class Rep\",\"name\":\"Rajpal Bal\",\"year\":\"2023\"},{\"position\":\"Sophomore Class Rep\",\"name\":\"Ellice Gao\",\"year\":\"2023\"},{\"position\":\"Sophomore Class Rep\",\"name\":\"Joshua Miller\",\"year\":\"2023\"},{\"position\":\"Junior Class Rep\",\"name\":\"Callie Carnahan\",\"year\":\"2022\"},{\"position\":\"Junior Class Rep\",\"name\":\"Krishna Chandra\",\"year\":\"2022\"},{\"position\":\"Junior Class Rep\",\"name\":\"Alyson Resnick\",\"year\":\"2022\"}],\"mccabinet\":[{\"position\":\"Honor Council Rep\",\"name\":\"Joy Wang\",\"year\":\"2021\"},{\"position\":\"Parliamentarian\",\"name\":\"Emily Duffus\",\"year\":\"2021\",\"email\":\"mcmurtryparliamentarian@gmail.com\"}]}");
+module.exports = JSON.parse("{\"strive_liaisons\":{\"description\":\"STRIVE is a student-driven coalition that empowers all members of the Rice community to play an active role in eliminating gender-based inequality and sexual violence. We do this by engaging in positive, open dialogue, pooling on and off-campus resources, and providing the tools and skills necessary to create cultural change.\",\"members\":[{\"name\":\"Emily Duffus\",\"phone\":\"(973) 508-6538\",\"email\":\"ekd2@rice.edu\"},{\"name\":\"Morgan Gage\",\"email\":\"mag26@rice.edu\"},{\"name\":\"Sarah Swackhamer\",\"email\":\"sws5@rice.edu\"},{\"name\":\"Callie Carnahan\",\"email\":\"cfc2@rice.edu\"}]},\"RHAs\":{\"description\":\"RHAs are students who have been trained on a variety of wellbeing topics. These students work at their college to provide health education opportunities, health supplies and peer guidance. RHAs also act as a liaison between the Student Wellbeing Office and the residential colleges, staying up to date on campus-wide wellbeing programming.\",\"members\":[{\"name\":\"Akshaya Venkatesh\",\"phone\":\"(805) 428-9475\",\"room\":\"544\"},{\"name\":\"Rishi Vas\",\"phone\":\"(214) 603-1931\",\"room\":\"447\"},{\"name\":\"Alex Curylo\",\"phone\":\"(314) 971-0876\",\"room\":\"OC\"},{\"name\":\"Emily Duffus\",\"phone\":\"(973) 508-6538\",\"room\":\"230\"},{\"name\":\"Melodi Doganay\",\"phone\":\"(631) 605-6494\",\"room\":\"477\"},{\"name\":\"Caleb Robinson\",\"phone\":\"(601) 818-4858\",\"room\":\"273\"},{\"name\":\"Aaron Vaughan\",\"phone\":\"(469) 247-2607\",\"room\":\"323\"},{\"name\":\"Jennifer Ho\",\"phone\":\"(832) 773-2341\",\"room\":\"328\"}]},\"head_caregivers\":{\"description\":\"Head Caregivers for McMurtry College.\",\"members\":[{\"name\":\"Akshaya Venkatesh\",\"phone\":\"(805) 428-9475\",\"room\":\"\"},{\"name\":\"Lucy Hernandez\",\"phone\":\"\",\"room\":\"\"}]}}");
 
 /***/ }),
 
@@ -2019,21 +1931,21 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fpeople%2Fmcministry&absolutePagePath=%2FUsers%2Fshaquillewyanque%2Fgit%2FMcMurtry-Website%2Fpages%2Fpeople%2Fmcministry.js!./":
-/*!*********************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fpeople%2Fmcministry&absolutePagePath=%2FUsers%2Fshaquillewyanque%2Fgit%2FMcMurtry-Website%2Fpages%2Fpeople%2Fmcministry.js ***!
-  \*********************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fpeople%2Fstriveliaisons&absolutePagePath=%2FUsers%2Fshaquillewyanque%2Fgit%2FMcMurtry-Website%2Fpages%2Fpeople%2Fstriveliaisons.js!./":
+/*!*****************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fpeople%2Fstriveliaisons&absolutePagePath=%2FUsers%2Fshaquillewyanque%2Fgit%2FMcMurtry-Website%2Fpages%2Fpeople%2Fstriveliaisons.js ***!
+  \*****************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/people/mcministry", function() {
-      var mod = __webpack_require__(/*! ./pages/people/mcministry.js */ "./pages/people/mcministry.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/people/striveliaisons", function() {
+      var mod = __webpack_require__(/*! ./pages/people/striveliaisons.js */ "./pages/people/striveliaisons.js")
       if(true) {
-        module.hot.accept(/*! ./pages/people/mcministry.js */ "./pages/people/mcministry.js", function() {
-          if(!next.router.components["/people/mcministry"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/people/mcministry.js */ "./pages/people/mcministry.js")
-          next.router.update("/people/mcministry", updatedPage)
+        module.hot.accept(/*! ./pages/people/striveliaisons.js */ "./pages/people/striveliaisons.js", function() {
+          if(!next.router.components["/people/striveliaisons"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/people/striveliaisons.js */ "./pages/people/striveliaisons.js")
+          next.router.update("/people/striveliaisons", updatedPage)
         })
       }
       return mod
@@ -10211,10 +10123,10 @@ var colorStyle = variant({
 
 /***/ }),
 
-/***/ "./pages/people/mcministry.js":
-/*!************************************!*\
-  !*** ./pages/people/mcministry.js ***!
-  \************************************/
+/***/ "./pages/people/striveliaisons.js":
+/*!****************************************!*\
+  !*** ./pages/people/striveliaisons.js ***!
+  \****************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -10226,11 +10138,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_navbar_navbarDesktop__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/navbar/navbarDesktop */ "./components/navbar/navbarDesktop.js");
 /* harmony import */ var _components_navbar_navbarMobile__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/navbar/navbarMobile */ "./components/navbar/navbarMobile.js");
 /* harmony import */ var _components_general_footer_footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/general/footer/footer */ "./components/general/footer/footer.js");
-/* harmony import */ var _components_people_mcministry_mcministry__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/people/mcministry/mcministry */ "./components/people/mcministry/mcministry.js");
+/* harmony import */ var _components_people_wellbeing_strive_liaisons__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/people/wellbeing/strive_liaisons */ "./components/people/wellbeing/strive_liaisons.js");
 /* harmony import */ var _components_general_page_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/general/page.css */ "./components/general/page.css");
 /* harmony import */ var _components_general_page_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_components_general_page_css__WEBPACK_IMPORTED_MODULE_6__);
 var _this = undefined,
-    _jsxFileName = "/Users/shaquillewyanque/git/McMurtry-Website/pages/people/mcministry.js";
+    _jsxFileName = "/Users/shaquillewyanque/git/McMurtry-Website/pages/people/striveliaisons.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -10241,7 +10153,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-var McMinistryPage = function McMinistryPage() {
+var StriveLiaisonsPage = function StriveLiaisonsPage() {
   return __jsx("div", {
     className: "page",
     __self: _this,
@@ -10271,7 +10183,7 @@ var McMinistryPage = function McMinistryPage() {
       lineNumber: 12,
       columnNumber: 9
     }
-  }), __jsx(_components_people_mcministry_mcministry__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }), __jsx(_components_people_wellbeing_strive_liaisons__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -10288,18 +10200,18 @@ var McMinistryPage = function McMinistryPage() {
   }));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (McMinistryPage);
+/* harmony default export */ __webpack_exports__["default"] = (StriveLiaisonsPage);
 
 /***/ }),
 
 /***/ 7:
-/*!*************************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fpeople%2Fmcministry&absolutePagePath=%2FUsers%2Fshaquillewyanque%2Fgit%2FMcMurtry-Website%2Fpages%2Fpeople%2Fmcministry.js ***!
-  \*************************************************************************************************************************************************************************/
+/*!*********************************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fpeople%2Fstriveliaisons&absolutePagePath=%2FUsers%2Fshaquillewyanque%2Fgit%2FMcMurtry-Website%2Fpages%2Fpeople%2Fstriveliaisons.js ***!
+  \*********************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fpeople%2Fmcministry&absolutePagePath=%2FUsers%2Fshaquillewyanque%2Fgit%2FMcMurtry-Website%2Fpages%2Fpeople%2Fmcministry.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fpeople%2Fmcministry&absolutePagePath=%2FUsers%2Fshaquillewyanque%2Fgit%2FMcMurtry-Website%2Fpages%2Fpeople%2Fmcministry.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fpeople%2Fstriveliaisons&absolutePagePath=%2FUsers%2Fshaquillewyanque%2Fgit%2FMcMurtry-Website%2Fpages%2Fpeople%2Fstriveliaisons.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fpeople%2Fstriveliaisons&absolutePagePath=%2FUsers%2Fshaquillewyanque%2Fgit%2FMcMurtry-Website%2Fpages%2Fpeople%2Fstriveliaisons.js!./");
 
 
 /***/ }),
@@ -10316,4 +10228,4 @@ module.exports = dll_817bc00842ec66b68155;
 /***/ })
 
 },[[7,"static/runtime/webpack.js","styles"]]]);
-//# sourceMappingURL=mcministry.js.map
+//# sourceMappingURL=striveliaisons.js.map

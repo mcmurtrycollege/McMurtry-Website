@@ -29,7 +29,7 @@ webpackHotUpdate("styles",{
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1590026001479");
+            injectCss(link, link.href.split("?")[0] + "?unix=1590026589616");
           });
       }
     }
@@ -66,7 +66,7 @@ webpackHotUpdate("styles",{
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1590026001485");
+            injectCss(link, link.href.split("?")[0] + "?unix=1590026589622");
           });
       }
     }
@@ -103,7 +103,7 @@ webpackHotUpdate("styles",{
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1590026001330");
+            injectCss(link, link.href.split("?")[0] + "?unix=1590026589465");
           });
       }
     }
@@ -111,10 +111,10 @@ webpackHotUpdate("styles",{
 
 /***/ }),
 
-/***/ "./components/people/mcministry/mcministry.css":
-/*!*****************************************************!*\
-  !*** ./components/people/mcministry/mcministry.css ***!
-  \*****************************************************/
+/***/ "./components/people/wellbeing/wellbeing.css":
+/*!***************************************************!*\
+  !*** ./components/people/wellbeing/wellbeing.css ***!
+  \***************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -140,7 +140,7 @@ webpackHotUpdate("styles",{
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1590026001409");
+            injectCss(link, link.href.split("?")[0] + "?unix=1590026589536");
           });
       }
     }
@@ -149,4 +149,4 @@ webpackHotUpdate("styles",{
 /***/ })
 
 })
-//# sourceMappingURL=styles.225bebbed24df4ebe2cf.hot-update.js.map
+//# sourceMappingURL=styles.c9a880f8477fd0bb7845.hot-update.js.map

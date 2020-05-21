@@ -3,19 +3,21 @@
     "description": "STRIVE is a student-driven coalition that empowers all members of the Rice community to play an active role in eliminating gender-based inequality and sexual violence. We do this by engaging in positive, open dialogue, pooling on and off-campus resources, and providing the tools and skills necessary to create cultural change.",
     "members": [
       {
-        "name": "Morgan Gage",
-        "phone": "",
-        "room": ""
-      },
-      {
         "name": "Emily Duffus",
         "phone": "(973) 508-6538",
-        "room": ""
+        "email": "ekd2@rice.edu"
       },
       {
-        "name": "Melodi Doganay",
-        "phone": "(631) 605-6494",
-        "room": ""
+        "name": "Morgan Gage",
+        "email": "mag26@rice.edu"
+      },
+      {
+        "name": "Sarah Swackhamer",
+        "email": "sws5@rice.edu"
+      },
+      {
+        "name": "Callie Carnahan",
+        "email": "cfc2@rice.edu"
       }
     ]
   },

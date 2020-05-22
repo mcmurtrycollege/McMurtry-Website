@@ -71,22 +71,26 @@
     {
       "position": "2Y Hall Rep",
       "name": "Aman Shanbhag",
-      "year": "2023"
+      "year": "2023",
+      "email": "as212@rice.edu"
     },
     {
       "position": "2O Hall Rep",
       "name": "Chloe Liebenthal",
-      "year": "2023"
+      "year": "2023",
+      "email": "csl11@rice.edu"
     },
     {
       "position": "3Y Hall Rep",
       "name": "Megan Liu",
-      "year": "2022"
+      "year": "2022",
+      "email": "mjl7@rice.edu"
     },
     {
       "position": "3O Hall Rep",
       "name": "Grayson Kotzur",
-      "year": "2022"
+      "year": "2022",
+      "email": "gak3@rice.edu"
     },
     {
       "position": "4Y Hall Rep",
@@ -97,12 +101,14 @@
     {
       "position": "4O Hall Rep",
       "name": "Emily Duffus",
-      "year": "2021"
+      "year": "2021",
+      "email": "ekd2@rice.edu"
     },
     {
       "position": "5th Floor Rep",
       "name": "Saanya Bhargava",
-      "year": "2023"
+      "year": "2023",
+      "email": "sb102@rice.edu"
     },
     {
       "position": "Off Campus",
@@ -117,7 +123,8 @@
     {
       "position": "U Court Rep",
       "name": "Prince Alino",
-      "year": "2023"
+      "year": "2023",
+      "email": "pca3@rice.edu"
     },
     {
       "position": "First Year Rep",
@@ -128,45 +135,52 @@
       "name": "or this? :)"
     },
     {
-        "position": "First Year Rep",
-        "name": "Seriously, this position is open :)"
+      "position": "First Year Rep",
+      "name": "Seriously, this position is open :)"
     },
     {
       "position": "Sophomore Class Rep",
       "name": "Rajpal Bal",
-      "year": "2023"
+      "year": "2023",
+      "email": "rsb4@rice.edu"
     },
     {
       "position": "Sophomore Class Rep",
       "name": "Ellice Gao",
-      "year": "2023"
+      "year": "2023",
+      "email": "eyg3@rice.edu"
     },
     {
       "position": "Sophomore Class Rep",
       "name": "Joshua Miller",
-      "year": "2023"
+      "year": "2023",
+      "email": "jjm11@rice.edu"
     },
     {
       "position": "Junior Class Rep",
       "name": "Callie Carnahan",
-      "year": "2022"
+      "year": "2022",
+      "email": "cfc2@rice.edu"
     },
     {
       "position": "Junior Class Rep",
       "name": "Krishna Chandra",
-      "year": "2022"
+      "year": "2022",
+      "email": "kc60@rice.edu"
     },
     {
       "position": "Junior Class Rep",
       "name": "Alyson Resnick",
-      "year": "2022"
+      "year": "2022",
+      "email": "amr21@rice.edu"
     }
   ],
   "mccabinet": [
     {
       "position": "Honor Council Rep",
       "name": "Joy Wang",
-      "year": "2021"
+      "year": "2021",
+      "email": "sw59@rice.edu"
     },
     {
       "position": "Parliamentarian",

@@ -922,7 +922,7 @@ var McTeam = /*#__PURE__*/function (_React$Component) {
           columnNumber: 21
         }
       }, _mcteam_json__WEBPACK_IMPORTED_MODULE_10__["mcteam_positions"][this.state.current].names), __jsx(rebass__WEBPACK_IMPORTED_MODULE_7__["Box"], {
-        width: [0.8, 0.6],
+        width: [0.8, 0.5],
         mx: "auto",
         __self: this,
         __source: {
@@ -10162,7 +10162,7 @@ var McTeamPage = function McTeamPage() {
 
 /***/ }),
 
-/***/ 7:
+/***/ 2:
 /*!*****************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fpeople%2Fmcteam&absolutePagePath=%2FUsers%2Fshaquillewyanque%2Fgit%2FMcMurtry-Website%2Fpages%2Fpeople%2Fmcteam.js ***!
   \*****************************************************************************************************************************************************************/
@@ -10185,5 +10185,5 @@ module.exports = dll_817bc00842ec66b68155;
 
 /***/ })
 
-},[[7,"static/runtime/webpack.js","styles"]]]);
+},[[2,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=mcteam.js.map

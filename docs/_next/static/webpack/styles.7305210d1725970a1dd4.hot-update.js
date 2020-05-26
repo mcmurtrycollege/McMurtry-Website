@@ -29,13 +29,19 @@ webpackHotUpdate("styles",{
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1590458353283");
+            injectCss(link, link.href.split("?")[0] + "?unix=1590476064742");
           });
       }
     }
   
 
-/***/ })
+/***/ }),
+
+/***/ "./components/splashpage/intropage.css":
+false,
+
+/***/ 5:
+false
 
 })
-//# sourceMappingURL=styles.593c886536fc701744ff.hot-update.js.map
+//# sourceMappingURL=styles.7305210d1725970a1dd4.hot-update.js.map

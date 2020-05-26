@@ -1,4 +1,216 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/people/mcteam.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/people/academicfellows.js"],{
+
+/***/ "./components/general/contactcards.js":
+/*!********************************************!*\
+  !*** ./components/general/contactcards.js ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rebass */ "./node_modules/rebass/dist/index.js");
+/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(rebass__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _contactcards_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./contactcards.css */ "./components/general/contactcards.css");
+/* harmony import */ var _contactcards_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_contactcards_css__WEBPACK_IMPORTED_MODULE_2__);
+var _this = undefined,
+    _jsxFileName = "/Users/shaquillewyanque/git/McMurtry-Website/components/general/contactcards.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+var Card = function Card(props) {
+  return __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+    className: "position-card",
+    width: props.width,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6,
+      columnNumber: 5
+    }
+  }, __jsx("div", {
+    className: "contact-card-content",
+    style: {
+      height: props.height
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 9
+    }
+  }, props.position !== undefined ? __jsx("h2", {
+    className: "position",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 21
+    }
+  }, props.position) : null, __jsx("h2", {
+    className: "name",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 13
+    }
+  }, props.name), props.phone !== undefined ? __jsx("h3", {
+    className: "contact-phone",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 21
+    }
+  }, __jsx("img", {
+    src: "https://icon.now.sh/call/422a4C/16",
+    alt: "Phone: ",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 51
+    }
+  }), ' ', props.phone) : null, props.email !== undefined ? __jsx("a", {
+    href: "mailto:".concat(props.email),
+    className: "link",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 21
+    }
+  }, __jsx("h3", {
+    className: "contact-email",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 25
+    }
+  }, __jsx("img", {
+    src: "https://icon.now.sh/arrow/422a4C/8",
+    alt: "Email: ",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 55
+    }
+  }), ' ', props.email)) : null, props.year !== undefined ? __jsx("h4", {
+    className: "year",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 21
+    }
+  }, "Year: ", props.year) : null, props.major !== undefined ? __jsx("h2", {
+    className: "major",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 21
+    }
+  }, __jsx("img", {
+    src: "https://icon.now.sh/school/2B2F3A/16",
+    alt: "Major: ",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 43
+    }
+  }), " ", props.major) : null, props.subjects !== undefined ? __jsx("h2", {
+    className: "subjects",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 21
+    }
+  }, __jsx("img", {
+    src: "https://icon.now.sh/local_library/2B2F3A/16",
+    alt: "Subjects: ",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 46
+    }
+  }), " ", props.subjects) : null, props.room !== undefined ? __jsx("h2", {
+    className: "room",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56,
+      columnNumber: 21
+    }
+  }, "Room: ", props.room) : null));
+};
+
+var Cards = function Cards(props) {
+  return __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+    width: [1, 1, 0.9, 0.8],
+    ml: "auto",
+    mr: "auto",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 66,
+      columnNumber: 5
+    }
+  }, __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
+    flexWrap: "wrap",
+    flexDirection: "row",
+    justifyContent: "center",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 67,
+      columnNumber: 9
+    }
+  }, props.content.map(function (_ref) {
+    var position = _ref.position,
+        name = _ref.name,
+        year = _ref.year,
+        email = _ref.email,
+        phone = _ref.phone,
+        major = _ref.major,
+        subjects = _ref.subjects,
+        room = _ref.room;
+    return __jsx(Card, {
+      height: props.height,
+      width: props.width,
+      key: name,
+      position: position,
+      name: name,
+      year: year,
+      email: email,
+      phone: phone,
+      major: major,
+      subjects: subjects,
+      room: room,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 70,
+        columnNumber: 21
+      }
+    });
+  })));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Cards);
+
+/***/ }),
 
 /***/ "./components/general/footer/footer.js":
 /*!*********************************************!*\
@@ -756,43 +968,29 @@ var Navbar = /*#__PURE__*/function (_React$Component) {
 
 /***/ }),
 
-/***/ "./components/people/mcteam/mcteam.js":
-/*!********************************************!*\
-  !*** ./components/people/mcteam/mcteam.js ***!
-  \********************************************/
+/***/ "./components/people/fellows/fellows.js":
+/*!**********************************************!*\
+  !*** ./components/people/fellows/fellows.js ***!
+  \**********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return McTeam; });
-/* harmony import */ var _babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
-/* harmony import */ var _babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
-/* harmony import */ var _babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js");
-/* harmony import */ var _babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! rebass */ "./node_modules/rebass/dist/index.js");
-/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(rebass__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _mcteam_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./mcteam.css */ "./components/people/mcteam/mcteam.css");
-/* harmony import */ var _mcteam_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_mcteam_css__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _general_title__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../general/title */ "./components/general/title.js");
-/* harmony import */ var _mcteam_json__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./mcteam.json */ "./components/people/mcteam/mcteam.json");
-var _mcteam_json__WEBPACK_IMPORTED_MODULE_10___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./mcteam.json */ "./components/people/mcteam/mcteam.json", 1);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rebass */ "./node_modules/rebass/dist/index.js");
+/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(rebass__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _general_title__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../general/title */ "./components/general/title.js");
+/* harmony import */ var _general_contactcards__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../general/contactcards */ "./components/general/contactcards.js");
+/* harmony import */ var _fellows_json__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./fellows.json */ "./components/people/fellows/fellows.json");
+var _fellows_json__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./fellows.json */ "./components/people/fellows/fellows.json", 1);
+/* harmony import */ var _fellows_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./fellows.css */ "./components/people/fellows/fellows.css");
+/* harmony import */ var _fellows_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_fellows_css__WEBPACK_IMPORTED_MODULE_5__);
+var _this = undefined,
+    _jsxFileName = "/Users/shaquillewyanque/git/McMurtry-Website/components/people/fellows/fellows.js";
 
-
-
-
-
-
-var _jsxFileName = "/Users/shaquillewyanque/git/McMurtry-Website/components/people/mcteam/mcteam.js";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement;
-
-function _createSuper(Derived) { return function () { var Super = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(Derived), result; if (_isNativeReflectConstruct()) { var NewTarget = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return Object(_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__["default"])(this, result); }; }
-
-function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
@@ -800,222 +998,70 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Re
 
 
 
-var McTeam = /*#__PURE__*/function (_React$Component) {
-  Object(_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(McTeam, _React$Component);
-
-  var _super = _createSuper(McTeam);
-
-  function McTeam(props) {
-    var _this;
-
-    Object(_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, McTeam);
-
-    _this = _super.call(this, props);
-    _this.state = {
-      current: 0
-    };
-    _this.handleEvent = _this.handleEvent.bind(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this));
-    return _this;
-  }
-
-  Object(_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(McTeam, [{
-    key: "handleEvent",
-    value: function handleEvent(index) {
-      this.setState({
-        current: index
-      });
+var AcademicFellows = function AcademicFellows() {
+  return __jsx("div", {
+    className: "fellows-page",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9,
+      columnNumber: 5
     }
-  }, {
-    key: "render",
-    value: function render() {
-      var _this2 = this;
-
-      var keys = [];
-
-      var _loop = function _loop(n) {
-        keys.push(__jsx(rebass__WEBPACK_IMPORTED_MODULE_7__["Box"], {
-          key: _mcteam_json__WEBPACK_IMPORTED_MODULE_10__["mcteam_positions"][n].position,
-          __self: _this2,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 25,
-            columnNumber: 17
-          }
-        }, __jsx("div", {
-          onClick: function onClick() {
-            return _this2.handleEvent(n);
-          },
-          className: _this2.state.current === n ? "active-key" : "inactive-key",
-          __self: _this2,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 26,
-            columnNumber: 21
-          }
-        }, __jsx("p", {
-          className: "mcteam-key",
-          __self: _this2,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 28,
-            columnNumber: 25
-          }
-        }, _mcteam_json__WEBPACK_IMPORTED_MODULE_10__["mcteam_positions"][n].position))));
-      };
-
-      for (var n = 0; n < _mcteam_json__WEBPACK_IMPORTED_MODULE_10__["mcteam_positions"].length; n++) {
-        _loop(n);
-      }
-
-      return __jsx("div", {
-        className: "mcteam-page",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 35,
-          columnNumber: 13
-        }
-      }, __jsx(_general_title__WEBPACK_IMPORTED_MODULE_9__["default"], {
-        title: "McTeam",
-        width: 200,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 36,
-          columnNumber: 17
-        }
-      }), __jsx("div", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 37,
-          columnNumber: 17
-        }
-      }, __jsx(rebass__WEBPACK_IMPORTED_MODULE_7__["Flex"], {
-        justifyContent: "center",
-        flex: "wrap",
-        flexDirection: "row",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 38,
-          columnNumber: 21
-        }
-      }, keys)), __jsx(rebass__WEBPACK_IMPORTED_MODULE_7__["Box"], {
-        width: [1, 0.9, 0.8, 0.7],
-        ml: "auto",
-        mr: "auto",
-        mb: 50,
-        className: "position-content",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 42,
-          columnNumber: 17
-        }
-      }, __jsx("h2", {
-        className: "mcteam-name",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 43,
-          columnNumber: 21
-        }
-      }, _mcteam_json__WEBPACK_IMPORTED_MODULE_10__["mcteam_positions"][this.state.current].names), __jsx(rebass__WEBPACK_IMPORTED_MODULE_7__["Box"], {
-        width: [0.8, 0.5],
-        mx: "auto",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 44,
-          columnNumber: 21
-        }
-      }, __jsx(rebass__WEBPACK_IMPORTED_MODULE_7__["Image"], {
-        src: _mcteam_json__WEBPACK_IMPORTED_MODULE_10__["mcteam_positions"][this.state.current].image,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 45,
-          columnNumber: 25
-        }
-      })), _mcteam_json__WEBPACK_IMPORTED_MODULE_10__["mcteam_positions"][this.state.current].body.map(function (line) {
-        return __jsx("p", {
-          key: "L-".concat(_mcteam_json__WEBPACK_IMPORTED_MODULE_10__["mcteam_positions"][_this2.state.current].body.indexOf(line)),
-          __self: _this2,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 49,
-            columnNumber: 29
-          }
-        }, line);
-      }), this.state.current === 4 ? __jsx("ul", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 54,
-          columnNumber: 29
-        }
-      }, __jsx("li", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 55,
-          columnNumber: 33
-        }
-      }, "Buy stamps and get envelopes"), __jsx("li", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 56,
-          columnNumber: 33
-        }
-      }, "Pick up mail and packages"), __jsx("li", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 57,
-          columnNumber: 33
-        }
-      }, "Borrow an extra key to your room"), __jsx("li", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 58,
-          columnNumber: 33
-        }
-      }, "Use the staplers, packing tape, scissors, shredder, etc."), __jsx("li", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 59,
-          columnNumber: 33
-        }
-      }, "Get a hug"), __jsx("li", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 60,
-          columnNumber: 33
-        }
-      }, "Do homework or take a study break")) : null));
+  }, __jsx(_general_title__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    width: 340,
+    title: "Academic Fellows",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 9
     }
-  }]);
+  }), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+    width: [1, 0.7, 0.6, 0.5],
+    ml: "auto",
+    mr: "auto",
+    className: "fellows-description",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 9
+    }
+  }, _fellows_json__WEBPACK_IMPORTED_MODULE_4__["fellows_description"]), __jsx("div", {
+    style: {
+      marginTop: '2%'
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 9
+    }
+  }, __jsx(_general_contactcards__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    content: _fellows_json__WEBPACK_IMPORTED_MODULE_4__["fellows"],
+    width: 280,
+    height: 180,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 13
+    }
+  })));
+};
 
-  return McTeam;
-}(react__WEBPACK_IMPORTED_MODULE_6___default.a.Component);
-
-
+/* harmony default export */ __webpack_exports__["default"] = (AcademicFellows);
 
 /***/ }),
 
-/***/ "./components/people/mcteam/mcteam.json":
-/*!**********************************************!*\
-  !*** ./components/people/mcteam/mcteam.json ***!
-  \**********************************************/
-/*! exports provided: mcteam_positions, default */
+/***/ "./components/people/fellows/fellows.json":
+/*!************************************************!*\
+  !*** ./components/people/fellows/fellows.json ***!
+  \************************************************/
+/*! exports provided: fellows_description, fellows, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"mcteam_positions\":[{\"position\":\"Magisters\",\"names\":\"Margaret Beier and Chris Stickney\",\"body\":[\"We are Margaret Beier and Chris Stickney, the Magisters of McMurtry College, and we are thrilled to welcome you to the community!\",\"College Magisters are faculty members who live on campus with their families. We live right next to the college, across from the commons. We are here to foster the intellectual, cultural, and social life at the college and to support you during your years at McMurtry. We are excited to meet you and to nurture the kind, open, and stimulating culture at McMurtry. To do this, we will host events in our home, share meals with you in the commons, and help you navigate your life at the college. We hope that McMurtry will soon feel like your home away from home.\",\"Margaret is a full professor in the Psychology Department. Her specialty is applied psychology, and she studies performance in educational and work settings. She has been at Rice for 13 years, and she loves mentoring the incredibly talented students she has met here. Chris is a high school math teacher at the High School for the Visual and Performing Arts (HSPVA) in Houston. He loves all sports and has been a high school basketball coach for the last 16 years. We are both from Minneapolis, Minnesota and love the color purple (Purple Rain and the Minnesota Vikings). We met in high school and were married in Minnesota but moved to Atlanta, Georgia shortly afterward for graduate school. We have two girls: Lucy, 15, and Liza, 13, who were born in Atlanta. Our kids love watching movies, reading books, creating art, and swimming. We also have our German Shepherds, Felix, who you will see walking Margaret around campus. We are all eager to welcome you to the college!\",\"As new students, you are an important part of McMurtry. We will all work together to energize our community. Keep in mind, McMurtry is your college – the BEST residential college at Rice. We encourage you to have fun, ask questions, be safe, be active, and be creative. We will do our best to support your vision for McMurtry. We look forward to meeting every one of you!\"]},{\"position\":\"Head Resident Fellows\",\"names\":\"Brian Gibson and Alana Lemay-Gibson\",\"body\":[\"Hello Murts! We would like to tell you a little about ourselves so that you will know who keeps walking their heavy-breathing bulldog all around the building.\",\"Alana is from Providence, RI, and Brian is from the rural town of Rehoboth, MA. Both of us have been in Texas for a long time so our accents have been diluted. Alana received her BA in Anthropology from UT Austin and her MED in Educational Anthropology from the University of Houston. Brian received his BA in Kinesiology, and his MA and PhD in Exercise Physiology from UT Austin. We were married in Austin, TX in December of 1995.\",\"Brian accepted a faculty position in the Department of Kinesiology at Rice in 1996, where he currently serves as Clinical Professor teaching Human Physiology, Exercise Physiology, and preventative medicine related courses. In 2004, he also assumed a new role in Academic Advising, and with a few changes over the years, he currently serves as the Senior Associate Dean of Undergraduates. In this role, he has responsibilities for the Office of Academic Advising, Center for Career Development, Center for Teaching Excellence, and Office of Study Abroad. He is also responsible for support of the campus wide Residential Colleges and Associates Program.\",\"After Alana finished her education, she transitioned to working in software development and technology management. Currently, she works as the Director of Project Management and part of the leadership team for OpenStax at Rice University. OpenStax is a nonprofit organization committed to improving student access to quality learning materials. For more information, please visit openstax.org.\",\"We both have lots of personal interests. We absolutely love, and dote on our dog, “Bogie Theodore Gibson”, and we enjoy travel, exercise, and spending time with family and friends. We also have separate personal interests. Alana enjoys books, music, cooking, and art. Brian enjoys playing and coaching sports, lifting weights, wildlife, and photography. We have been living with students in the residential colleges since we arrived in Houston in 1996, but we were “promoted” to McMurtry in 2014. As you can tell, we like college life. In fact, we’re not sure we can remember what it is like to NOT be in college. We consider ourselves non-judgmental adults who are here to share our lives with Murts to whatever extent they wish.\"]},{\"position\":\"Second Floor RAs\",\"names\":\"Tamara Cobb\",\"body\":[\"Hello and welcome! We are the 2nd floor RAs- Tamara, Seraphina, Aura, and Lila - and we are so excited to be a part of the McMurtry family!\",\"Tamara is an Assistant Director of Academic Advising here at Rice and was born and raised in Houston. She has an MA in Sociology and loves learning about human variation in every form – cultural, familial, personality, life choices, etc. This means she will want to learn all about your life story, so get ready! She hates chocolate, cinnamon, caramel, and peanut butter (she hopes this isn’t a deal-breaker for you) but loves strawberry, cherry, vanilla, and Funfetti! She also enjoys color consulting, wildlife and outdoor adventure shows and books, and games of all sorts – bowling, board games, video games, you name it.\",\"We enjoy reading, curating relaxing music playlists, travel planning, and watching and re-watching beloved TV series like The Simpsons, The Sopranos, The Wire, The Americans, and Game of Thrones, among others.\",\"Seraphina is a Rising Kindergartner and enjoys creating her own songs and accompanying dance routines, reading, constructing buildings with Legos and Magna-tiles, and swimming. Aura is 3 ½ and enjoys climbing things and people, creating elaborate vignettes with Paw Patrol and Peppa Pig figurines, and shriek-cackling. Lila is approaching 2 ½ and enjoys eating all of the food on our planet (impressively with only 4 teeth), smiling just because, throwing random objects off of the back of the couch or out of her playpen, and marathon naps. Together, they enjoy the Moana soundtrack, rainbows and rainbow accessories, and ball pits.\",\"We welcome you to stop by and talk to us anywhere around McMurtry and we can’t wait to get to know all of you!\"]},{\"position\":\"Third Floor RA\",\"names\":\"Deirdre Hunter\",\"body\":[\"Hello Murts! I am Deirdre Hunter, your new 3rd floor RA. I along with my two pups, Sandy and Nexus, are thrilled to welcome you with open arms and paws. I am a Lecturer of Engineering Design at the Oshman Engineering Design Kitchen (OEDK). In addition to teaching design courses for the Engineering Design Minor, I mentor students in the Sustaining Excellence in Research (SER) Scholars program, and teach in two Rice summer programs – Summer Experience in Engineering Design (SEED) and Rice Emerging Scholars Program (RESP). I received a B.S. in Mechanical Engineering from Syracuse University and a PhD in Engineering Education from Virginia Tech (Go Hokies!). My research has focused on developing learner-centered environments in engineering classrooms, and teaching and learning metacognitive skills. I love thinking deeply and philosophizing about higher education systems and learning more broadly. Some of my hobbies include: playing games (from cards and board games, to organized sports and wacky competitions, I am game!), cheering on our Houston sports teams (Go Astros!!), drinking coffee (totally addicted, and no shame!) and finding great conversations.\",\"But most of all, I’m passionate about people. For me, it has always been more about who I am sharing moments with, than what I am doing in that moment. My personal life vision is “to build inclusive community” and I think every person has a deep desire to be known. Knowing someone starts with listening, and when we are truly known we begin to feel like we belong to a shared experience. So, let’s sit together over a meal or a cup of coffee; I am eager to hear your story!!\",\"Sandy is a five-year-old dachshund-beagle mix. She was born on the streets in Mexico and one afternoon, she found her way to my front gate, and eventually into my heart and my family. When I moved back to the States, she came with me. She loves naps, sun bathing, belly rubs, and doesn’t miss a meal!! Nexus is a five-year-old collie-Australian shepherd mix who started as my foster dog. He had lots of anxiety in the beginning, and through working with a trainer he has turned into a wonderful companion. I eventually realized that the best home for him was the one he already had. So he became my foster-failure and the third member of our little family. Nexus loves people, walks, and rough housing.\"]},{\"position\":\"College Coordinator\",\"names\":\"Jackie Carrizales\",\"body\":[\"My name is Jackie Carrizales, and I am the McMurtry College Coordinator. My office is on the ground floor right outside the door to the commons. I love visiting with students and hearing about what is going on with their lives, so please stop by anytime to hang out or just to say Hi!\",\"There are some very comfortable couches and chairs, and I don’t even mind if you take a nap. Plus, I have candy! I have been the coordinator here since the week before O-Week in 2015, but I have been an associate at McMurtry since it opened in the Summer of 2009. I was so excited to be able to be a part of a college from the beginning and see the start of all of the traditions that make each college unique. I can’t believe that I’m lucky enough to spend every day here now, and I get paid for it!\",\"I have worked for Rice since 2009. Before coming to McMurtry, I worked for 6 years in the Office of Admission. I am married to Marc, and we have three sons, Max (22), Luke (21), and Leo (18). We also have two dogs, Mikey and Azura. I am a huge Astros & Rockets fan and will happily talk sports with you at any time.\",\"Things you can do in my office:\"],\"image\":\"../../../static/mcteam/JackieCarrizales.jpeg\"}]}");
+module.exports = JSON.parse("{\"fellows_description\":\"Fellows are upperclassmen who were selected based on proven academic achievement and demonstrated willingness to help fellow students. As part of their charge, Fellows provide free academic assistance on a regular basis through advertised review sessions, “office hours” in the college commons, and individual tutoring by request.\",\"fellows\":[{\"name\":\"Chatham Abate\",\"email\":\"caa8@rice.edu\",\"major\":\"Computer Science\",\"subjects\":\"COMP\"},{\"name\":\"Hannah Boyd\",\"email\":\"hrb3@rice.edu\",\"major\":\"Biochemistry and Cell Biology\",\"subjects\":\"BIOC 301\"},{\"name\":\"Lily Cao\",\"email\":\"ljc4@rice.edu\",\"major\":\"Psychology, Managerial Studies, Business Minor\",\"subjects\":\"BUSI\"},{\"name\":\"Callie Carnahan\",\"email\":\"cfc2@rice.edu\",\"major\":\"History\",\"subjects\":\"HIST\"},{\"name\":\"Krishna Chandra\",\"email\":\"kc60@rice.edu\",\"major\":\"Biochemistry and Cell Biology, Global Health Minor\",\"subjects\":\"BIOC 201\"},{\"name\":\"Tracey Dibbs\",\"email\":\"td19@rice.edu\",\"major\":\"Kinesiology\",\"subjects\":\"FWIS, writing\"},{\"name\":\"Natalie Festa\",\"email\":\"ncf1@rice.edu\",\"major\":\"Anthropology, Social Policy Analysis; Politics, Law, and Social Thought Minor\",\"subjects\":\"SOCI, writing\"},{\"name\":\"Anna Girardeau\",\"email\":\"arg10@rice.edu\",\"major\":\"Ecology and Evolutionary Biology, Kinesiology\",\"subjects\":\"EBIO\"},{\"name\":\"Athena Hagerman\",\"email\":\"ach11@rice.edu\",\"major\":\"Linguistics, Cognitive Sciences\",\"subjects\":\"LING\"},{\"name\":\"Catherine Hettler\",\"email\":\"cjh12@rice.edu\",\"major\":\"Psychology, Visual and Dramatic Arts\",\"subjects\":\"VADA\"},{\"name\":\"Anika Jain\",\"email\":\"aaj11@rice.edu\",\"major\":\"Economics, Social Policy Analysis\",\"subjects\":\"POLI\"},{\"name\":\"Rohini Kumar\",\"email\":\"rk58@rice.edu\",\"major\":\"Neuroscience\",\"subjects\":\"NEUR\"},{\"name\":\"Ben Lasota\",\"email\":\"bjl8@rice.edu\",\"major\":\"Biological Engineering, Mathematics Minor\",\"subjects\":\"MATH 101/102, 211/212\"},{\"name\":\"Megan Liu\",\"email\":\"mjl7@rice.edu\",\"major\":\"Cognitive Sciences\",\"subjects\":\"ECON 100/203\"},{\"name\":\"Annie Lu\",\"email\":\"ajl9@rice.edu\",\"major\":\"Economics, Biochemistry and Cell Biology Minor\",\"subjects\":\"CHEM 121/122\"},{\"name\":\"Nicholas Meisburger\",\"email\":\"ncm5@rice.edu\",\"major\":\"Computer Science, Mathematics Minor\",\"subjects\":\"COMP \"},{\"name\":\"Sana Mohamed\",\"email\":\"sam22@rice.edu\",\"major\":\"Social Policy Analysis, Health Sciences, Sociology Minor\",\"subjects\":\"SOCI, presentations \"},{\"name\":\"Rachel Moore\",\"email\":\"rcm7@rice.edu\",\"major\":\"Economics, Social Policy Analysis, Mathematics Minor\",\"subjects\":\"ECON \"},{\"name\":\"Olivia Morris\",\"email\":\"ojm2@rice.edu\",\"major\":\"Cognitive Sciences, Sociology Minor\",\"subjects\":\"PSYC\"},{\"name\":\"Amy Mu\",\"email\":\"awm6@@rice.edu\",\"major\":\"Biochemistry, Kinesiology\",\"subjects\":\"PHYS 125/126\"},{\"name\":\"Mariana Najera\",\"email\":\"mn39@rice.edu\",\"major\":\"Religion, Anthropology, Ancient Mediterranean Civilizations\",\"subjects\":\"ANTH, RELI, SPAN\"},{\"name\":\"Shaquille Que\",\"email\":\"stq1@rice.edu\",\"major\":\"Computer Science, Mathematics\",\"subjects\":\"MATH\"},{\"name\":\"Caleb Robinson\",\"email\":\"csr4@rice.edu\",\"major\":\"Physics, Mathematics Minor\",\"subjects\":\"PHYS 101/102, 111/112\"},{\"name\":\"Clay Siminski\",\"email\":\"cps4@rice.edu\",\"major\":\"Biochemistry\",\"subjects\":\"CHEM 211/212\"},{\"name\":\"Sarah Swackhamer\",\"email\":\"sws5@rice.edu\",\"major\":\"Chemistry, English\",\"subjects\":\"ENGL\"},{\"name\":\"Aaron Vaughan\",\"email\":\"amv11@rice.edu\",\"major\":\"Psychology, Sociology, Neuroscience Minor, Center for Civic Leadership Certificate\",\"subjects\":\"SOCI\"},{\"name\":\"Akshaya Venkatesh\",\"email\":\"av54@rice.edu\",\"major\":\"Cognitive Sciences, Business Minor, Biochemistry and Cell Biology Minor\",\"subjects\":\"CHEM 121/122\"},{\"name\":\"Joy Wang\",\"email\":\"sw59@rice.edu\",\"major\":\"History, Kinesiology\",\"subjects\":\"BIOC 301\"},{\"name\":\"Karen Yuan\",\"email\":\"kzy2@rice.edu\",\"major\":\"Statistics, Financial Computation and Modeling Minor\",\"subjects\":\"STAT\"}]}");
 
 /***/ }),
 
@@ -1889,21 +1935,21 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fpeople%2Fmcteam&absolutePagePath=%2FUsers%2Fshaquillewyanque%2Fgit%2FMcMurtry-Website%2Fpages%2Fpeople%2Fmcteam.js!./":
-/*!*************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fpeople%2Fmcteam&absolutePagePath=%2FUsers%2Fshaquillewyanque%2Fgit%2FMcMurtry-Website%2Fpages%2Fpeople%2Fmcteam.js ***!
-  \*************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fpeople%2Facademicfellows&absolutePagePath=%2FUsers%2Fshaquillewyanque%2Fgit%2FMcMurtry-Website%2Fpages%2Fpeople%2Facademicfellows.js!./":
+/*!*******************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fpeople%2Facademicfellows&absolutePagePath=%2FUsers%2Fshaquillewyanque%2Fgit%2FMcMurtry-Website%2Fpages%2Fpeople%2Facademicfellows.js ***!
+  \*******************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/people/mcteam", function() {
-      var mod = __webpack_require__(/*! ./pages/people/mcteam.js */ "./pages/people/mcteam.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/people/academicfellows", function() {
+      var mod = __webpack_require__(/*! ./pages/people/academicfellows.js */ "./pages/people/academicfellows.js")
       if(true) {
-        module.hot.accept(/*! ./pages/people/mcteam.js */ "./pages/people/mcteam.js", function() {
-          if(!next.router.components["/people/mcteam"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/people/mcteam.js */ "./pages/people/mcteam.js")
-          next.router.update("/people/mcteam", updatedPage)
+        module.hot.accept(/*! ./pages/people/academicfellows.js */ "./pages/people/academicfellows.js", function() {
+          if(!next.router.components["/people/academicfellows"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/people/academicfellows.js */ "./pages/people/academicfellows.js")
+          next.router.update("/people/academicfellows", updatedPage)
         })
       }
       return mod
@@ -10081,10 +10127,10 @@ var colorStyle = variant({
 
 /***/ }),
 
-/***/ "./pages/people/mcteam.js":
-/*!********************************!*\
-  !*** ./pages/people/mcteam.js ***!
-  \********************************/
+/***/ "./pages/people/academicfellows.js":
+/*!*****************************************!*\
+  !*** ./pages/people/academicfellows.js ***!
+  \*****************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -10096,11 +10142,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_navbar_navbarDesktop__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/navbar/navbarDesktop */ "./components/navbar/navbarDesktop.js");
 /* harmony import */ var _components_navbar_navbarMobile__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/navbar/navbarMobile */ "./components/navbar/navbarMobile.js");
 /* harmony import */ var _components_general_footer_footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/general/footer/footer */ "./components/general/footer/footer.js");
-/* harmony import */ var _components_people_mcteam_mcteam__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/people/mcteam/mcteam */ "./components/people/mcteam/mcteam.js");
+/* harmony import */ var _components_people_fellows_fellows__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/people/fellows/fellows */ "./components/people/fellows/fellows.js");
 /* harmony import */ var _components_general_page_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/general/page.css */ "./components/general/page.css");
 /* harmony import */ var _components_general_page_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_components_general_page_css__WEBPACK_IMPORTED_MODULE_6__);
 var _this = undefined,
-    _jsxFileName = "/Users/shaquillewyanque/git/McMurtry-Website/pages/people/mcteam.js";
+    _jsxFileName = "/Users/shaquillewyanque/git/McMurtry-Website/pages/people/academicfellows.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -10111,7 +10157,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-var McTeamPage = function McTeamPage() {
+var AcademicFellowsPage = function AcademicFellowsPage() {
   return __jsx("div", {
     className: "page",
     __self: _this,
@@ -10141,7 +10187,7 @@ var McTeamPage = function McTeamPage() {
       lineNumber: 12,
       columnNumber: 9
     }
-  }), __jsx(_components_people_mcteam_mcteam__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }), __jsx(_components_people_fellows_fellows__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -10158,18 +10204,18 @@ var McTeamPage = function McTeamPage() {
   }));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (McTeamPage);
+/* harmony default export */ __webpack_exports__["default"] = (AcademicFellowsPage);
 
 /***/ }),
 
 /***/ 7:
-/*!*****************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fpeople%2Fmcteam&absolutePagePath=%2FUsers%2Fshaquillewyanque%2Fgit%2FMcMurtry-Website%2Fpages%2Fpeople%2Fmcteam.js ***!
-  \*****************************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fpeople%2Facademicfellows&absolutePagePath=%2FUsers%2Fshaquillewyanque%2Fgit%2FMcMurtry-Website%2Fpages%2Fpeople%2Facademicfellows.js ***!
+  \***********************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fpeople%2Fmcteam&absolutePagePath=%2FUsers%2Fshaquillewyanque%2Fgit%2FMcMurtry-Website%2Fpages%2Fpeople%2Fmcteam.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fpeople%2Fmcteam&absolutePagePath=%2FUsers%2Fshaquillewyanque%2Fgit%2FMcMurtry-Website%2Fpages%2Fpeople%2Fmcteam.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fpeople%2Facademicfellows&absolutePagePath=%2FUsers%2Fshaquillewyanque%2Fgit%2FMcMurtry-Website%2Fpages%2Fpeople%2Facademicfellows.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fpeople%2Facademicfellows&absolutePagePath=%2FUsers%2Fshaquillewyanque%2Fgit%2FMcMurtry-Website%2Fpages%2Fpeople%2Facademicfellows.js!./");
 
 
 /***/ }),
@@ -10186,4 +10232,4 @@ module.exports = dll_817bc00842ec66b68155;
 /***/ })
 
 },[[7,"static/runtime/webpack.js","styles"]]]);
-//# sourceMappingURL=mcteam.js.map
+//# sourceMappingURL=academicfellows.js.map

@@ -1,5 +1,42 @@
 webpackHotUpdate("styles",{
 
+/***/ "./components/general/title.css":
+/*!**************************************!*\
+  !*** ./components/general/title.css ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin;
+    if (true) {
+      var injectCss = function injectCss(prev, href) {
+        var link = prev.cloneNode();
+        link.href = href;
+        link.onload = function() {
+          prev.parentNode.removeChild(prev);
+        };
+        prev.stale = true;
+        prev.parentNode.insertBefore(link, prev);
+      };
+      module.hot.dispose(function() {
+        window.__webpack_reload_css__ = true;
+      });
+      if (window.__webpack_reload_css__) {
+        module.hot.__webpack_reload_css__ = false;
+        console.log("[HMR] Reloading stylesheets...");
+        var prefix = document.location.protocol + '//' + document.location.host;
+        document
+          .querySelectorAll("link[href][rel=stylesheet]")
+          .forEach(function(link) {
+            if (!link.href.match(prefix) || link.stale) return;
+            injectCss(link, link.href.split("?")[0] + "?unix=1590458322478");
+          });
+      }
+    }
+  
+
+/***/ }),
+
 /***/ "./components/navbar/NavbarDesktop.css":
 /*!*********************************************!*\
   !*** ./components/navbar/NavbarDesktop.css ***!
@@ -29,7 +66,7 @@ webpackHotUpdate("styles",{
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1590206542344");
+            injectCss(link, link.href.split("?")[0] + "?unix=1590458322319");
           });
       }
     }
@@ -37,10 +74,10 @@ webpackHotUpdate("styles",{
 
 /***/ }),
 
-/***/ "./components/navbar/navbarMobile.css":
-/*!********************************************!*\
-  !*** ./components/navbar/navbarMobile.css ***!
-  \********************************************/
+/***/ "./components/people/mcteam/mcteam.css":
+/*!*********************************************!*\
+  !*** ./components/people/mcteam/mcteam.css ***!
+  \*********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -66,7 +103,7 @@ webpackHotUpdate("styles",{
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1590206542567");
+            injectCss(link, link.href.split("?")[0] + "?unix=1590458322422");
           });
       }
     }
@@ -75,4 +112,4 @@ webpackHotUpdate("styles",{
 /***/ })
 
 })
-//# sourceMappingURL=styles.a815e0d5833fd88d4167.hot-update.js.map
+//# sourceMappingURL=styles.d34e0d2d79770e83070e.hot-update.js.map

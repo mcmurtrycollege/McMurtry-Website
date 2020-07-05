@@ -1,0 +1,30 @@
+@media screen and (min-width: 700px){
+    .wide-feedback-form {
+        width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+        display: flex;
+    }
+
+    .narrow-feedback-form {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 699px){
+    .wide-feedback-form {
+        display: none;
+    }
+
+    .narrow-feedback-form {
+        width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+    }
+}
+
+.feedback-form-page {
+    padding-top: 10%;
+}

@@ -15,7 +15,7 @@ const Card = props => (
             <h2 className="name">{props.name}</h2>
             {
                 props.phone !== undefined ? (
-                    <h3 className="contact-phone"><img src="https://icon.now.sh/call/422a4C/16" alt="Phone: " />{' '}{props.phone}</h3>
+                    <h3 className="contact-phone"><img src="../../static/icons/phone.svg" alt="Phone: " />{' '}{props.phone}</h3>
                 ) : (
                         null
                     )
@@ -23,7 +23,7 @@ const Card = props => (
             {
                 props.email !== undefined ? (
                     <a href={`mailto:${props.email}`} className='link'>
-                        <h3 className="contact-email"><img src="https://icon.now.sh/arrow/422a4C/8" alt="Email: " />{' '}{props.email}</h3>
+                        <h3 className="contact-email"><img src="../../static/icons/email.svg" alt="Email: " />{' '}{props.email}</h3>
                     </a>
                 ) : (
                         null
@@ -38,14 +38,14 @@ const Card = props => (
             }
             {
                 props.major !== undefined ? (
-                    <h2 className='major'><img src="https://icon.now.sh/school/2B2F3A/16" alt='Major: ' /> {props.major}</h2>
+                    <h2 className='major'><img src="../../static/icons/file.svg" alt='Major: ' /> {props.major}</h2>
                 ) : (
                         null
                     )
             }
             {
                 props.subjects !== undefined ? (
-                    <h2 className="subjects"><img src="https://icon.now.sh/local_library/2B2F3A/16" alt='Subjects: ' /> {props.subjects}</h2>
+                    <h2 className="subjects"><img src="../../static/icons/book.svg" alt='Subjects: ' /> {props.subjects}</h2>
 
                 ) : (
                         null

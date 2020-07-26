@@ -12,12 +12,12 @@ const MISLinks = [
     },
     {
         text: "Equipment Information",
-        icon: "https://icon.now.sh/skyliner",
+        icon: "../../../../static/icon/building.svg",
         link: "https://docs.google.com/spreadsheets/d/18Lu5pL6v0oYOnZQu4kYPGuUyiMvAfOHZXBH39udHVXI/edit"
     },
     {
         text: "Email us at",
-        icon: "https://icon.now.sh/email",
+        icon: "../../../static/icons/email.svg",
         link: "mailto:mcminnovationspace@gmail.com"
     }
 ]
@@ -40,7 +40,7 @@ const McmInovationSpace = () => (
                             <div>
                                 <img src={`${icon}//DCDFE5/90`} alt='' />
                                 <h2 className='mis-link'>{text}
-                                {icon === "https://icon.now.sh/email" ? 
+                                {icon === "../../../static/icons/email.svg" ? 
                                 (<p style={{fontSize: '0.5em'}}>mcminnovationspace@gmail.com</p>) : (undefined)}</h2>
                             </div>
                         </a>
@@ -75,7 +75,7 @@ const McmInovationSpace = () => (
                             <h2 className='mis-major'>Major: {major}</h2>
                             <h2 className='mis-college'>College: {college}</h2>
                             <a href={`mailto:${email}`} style={{ textDecoration: 'none' }}>
-                                <h2 className='mis-email'><img src="https://icon.now.sh/arrow/2B2F3A/10" alt="" />{' '}{email}</h2>
+                                <h2 className='mis-email'><img src="../../../static/icons/email.svg" alt="" />{' '}{email}</h2>
                             </a>
                             <h2 className='mis-askMeHeader'>Ask Me About:</h2>
                             <p className='mis-askMeAbout'>{askMeAbout}</p>

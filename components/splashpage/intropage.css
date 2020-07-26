@@ -78,6 +78,15 @@
 
 .quick-link-name {
     font-weight: normal;
+    margin-top: 2%;
+}
+
+.intro-link-img-small {
+    margin-top: 10%;
+}
+
+.intro-link-img-large {
+    margin-top: 10%;
 }
 
 @media screen and (min-width: 801px) {

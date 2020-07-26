@@ -59,7 +59,7 @@ class Navbar extends React.Component {
         return (
             <div>
                 <div className='fixed-mobile-header'>
-                    <img className="show-navbar" src='https://icon.now.sh/burger/515768/30' alt="Menu" onClick={this.toggleNavbar} />
+                    <img className="show-navbar" src='../../static/icons/menu.svg' alt="Menu" onClick={this.toggleNavbar} />
                     <Link href='/'>
                         <div className='header-crest-mobile'>
                             <Box width={40}>
@@ -71,7 +71,7 @@ class Navbar extends React.Component {
                 </div>
                 <div className='mobile-navbar' style={hidden}>
                     <div className='main-menu'>
-                        <img className='close-navbar' src="https://icon.now.sh/x/DCDFE5/25" alt="X" onClick={this.toggleNavbar} />
+                        <img className='close-navbar' src="../../static/icons/x.svg" alt="X" onClick={this.toggleNavbar} />
                         {mainHeaders}
                     </div>
                     {menus}

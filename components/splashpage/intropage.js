@@ -4,26 +4,27 @@ import Link from 'next/link';
 // import Banner from '../10/banner/banner';
 import './intropage.css';
 
+const iconFolder = '../../static/icons/'
 const quickLinks = [
     {
         name: "Calendar",
-        icon: "https://icon.now.sh/event",
+        icon: "calendar",
         to: "/events/calendar"
     },
     {
         name: "O-Week",
-        icon: "https://icon.now.sh/people",
+        icon: "people",
         // href: "https://mcmurtryoweek.wixsite.com/home-page"
         to: "/oweek"
     },
     {
         name: "Book a Room",
-        icon: "https://icon.now.sh/event_note",
+        icon: "event",
         to: "/resources/roomreservations/"
     },
     {
         name: "Financial Inclusivity",
-        icon: "https://icon.now.sh/public",
+        icon: "hand-heart",
         to: "/about/financialinclusivity"
     }
 ]
@@ -46,8 +47,10 @@ const Intro = () => (
                     <Box className='quick-link-container' width={[130, 220]} key={`${name}`}>
                         <Link href={to}>
                             <div className='quick-link'>
-                                <img src={`${icon}/DCDFE5/70`} alt='' className='intro-link-img-large' />
-                                <img src={`${icon}/DCDFE5/45`} alt='' className='intro-link-img-small' />
+                                {/* <img src={`${icon}/DCDFE5/70`} alt='' className='intro-link-img-large' />
+                                <img src={`${icon}/DCDFE5/45`} alt='' className='intro-link-img-small' /> */}
+                                <img src={`${iconFolder}${icon}-large.svg`} alt='' className='intro-link-img-large' />
+                                <img src={`${iconFolder}${icon}-small.svg`} alt='' className='intro-link-img-small' />
                                 <h2 className='quick-link-name'>{name}</h2>
                             </div>
                         </Link>

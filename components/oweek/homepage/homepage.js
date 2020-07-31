@@ -47,7 +47,7 @@ const Homepage = () => (
                 <h1 className='oweek-welcome'>Welcome to McMurtry!</h1>
             </Box>
             <Box width={[1, 1 / 3]} style={{ backgroundColor: '#87799C', marginBottom: '4px' }}>
-                <h1 className='oweek-welcome'>Advance to Go-Week</h1>
+                <h1 className='oweek-welcome'>Game ShO-Week</h1>
             </Box>
             <Box width={[1, 1 / 3]} style={{ margin: 0, padding: 0 }}>
                 <Image src='../../../static/oweek/jumpingCoords.jpg' alt='' />

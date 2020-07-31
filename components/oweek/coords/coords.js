@@ -3,25 +3,25 @@ import '../oweek.css';
 
 const coords = [
     {
-        name: "Emily Duffus",
+        name: "Aaron Vaughan",
         year: "Junior",
-        major: "Cognitive Sciences, Biochemistry, & Medical Humanities",
-        from: "Glen Ridge, NJ",
-        image: "../../../static/oweek/EmilyCoord.JPG"
+        major: "Sociology, Psychology, Certificate in Civic Leadership",
+        from: "Melissa, TX",
+        image: "../../../static/oweek/AaronCoord.JPG"
     },
     {
-        name: "Edesiri Mushale",
+        name: "Tya Epps",
         year: "Junior",
-        major: "Mechanical Engineering",
-        from: "Vacaville, CA",
-        image: "../../../static/oweek/EdesiriCoord.JPG"
+        major: "Sociology, Religion",
+        from: "Temple, TX",
+        image: "../../../static/oweek/TyaCoord.png"
     },
     {
-        name: "Olivia Morris",
+        name: "Alyson Resnick",
         year: "Junior",
-        major: "Cognitive Sciences & Psychology",
-        from: "Tampa, FL",
-        image: "../../../static/oweek/OliviaCoord.JPG"
+        major: "Cognitive Sciences, Jewish Studies",
+        from: "Burlingame, CA",
+        image: "../../../static/oweek/AlysonCoord.png"
     }
 ]
 
@@ -44,16 +44,16 @@ const Coords = () => (
             }
         </div>
         <p>
-            As O-Week Coordinators, it is our job to pour our heart and soul into creating your Orientation Week. We,
-            your three Advance To GO-Week Coordinators, have been planning for your arrival since well before you were
-            placed in McMurtry. In fact, we have been working since January to select your Advisors and your Co-Advisors. This summer we have prepared this book for you, matched you with a roommate, and carefully placed
-            you into an O-Week group. We also planned the majority of O-Week events you will be participating in at
-            McMurtry. One of the best things about Rice is that the administration places a great deal of trust in students
-            (i.e. us) to run things. In turn, we work extremely hard to make sure that you have a smooth transition into
-            Rice, both academically and socially. Your Advisors will be your guides for most of O-Week, but we’ll largely
-            be working to make sure everything runs smoothly. We are elated that you will be joining us at McMurtry and
-            we are beyond excited to meet you. See you August 18!
-</p>
+            As O-Week Coordinators, it is our job to pour our heart and soul into creating your Orientation Week. We, your three Game
+            ShO-Week Coordinators, have been planning for your arrival since well before you were placed in McMurtry. In fact, we
+            have been working since January to select your Advisors and your Co-Advisors. This summer we have prepared this book
+            for you, matched you with a roommate, and carefully placed you into an O-Week group. We also planned the majority of
+            O-Week events you will be participating in at McMurtry. One of the best things about Rice is that the administration places
+            a great deal of trust in students (i.e. us) to run things. In turn, we work extremely hard to make sure that you have a smooth
+            transition into Rice, both academically and socially. Your Advisors will be your guides for most of O-Week, but we’ll largely
+            be working to make sure everything runs smoothly. We are elated that you will be joining us at McMurtry and we are beyond
+            excited to meet you. See you soon!
+        </p>
     </div>
 )
 

@@ -24,11 +24,11 @@ class Navbar extends React.Component {
         return (
             <div>
                 <div className='oweek-navbar-open' onClick={this.toggleNavbar}>
-                    <img src='https://icon.now.sh/burger/3A3F4F/30' alt="Menu" />
+                    <img src='../../../static/icons/menu.svg' alt="Menu" />
                 </div>
                 <div className={this.state.hidden ? 'oweek-navbar-hidden' : 'oweek-navbar-visible'}>
                     <div className='oweek-navbar-close' onClick={this.toggleNavbar}>
-                        <img src='https://icon.now.sh/x/DCDFE5/20' alt='X' />
+                        <img src='../../../static/icons/x.svg' alt='X' />
                     </div>
                     <Link href='/oweek'>
                         <a>

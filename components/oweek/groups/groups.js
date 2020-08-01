@@ -49,46 +49,47 @@ const Groups = () => (
             </div>
             <p>
                 Your O-Week group consists of 8-9 other New Students, 4 upperclassmen Advisors (one will be a
-                Co-Advisor and one may be an Affiliate) who are beyond excited to welcome you to the best residential college on campus! All throughout O-Week, you will be preparing for
-                registration and academic life at Rice and interacting with the rest of your incoming class at McMurtry, but your O-Week group is designed primarily to give you more of a personal
-                support system during the week and throughout the year. From playing crazy ice-breakers, learning about each other’s interests and passions, sharing possible course schedules, or making late
-                night food runs, you will soon discover that your bond as an O-Week group runs deep. Be prepared
-                for lots of fun & encouragement from the peers in your group. Don’t be worried if your Advisors
-                seem very enthusiastic when you drive up for move in day -- it’s a sign of affection.
-        </p>
+                Co-Advisor and one may be an Affiliate) who are beyond excited to welcome you to the best residential
+                college on campus! All throughout O-Week, you will be preparing for registration and academic life at Rice
+                and interacting with the rest of your incoming class at McMurtry, but your O-Week group is designed
+                primarily to give you more of a personal support system during the week and throughout the year. From
+                playing crazy ice-breakers, learning about each other’s interests and passions, sharing possible course
+                schedules, or having late movie nights, you will soon discover that your bond as an O-Week group runs
+                deep. Be prepared for lots of fun & encouragement from the peers in your group. Don’t be worried if your
+                Advisors seem very enthusiastic when you drive up for move in day -- it’s a sign of affection. 
+            </p>
             <h2 className='oweek-subtitle'>What is an Advisor?</h2>
             <p>
-                Advisors are a diverse group of students from McMurtry who are so enthusiastic about welcoming
-                you to Rice that they don’t mind returning here almost two full weeks before classes start to help
-                you move in and start your time at Rice! These fantastic people have been hand-selected to act as
-                your guides throughout O-Week; they’ll make sure you get to all activities and meetings, answer
-                any questions you might have (or direct you to someone who can answer them), expose you to
-                Rice’s academics and student life, introduce you to the McMurtry culture, and serve as all-around
-                resources. One thing that all Advisors have in common is their desire to help you have the best
-                experience possible at Rice, so they’ll continue to be resources for you long after O-Week is over
-                and may very well become some of your closest friends.
-        </p>
+                Advisors are a diverse group of students from McMurtry who are so enthusiastic about welcoming you
+                to Rice that they don’t mind returning here almost two full weeks before classes start to help you move
+                in and start your time at Rice! These fantastic people have been hand-selected to act as your guides
+                throughout O-Week; they’ll make sure you get to all activities and meetings, answer any questions
+                you might have (or direct you to someone who can answer them), expose you to Rice’s academics and
+                student life, introduce you to the McMurtry culture, and serve as all-around resources. One thing that
+                all Advisors have in common is their desire to help you have the best experience possible at Rice, so
+                they’ll continue to be resources for you long after O-Week is over and may very well become some of
+                your closest friends.
+            </p>
             <h2 className='oweek-subtitle'>What is a Co-Advisor?</h2>
             <p>
                 Co-Advisors make up about a fourth of our team and are students who are equally friendly and
-                enthusiastic about welcoming you to Rice, but they hail from other residential colleges!
-                Co-Advisors love McMurtry so much that they choose to join McMurtry’s O-Week as an
-                ambassador of their home college. In addition to having the qualities of an Advisor, they can help
-                show you Rice beyond the beautiful wood-panels of McMurtry and bring a little bit of their own
-                college’s culture and customs along with them. They are wonderful resources in
-                helping you to branch out and explore other colleges!
-        </p>
+                enthusiastic about welcoming you to Rice, but they hail from other residential colleges! Co-Advisors
+                love McMurtry so much that they choose to join McMurtry’s O-Week as an ambassador of their home
+                college. In addition to having the qualities of an Advisor, they can help show you Rice beyond the
+                beautiful wood-panels of McMurtry and bring a little bit of their own college’s culture and customs
+                along with them. They are wonderful resources in helping you to branch out and explore other colleges!
+            </p>
             <h2 className='oweek-subtitle'>What is an Affiliate?</h2>
             <p>
                 Affiliates are O-Week personnel who serve specific roles designed to help you with your
                 transition to Rice. Most O-Week groups will have at least one Affiliate. While they are paired with
                 individual groups, they are an important resource for all New Students at the college. The Affiliate
-                assigned to your group may often be floating around to meet other students and providing them
-                with specialized knowledge and advice. Be sure to meet all the Affiliates present, as they are incredibly important campus-wide resources during O-Week and beyond. These Affiliate positions
-                include: Peer Academic Advisors, Diversity Facilitators, Photographer, Videographer, Gopher, Rice
-                Health Advisor, Associates Liaison, Athletic Liaison, Student Maintenance Representative, Chief
-                Justice, and President.
-        </p>
+                assigned to your group may often be floating around to meet other students and providing them with
+                specialized knowledge and advice. Be sure to meet all the Affiliates present, as they are incredibly
+                important campus-wide resources during O-Week and beyond. These Affiliate positions include: Peer
+                Academic Advisors, Diversity Facilitators, Photographer, Videographer, Gopher, Rice Health Advisor,
+                Associates Liaison, Athletic Liaison, Student Maintenance Representative, Chief Justice, and President.
+            </p>
             <Element name='top'>
                 <h2 className='oweek-subtitle'>Find Your O-Week Group!</h2>
             </Element>
@@ -106,35 +107,13 @@ const Groups = () => (
         </div>
         <div className='oweek-groups'>
             {
-                oweek_groups.map(({ name, advisors, image, video }) => (
+                oweek_groups.map(({ name, image }) => (
                     <Element name={name} key={name}>
                         <div className='oweek-group'>
                             <h2 className='oweek-title'>{name}</h2>
                             <Box width={0.7} ml='auto' mr='auto' style={{ marginTop: '1%', marginBottom: '3%' }}>
                                 <Image src={image} alt='Error Loading Image' />
                             </Box>
-                            <div className='oweek-bios'>
-                                {
-                                    advisors.map(({ name, year, major, from, image, bio }) => (
-                                        <Box className='advisor-card' key={name} width={[0.95, 0.8]}>
-                                            <h2>{name}</h2>
-                                            <h3 style={{ fontWeight: 'normal' }}>{year} | {major} | {from}</h3>
-                                            <div>
-                                                <Box width={[0.5, 0.2]} style={{ float: 'left', marginRight: '20px' }}>
-                                                    <Image src={image} alt='Error Loading Image' />
-                                                </Box>
-                                                {bio}
-                                            </div>
-                                        </Box>
-                                    ))
-                                }
-                            </div>
-                            <div className='oweek-video-desktop'>
-                                <iframe width="560" height="315" src={video} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                            </div>
-                            <div className='oweek-video-mobile'>
-                                <iframe width="320" height="200" src={video} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                            </div>
                         </div>
                     </Element>
                 ))

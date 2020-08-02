@@ -1481,6 +1481,24 @@
     font-weight: normal;
     font-size: 1em;
 }
+.paas-page {
+    padding-top: 10%;
+    margin-bottom: 5%;
+}
+
+.paas-description {
+    margin-top: 30px;
+    padding: 30px;
+    color: #515768;
+}
+
+.paas-title {
+    font-size: 2em;
+    text-align: center;
+    font-weight: normal;
+    padding: 8px;
+    color: #515768;
+}
 .wellbeing-page {
     padding-top: 10%;
     margin-bottom: 5%;
@@ -1716,24 +1734,6 @@
 .advisor-bio {
     text-align: left;
     padding-bottom: 30px;
-}
-.paas-page {
-    padding-top: 10%;
-    margin-bottom: 5%;
-}
-
-.paas-description {
-    margin-top: 30px;
-    padding: 30px;
-    color: #515768;
-}
-
-.paas-title {
-    font-size: 2em;
-    text-align: center;
-    font-weight: normal;
-    padding: 8px;
-    color: #515768;
 }
 .coronavirus-page {
     padding-top: 10%;

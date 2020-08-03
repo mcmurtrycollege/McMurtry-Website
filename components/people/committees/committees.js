@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Flex } from 'rebass';
+import { Box, Flex, Image } from 'rebass';
 import Cards from '../../general/contactcards';
 import Title from '../../general/title';
 import { committee_divisions } from './committees.json';
@@ -67,8 +67,14 @@ export default class Committees extends React.Component {
                 <div>
                     <Box width={[0.9, 0.7, 0.6, 0.5]} ml='auto' mr='auto' className='committee-description'>
                         <h1 className='division-title'>{committee_divisions[this.state.division].committees[this.state.committee].name}</h1>
+                        <Box width={[1, .75]} mx='auto' >
+                            <Image src={committee_divisions[this.state.division].committees[this.state.committee].image} />
+                        </Box>
                         {committee_divisions[this.state.division].committees[this.state.committee].description}
                     </Box>
+                    <h2 className='subtitle'>Committee Heads</h2>
+                    <Cards content={committee_divisions[this.state.division].committees[this.state.committee].heads} height={110} width={240} />
+                    <h2 className='subtitle'>Members</h2>
                     <Cards content={committee_divisions[this.state.division].committees[this.state.committee].members} height={110} width={240} />
                 </div>
             </div>

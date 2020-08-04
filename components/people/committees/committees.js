@@ -72,9 +72,17 @@ export default class Committees extends React.Component {
                         </Box>
                         {committee_divisions[this.state.division].committees[this.state.committee].description}
                     </Box>
-                    <h2 className='subtitle'>Committee Heads</h2>
+                    {
+                        (committee_divisions[this.state.division].committees[this.state.committee].heads.length > 0)
+                            ? <h2 className='subtitle'>Committee Heads</h2>
+                            : null
+                    }
                     <Cards content={committee_divisions[this.state.division].committees[this.state.committee].heads} height={110} width={240} />
-                    <h2 className='subtitle'>Members</h2>
+                    {
+                        (committee_divisions[this.state.division].committees[this.state.committee].members.length > 0)
+                            ? <h2 className='subtitle'>Members</h2>
+                            : null
+                    }    
                     <Cards content={committee_divisions[this.state.division].committees[this.state.committee].members} height={110} width={240} />
                 </div>
             </div>

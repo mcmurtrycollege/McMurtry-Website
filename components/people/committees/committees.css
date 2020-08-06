@@ -80,6 +80,13 @@
     color: #515768;
 }
 
+.subtitle {
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.55em;
+    color: #515768
+}
+
 .committee-description {
     /* border: 1px solid #515768; */
     margin-top: 30px;

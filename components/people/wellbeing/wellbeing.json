@@ -27,42 +27,56 @@
       {
         "name": "Akshaya Venkatesh",
         "phone": "(805) 428-9475",
-        "room": "544"
+        "email": "av54@rice.edu",
+        "photo": "../../../../static/rhas/Akshaya_Venkatesh.jpg"
       },
       {
         "name": "Rishi Vas",
         "phone": "(214) 603-1931",
-        "room": "447"
-      },
-      {
-        "name": "Alex Curylo",
-        "phone": "(314) 971-0876",
-        "room": "OC"
+        "email": "rkv2@rice.edu",
+        "photo": "../../../../static/rhas/Rishi_Vas.jpg"
       },
       {
         "name": "Emily Duffus",
         "phone": "(973) 508-6538",
-        "room": "230"
-      },
-      {
-        "name": "Melodi Doganay",
-        "phone": "(631) 605-6494",
-        "room": "477"
+        "email": "ekd2@rice.edu",
+        "photo": "../../../../static/rhas/Emily_Duffus.jpg"
       },
       {
         "name": "Caleb Robinson",
         "phone": "(601) 818-4858",
-        "room": "273"
-      },
-      {
-        "name": "Aaron Vaughan",
-        "phone": "(469) 247-2607",
-        "room": "323"
+        "email": "csr4@rice.edu",
+        "photo": "../../../../static/rhas/Caleb_Robinson.jpg"
       },
       {
         "name": "Jennifer Ho",
         "phone": "(832) 773-2341",
-        "room": "328"
+        "email": "jh86@rice.edu",
+        "photo": "../../../../static/rhas/Jennifer_Ho.jpg"
+      },
+      {
+        "name": "Aaron Vaughan",
+        "phone": "(469) 247-2607",
+        "email": "amv11@rice.edu",
+        "photo": "../../../../static/rhas/Aaron_Vaughan.jpg"
+      },
+      {
+        "name": "Camille Villar",
+        "phone": "(713) 851-1258",
+        "email": "cfv1@rice.edu",
+        "photo": "../../../../static/rhas/Camille_Villar.jpg"
+      },
+      {
+        "name": "Annika Nambiar",
+        "phone": "(650) 730-6539",
+        "email": "an44@rice.edu",
+        "photo": "../../../../static/rhas/Annika_Nambiar.jpg"
+      },
+      {
+        "name": "Gordan Liu",
+        "phone": "(614) 370-1900",
+        "email": "gtl1@rice.edu",
+        "photo": "../../../../static/rhas/Gordan_Liu.jpg"
       }
     ]
   },

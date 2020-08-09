@@ -1,10 +1,17 @@
 import React from 'react';
-import { Box, Flex } from 'rebass';
+import { Box, Flex, Image } from 'rebass';
 import './contactcards.css';
 
 const Card = props => (
     < Box className='position-card' width={props.width} >
         <div className="contact-card-content" style={{ height: props.height }}>
+            {
+                props.photo !== undefined ? (
+                    <Image src={props.photo} alt='photo' />
+                ) : (
+                        null
+                    )
+            }
             {
                 props.position !== undefined ? (
                     <h2 className="position">{props.position}</h2>
@@ -66,8 +73,8 @@ const Cards = props => (
     <Box width={[1, 1, 0.9, 0.8]} ml='auto' mr='auto'>
         <Flex flexWrap='wrap' flexDirection='row' justifyContent='center'>
             {
-                props.content.map(({ position, name, year, email, phone, major, subjects, room }) => (
-                    <Card height={props.height} width={props.width} key={name} position={position}
+                props.content.map(({ photo, position, name, year, email, phone, major, subjects, room }) => (
+                    <Card height={props.height} width={props.width} key={name} photo={photo} position={position}
                         name={name} year={year} email={email} phone={phone} major={major} subjects={subjects} room={room} />
                 ))
             }

@@ -403,20 +403,27 @@
           "name": "Beer Bike",
           "description": "Beer Bike. Some say it's the best day of the year. Others say it's the best day of their lives (with the exception of the other Beer Bikes they were fortunate enough to attend). The Beer Bike Committee is in charge of making this monumentous day a reality for all of McMurtry to enjoy. Whether it be assisting the Biking or Chugging Teams, organizing water balloon filling, or rounding people up for an epic jack on… Duncan (of course) – there is something for everyone (including new students) to do!",
           "heads": [
-
+            {
+              "name": "Elena Margolin",
+              "year": "2022",
+              "email": "erm7@rice.edu"
+            },
+            {
+              "name": "Kaitlan Easley",
+              "year": "2022",
+              "email": "kde4@rice.edu"
+            }
           ],
           "members": [
             {
-              "name": "Elena Margolin"
+              "name": "Josh Holder",
+              "year": "2021",
+              "email": "jgh8@rice.edu"
             },
             {
-              "name": "Kaitlyn Easley"
-            },
-            {
-              "name": "Josh Holder"
-            },
-            {
-              "name": "Claire Wang"
+              "name": "Claire Wang",
+              "year": "2022",
+              "email": "cw74@rice.edu"
             }
           ]
         },

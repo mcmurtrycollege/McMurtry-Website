@@ -1,0 +1,61 @@
+.blm-page {
+  padding-top: 10%;
+  margin-bottom: 5%;
+}
+
+.blm-subtitle {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.blm-subtitle p {
+  text-align: center;
+  font-size: 1.8em;
+  padding: 20px;
+  background-color: #515768;
+  color: #dcdfe5;
+  display: inline;
+}
+
+.blm-message {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: #515768;
+}
+
+.blm-links a {
+  text-decoration: none;
+}
+
+.blm-link {
+  position: relative;
+  color: #515768;
+  padding: 5px 5px;
+  margin: 5px 5px 5px 5px;
+  font-size: 1em;
+  text-align: center;
+  outline-color: #515768;
+  outline-width: 1px;
+  outline-style: solid;
+  z-index: 100;
+}
+
+.blm-link:hover {
+  color: #dcdfe5;
+  font-weight: bold;
+}
+
+.blm-link:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0;
+  top: 0;
+  left: 0;
+  background-color: #87799c;
+  z-index: -1;
+}
+
+.blm-link:hover:before {
+  height: 100%;
+}

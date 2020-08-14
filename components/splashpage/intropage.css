@@ -26,6 +26,19 @@
     cursor: pointer;
 }
 
+.blm-banner {
+    margin: 0 auto 0 auto;
+    background-color: black;
+    color: #DCDFE5;
+    font-size: 2em;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.blm-banner:hover {
+    cursor: pointer;
+}
+
 .yurt-graphic {
     margin-left: auto;
     margin-right: auto;

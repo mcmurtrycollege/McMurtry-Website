@@ -41,6 +41,11 @@ const Intro = () => (
             <Image src='../../static/YurtTrees.svg' />
         </Box>
         <h1 className='welcome-title'>Welcome to McMurtry!</h1>
+        <Link href={"/resources/BlackLivesMatter"}>
+            <Box className="blm-banner" width={[0.9, 0.5]}>
+                <p>McMurtry College stands with the Black Lives Matter movement &#8594;</p>
+            </Box>
+        </Link>
         <Flex justifyContent='center' flexWrap='wrap' flexDirection='row' >
             {
                 quickLinks.map(({ name, icon, to }) => (

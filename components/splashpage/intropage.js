@@ -32,20 +32,40 @@ const quickLinks = [
 const Intro = () => (
     <div className='intro-page'>
         {/* <Banner /> */}
-        <Link href={"/resources/coronavirus"}>
+        {/* <Link href={"/resources/coronavirus"}>
             <Box className="coronavirus-banner" width={[0.9, 0.5]}>
                 <p>Click here for Resources and Questions regarding the coronavirus response at Rice/McMurtry</p>
+            </Box>
+        </Link> */}
+        <Link href={"/resources/BlackLivesMatter"}>
+            <Box className="blm-banner" width={[0.9, 0.5]}>
+                <p>McMurtry College stands with the Black Lives Matter movement &#8594;</p>
             </Box>
         </Link>
         <Box width={[0.95, 0.8]} className='yurt-graphic'>
             <Image src='../../static/YurtTrees.svg' />
         </Box>
         <h1 className='welcome-title'>Welcome to McMurtry!</h1>
-        <Link href={"/resources/BlackLivesMatter"}>
-            <Box className="blm-banner" width={[0.9, 0.5]}>
-                <p>McMurtry College stands with the Black Lives Matter movement &#8594;</p>
-            </Box>
-        </Link>
+        <Box className="turbovote-banner" width={[0.9, 0.5]}>
+            <a href="https://rice.turbovote.org/">
+                <Image src='../../static/rice_votes.png' />
+            </a>
+            <p>
+                TurboVote makes sure you always know when elections are happening and have the information you need
+                to vote with confidence. Launched in 2010 by the nonpartisan nonprofit Democracy Works, TurboVote
+                is an online voter platform that helps you start the voter registration process, request a ballot
+                by mail, and sign up for email and text reminders for upcoming election deadlines, all in less
+                than five minutes.
+            </p>
+            {/* <p>
+                Through a partnership with the Rice University Center for Civic Leadership, Rice students can opt
+                to receive voter registration forms and ballot request applications through TurboVote in pre-paid,
+                pre-addressed envelopes.
+            </p> */}
+            <a href="https://rice.turbovote.org/">
+                <Box className='turbovote-signup'>Sign up today!</Box>
+            </a>
+        </Box>
         <Flex justifyContent='center' flexWrap='wrap' flexDirection='row' >
             {
                 quickLinks.map(({ name, icon, to }) => (

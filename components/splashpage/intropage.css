@@ -27,7 +27,7 @@
 }
 
 .blm-banner {
-    margin: 0 auto 0 auto;
+    margin: 8% auto 4% auto;
     background-color: black;
     color: #DCDFE5;
     font-size: 2em;
@@ -37,6 +37,53 @@
 
 .blm-banner:hover {
     cursor: pointer;
+}
+
+.turbovote-banner {
+    margin: 0 auto 0 auto;
+    /* background-color: #515768; */
+    color: black;
+    font-size: 1em;
+    text-align: center;
+    padding: 5px 10px;
+    outline-color: #515768;
+    outline-width: 1px;
+    outline-style: solid;
+}
+
+.turbovote-banner a {
+    text-decoration: none;
+}
+
+.turbovote-signup {
+    position: relative;
+    margin: 0 auto 5px auto;
+    padding: 5px 10px;
+    width: fit-content;
+    outline-color: #87799c;
+    outline-width: 1px;
+    outline-style: solid;
+    z-index: 100;
+}
+
+.turbovote-signup:hover {
+  color: #dcdfe5;
+  font-weight: bold;
+}
+
+.turbovote-signup:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0;
+  top: 0;
+  left: 0;
+  background-color: #87799c;
+  z-index: -1;
+}
+
+.turbovote-signup:hover:before {
+  height: 100%;
 }
 
 .yurt-graphic {

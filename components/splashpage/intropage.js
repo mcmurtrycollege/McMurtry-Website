@@ -9,23 +9,33 @@ const quickLinks = [
     {
         name: "Calendar",
         icon: "calendar",
-        to: "/events/calendar"
+        to: "/events/calendar",
+        absolute: ""
     },
     {
         name: "O-Week",
         icon: "people",
         // href: "https://mcmurtryoweek.wixsite.com/home-page"
-        to: "/oweek"
+        to: "/oweek",
+        absolute: ""
     },
     {
         name: "Book a Room",
         icon: "event",
-        to: "/resources/roomreservations/"
+        to: "/resources/roomreservations/",
+        absolute: ""
     },
     {
         name: "Financial Inclusivity",
         icon: "hand-heart",
-        to: "/about/financialinclusivity"
+        to: "/about/financialinclusivity",
+        absolute: ""
+    },
+    {
+        name: "Donate",
+        icon: "hand-coin",
+        to: "",
+        absolute: "https://riceconnect.rice.edu/donation/mcmurtry-college"
     }
 ]
 
@@ -68,17 +78,32 @@ const Intro = () => (
         </Box>
         <Flex justifyContent='center' flexWrap='wrap' flexDirection='row' >
             {
-                quickLinks.map(({ name, icon, to }) => (
+                quickLinks.map(({ name, icon, to, absolute }) => (
                     <Box className='quick-link-container' width={[130, 220]} key={`${name}`}>
-                        <Link href={to}>
-                            <div className='quick-link'>
-                                {/* <img src={`${icon}/DCDFE5/70`} alt='' className='intro-link-img-large' />
-                                <img src={`${icon}/DCDFE5/45`} alt='' className='intro-link-img-small' /> */}
-                                <img src={`${iconFolder}${icon}-large.svg`} alt='' className='intro-link-img-large' />
-                                <img src={`${iconFolder}${icon}-small.svg`} alt='' className='intro-link-img-small' />
-                                <h2 className='quick-link-name'>{name}</h2>
-                            </div>
-                        </Link>
+                        {
+                            to !== "" ? (
+                                <Link href={to}>
+                                    <div className='quick-link'>
+                                        {/* <img src={`${icon}/DCDFE5/70`} alt='' className='intro-link-img-large' />
+                                        <img src={`${icon}/DCDFE5/45`} alt='' className='intro-link-img-small' /> */}
+                                        <img src={`${iconFolder}${icon}-large.svg`} alt='' className='intro-link-img-large' />
+                                        <img src={`${iconFolder}${icon}-small.svg`} alt='' className='intro-link-img-small' />
+                                        <h2 className='quick-link-name'>{name}</h2>
+                                    </div>
+                                </Link>
+                            ) : (
+                                <a href={absolute} target="_blank" rel="noopener noreferrer">
+                                    <div className='quick-link'>
+                                        {/* <img src={`${icon}/DCDFE5/70`} alt='' className='intro-link-img-large' />
+                                        <img src={`${icon}/DCDFE5/45`} alt='' className='intro-link-img-small' /> */}
+                                        <img src={`${iconFolder}${icon}-large.svg`} alt='' className='intro-link-img-large' />
+                                        <img src={`${iconFolder}${icon}-small.svg`} alt='' className='intro-link-img-small' />
+                                        <h2 className='quick-link-name'>{name}</h2>
+                                    </div>
+                                </a>
+                            )
+                        }
+                        
                     </Box>
                 ))
 

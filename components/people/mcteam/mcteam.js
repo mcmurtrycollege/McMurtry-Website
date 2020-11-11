@@ -42,7 +42,7 @@ export default class McTeam extends React.Component {
                 <Box width={[1, 0.9, 0.8, 0.7]} ml='auto' mr='auto' mb={50} className='position-content'>
                     <h2 className='mcteam-name'>{mcteam_positions[this.state.current].names}</h2>
                     <Box width={[0.8, 0.6, 0.4, 0.3]} mx='auto' >
-                        <Image src={mcteam_positions[this.state.current].image} />
+                        <Image key={this.state.current} src={mcteam_positions[this.state.current].image} />
                     </Box>
                     {
                         mcteam_positions[this.state.current].body.map(line => (

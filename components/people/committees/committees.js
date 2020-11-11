@@ -68,7 +68,8 @@ export default class Committees extends React.Component {
                     <Box width={[0.9, 0.7, 0.6, 0.5]} ml='auto' mr='auto' className='committee-description'>
                         <h1 className='division-title'>{committee_divisions[this.state.division].committees[this.state.committee].name}</h1>
                         <Box width={[1, .75]} mx='auto' >
-                            <Image src={committee_divisions[this.state.division].committees[this.state.committee].image} />
+                            <Image key={committee_divisions[this.state.division].committees[this.state.committee].image}
+                                   src={committee_divisions[this.state.division].committees[this.state.committee].image} />
                         </Box>
                         {committee_divisions[this.state.division].committees[this.state.committee].description}
                     </Box>

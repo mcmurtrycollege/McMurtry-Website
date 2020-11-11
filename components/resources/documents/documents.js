@@ -65,7 +65,7 @@ class Documents extends React.Component {
                     }
                 </Flex>
                 <div className='embedded-doc'>
-                    <embed src={documents[this.state.slide].document} type="application/pdf" width="600" height="820px" page="7" scrollbar="1" toolbar="1" />
+                    <iframe src={documents[this.state.slide].document} type="application/pdf" width="600" height="820px" page="7" scrollbar="1" toolbar="1" />
                 </div>
                 <div className='doc-link-container'>
                     <a href={documents[this.state.slide].document} target='_blank' rel="noopener noreferrer" style={{ textDecoration: 'none' }}>

@@ -1,0 +1,29 @@
+{
+  "heads": [
+    {
+      "position": "Jewish Affinity Group",
+      "name": "Alyson Resnick",
+      "email": "amr21@rice.edu"
+    },
+    {
+        "position": "Black Caucus",
+        "name": "Catelin Davis",
+        "email": "cnd3@rice.edu"
+    },
+    {
+        "position": "LGBTQ+ Affinity Group",
+        "name": "Hannah Boyd",
+        "email": "hrb3@rice.edu"
+    },
+    {
+        "position": "FLI Affinity Group",
+        "name": "Jazmine Castillo",
+        "email": "jdc12@rice.edu"
+    },
+    {
+        "position": "Hispanic Affinity Group",
+        "name": "Angelica Torres",
+        "email": "alt7@rice.edu"
+    }
+  ]
+}

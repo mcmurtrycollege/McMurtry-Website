@@ -8,6 +8,16 @@
     z-index: 999;
 }
 
+.mobile-navbar__container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
 .fixed-mobile-header {
     position: fixed;
     display: flex;

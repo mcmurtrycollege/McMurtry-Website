@@ -40,18 +40,20 @@ class Navbar extends React.Component {
             )
             menus.push(
                 <div className={(this.state.subheader === i) ? ('subheader-display') : ('subheader-hidden')} key={`${navbar_headers[i].name}-menu`}>
-                    <div onClick={this.closeSubheader} className='subheader-back'>
-                        <p>← Back</p>
+                    <div className='mobile-navbar__container'>
+                        <div onClick={this.closeSubheader} className='subheader-back'>
+                            <p>← Back</p>
+                        </div>
+                        {
+                            navbar_headers[i].subheaders.map(({ name, to }) => (
+                                <Link href={to} key={name}>
+                                    <div className='subheader-item'>
+                                        {name}
+                                   </div>
+                                </Link>
+                            ))
+                        }
                     </div>
-                    {
-                        navbar_headers[i].subheaders.map(({ name, to }) => (
-                            <Link href={to} key={name}>
-                                <div className='subheader-item'>
-                                    {name}
-                                </div>
-                            </Link>
-                        ))
-                    }
                 </div>
             )
         }

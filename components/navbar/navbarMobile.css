@@ -13,7 +13,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
 }
@@ -100,8 +100,8 @@
 
 .subheader-item {
     color: #DCDFE5;
-    margin-top: 5%;
     margin-left: 13%;
+    margin-bottom: 6%;
     text-decoration: none;
     font-size: 1.3em;
     color: #515768;

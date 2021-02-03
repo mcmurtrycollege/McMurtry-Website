@@ -1,3 +1,8 @@
 {
-  "smr_bio": "We're looking for a new SMR!"
+  "smr": [
+    {
+      "name": "Krishna Chandra",
+      "email": "kc60@rice.edu"
+    }
+  ]
 }

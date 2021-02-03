@@ -2,3 +2,17 @@
     padding-top: 10%;
     margin-bottom: 5%;
 }
+
+.smr-name {
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.8em;
+    color: #515768
+}
+
+.smr-email {
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.0 em;
+    color: #515768
+}

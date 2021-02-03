@@ -241,126 +241,92 @@
     padding: 5px 10px;
     text-align: center;
 }
-@media screen and (min-width: 700px){
-    .wide-initiative-request-form {
-        width: 700px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 5%;
-        display: flex;
-    }
-
-    .narrow-initiative-request-form {
-        display: none;
-    }
+.position-card {
+    margin: 10px;
 }
 
-@media screen and (max-width: 699px){
-    .wide-initiative-request-form {
-        display: none;
-    }
-
-    .narrow-initiative-request-form {
-        width: 360px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 5%;
-    }
+.contact-card-content {
+    color: #515768;
+    /* border: 1px solid #2B2F3A; */
+    border: 1px solid #DCDFE5;
+    /* border: 1px solid #BFBFCC; */
+    box-shadow: 0 0 5px 2px #BFBFCC;
+    padding: 15px;
+    transition: 0.2s ease-in-out;
 }
 
-.initiative-request-page {
-    padding-top: 10%;
+.contact-card-content:hover {
+    /* background-color: #BFBFCC; */
+    border-color: #515768;
 }
-.reimbursements-page {
+
+.position {
+    font-weight: normal;
+    font-size: 0.9em;
+}
+
+.name {
+    font-size: 1.25em;
+    font-weight: normal;
+}
+
+.link {
+    text-decoration: none;
+    color: #515768;
+    font-weight: normal;
+}
+
+.year {
+    font-weight: normal;
+    font-size: 0.8em;
+}
+
+.contact-email {
+    font-size: 0.8em;
+    font-weight: normal;
+    transition: 0.3s ease-in-out;
+}
+
+.contact-email:hover {
+    text-decoration: underline;
+}
+
+.contact-phone {
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.major {
+    font-size: 0.9em;
+    font-weight: normal;
+}
+
+.subjects {
+    font-size: 0.9em;
+    font-weight: normal;
+}
+
+.room {
+    font-weight: normal;
+    font-size: 1em;
+}
+.smr-page {
     padding-top: 10%;
     margin-bottom: 5%;
 }
 
-.instructions-title {
-    color: #515768;
+.smr-name {
     text-align: center;
     font-weight: normal;
+    font-size: 1.8em;
+    color: #515768
 }
 
-.instructions-list-item {
-    padding: 5px;
-}
-
-.expense-instructions {
-    color: #515768;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.active-form {
-    border: solid #515768;
-    border-width: 0 0 2px 0;
+.smr-email {
     text-align: center;
-    color: #515768;
-    transition: border-color 0.3s ease-in-out;
-}
-
-.inactive-form {
-    border: solid #BFBFCC;
-    border-width: 0 0 2px 0;
-    color: #515768;
-    text-align: center;
-    transition: border-color 0.3s ease-in-out;
-}
-
-.inactive-form:hover {
-    border-color: #515768;
-}
-
-@media screen and (min-width: 651px) {
-    .active-form, .inactive-form {
-        width: 150px;
-        height: 75px;
-    }
-}
-
-@media screen and (max-width: 650px) {
-    .form-key {
-        font-size: 0.5em;
-    }
-    .active-form, .inactive-form {
-        width: 75px;
-        height: 50px;
-    }
-}
-
-.embedded-form {
-    width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 4%;
-}
-
-.form-link-container {
-    width: 220px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    margin-top: 10%;
-    margin-bottom: 10%;
-}
-
-.form-link {
-    color: #515768;
-    background-color: #BFBFCC;
-    padding: 15px;
-}
-
-@media screen and (max-width: 610px) {
-    .embedded-form {
-        display: none;
-    }
-}
-
-@media screen and (min-width: 611px) {
-    .form-link-container {
-        display: none;
-    }
+    font-weight: normal;
+    font-size: 1.0 em;
+    color: #515768
 }
 html {
     margin: 0;

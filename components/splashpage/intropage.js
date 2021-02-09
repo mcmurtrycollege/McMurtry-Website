@@ -56,26 +56,11 @@ const Intro = () => (
             <Image src='../../static/YurtTrees.svg' />
         </Box>
         <h1 className='welcome-title'>Welcome to McMurtry!</h1>
-        <Box className="turbovote-banner" width={[0.9, 0.5]}>
-            <a href="https://rice.turbovote.org/">
-                <Image src='../../static/rice_votes.png' />
-            </a>
-            <p>
-                TurboVote makes sure you always know when elections are happening and have the information you need
-                to vote with confidence. Launched in 2010 by the nonpartisan nonprofit Democracy Works, TurboVote
-                is an online voter platform that helps you start the voter registration process, request a ballot
-                by mail, and sign up for email and text reminders for upcoming election deadlines, all in less
-                than five minutes.
-            </p>
-            {/* <p>
-                Through a partnership with the Rice University Center for Civic Leadership, Rice students can opt
-                to receive voter registration forms and ballot request applications through TurboVote in pre-paid,
-                pre-addressed envelopes.
-            </p> */}
-            <a href="https://rice.turbovote.org/">
-                <Box className='turbovote-signup'>Sign up today!</Box>
-            </a>
-        </Box>
+        <a href={"https://goo.gl/forms/KEyPplLhclljdSOm2"}>
+            <Box className="accessibility-fund-banner" width={[0.9, 0.5]}>
+                <p>McMurtry Magisters' Accessibility Fund &#8594;</p>
+            </Box>
+        </a>
         <Flex justifyContent='center' flexWrap='wrap' flexDirection='row' >
             {
                 quickLinks.map(({ name, icon, to, absolute }) => (
@@ -92,18 +77,18 @@ const Intro = () => (
                                     </div>
                                 </Link>
                             ) : (
-                                <a href={absolute} target="_blank" rel="noopener noreferrer">
-                                    <div className='quick-link'>
-                                        {/* <img src={`${icon}/DCDFE5/70`} alt='' className='intro-link-img-large' />
+                                    <a href={absolute} target="_blank" rel="noopener noreferrer">
+                                        <div className='quick-link'>
+                                            {/* <img src={`${icon}/DCDFE5/70`} alt='' className='intro-link-img-large' />
                                         <img src={`${icon}/DCDFE5/45`} alt='' className='intro-link-img-small' /> */}
-                                        <img src={`${iconFolder}${icon}-large.svg`} alt='' className='intro-link-img-large' />
-                                        <img src={`${iconFolder}${icon}-small.svg`} alt='' className='intro-link-img-small' />
-                                        <h2 className='quick-link-name'>{name}</h2>
-                                    </div>
-                                </a>
-                            )
+                                            <img src={`${iconFolder}${icon}-large.svg`} alt='' className='intro-link-img-large' />
+                                            <img src={`${iconFolder}${icon}-small.svg`} alt='' className='intro-link-img-small' />
+                                            <h2 className='quick-link-name'>{name}</h2>
+                                        </div>
+                                    </a>
+                                )
                         }
-                        
+
                     </Box>
                 ))
 

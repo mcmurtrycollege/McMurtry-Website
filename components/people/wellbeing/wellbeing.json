@@ -71,6 +71,18 @@
         "phone": "(614) 370-1900",
         "email": "gtl1@rice.edu",
         "photo": "../../../../static/rhas/Gordan_Liu.jpg"
+      },
+      {
+        "name": "Ahalya Lettenberger",
+        "phone": "(630) 956-4608",
+        "email": "abl10@rice.edu",
+        "photo": "../../../../static/rhas/Ahalya_Lettenberger.jpeg"
+      },
+      {
+        "name": "Prathik Kalva",
+        "phone": "(832) 651-8763",
+        "email": "pk28@rice.edu",
+        "photo": "../../../../static/rhas/Prathik_Kalva.png"
       }
     ]
   },

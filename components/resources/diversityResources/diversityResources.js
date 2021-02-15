@@ -1,6 +1,8 @@
 import React from 'react';
 import Title from '../../general/title';
+import { Box } from "rebass";
 import './diversityResources.css';
+import resources from './diversityResources.json';
 
 const WorkOrder = () => (
     <div className='diversity-resources'>
@@ -16,6 +18,23 @@ const WorkOrder = () => (
                 </div>
             </a>
         </div>
+
+        {resources.resources.map((section) => (
+            <Box>
+                <Box className="diversity-resources-subtitle">
+                    <p>{section.title}</p>
+                </Box>
+                {section.links.map(url => (
+                    <Box className="diversity-resources-links" ml="auto" mr="auto" width={[0.9, 0.6]}>
+                        <a href={url}>
+                            <Box className="diversity-resources-link" width={[1]}>
+                                <p>{url}</p>
+                            </Box>
+                        </a>
+                    </Box>
+                ))}
+            </Box>
+        ))}
     </div>
 )
 

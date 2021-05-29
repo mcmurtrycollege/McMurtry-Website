@@ -37,16 +37,10 @@
         "photo": "../../../../static/rhas/Rishi_Vas.jpg"
       },
       {
-        "name": "Caleb Robinson",
-        "phone": "(601) 818-4858",
-        "email": "csr4@rice.edu",
-        "photo": "../../../../static/rhas/Caleb_Robinson.jpg"
-      },
-      {
-        "name": "Jennifer Ho",
-        "phone": "(832) 773-2341",
-        "email": "jh86@rice.edu",
-        "photo": "../../../../static/rhas/Jennifer_Ho.jpg"
+        "name": "Camille Villar",
+        "phone": "(713) 851-1258",
+        "email": "cfv1@rice.edu",
+        "photo": "../../../../static/rhas/Camille_Villar.jpg"
       },
       {
         "name": "Aaron Vaughan",
@@ -55,10 +49,10 @@
         "photo": "../../../../static/rhas/Aaron_Vaughan.jpg"
       },
       {
-        "name": "Camille Villar",
-        "phone": "(713) 851-1258",
-        "email": "cfv1@rice.edu",
-        "photo": "../../../../static/rhas/Camille_Villar.jpg"
+        "name": "Caleb Robinson",
+        "phone": "(601) 818-4858",
+        "email": "csr4@rice.edu",
+        "photo": "../../../../static/rhas/Caleb_Robinson.jpg"
       },
       {
         "name": "Annika Nambiar",
@@ -83,6 +77,18 @@
         "phone": "(832) 651-8763",
         "email": "pk28@rice.edu",
         "photo": "../../../../static/rhas/Prathik_Kalva.png"
+      },
+      {
+        "name": "Karen Martinez Perez",
+        "phone": "(936) 439-3319",
+        "email": "kmm10@rice.edu",
+        "photo": "../../../../static/rhas/Karen_Martinez_Perez.jpg"
+      },
+      {
+        "name": "Manshi Patel",
+        "phone": "(615) 724-8243",
+        "email": "mpp5@rice.edu",
+        "photo": "../../../../static/rhas/Manshi_Patel.jpg"
       }
     ]
   },

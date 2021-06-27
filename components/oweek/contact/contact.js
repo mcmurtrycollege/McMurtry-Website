@@ -13,11 +13,14 @@ const Contact = () => (
             <p>Houston, TX 77005</p>
         </div>
         <p>
-            **Please note that you can only mail or ship things to arrive after August 16th. Our space is limited and not secure, so please bring important items with you. There will be plenty of time to purchase other personal items during and after O-week.**
+            **Please note that you can only mail or ship things to arrive after August 15th. Our space is limited and not secure, so please bring important items with you. There will be plenty of time to purchase other personal items during and after O-week.**
         </p>
         <h2 className='oweek-subtitle'>Contact the O-Week Coordinators</h2>
         <p>General Email: mcmurtryoweek@gmail.com</p>
-        <p>Aaron Vaughan: amv11@rice.edu | Tya Epps: tme3@rice.edu | Alyson Resnick: amr21@rice.edu</p>
+        <p>Jazmine Castillo: jdc12@rice.edu | Josselyn Munoz: jsm18@rice.edu | Rajpal Bal: rsb4@rice.edu</p>
+
+        <h2 className='oweek-subtitle'>Contact the McMurtry College President</h2>
+        <p>Rachel Moore: rcm7@rice.edu</p>
 
         <h2 className='oweek-subtitle'>Contact the College Coordinator and Magisters</h2>
         <p>College Coordinator: Jackie Carrizales: jjc3@rice.edu</p>

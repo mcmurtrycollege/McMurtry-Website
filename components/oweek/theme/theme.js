@@ -11,31 +11,19 @@ const Theme = () => (
                 <Image src="../../../static/oweek/2019AdvisingTeam.jpg" alt='' />
             </Box>
             <p>
-                We chose to focus this O-Week on game shows because of the ability that game shows have
-                to bring people together, as well as highlight different strengths and experiences. There are
-                countless game shows out there, but each one has its own objectives and skill sets necessary
-                in order to succeed. Additionally, game shows are able to create memorable and even lifechanging 
-                experiences for the contestants involved. In a game show, one’s experiences and
-                knowledge are crucial in order to succeed. We believe that game shows, in a way, are a metaphor
-                for the Rice experience. While the form of a Rice education is relatively uniform across the
-                student body, no Rice experience is the same. At Rice, you have the ability to choose your own
-                path, and to engage with your own interests and skill sets in order to create your own future. 
+                College is the land of many firsts, far far away from anything that you’ve experienced. As New Students at McMurtry College, you will embrace your strengths, acknowledge your weaknesses, and grow as Rice University students. No student’s journey will be the same as your own, because here at Rice you will forge your own destiny, and create memorable and even life changing experiences. 
             </p>
             <p>
-                As New Students and Rice Owls, you have the chance to embrace what makes you unique,
-                and channel those experiences and attributes towards a path that you can be proud to walk
-                on. However, one of the beauties of game shows is that you rarely go through them alone. We
-                believe that one of the most important aspects of your Rice career is being able to recognize
-                resources that are available to you, and feel comfortable “phoning a friend” if you need help. 
+                During Bibbidi Bobbidi BoO-Week you will meet new people, encounter new ideas, and expand your worldview. Just as Cinderella’s fairy godmother transformed a pumpkin into a carriage with a simple “Bibbidi bobbidi boo”, we believe that each and every one of you has the power to alter the many spheres of our college, university, and community with your diverse and expansive set of beliefs, morals, values, and experiences.
             </p>
             <p>
-                Furthermore, in game shows, no contestant gets every answer right, and that’s okay! With
-                Game ShO-Week, we want to encourage vulnerability within everyone involved, because we’re
-                not always perfect or happy, but we’re nonetheless worthy of being here! Nobody is alone, and
-                it is so important to recognize that it’s okay to share and ask for help, and to give this help in
-                return. Finally, game shows are fun! During O-Week and at Rice, we want you to have fun in
-                all that you do! We know that these next few years will be ones that you never forget, so we
-                encourage you to take risks, challenge yourself, and play to win!
+                Your four year fairy tale at Rice will be full of fantasy and whimsy, magic, adventures, and treasure. But as we all know, College cannot be spelled without a couple of Ls. Even fairy tales aren’t without their obstacles. We will all face our own big bad wolves and people eating our porridge, but at the end of the day, our goal is to show you that your college experience will be “just right”
+            </p>
+            <p>
+                One of the most important things we want you to know is don’t be afraid to ask for help: even the bravest of heroes need to be rescued sometimes. During Bibbidi Bobbidi BoO-Week, we want to encourage vulnerability and authenticity every step of the way. We recognize that not every moment can be a fairy tale ball, and for each of us, the clock will inevitably strike midnight (or that 11:59 PM deadline), but we want you all to know that you should never hesitate to ask for help nor to give help in return. No matter the trials and tribulations you may encounter, you won’t be alone, as Rice has an abundance of resources available at your fingertips. Around each corner you will find a helper, like a talking cat, a fairy godmother, someone at the OAA or Wellbeing Center, or even an Advisor or O-Week sibling.
+            </p>
+            <p>
+                In the end, we hope that all of us Murts can write our own stories with the problems we face and successes we embrace, and that, by the end of Bibbidi Bobbidi BoO-Week you will feel closer to your happily ever after.
             </p>
         </div>
     </div>

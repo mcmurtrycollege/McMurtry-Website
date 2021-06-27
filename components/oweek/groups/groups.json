@@ -1,52 +1,56 @@
 {
     "oweek_groups": [
         {
-            "name": "Keeping Up With The Kash-Kabians",
-            "image": "../../../static/oweek/Kashgroup.jpg"
+            "name": "Aesop Rocky",
+            "image": "../../../static/oweek/Aesopgroup.jpg"
         },
         {
-            "name": "The Price is Ripe",
-            "image": "../../../static/oweek/Pricegroup.jpg"
+            "name": "Alice in Yurtland: Through the Looking Gong",
+            "image": "../../../static/oweek/Alicegroup.png"
         },
         {
-            "name": "Shark Tank Tok",
-            "image": "../../../static/oweek/Sharkgroup.jpg"
+            "name": "Childish Bambino",
+            "image": "../../../static/oweek/Childishgroup.jpg"
         },
         {
-            "name": "The Great British Bake-Office: Dunder Muffin",
-            "image": "../../../static/oweek/Bakegroup.jpg"
+            "name": "DaBaby and DaBeast",
+            "image": "../../../static/oweek/Dababygroup.jpg"
         },
         {
-            "name": "Hell’s Kiltchen",
-            "image": "../../../static/oweek/Kiltchengroup.jpg"
+            "name": "Full Senderella",
+            "image": "../../../static/oweek/Fullgroup.jpg"
         },
         {
-            "name": "Jeoparty in the USA",
-            "image": "../../../static/oweek/Jeopartygroup.jpg"
+            "name": "Grimm’s Folklore",
+            "image": "../../../static/oweek/Grimmsgroup.jpg"
         },
         {
-            "name": "Family Feuture",
-            "image": "../../../static/oweek/Familygroup.jpg"
+            "name": "Han Solo and Gretel",
+            "image": "../../../static/oweek/Hangroup.jpg"
         },
         {
-            "name": "Adele or No Deal",
-            "image": "../../../static/oweek/Adelegroup.jpg"
+            "name": "I came in like a Shrekking Ball",
+            "image": "../../../static/oweek/Shrekgroup.jpg"
         },
         {
-            "name": "Bachelor in ParaRice",
-            "image": "../../../static/oweek/Bachelorgroup.jpg"
+            "name": "Jack and the banana stalk",
+            "image": "../../../static/oweek/Jackgroup.jpg"
         },
         {
-            "name": "McMinute to Win It",
-            "image": "../../../static/oweek/McMinutegroup.jpg"            
+            "name": "Peter Panic at the Disco",
+            "image": "../../../static/oweek/Petergroup.jpg"            
         },
         {
-            "name": "Murt Ninja Warrior",
-            "image": "../../../static/oweek/Ninjagroup.jpg"
+            "name": "Rumpel-KILT-skin",
+            "image": "../../../static/oweek/Rumpelgroup.jpg"
         },
         {
-            "name": "HypeOut",
-            "image": "../../../static/oweek/Hypegroup.jpg"
+            "name": "The Frog Prince of Bel Air",
+            "image": "../../../static/oweek/Froggroup.jpg"
+        },
+        {
+            "name": "The Little Murtmaid",
+            "image": "../../../static/oweek/Littlegroup.jpg"
         }
     ]
 }

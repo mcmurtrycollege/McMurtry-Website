@@ -2,62 +2,62 @@
   "executive_council": [
     {
       "position": "President",
-      "name": "Carolyn Daly",
-      "year": "2021",
+      "name": "Rachel Moore",
+      "year": "2022",
       "email": "mcmurtrypresident@gmail.com"
     },
     {
-      "position": "Chief Justice",
-      "name": "Lola Torres",
-      "year": "2022",
-      "email": "mcmurtrycj@gmail.com"
-    },
-    {
       "position": "Prime Minister",
-      "name": "Isabel Sjodin",
-      "year": "2022",
+      "name": "Julia Engelhardt",
+      "year": "2023",
       "email": "murtpm@gmail.com"
     },
     {
       "position": "Internal VP",
-      "name": "Luey Garcia",
-      "year": "2023",
+      "name": "Alyson Resnick",
+      "year": "2022",
       "email": "mcmurtryivp@gmail.com"
     },
     {
       "position": "External VP",
-      "name": "Rachel Moore",
+      "name": "Jennifer Adams",
       "year": "2022",
       "email": "mcmurtryevp@gmail.com"
     },
     {
+      "position": "At-Large Rep",
+      "name": "Damian Gonzalez",
+      "year": "2024",
+      "email": "mcmurtrypc@gmail.com"
+    },
+    {
       "position": "SA Senator",
-      "name": "Hunter Brown",
-      "year": "2023",
+      "name": "Morike Ayodeji",
+      "year": "2024",
       "email": "mcmurtrysenator@gmail.com"
     },
     {
       "position": "Secretary",
-      "name": "Morgan Gage",
-      "year": "2023",
+      "name": "Kate Mischlich",
+      "year": "2024",
       "email": "mcmsecretary@gmail.com"
     },
     {
       "position": "Secretary",
-      "name": "Jazmine Castillo",
-      "year": "2023",
+      "name": "Grace Zhou",
+      "year": "2024",
       "email": "mcmsecretary@gmail.com"
     },
     {
       "position": "Treasurer",
-      "name": "Eliot Solomon",
-      "year": "2023",
+      "name": "Vidal Saenz",
+      "year": "2024",
       "email": "mcmurtrytreasurer@gmail.com"
     },
     {
       "position": "Treasurer",
-      "name": "Brandon Zimmer",
-      "year": "2023",
+      "name": "Nate Miller",
+      "year": "2024",
       "email": "mcmurtrytreasurer@gmail.com"
     }
   ],

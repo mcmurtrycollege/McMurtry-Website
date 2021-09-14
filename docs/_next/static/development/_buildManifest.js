@@ -1,1 +1,0 @@
-self.__BUILD_MANIFEST = (function(a,b){return {"/oweek":[a,b],"/oweek/coords":[a,b],"/oweek/mcmtour":[a,b],"/oweek/oweekbook":[a,b],"/oweek/oweekcontact":[a,b],"/oweek/oweekgroups":[a,b],"/oweek/theme":[a,b],"/oweek/yourroom":[a,b]}}("static\u002Fcss\u002Fstyles.chunk.css","static\u002Fchunks\u002Fstyles.js"));self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()

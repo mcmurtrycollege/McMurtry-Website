@@ -118,15 +118,6 @@
             "image": "../../../../static/associates/NormaTorresMendoza.PNG"
         },
         {
-            "name": "Chan Pham",
-            "career": "Rice University, Research Administrator",
-            "bio": "Married, mother of 3 children (Truce & Mai graduated from Rice)  I love food and travel.",
-            "movie_tv": "I love all movies except scary ones.",
-            "hobbies": "Reading, watching Netfix and Xfinity",
-            "fact": "I love to try new dishes and restaurants.",
-            "image": "../../../../static/associates/ChanPham.jpg"
-        },
-        {
             "name": "Keri Bas",
             "career": "I teach sewing & textile arts, often with a non-profit working in schools & shelters.",
             "bio": "After years in professional marketing and web design, I now split my time between sewing/quilting and working with private tech/web support clients. I share my house with my parents and two cats. I serve on the board of a local arts non-profit and lead several groups of creatives. I'm an interfaith minister, ordained in New York in 2005 - ask me about it sometime.",
@@ -172,15 +163,6 @@
             "image": "../../../../static/associates/DanielleKing.png"
         },
         {
-            "name": "Elizabeth Festa",
-            "career": "Rice Program for Writing and Communication",
-            "bio": "I teach research writing and communication across all disciplines and levels of study. My research focuses on supporting graduate writers.  I have two children (including one Murt!) and have one very demanding Siamese cat, Percival. I hail from the Virginia side of Washington, D.C., but Houston is by far my most favorite place. It's an incredibly warm city...in temperature and temperament.",
-            "movie_tv": "All international crime dramas--Hinterland, Shetland, The Break, Innocent, The Mechanism, Undercover, Wallander, etc.",
-            "hobbies": "Dining out (Tex-Mex!), museums, reading, walking at the Arboretum, and arthouse cinema",
-            "fact": "Before going to graduate school, I was a military officer",
-            "image": "../../../../static/associates/ElizabethFesta.jpg"
-        },
-        {
             "name": "Cassandra Diep & Jeffrey Yeung",
             "career": "Assistant Teaching Professor, Kinesiology Department (CD); Senior Accounting & Business Analyst, Controller’s Office (JY)",
             "bio": "Cassie and Jeff grew up in Houston and attended the same middle and high schools, but they didn’t start dating until they were both in graduate school at Texas A&M. Cassie is an Owl-Aggie (Rice for undergrad and A&M for grad school), and Jeff is a full-blown Aggie. They have been married since 2013 and have two young children: Alex, who loves superheroes and all things that go, and Alyssa, who loves all things that her brother loves. Cassie currently teaches and advises in the Health Sciences program within Kinesiology, while Jeff is involved with various aspects of Rice’s accounting.",
@@ -206,6 +188,49 @@
             "hobbies": "Traveling, movies w/ friends, building blocks w/ the toddler",
             "fact": "I've met Matthew McConaughey twice & have two pictures with him.  He's so awesome!",
             "image": "../../../../static/associates/JenniferZinn-Winkler.jpg"
+        },
+        {
+            "name": "Margaret Beier",
+            "career": "Professor",
+            "bio": "I am a psychology professor at Rice from Minneapolis who is a proud retired McMurtry Magister! I love McMurtry!!!! We lived on campus from 2015 to 2020 (my daughters, Lucy, Liza, my husband, Chris, and our dogs, Oscar and Felix)",
+            "movie_tv": "Mary Poppins/Mary Tyler Moore",
+            "hobbies": "Reading and cooking",
+            "fact": "I love Prince."
+        },
+        {
+            "name": "Catherine Evans",
+            "career": "Attorney",
+            "bio": "I grew up in New Orleans but moved to Houston in 1997 to attend law school and never left. I'm Board Certified in Criminal Law and have been working in the local criminal justice community for 20 years. My husband Jim graduated from Rice, so we've always lived nearby and enjoy going back on campus whenever possible. We have a ping-pong table and our kids would welcome the challenge from any students looking to get off-campus for a few hours!",
+            "movie_tv": "West Wing",
+            "hobbies": "Gardening",
+            "fact": "We currently have a 16 year old exchange student from Turkey living with us for the year.",
+            "image": "../../../../static/associates/CatherineEvans.jpg"
+        },
+        {
+            "name": "Chan Pham",
+            "career": "Research Administrator",
+            "bio": "I've been with Rice (BIOE department) since 2008 and my daughters graduated from Rice.  My one advises for students to take advantage of all the resources Rice offers.",
+            "movie_tv": "I like all movies except scary ones",
+            "hobbies": "travel, read, try new restaurants",
+            "image": "../../../../static/associates/ChanPham2.jpg"
+        },
+        {
+            "name": "Krista Kobylianskii",
+            "career": "Assistant Teaching Professor in Chemistry",
+            "bio": "I've been teaching Chemistry at Rice since 2019 and I primarily teach the General Chemistry Laboratory course. I live just outside of Houston with my husband, son and cat. Before coming to Houston, I lived and researched in San Francisco, Zurich (Switzerland), Melbourne (Australia) and Victoria (Canada). So, if you need any travel tips, just ask!",
+            "movie_tv": "British TV show \"Taskmaster\"",
+            "hobbies": "Strategic board games and travelling",
+            "fact": "No one in my family has the same citizenship. I am Canadian, my husband is Russian and my son is American!",
+            "image": "../../../../static/associates/KristaKobylianskii.jpg"
+        },
+        {
+            "name": "Elizabeth Festa",
+            "career": "Proposal Development Specialist/Office of Research",
+            "bio": "I help faculty members in crafting proposals for federal funding for their research; my job affords me the  pleasure of engaging with research across all disciplines and schools at Rice.  I have worked at Rice in various capacities for 14 years (13 years as a faculty member) and am familiar with most offices/student services at Rice.  My hometown is Chantilly, Virginia (Wash. D.C. metropolitan area). I can advise students on research proposals (NSF, Fulbright etc. ) and graduate school/professional school applications.",
+            "movie_tv": "all international crime dramas",
+            "hobbies": "museums, documentary films, reading, walking on Memorial Trails and going to the arboretum. I aspire to more hobbies on the long-term--I'd like to get back into English saddle horseback-riding at some point.",
+            "fact": "I have two very loud pets--a Siamese and a Min. Schnauzer",
+            "image": "../../../../static/associates/ElizabethFesta.jpeg"
         }
     ]
 }

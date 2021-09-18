@@ -90,6 +90,39 @@
     height: 100%;
 }
 
+.student-resources-banner {
+    margin: 0 auto 0 auto;
+    background-color: #515768;
+    color: #DCDFE5;
+    font-size: 2em;
+    text-align: center;
+    padding: 5px 10px;
+    position: relative;
+    transition: 0.3s ease-in-out;
+    z-index: 100;
+    margin-top: 14px;
+}
+
+.student-resources-banner:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: #87799C;
+    z-index: -1;
+    transition: 0.1s ease-in-out;
+}
+
+.student-resources-banner:hover {
+    font-weight: bold;
+}
+
+.student-resources-banner:hover:before{
+    height: 100%;
+}
+
 .yurt-graphic {
     margin-left: auto;
     margin-right: auto;

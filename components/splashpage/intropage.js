@@ -61,6 +61,11 @@ const Intro = () => (
                 <p>McMurtry Magisters' Accessibility Fund &#8594;</p>
             </Box>
         </a>
+        <a href={"https://docs.google.com/spreadsheets/d/14kvozYUheCTkH-QqxSWfO8OMQrILdgr7cW3wF2ePQJs/edit#gid=1352693617"}>
+            <Box className="student-resources-banner" width={[0.9, 0.5]}>
+                <p>Student/Academic Resources Spreadsheet &#8594;</p>
+            </Box>
+        </a>
         <Flex justifyContent='center' flexWrap='wrap' flexDirection='row' >
             {
                 quickLinks.map(({ name, icon, to, absolute }) => (

@@ -9,41 +9,23 @@
     },
     {
       "position": "Head PAA",
-      "name": "Shaquille Que",
-      "email": "stq1@rice.edu",
-      "major": "Computer Science, Mathematics; Pre-grad"
-    },
-    {
-      "position": "Head PAA",
-      "name": "Steven Feng",
-      "email": "sf25@rice.edu",
-      "major": "Statistics, Data Science Minor, Pre-grad"
-    }
-  ],
-  "o_week_paas": [
-    {
-      "position": "O-Week PAA",
-      "name": "Cassidy Kurita",
-      "email": "cmk9@rice.edu",
-      "major": "Biochemistry and Cell Biology, Medical Humanities; Pre-Pharmacy"
-    },
-    {
-      "position": "O-Week PAA",
-      "name": "Luey Garcia",
-      "email": "slg7@rice.edu",
-      "major": "Economics, Social Policy Analysis; Pre-law"
-    },
-    {
-      "position": "O-Week PAA",
       "name": "Nicholas Meisburger",
       "email": "ncm5@rice.edu",
       "major": "Computer Science; Pre-Grad"
     },
     {
-      "position": "O-Week PAA",
+      "position": "Head PAA",
       "name": "Vanessa Garlepp",
       "email": "vmg2@rice.edu",
       "major": "Bioengineering"
+    }
+  ],
+  "o_week_paas": [
+    {
+      "position": "O-Week PAA",
+      "name": "Grace Waterman",
+      "email": "glw4@rice.edu",
+      "major": ""
     }
   ],
   "year_long_paas": [
@@ -55,117 +37,9 @@
     },
     {
       "position": "Year-Long PAA",
-      "name": "Meheret Adera ",
-      "email": "msa8@rice.edu",
-      "major": "Kinesiology, Global Health Technologies minor; Pre-grad or Pre-med"
-    },
-    {
-      "position": "Year-Long PAA",
-      "name": "Jonathan Bloom",
-      "email": "jsb8@rice.edu",
-      "major": "Chemical Engineering; Pre-business"
-    },
-    {
-      "position": "Year-Long PAA",
-      "name": "Emily Duffus",
-      "email": "ekd2@rice.edu",
-      "major": "Cognitive Sciences, Biochemistry and Cell Biology minor, Pre-med"
-    },
-    {
-      "position": "Year-Long PAA",
-      "name": "Steven Feng",
-      "email": "sf25@rice.edu",
-      "major": "Statistics, Data Science minor; Pre-grad"
-    },
-    {
-      "position": "Year-Long PAA",
-      "name": "Cody Clayhold",
-      "email": "ctc8@rice.edu",
-      "major": "Biochemistry and Cell Biology, Kinesiology; Pre-med"
-    },
-    {
-      "position": "Year-Long PAA",
       "name": "Julia Engelhardt",
       "email": "jpe2@rice.edu",
       "major": "Cognitive Sciences, Jewish Studies, Politics, Law and Social Thought minor"
-    },
-    {
-      "position": "Year-Long PAA",
-      "name": "Trent Herdon",
-      "email": "tth5@rice.edu",
-      "major": "nomics, Statistics, Financial Computation and Modeling minor; Pre-business"
-    },
-    {
-      "position": "Year-Long PAA",
-      "name": "Joshua Holder",
-      "email": "jgh8@rice.edu",
-      "major": "Mechanical Engineering; Pre-Grad"
-    },
-    {
-      "position": "Year-Long PAA",
-      "name": "Anika Jain",
-      "email": "aaj11@rice.edu",
-      "major": "Economics, Social Policy Analysis; Pre-Law"
-    },
-    {
-      "position": "Year-Long PAA",
-      "name": "Luey Garcia",
-      "email": "slg7@rice.edu",
-      "major": "Economics, Social Policy Analysis; Pre-law"
-    },
-    {
-      "position": "Year-Long PAA",
-      "name": "Vanessa Garlepp",
-      "email": "vmg2@rice.edu",
-      "major": "Bioengineering"
-    },
-    {
-      "position": "Year-Long PAA",
-      "name": "Annelise Goldman",
-      "email": "alg18@rice.edu",
-      "major": "Environmental Science, Biochemistry and Cell Biology minor; Pre-grad"
-    },
-    {
-      "position": "Year-Long PAA",
-      "name": "Cassidy Kurita",
-      "email": "cmk9@rice.edu",
-      "major": "Biochemistry and Cell Biology, Medical Humanities; Pre-Pharmacy"
-    },
-    {
-      "position": "Year-Long PAA",
-      "name": "Serene Lee",
-      "email": "sl122@rice.edu",
-      "major": "English; Pre-law"
-    },
-    {
-      "position": "Year-Long PAA",
-      "name": "Elena Margolin",
-      "email": "erm7@rice.edu",
-      "major": "Computer Science, Business minor; Pre-business"
-    },
-    {
-      "position": "Year-Long PAA",
-      "name": "Dylan Nguyen",
-      "email": "dvn2@rice.edu",
-      "major": "Social Policy Analysis, Sociology"
-    },
-    {
-      "position": "Year-Long PAA",
-      "name": "Shaquille Que",
-      "email": "stq1@rice.edu",
-      "major": "Computer Science, Mathematics; Pre-grad"
-    },
-    {
-      "position": "Year-Long PAA",
-      "name": "Nicholas Meisburger",
-      "email": "ncm5@rice.edu",
-      "major": "Computer Science; Pre-Grad"
-    },
-    {
-      "position": "Year-Long PAA",
-      "name": "Jillian Schwartz",
-      "email": "jss18@rice.edu",
-      "major": "Economics, English, Business minor; Pre-business"
     }
   ]
 }

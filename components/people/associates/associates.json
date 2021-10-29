@@ -146,12 +146,12 @@
         },
         {
             "name": "Mark Krouskop",
-            "career": "Rice University, Hamman Hall, Lecturer Theater Design",
-            "bio": "My name is Mark Krouskop. I am a theater design lecturer in VADA. Come by Hamman Hall and I’d be happy to give you more details.",
-            "movie_tv": "Real Genius",
-            "hobbies": "Playing volleyball, video games, collecting 1980-present toys, making fine furniture.",
-            "fact": "I have 3 ferrets and a Great Dane.",
-            "image": "../../../../static/associates/MarkKrouskop.jpeg"
+            "career": "Production Manager/Lecturer for Theater, VADA",
+            "bio": "I design scenery for theater productions. I have worked with many different theater companies around Houston and the country. Before being a scenic designer, I worked for engineering, architectural, and design firms. For Rice I work as the Production Manager for the Theater track of VADA. I also serve as the Rice Player's faculty mentor. ",
+            "movie_tv": "Whatever I am binge watching at that moment",
+            "hobbies": "Collecting Toys and pop memorabilia, playing video games.",
+            "fact": "I have 2 visually impaired Great Danes",
+            "image": "../../../../static/associates/MarkKrouskop.jpg"
         },
         {
             "name": "Danielle King",
@@ -183,9 +183,9 @@
         {
             "name": "Jennifer Zinn-Winkler",
             "career": "Department Administrator - Department of Kinesiology at Rice University",
-            "bio": "I have been at Rice since moving to the Houston area in 2012.  Originally from Austin, I received my BS degree in Kinesiology from UT Austin.  My husband Lance & I have an almost 2 year old daughter who keeps us on our toes.",
-            "movie_tv": "Chicago Fire",
-            "hobbies": "Traveling, movies w/ friends, building blocks w/ the toddler",
+            "bio": "I have been in my position at Rice since moving to the Houston area in 2012. Originally from Austin, I received my BS degree in Kinesiology from UT Austin. My husband Lance & I have a toddler daughter who keeps us on our toes.  Oh and...McMurtry is the BEST college on campus!",
+            "movie_tv": "The Holiday",
+            "hobbies": "Photography, arts & crafts, puzzles with my daughter",
             "fact": "I've met Matthew McConaughey twice & have two pictures with him.  He's so awesome!",
             "image": "../../../../static/associates/JenniferZinn-Winkler.jpg"
         },
@@ -239,7 +239,40 @@
             "movie_tv": "Ted Lasso",
             "hobbies": "Cooking, Hiking, Soccer",
             "fact": "I've worked in 11 different countries in a 12 month period",
-            "image": ""
-        }
+            "image": "../../../../static/associates/TawfikJarjour.jpg"
+        },
+        {
+            "name": "Grace Weng",
+            "career": "Campus Minister",
+            "bio": "McMurtry Class of 2015; Majors: English, VADA (Theatre), ELA 7-12 Teaching Cert.; Assistant Director of Rice Chi Alpha Christian Fellowship",
+            "image": "../../../../static/associates/GraceWeng.jpeg"
+        },
+        {
+            "name": "Lena Silva",
+            "career": "Civil Litigation Attorney",
+            "bio": "Proud OG McMurtry alum! And happy to be back home in Houston after graduating from Rice in 2013, teaching 9th grade English in Southeast Houston for two years, then spending three years in Austin at UT Law, followed by clerking for a U.S. District Judge in El Paso for two years. I am happy to advise students on all thing law school, LSAT, pre-law, as well as taking time off after Rice before doing any of the above! I majored in The Study of Women, Gender, & Sexuality, as well as Psychology and would love to talk about my experiences in these studies. ",
+            "movie_tv": "Bachelor/Bachelorette/Bachelor in Paradise",
+            "hobbies": "Salsa & Bachata dancing, Yoga, Rock Climbing, Camping",
+            "fact": "I have competed and performed stand up comedy all over Houston.",
+            "image": "../../../../static/associates/LenaSilva.jpg"
+        },
+        {
+            "name": "Laura Kabiri",
+            "career": "Assistant Teaching Professor; Sports Medicine & Exercise Physiology",
+            "bio": "I'm an EXCEPTIONALLY excited faculty associate and the NSCI DA for McMurtry! I teach human anatomy and physiology and I like free hugs, good humans, and puppies of all kinds. I am Texas born and bred and love wearing dresses and western boots. With a background in healthcare, I am always happy to talk about careers in medicine, how to survive adulting, or just the meaning of life :)",
+            "movie_tv": "Books. The kind with real paper.",
+            "hobbies": "Woodworking, reading, food, music",
+            "fact": "Our family motto is 'Be weird, but wonderful!'. I'm KILLING it.",
+            "image": "../../../../static/associates/LauraKabiri.jpg"
+        },
+        {
+            "name": "Manny De la Mora ",
+            "career": "After physically altering them I apply heat, fat, acid as well as other compounds  to change the chemical and physical nature of inert organic flora and fauna. ",
+            "bio": "I attended Rice with the intention of going to medical school.  After my junior year I decided that medical school was not the right career path for me so I decided to go to culinary school instead. I think I can really help students that are unsure of what they want to do or had an idea but might want to make a change. ",
+            "movie_tv": "Braveheart / Cowboy Bebop ",
+            "hobbies": "Video Games, Smoking/BBQ, Reading ",
+            "fact": "I am from Mexico and did not learn to speak English until I was about 4 years old. ",
+            "image": "../../../../static/associates/ManuelDelaMora.jpg"
+        },
     ]
 }

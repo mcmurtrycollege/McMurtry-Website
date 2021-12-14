@@ -27,6 +27,11 @@ const FinancialInclusivity = () => (
                         <p><strong>Rice Access and Opportunity Portal</strong></p><p>For academic related expenses →</p>
                     </a>
                 </Box>
+                <Box width={250} className='fin-inc-link'>
+                    <a href='https://linktr.ee/ricemutualaid' style={{ textDecoration: 'none', color: '#2B2F3A' }} rel="noopener noreferrer">
+                        <p><strong>Rice Mutual Aid Resources</strong></p><p>Click here for more info! →</p>
+                    </a>
+                </Box>
             </Flex>
 
         </Box>

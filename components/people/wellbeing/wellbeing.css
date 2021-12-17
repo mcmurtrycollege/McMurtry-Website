@@ -9,3 +9,67 @@
     color: #515768;
 }
 
+.rha-card-visible {
+    padding: 4%;
+    margin: 3%;
+    font-weight: normal;
+    color: #DCDFE5;
+    background-color: #515768;
+    transition: 0.2s ease-in-out;
+}
+
+.rha-card-hidden {
+    padding: 4%;
+    margin: 3%;
+    font-weight: normal;
+    color: #515768;
+    border: 1px solid #DCDFE5;
+    box-shadow: 0 0 5px 2px #BFBFCC;
+    transition: 0.2s ease-in-out;
+}
+
+.rha-card-hidden:hover {
+    border-color: #515768;
+}
+
+.rha-dropdown, .rha-image-dropdown {
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+}
+
+.rha-image {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 9%;
+}
+
+.contact-email-hidden {
+    font-size: 0.8em;
+    font-weight: normal;
+    transition: 0.3s ease-in-out;
+}
+
+.contact-email-hidden:hover {
+    text-decoration: underline;
+}
+
+.contact-email-visible {
+    font-size: 0.8em;
+    font-weight: normal;
+    color: #DCDFE5;
+    transition: 0.3s ease-in-out;
+}
+
+.contact-email-visible:hover {
+    text-decoration: underline;
+}
+
+.contact-phone {
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.name {
+    font-size: 1.25em;
+    font-weight: normal;
+}

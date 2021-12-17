@@ -25,7 +25,7 @@
     "description": "RHAs are students who have been trained on a variety of wellbeing topics. These students work at their college to provide health education opportunities, health supplies and peer guidance. RHAs also act as a liaison between the Student Wellbeing Office and the residential colleges, staying up to date on campus-wide wellbeing programming.",
     "members": [
       {
-        "name": "Akshaya Venkatesh",
+        "name": "Akshaya Venkatesh (she/her/hers)",
         "pronouns": "she/her/hers",
         "bio": "Hi McMurtry! My name is Akshaya Venkatesh and I'm a senior at McMurtry! I'm originally from Southern California, majoring in cognitive science, and minoring in biochemistry and cell biology. I enjoy reading books (so recommend any books that you like!), watching tv shows and movies, and spending time with friends and family! Feel free to talk to me about homesickness, imposter syndrome, anxiety, managing stress, and time management. I've been an RHA since my freshman year, so feel free to reach out anytime :)",
         "phone": "(805) 428-9475",
@@ -33,7 +33,7 @@
         "photo": "../../../../static/rhas/Akshaya_Venkatesh.jpg"
       },
       {
-        "name": "Rishi Vas",
+        "name": "Rishi Vas (he/him/his)",
         "pronouns": "he/him/his",
         "bio": "I'm on Rice Riyaaz, the Bollywood Fusion dance team on campus! I love to play sports such as tennis and basketball and I'm a diehard Dallas Mavericks and Cowboys fan!",
         "phone": "(214) 603-1931",
@@ -41,7 +41,7 @@
         "photo": "../../../../static/rhas/Rishi_Vas.jpg"
       },
       {
-        "name": "Camille Villar",
+        "name": "Camille Villar (she/her/hers)",
         "pronouns": "she/her/hers",
         "bio": "I've been an RHA since my freshman year, and I am excited to be a co-head RHA for Murt this year! I've been a Houstonian my whole life, but I've kept in touch with my Filipino roots. I love boba, sunny days, coffee, games (video and board, haha), playing the flute, and Marvel. I'm super approachable-- feel free to reach out if you want to talk about anything or just hang out!",	
         "phone": "(713) 851-1258",
@@ -49,7 +49,7 @@
         "photo": "../../../../static/rhas/Camille_Villar.jpg"
       },
       {
-        "name": "Aaron Vaughan",
+        "name": "Aaron Vaughan (he/him/his)",
         "pronouns": "he/him/his",
         "bio": "Hi! My name is Aaron and I'm a senior at McMurtry studying psychology and sociology. Outside of being an RHA, I'm involved in Rice Alzheimer's Buddies, Academic Fellows, and McM government, among other things. Come talk to me about mental health, de-stress techniques, dealing with the transition to Rice, or anything else you'd like to talk about!" ,
         "phone": "(469) 247-2607",
@@ -57,7 +57,7 @@
         "photo": "../../../../static/rhas/Aaron_Vaughan.jpg"
       },
       {
-        "name": "Annika Nambiar",
+        "name": "Annika Nambiar (she/her/hers)",
         "pronouns": "she/her/hers",
         "bio": "I love playing volleyball and lettering. My favorite thing to do around Houston is find the best food places!",
         "phone": "(650) 730-6539",
@@ -65,13 +65,15 @@
         "photo": "../../../../static/rhas/Annika_Nambiar.jpg"
       },
       {
-        "name": "Ahalya Lettenberger",
+        "name": "Ahalya Lettenberger (she/her/hers)",
+        "pronouns": "she/her/hers",
+        "bio": "Hello! My name is Ahalya, and I'm a junior at McMurtry studying bioengineering. I'm also on the Rice Women's Swim Team, and outside of school and swimming, I love cooking, watching movies (Marvel is my favorite), and doing anything outdoors. Feel free to reach out to me about anything, I'm always free to talk!",
         "phone": "(630) 956-4608",
         "email": "abl10@rice.edu",
         "photo": "../../../../static/rhas/Ahalya_Lettenberger.jpeg"
       },
       {
-        "name": "Prathik Kalva",
+        "name": "Prathik Kalva (he/him/his)",
         "pronouns": "he/him/his",
         "bio": "I enjoy dancing, playing sports with my friends, and going out to eat (especially Taco Bell!).",
         "phone": "(832) 651-8763",
@@ -79,7 +81,7 @@
         "photo": "../../../../static/rhas/Prathik_Kalva.png"
       },
       {
-        "name": "Karen Martinez Perez",
+        "name": "Karen Martinez Perez (she/her/hers)",
         "pronouns": "she/her/hers",
         "bio": "If you want a hug, boba, a shopping buddy, someone to dance around or learn a new language with, I'm down :). I'm not a professional but feel free to reach out about: managing anxiety, imposter syndrome, relationships (romantic/platonic), confidence/self-esteem, burnout, and feeling lonely or homesick.",
         "phone": "(936) 439-3319",
@@ -87,7 +89,7 @@
         "photo": "../../../../static/rhas/Karen_Martinez_Perez.jpg"
       },
       {
-        "name": "Manshi Patel",
+        "name": "Manshi Patel (she/her/hers)",
         "pronouns": "she/her/hers",
         "bio": "Hi! My name is Manshi, my major is Biochemistry, and I am a rising junior. My interests include watching space documentaries, trying out vegetarian recipes, and shopping on etsy!",
         "phone": "(615) 724-8243",

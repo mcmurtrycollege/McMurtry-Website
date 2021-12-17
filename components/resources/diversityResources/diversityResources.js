@@ -20,15 +20,15 @@ const WorkOrder = () => (
         </div>
 
         {resources.resources.map((section) => (
-            <Box>
+            <Box key={`C+${resources.resources.indexOf(section)}`}>
                 <Box className="diversity-resources-subtitle">
                     <p>{section.title}</p>
                 </Box>
-                {section.links.map(url => (
-                    <Box className="diversity-resources-links" ml="auto" mr="auto" width={[0.9, 0.6]}>
-                        <a href={url}>
+                {section.links.map(resource => (
+                    <Box className="diversity-resources-links" ml="auto" mr="auto" width={[0.9, 0.6]} key={`C+${section.links.indexOf(resource)}`}>
+                        <a href={resource.link}>
                             <Box className="diversity-resources-link" width={[1]}>
-                                <p>{url}</p>
+                                <p>{resource.descr}</p>
                             </Box>
                         </a>
                     </Box>

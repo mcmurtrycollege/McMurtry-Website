@@ -7,10 +7,12 @@ const WorkOrder = () => (
     <div className='workorder-page'>
         <Title width={320} title="Work Order" />
         <div className='wide-workorder-form'>
-            <iframe src="https://www.emailmeform.com/builder/form/c9Iyb57aGe2ETnAk3Oce7" width="660" height="805" frameBorder="0" scrolling="no" type="text/javascript" title="Work Order Form"></iframe>
-        </div>
-        <div className='narrow-workorder-form'>
-            <iframe src="https://www.emailmeform.com/builder/form/c9Iyb57aGe2ETnAk3Oce7" width="360" height="900" frameBorder="0" scrolling="no" type="text/javascript" title="Work Order Form"></iframe>
+
+            "To complete a work order, please email work@rice.edu with the following information:
+                - Your Name and phone number
+                - Residential College and Room Number
+                - Description of the problem and a photo if applicable"
+                
         </div>
     </div>
 )

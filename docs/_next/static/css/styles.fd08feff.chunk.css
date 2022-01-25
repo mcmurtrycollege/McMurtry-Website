@@ -2636,6 +2636,7 @@ a {
 @media screen and (min-width: 700px){
     .wide-workorder-form {
         width: 660px;
+        text-align: center;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 5%;
@@ -2650,6 +2651,7 @@ a {
 @media screen and (max-width: 699px){
     .wide-workorder-form {
         display: none;
+        text-align: center;
     }
 
     .narrow-workorder-form {

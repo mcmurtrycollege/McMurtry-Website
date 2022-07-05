@@ -1,56 +1,56 @@
 {
     "oweek_groups": [
         {
-            "name": "Aesop Rocky",
-            "image": "../../../static/oweek/Aesopgroup.jpg"
+            "name": "Murt-der on the O-Week Express",
+            "image": "../../../static/oweek/Expressgroup.png"
         },
         {
-            "name": "Alice in Yurtland: Through the Looking Gong",
-            "image": "../../../static/oweek/Alicegroup.png"
+            "name": "Doja Cat in the Hat",
+            "image": "../../../static/oweek/Dojagroup.png"
         },
         {
-            "name": "Childish Bambino",
-            "image": "../../../static/oweek/Childishgroup.jpg"
+            "name": "The Lil Nas X-Files",
+            "image": "../../../static/oweek/Lilnasgroup.png"
         },
         {
-            "name": "DaBaby and DaBeast",
-            "image": "../../../static/oweek/Dababygroup.jpg"
+            "name": "Captain American Psycho",
+            "image": "../../../static/oweek/Captaingroup.png"
         },
         {
-            "name": "Full Senderella",
-            "image": "../../../static/oweek/Fullgroup.jpg"
+            "name": "Dark Knight at the Musuem",
+            "image": "../../../static/oweek/Darkgroup.png"
         },
         {
-            "name": "Grimm’s Folklore",
-            "image": "../../../static/oweek/Grimmsgroup.jpg"
+            "name": "Criminal MegaMinds",
+            "image": "../../../static/oweek/Criminalgroup.png"
         },
         {
-            "name": "Han Solo and Gretel",
-            "image": "../../../static/oweek/Hangroup.jpg"
+            "name": "How To Get Away With McMurter",
+            "image": "../../../static/oweek/Howtogroup.png"
         },
         {
-            "name": "I came in like a Shrekking Ball",
-            "image": "../../../static/oweek/Shrekgroup.jpg"
+            "name": "MCIS",
+            "image": "../../../static/oweek/MCISgroup.png"
         },
         {
-            "name": "Jack and the banana stalk",
-            "image": "../../../static/oweek/Jackgroup.jpg"
+            "name": "Scoobanana Doo",
+            "image": "../../../static/oweek/Scoobananagroup.png"
         },
         {
-            "name": "Peter Panic at the Disco",
-            "image": "../../../static/oweek/Petergroup.jpg"            
+            "name": "Detective Pi-kilt-chu",
+            "image": "../../../static/oweek/Detectivegroup.png"       
         },
         {
-            "name": "Rumpel-KILT-skin",
-            "image": "../../../static/oweek/Rumpelgroup.jpg"
+            "name": "Sherlock Homies",
+            "image": "../../../static/oweek/Sherlockgroup.png"
         },
         {
-            "name": "The Frog Prince of Bel Air",
-            "image": "../../../static/oweek/Froggroup.jpg"
+            "name": "BerMURTa Triangle",
+            "image": "../../../static/oweek/Bermurtagroup.png"
         },
         {
-            "name": "The Little Murtmaid",
-            "image": "../../../static/oweek/Littlegroup.jpg"
+            "name": "Murty Little Liars",
+            "image": "../../../static/oweek/Liarsgroup.png"
         }
     ]
 }

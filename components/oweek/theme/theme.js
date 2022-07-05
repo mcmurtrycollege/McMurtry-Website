@@ -11,19 +11,16 @@ const Theme = () => (
                 <Image src="../../../static/oweek/2019AdvisingTeam.jpg" alt='' />
             </Box>
             <p>
-                College is the land of many firsts, far far away from anything that you’ve experienced. As New Students at McMurtry College, you will embrace your strengths, acknowledge your weaknesses, and grow as Rice University students. No student’s journey will be the same as your own, because here at Rice you will forge your own destiny, and create memorable and even life changing experiences. 
+                As you begin your time here as New Students, a large part of your journey is a mystery: full of unknowns that you have yet to uncover. Just like how no case is exactly alike, no student experience will be the same. Each of you comes from different backgrounds and perspectives, with unique approaches to piecing together the clues to solve your own mystery and choose your own path. We believe that by embracing each of your special problem-solving skills, you will be able to create memorable and life-changing experiences. 
             </p>
             <p>
-                During Bibbidi Bobbidi BoO-Week you will meet new people, encounter new ideas, and expand your worldview. Just as Cinderella’s fairy godmother transformed a pumpkin into a carriage with a simple “Bibbidi bobbidi boo”, we believe that each and every one of you has the power to alter the many spheres of our college, university, and community with your diverse and expansive set of beliefs, morals, values, and experiences.
+                A crucial element of MysteriO-Week is not being afraid to get some things wrong and make mistakes. During most mystery-solving experiences, detectives have to reassess their first hunches and rethink their approach to solving the mystery. It takes determination to keep pursuing a case until you find the answer. Like these detectives, there may come a time when things do not work out the way you intended and you have to modify your initial plans. Despite these obstacles, we want to encourage you all to persevere and be vulnerable as you continue to make new discoveries about yourself during your college experience.
             </p>
             <p>
-                Your four year fairy tale at Rice will be full of fantasy and whimsy, magic, adventures, and treasure. But as we all know, College cannot be spelled without a couple of Ls. Even fairy tales aren’t without their obstacles. We will all face our own big bad wolves and people eating our porridge, but at the end of the day, our goal is to show you that your college experience will be “just right”
+                We understand that this journey is not always easy, which is why one of the most important things we want you to know is the support you have all around you. Detectives rarely solve their cases alone, often utilizing external sources to gather more information. Here at Rice, you have access to countless resources, and we want to encourage you to not hesitate to reach out for help and guidance. Sometimes, you will get stuck on a problem or not know how to move forward, and we want you to feel comfortable not only consulting “experts” like the OAA, the McTeam, and your Advisors, but also your fellow “detectives” among the matriculating Class of 2022.
             </p>
             <p>
-                One of the most important things we want you to know is don’t be afraid to ask for help: even the bravest of heroes need to be rescued sometimes. During Bibbidi Bobbidi BoO-Week, we want to encourage vulnerability and authenticity every step of the way. We recognize that not every moment can be a fairy tale ball, and for each of us, the clock will inevitably strike midnight (or that 11:59 PM deadline), but we want you all to know that you should never hesitate to ask for help nor to give help in return. No matter the trials and tribulations you may encounter, you won’t be alone, as Rice has an abundance of resources available at your fingertips. Around each corner you will find a helper, like a talking cat, a fairy godmother, someone at the OAA or Wellbeing Center, or even an Advisor or O-Week sibling.
-            </p>
-            <p>
-                In the end, we hope that all of us Murts can write our own stories with the problems we face and successes we embrace, and that, by the end of Bibbidi Bobbidi BoO-Week you will feel closer to your happily ever after.
+                We ultimately hope that by the end of MysteriO-Week, you will be more confident solving the mysteries that lie ahead of you so that you can find your own answers as a Murt and Rice Owl!
             </p>
         </div>
     </div>

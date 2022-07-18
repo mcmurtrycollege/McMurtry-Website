@@ -12,7 +12,7 @@ const Tour = () => (
         <div className='oweek-video-mobile'>
             <iframe width="320" height="200" src="https://www.youtube.com/embed/C9R-O-7O7mY" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </div>
-        <p style={{textAlign: 'center', marginTop: '50px'}}>If you were assigned a single please email mcmutryoweek@gmail.com for your room video</p>
+        <p style={{textAlign: 'center', marginTop: '50px'}}>If you were assigned a single, please email mcmutryoweek@gmail.com for your room video.</p>
     </div>
 )
 

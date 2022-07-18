@@ -14,7 +14,7 @@ const Room = () => (
                     <li>1 Large Dresser</li>
                     <li>1 Small Dresser / Nightstand</li>
                     <li>1 Desk</li>
-                    <li>1 Deskchair</li>
+                    <li>1 Chair</li>
                 </ul>
             </Box>
             <Box width={[1, 0.3]}>
@@ -26,7 +26,7 @@ const Room = () => (
         <p>
             Coming in as new students to McMurtry, you will most likely be placed in doubles
             (a room for two people) with your roommate. We've attached a floor plan of your
-            12'x17' to give you an idea of what your room will look like. When you get to your
+            18'x18' to give you an idea of what your room will look like. When you get to your
             room on the first day, there will be a bed, desk, dresser, nightstand, and chair.
             Feel free to move these around as desired!
         </p>

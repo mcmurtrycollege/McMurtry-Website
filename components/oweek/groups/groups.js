@@ -48,7 +48,7 @@ const Groups = () => (
                 <h2 className='oweek-subtitle'>What is an O-Week Group?</h2>
             </div>
             <p>
-                Your O-Week group consists of 8-9 other New Students, 4 upperclassmen Advisors (one will be a
+                Your O-Week group consists of 9-10 New Students and 4-5 upperclassmen Advisors (one will be a
                 Co-Advisor and one may be an Affiliate) who are beyond excited to welcome you to the best residential
                 college on campus! All throughout O-Week, you will be preparing for registration and academic life at Rice
                 and interacting with the rest of your incoming class at McMurtry, but your O-Week group is designed

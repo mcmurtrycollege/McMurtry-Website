@@ -52,7 +52,7 @@ class ExpenseForms extends React.Component {
                 <Box className='expense-instructions' ml='auto' mr='auto' width={[0.9, 0.7, 0.6, 0.55]}>
                     <h2 className='instructions-title'>Instructions</h2>
                     <ol>
-                        <li className='instructions-list-item'>Take a picture of your receipts and fill out the <a href="https://docs.google.com/forms/d/e/1FAIpQLSf73aAwP29zjsRzicMfYCr6HE49W52sdPew61QNdwVQGnyGGA/viewform?usp=sf_link">
+                        <li className='instructions-list-item'>Take a picture of your receipts and fill out the <a href="https://docs.google.com/forms/d/e/1FAIpQLSerjIGRn9Po_fgcmgnoZS9oFufjTMnrzweBkA6OXpfNvi1q7g/viewform?usp=sf_link">
                             McMurtry Expenditure Form</a>, which asks a few basic questions about what your purchase was for. If your purchase was made with a PCard, you're done!</li>
                         <li className='instructions-list-item'>Fill out the <strong>Petty Cash Voucher Form</strong>, following the template provided.</li>
                         <li className='instructions-list-item'>Fill out the <strong>Business Meeting/Entertainment Expenses Form</strong>, following the template provided.</li>

@@ -67,11 +67,11 @@ class ExpenseForms extends React.Component {
 
                     <h2 className='instructions-title'>PCard Requests</h2>
                     <ul>
-                        <li className='instructions-list-item'>Request to use either of the Treasurers' PCards by using the <a href="https://forms.gle/6f7BRW4yiYov3SABA">PCard Check-Out Form</a></li>
+                        <li className='instructions-list-item'>Request to use either of the Treasurers' PCards by using the <a href="https://forms.gle/c6LqRP6A3DB56mBu8">PCard Check-Out Form</a></li>
                         <li className='instructions-list-item'>You will be texted an access code, which can be used on the padlock right outside of the door on the 5D suite. Text (505)-412-1841 if you have any questions 
                             on where this padlock is located. Once you open the padlock, take ONE PCard and ONE Tax Exempt card from the padlock and re-close the padlock. </li>
                         <li className='instructions-list-item'>Once you complete your purchase using the PCard, make sure to complete the McMurtry Expenditure form below and KEEP YOUR RECEIPT.</li>
-                        <li className='instructions-list-item'>Once the Mcmurtry Expenditure form is completed, complete the <a href="https://docs.google.com/forms/d/e/1FAIpQLSdqrsNewxllw_baL8-lt-E31skVP03Hb_vZ8_jUgA47hLBcrA/viewform">
+                        <li className='instructions-list-item'>Once the Mcmurtry Expenditure form is completed, complete the <a href="https://forms.gle/6f7BRW4yiYov3SABA">
                             PCard Return Form</a> to get another code to put the PCard, Tax Exempt card and the solid receipt back in the padlock. Lock the padlock back up and you're done!</li>
                     </ul>
                 </Box>

@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["styles"],{
+webpackHotUpdate("styles",{
 
 /***/ "./components/general/contactcards.css":
 /*!*********************************************!*\
@@ -77,4 +77,4 @@ eval("// extracted by mini-css-extract-plugin;\n    if (true) {\n      var injec
 
 /***/ })
 
-}]);
+})

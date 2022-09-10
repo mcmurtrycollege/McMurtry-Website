@@ -20,13 +20,13 @@ class RhaCard extends React.Component {
         let dropdownStyle = {}
         let dropdownImageStyle = {}
         dropdownStyle.maxHeight = this.state.contentVisible ? ('650px') : ('0')
-        dropdownImageStyle.maxHeight = this.state.contentVisible ? ('0') : ('300px')
+        dropdownImageStyle.maxHeight = this.state.contentVisible ? ('0') : ('450px')
 
         return (
             <Box width={1} onClick={this.handleClick}>
                 <div className={this.state.contentVisible ? 'rha-card-visible' : 'rha-card-hidden'}>
                     <div className='rha-image-dropdown' style={dropdownImageStyle}>
-                        <Box className='rha-image' width={[0.9, 0.9]}>
+                        <Box className='rha-image' width={[0.9, 0.7]}>
                             <Image src={this.props.photo} alt='' />
                         </Box>
                     </div>

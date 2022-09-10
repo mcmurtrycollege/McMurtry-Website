@@ -21,80 +21,84 @@
       }
     ]
   },
+  "head_RHAs": {
+    "members": [
+      {
+        "name": "Karen Martinez Perez (she/her/hers)",
+        "pronouns": "she/her/hers",
+        "bio": "Hi, I'm one of the head RHAs at McMurtry this year! I love grabbing boba, going shopping, hugs, watching Studio Ghibli movies, and learning/practicing languages. Feel free to reach out about managing anxiety, imposter syndrome, relationships (romantic/platonic), confidence/self-esteem, burnout, and feeling lonely or homesick.",
+        "phone": "(936) 439-3319",
+        "email": "kmm10@rice.edu",
+        "photo": "../../../../static/rhas/Karen_Martinez_Perez.jpeg"
+      },
+      {
+        "name": "Sophia Peng (she/her/hers)",
+        "pronouns": "she/her/hers",
+        "bio": "Hi, I'm one of the head RHAs at McMurtry this year! I love writing poetry, reading, medical humanities, and thrift shopping. Feel free to reach out about social anxiety, loneliness, imposter syndrome, time management, insomnia, body image/body dysmorphia, or how to seek health resources!",
+        "phone": "(508) 808-2677",
+        "email": "sp95@rice.edu",
+        "photo": "../../../../static/rhas/Sophia_Peng.jpg"
+      }
+    ]
+  },
   "RHAs": {
     "description": "RHAs are students who have been trained on a variety of wellbeing topics. These students work at their college to provide health education opportunities, health supplies and peer guidance. RHAs also act as a liaison between the Student Wellbeing Office and the residential colleges, staying up to date on campus-wide wellbeing programming.",
     "members": [
       {
-        "name": "Akshaya Venkatesh (she/her/hers)",
-        "pronouns": "she/her/hers",
-        "bio": "Hi McMurtry! My name is Akshaya Venkatesh and I'm a senior at McMurtry! I'm originally from Southern California, majoring in cognitive science, and minoring in biochemistry and cell biology. I enjoy reading books (so recommend any books that you like!), watching tv shows and movies, and spending time with friends and family! Feel free to talk to me about homesickness, imposter syndrome, anxiety, managing stress, and time management. I've been an RHA since my freshman year, so feel free to reach out anytime :)",
-        "phone": "(805) 428-9475",
-        "email": "av54@rice.edu",
-        "photo": "../../../../static/rhas/Akshaya_Venkatesh.jpg"
-      },
-      {
-        "name": "Rishi Vas (he/him/his)",
+        "name": "Brandon Zimmer (he/him/his)",
         "pronouns": "he/him/his",
-        "bio": "I'm on Rice Riyaaz, the Bollywood Fusion dance team on campus! I love to play sports such as tennis and basketball and I'm a diehard Dallas Mavericks and Cowboys fan!",
-        "phone": "(214) 603-1931",
-        "email": "rkv2@rice.edu",
-        "photo": "../../../../static/rhas/Rishi_Vas.jpg"
+        "bio": "I love playing soccer and volleyball in my spare time. I also enjoy reading and watching the newest shows on Netflix. Feel free to reach out about any topics really, but I would say mental health especially!",
+        "phone": "(469) 601-2401",
+        "email": "blz1@rice.edu",
+        "photo": "../../../../static/rhas/Brandon_Zimmer.jpg"
       },
       {
         "name": "Camille Villar (she/her/hers)",
         "pronouns": "she/her/hers",
-        "bio": "I've been an RHA since my freshman year, and I am excited to be a co-head RHA for Murt this year! I've been a Houstonian my whole life, but I've kept in touch with my Filipino roots. I love boba, sunny days, coffee, games (video and board, haha), playing the flute, and Marvel. I'm super approachable-- feel free to reach out if you want to talk about anything or just hang out!",	
+        "bio": "I love to read, teach, and play video/board games :). Feel free to reach out about long-distance relationships (romantic + non-romantic), work-life balance, suicide (both suicidal thoughts + how to support loved ones)!",	
         "phone": "(713) 851-1258",
         "email": "cfv1@rice.edu",
         "photo": "../../../../static/rhas/Camille_Villar.jpg"
       },
       {
-        "name": "Aaron Vaughan (he/him/his)",
-        "pronouns": "he/him/his",
-        "bio": "Hi! My name is Aaron and I'm a senior at McMurtry studying psychology and sociology. Outside of being an RHA, I'm involved in Rice Alzheimer's Buddies, Academic Fellows, and McM government, among other things. Come talk to me about mental health, de-stress techniques, dealing with the transition to Rice, or anything else you'd like to talk about!" ,
-        "phone": "(469) 247-2607",
-        "email": "amv11@rice.edu",
-        "photo": "../../../../static/rhas/Aaron_Vaughan.jpg"
+        "name": "Zoe Wang (she/her/hers)",
+        "pronouns": "she/her/hers",
+        "bio": "Hello!! I love biking, finding local aesthetic matcha + coffee shops, planning picnics with friends, and recently, playing pickle ball. Feel free to reach out about mental health and wellbeing, ALLY, stress relief, suicide prevention, body acceptance, etc!" ,
+        "phone": "(936) 520-4832",
+        "email": "zyw1@rice.edu",
+        "photo": "../../../../static/rhas/Zoe_Wang.jpg"
+      },
+      {
+        "name": "Manshi Patel (she/her/hers)",
+        "pronouns": "she/her/hers",
+        "bio": "I love watching Criminal Minds and bullet journaling! Feel free to reach out about imposter syndrome, mental health, or relationships!",
+        "phone": "(615) 724-8243",
+        "email": "mpp5@rice.edu",
+        "photo": "../../../../static/rhas/Manshi_Patel.jpg"
       },
       {
         "name": "Annika Nambiar (she/her/hers)",
         "pronouns": "she/her/hers",
-        "bio": "I love playing volleyball and lettering. My favorite thing to do around Houston is find the best food places!",
+        "bio": "I love reading, playing volleyball, and boardgames. Feel free to reach out about imposter syndrome, stress, relationships, and anything else!",
         "phone": "(650) 730-6539",
         "email": "an44@rice.edu",
         "photo": "../../../../static/rhas/Annika_Nambiar.jpg"
       },
       {
-        "name": "Ahalya Lettenberger (she/her/hers)",
-        "pronouns": "she/her/hers",
-        "bio": "Hello! My name is Ahalya, and I'm a junior at McMurtry studying bioengineering. I'm also on the Rice Women's Swim Team, and outside of school and swimming, I love cooking, watching movies (Marvel is my favorite), and doing anything outdoors. Feel free to reach out to me about anything, I'm always free to talk!",
-        "phone": "(630) 956-4608",
-        "email": "abl10@rice.edu",
-        "photo": "../../../../static/rhas/Ahalya_Lettenberger.jpeg"
-      },
-      {
         "name": "Prathik Kalva (he/him/his)",
         "pronouns": "he/him/his",
-        "bio": "I enjoy dancing, playing sports with my friends, and going out to eat (especially Taco Bell!).",
+        "bio": "I love playing and watching sports, and in my free time, I like to hangout with my friends and eat food! Feel free to reach out about imposter syndrome, homesickness, sexual health, academic support",
         "phone": "(832) 651-8763",
         "email": "pk28@rice.edu",
         "photo": "../../../../static/rhas/Prathik_Kalva.png"
       },
       {
-        "name": "Karen Martinez Perez (she/her/hers)",
+        "name": "Ahalya Lettenberger (she/her/hers)",
         "pronouns": "she/her/hers",
-        "bio": "If you want a hug, boba, a shopping buddy, someone to dance around or learn a new language with, I'm down :). I'm not a professional but feel free to reach out about: managing anxiety, imposter syndrome, relationships (romantic/platonic), confidence/self-esteem, burnout, and feeling lonely or homesick.",
-        "phone": "(936) 439-3319",
-        "email": "kmm10@rice.edu",
-        "photo": "../../../../static/rhas/Karen_Martinez_Perez.jpg"
-      },
-      {
-        "name": "Manshi Patel (she/her/hers)",
-        "pronouns": "she/her/hers",
-        "bio": "Hi! My name is Manshi, my major is Biochemistry, and I am a rising junior. My interests include watching space documentaries, trying out vegetarian recipes, and shopping on etsy!",
-        "phone": "(615) 724-8243",
-        "email": "mpp5@rice.edu",
-        "photo": "../../../../static/rhas/Manshi_Patel.jpg"
+        "bio": "I am on the swim team at Rice, and in my free time I love to do anything outdoors, golf, cook, and play board games with friends. Feel free to reach out about any physical or mental health questions!",
+        "phone": "(630) 956-4608",
+        "email": "abl10@rice.edu",
+        "photo": "../../../../static/rhas/Ahalya_Lettenberger.jpg"
       }
     ]
   },

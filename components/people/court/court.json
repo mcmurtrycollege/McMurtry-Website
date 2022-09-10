@@ -2,88 +2,46 @@
   "justices": [
     {
       "position": "Chief Justice",
-      "name": "Serene Lee",
-      "email": "mcmurtrycj@gmail.com",
-      "phone": "5167285967",
-      "room": "434"
-    },
-    {
-      "position": "Associate Justice",
       "name": "Jackson Hughes",
-      "phone": "6308053383",
-      "room": "521"
+      "email": "mcmurtrycj@gmail.com",
+      "phone": "630-805-3383",
+      "room": "545"
     },
     {
       "position": "Associate Justice",
-      "name": "Teddy Gilman",
-      "phone": "5122303644",
-      "room": "OC"
+      "name": "Vidal Saenz",
+      "phone": "956-605-9308",
+      "room": "334"
     },
     {
       "position": "Associate Justice",
-      "name": "Rajpal Bal",
-      "phone": "4695562832",
-      "room": "OC"
+      "name": "Jimin Lee",
+      "phone": "516-455-2667",
+      "room": "446"
+    },
+    {
+      "position": "Associate Justice",
+      "name": "Pedro Ribeiro",
+      "phone": "561-562-2507",
+      "room": "290"
+    },
+    {
+      "position": "Associate Justice",
+      "name": "Shreyan Das",
+      "phone": "732-688-8293",
+      "room": "549"
+    },
+    {
+      "position": "Associate Justice",
+      "name": "Sabrina Sun",
+      "phone": "626-823-1115",
+      "room": "502"
     },
     {
       "position": "Associate Justice",
       "name": "Nick He",
-      "phone": "6262226363",
-      "room": "217"
-    },
-    {
-      "position": "Associate Justice",
-      "name": "Tya Epps",
-      "phone": "5809172225",
-      "room": "480"
-    },
-    {
-      "position": "Associate Justice",
-      "name": "Annabelle Tzou",
-      "phone": "4089133163",
+      "phone": "626-222-6363",
       "room": "OC"
-    },
-    {
-      "position": "Associate Justice",
-      "name": "George Hung",
-      "phone": "2014701513",
-      "room": "OC"
-    },
-    {
-      "position": "Associate Justice",
-      "name": "Manan Bajaj",
-      "phone": "7813531498",
-      "room": "301"
-    },
-    {
-      "position": "Associate Justice",
-      "name": "Claire Wang",
-      "phone": "3096341978",
-      "room": "362"
-    },
-    {
-      "position": "Associate Justice",
-      "name": "Grayson Kotzur",
-      "phone": "4093650521",
-      "room": "358"
-    },
-    {
-      "position": "Associate Justice",
-      "name": "Ekene Emenike",
-      "phone": "3463242924",
-      "room": "445"
-    },
-    {
-      "position": "Associate Justice",
-      "name": "An Luu",
-      "phone": "8325303223",
-      "room": "356"
-    },
-    {
-      "position": "Associate Justice",
-      "name": "Isabel Sjodin",
-      "phone": "8326003630",
-      "room": "429"
     }
   ]
 }

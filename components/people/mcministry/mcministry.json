@@ -2,169 +2,199 @@
   "executive_council": [
     {
       "position": "President",
-      "name": "Rachel Moore",
-      "year": "2022",
+      "name": "Hunter Brown",
+      "year": "2023",
       "email": "mcmurtrypresident@gmail.com"
     },
     {
       "position": "Chief Justice",
-      "name": "Serene Lee",
-      "year": "2022",
+      "name": "Jackson Hughes",
+      "year": "",
       "email": "mcmurtrycj@gmail.com"
     },
     {
       "position": "Prime Minister",
-      "name": "Julia Engelhardt",
-      "year": "2023",
+      "name": "Morike Ayodeji",
+      "year": "",
       "email": "murtpm@gmail.com"
     },
     {
       "position": "Internal VP",
-      "name": "Alyson Resnick",
-      "year": "2022",
+      "name": "Vidal Saenz",
+      "year": "2023",
       "email": "mcmurtryivp@gmail.com"
     },
     {
       "position": "External VP",
-      "name": "Jennifer Adams",
-      "year": "2022",
+      "name": "Kate Mischlich",
+      "year": "",
       "email": "mcmurtryevp@gmail.com"
     },
     {
       "position": "SA Senator",
-      "name": "Morike Ayodeji",
-      "year": "2024",
+      "name": "Ariah Richards",
+      "year": "",
       "email": "mcmurtrysenator@gmail.com"
     },
     {
       "position": "Secretary",
-      "name": "Kate Mischlich",
-      "year": "2024",
+      "name": "Melody He",
+      "year": "",
       "email": "mcmsecretary@gmail.com"
     },
     {
       "position": "Secretary",
-      "name": "Grace Zhou",
-      "year": "2024",
+      "name": "Joon Lee",
+      "year": "",
       "email": "mcmsecretary@gmail.com"
     },
     {
       "position": "Treasurer",
-      "name": "Vidal Saenz",
-      "year": "2024",
+      "name": "Josh Posada",
+      "year": "",
       "email": "mcmurtrytreasurer@gmail.com"
     },
     {
       "position": "Treasurer",
-      "name": "Nate Miller",
-      "year": "2024",
+      "name": "Shreyan Das",
+      "year": "",
       "email": "mcmurtrytreasurer@gmail.com"
     }
   ],
   "peoples_council": [
     {
       "position": "At Large Rep",
-      "name": "Damian Gonzalez",
-      "year": "2024",
+      "name": "Vale Ortega",
+      "year": "",
       "email": "mcmurtrypc@gmail.com"
     },
     {
       "position": "2Y Hall Rep",
-      "name": "Christa Westheimer",
-      "year": "2023",
-      "email": "cbw3@rice.edu"
+      "name": "Joanna Coram",
+      "year": "",
+      "email": "joanna.n.coram@rice.edu"
     },
     {
       "position": "2O Hall Rep",
-      "name": "Stephanie Kim",
-      "year": "2024",
-      "email": "sjk8@rice.edu"
+      "name": "Emily Gianotti",
+      "year": "",
+      "email": "emily.j.gianotti@rice.edu"
     },
     {
       "position": "3Y Hall Rep",
-      "name": "Grayson Kotzur",
-      "year": "2022",
-      "email": "gak3@rice.edu"
+      "name": "James Hwang",
+      "year": "",
+      "email": "james.hwang@rice.edu"
     },
     {
       "position": "3O Hall Rep",
-      "name": "Bela Nelson",
-      "year": "2024",
-      "email": "bgn1@ric.edu"
+      "name": "Anusha Srivastava",
+      "year": "",
+      "email": "anusha.srivastava@rice.edu"
     },
     {
       "position": "4Y Hall Rep",
-      "name": "Valentina Ortega",
-      "year": "2024",
-      "email": "vlo1@rice.edu"
+      "name": "Robin Whitehead",
+      "year": "",
+      "email": "robin.m.whitehead@rice.edu"
     },
     {
       "position": "4O Hall Rep",
-      "name": "Isabel Sjodin",
-      "year": "2022",
-      "email": "ijs1@rice.edu"
+      "name": "Max Grayer",
+      "year": "",
+      "email": "max.grayer@rice.edu"
     },
     {
       "position": "5th Floor Rep",
-      "name": "Morgan Gage",
-      "year": "2023",
-      "email": "mag26@rice.edu"
+      "name": "Cecelia Curtis",
+      "year": "",
+      "email": "cecelia.e.curtis@rice.edu"
     },
     {
       "position": "Off Campus",
-      "name": "Rajpal Bal",
-      "year": "2023",
-      "email": "rsb4@rice.edu"
+      "name": "Damian Gonzalez ",
+      "year": "",
+      "email": "damian.gonzalez@rice.edu"
     },
     {
       "position": "Off Campus",
-      "name": "Anusha Srivastava",
-      "year": "2024",
-      "email": "as246@rice.edu"
+      "name": "Bela Nelson",
+      "year": "",
+      "email": "bela.g.nelson@rice.edu"
     },
     {
       "position": "First Year Rep",
+      "name": "TBA",
+      "year": "",
+      "email": ""
+    },
+    {
+      "position": "First Year Rep",
+      "name": "TBA",
+      "year": "",
+      "email": ""
+    },
+    {
+      "position": "First Year Rep",
+      "name": "TBA",
+      "year": "",
+      "email": ""
+    },
+    {
+      "position": "Sophomore Class Rep",
+      "name": "Ishani Kaul",
+      "year": "2025",
+      "email": "ishani.kaul@rice.edu"
+    },
+    {
+      "position": "Sophomore Class Rep",
       "name": "Jimin Lee",
       "year": "2025",
-      "email": "jl258@rice.edu"
+      "email": "jimin.lee@rice.edu"
     },
     {
-      "position": "First Year Rep",
-      "name": "Nathan Nguyen",
-      "year": "2025",
-      "email": "nan3@rice.edu"
-    },
-    {
-      "position": "First Year Rep",
+      "position": "Sophomore Class Rep",
       "name": "Zoe Wang",
       "year": "2025",
-      "email": "zyw1@rice.edu"
-    },
-    {
-      "position": "Sophomore Class Rep",
-      "name": "Jackson Hughes",
-      "year": "2024",
-      "email": "jth9@rice.edu"
-    },
-    {
-      "position": "Sophomore Class Rep",
-      "name": "Hadley Medlock",
-      "year": "2024",
-      "email": "hgm2@rice.edu"
+      "email": "zoe.y.wang@rice.edu"
     },
     {
       "position": "Junior Class Rep",
-      "name": "Daniel Cho",
-      "year": "2023",
-      "email": ""
+      "name": "Emma Chestnut",
+      "year": "2024",
+      "email": "etc3@rice.edu"
+    },
+    {
+      "position": "Junior Class Rep",
+      "name": "Jackson Hughes",
+      "year": "2024",
+      "email": "jackson.t.hughes@rice.edu"
+    },
+    {
+      "position": "Junior Class Rep",
+      "name": "Sathvik Kakanuru",
+      "year": "2024",
+      "email": "sathvikk19@rice.edu"
+    },
+    {
+      "position": "Honor Council Rep",
+      "name": "Paige Sutter",
+      "year": "",
+      "email": "paige.e.sutter@rice.edu"
+    },
+    {
+      "position": "RPC Rep",
+      "name": "Timmy Hays",
+      "year": "",
+      "email": "twh5@rice.edu"
     }
   ],
   "mccabinet": [
     {
       "position": "Parliamentarian",
-      "name": "Aaron Vaughan",
-      "year": "2022",
-      "email": "mcmurtryparliamentarian@gmail.com"
+      "name": "Prayag Gordy",
+      "year": "",
+      "email": "prayag.gordy@rice.edu"
     }
   ]
 }

@@ -65,6 +65,13 @@ const Card = props => (
                         null
                     )
             }
+            {
+                props.pre_prof_path !== undefined ? (
+                    <h2 className='pre_prof_path'><img src="../../static/icons/file.svg" alt='Pre-Professional Path: ' /> {props.pre_prof_path}</h2>
+                ) : (
+                        null
+                    )
+            }
         </div>
     </Box >
 )
@@ -73,9 +80,10 @@ const Cards = props => (
     <Box width={[1, 1, 0.9, 0.8]} ml='auto' mr='auto'>
         <Flex flexWrap='wrap' flexDirection='row' justifyContent='center'>
             {
-                props.content.map(({ photo, position, name, year, email, phone, major, subjects, room }) => (
+                props.content.map(({ photo, position, name, year, email, phone, major, subjects, room, pre_prof_path }) => (
                     <Card height={props.height} width={props.width} key={name} photo={photo} position={position}
-                        name={name} year={year} email={email} phone={phone} major={major} subjects={subjects} room={room} />
+                        name={name} year={year} email={email} phone={phone} major={major} subjects={subjects} room={room}
+                        pre_prof_path={pre_prof_path} />
                 ))
             }
         </Flex>

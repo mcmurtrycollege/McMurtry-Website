@@ -241,6 +241,44 @@
     padding: 5px 10px;
     text-align: center;
 }
+@media screen and (min-width: 700px){
+    .wide-workorder-form {
+        width: 660px;
+        text-align:center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+        display: flex;
+    }
+
+    .narrow-workorder-form {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 699px){
+    .wide-workorder-form {
+        display: none;
+    }
+
+    .narrow-workorder-form {
+        width: 360px;
+        text-align:center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+        display: flex;
+    }
+}
+
+.workorder-page {
+    padding-top: 10%;
+}
+.budget-sheet-page {
+    padding-top: 10%;
+    margin-bottom: 5%;
+}
+
 .position-card {
     margin: 10px;
 }
@@ -315,16 +353,11 @@
     font-size: 0.9em;
     font-weight: normal;
 }
-.fellows-page {
+.mcmurtry-affinity-groups-page {
     padding-top: 10%;
     margin-bottom: 5%;
 }
 
-.fellows-description {
-    margin-top: 30px;
-    padding: 30px;
-    color: #515768;
-}
 html {
     margin: 0;
     padding: 0;

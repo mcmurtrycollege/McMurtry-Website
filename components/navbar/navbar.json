@@ -23,6 +23,10 @@
                 {
                     "name": "Arts Calendar",
                     "to": "/events/artevents"
+                },
+                {
+                    "name": "Budget Sheet",
+                    "to": "/events/budgetsheet"
                 }
             ]
         },

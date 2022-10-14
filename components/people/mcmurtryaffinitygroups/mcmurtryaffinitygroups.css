@@ -1,6 +1,4 @@
-@media screen and (min-width: 900px){
-    .mcmurtry-affinity-groups-page {
-        margin-top: 12%;
-        margin-bottom: 5%;
-    }
+.mcmurtry-affinity-groups-page {
+    padding-top: 10%;
+    margin-bottom: 5%;
 }

@@ -53,12 +53,12 @@
         "photo": "../../../../static/rhas/Brandon_Zimmer.jpg"
       },
       {
-        "name": "Camille Villar (she/her/hers)",
+        "name": "Kate Hilton (she/her/hers)",
         "pronouns": "she/her/hers",
-        "bio": "I love to read, teach, and play video/board games :). Feel free to reach out about long-distance relationships (romantic + non-romantic), work-life balance, suicide (both suicidal thoughts + how to support loved ones)!",	
-        "phone": "(713) 851-1258",
-        "email": "cfv1@rice.edu",
-        "photo": "../../../../static/rhas/Camille_Villar.jpg"
+        "bio": "I love museums, long walks, listening to music, and exploring new places. Feel free to reach out about depression, self-love, relationships, academic pressure, etc!",	
+        "phone": "(513) 954-6700",
+        "email": "kah14@rice.edu",
+        "photo": "../../../../static/rhas/Kate_Hilton.jpeg"
       },
       {
         "name": "Zoe Wang (she/her/hers)",
@@ -85,20 +85,20 @@
         "photo": "../../../../static/rhas/Annika_Nambiar.jpg"
       },
       {
-        "name": "Prathik Kalva (he/him/his)",
-        "pronouns": "he/him/his",
-        "bio": "I love playing and watching sports, and in my free time, I like to hangout with my friends and eat food! Feel free to reach out about imposter syndrome, homesickness, sexual health, academic support",
-        "phone": "(832) 651-8763",
-        "email": "pk28@rice.edu",
-        "photo": "../../../../static/rhas/Prathik_Kalva.png"
-      },
-      {
         "name": "Ahalya Lettenberger (she/her/hers)",
         "pronouns": "she/her/hers",
         "bio": "I am on the swim team at Rice, and in my free time I love to do anything outdoors, golf, cook, and play board games with friends. Feel free to reach out about any physical or mental health questions!",
         "phone": "(630) 956-4608",
         "email": "abl10@rice.edu",
         "photo": "../../../../static/rhas/Ahalya_Lettenberger.jpg"
+      },
+      {
+        "name": "Nathan Nguyen (he/him/his)",
+        "pronouns": "he/him/his",
+        "bio": "I like sports (running, beer bike, tennis), short cat naps, and watching documentaries at 2x speed. Feel free to reach out about relationships, dealing with loneliness, stress, etc!",
+        "phone": "(832) 904-4499",
+        "email": "nan3@rice.edu",
+        "photo": "../../../../static/rhas/Nathan_Nguyen.jpeg"
       }
     ]
   },

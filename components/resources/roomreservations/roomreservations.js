@@ -11,7 +11,6 @@ const RoomReservations = () => (
             <div>
                 <ul>
                     <li><strong>Private Dining Room </strong>(located above West Servery)</li>
-                    <li><strong>Library </strong>(located above West Servery)</li>
                     <li><strong>McMurtry Private Rooms</strong>(located on the first floor)
                             <ul>
                             <li>Room 114 & 115 (study rooms)</li>

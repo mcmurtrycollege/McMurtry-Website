@@ -7,14 +7,14 @@ class Countdown extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            time: countdown(new Date(2022, 7, 14)).toString(),
+            time: countdown(new Date(2023, 8, 13)).toString(),
             myInterval: null
         }
         this.updateTime = this.updateTime.bind(this)
     }
 
     updateTime() {
-        this.setState({ time: countdown(new Date(2022, 7, 14)).toString() })
+        this.setState({ time: countdown(new Date(2023, 7, 10)).toString() })
     }
 
     componentDidMount() {

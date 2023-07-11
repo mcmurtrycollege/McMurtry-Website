@@ -1,55 +1,55 @@
 {
     "oweek_groups": [
         {
-            "name": "Murt-der on the O-Week Express",
+            "name": "Avocado Toast Malone",
             "image": "../../../static/oweek/Expressgroup.png"
         },
         {
-            "name": "Doja Cat in the Hat",
+            "name": "Banh Migos",
             "image": "../../../static/oweek/Dojagroup.png"
         },
         {
-            "name": "The Lil Nas X-Files",
+            "name": "Breaking Bread",
             "image": "../../../static/oweek/Lilnasgroup.png"
         },
         {
-            "name": "Captain American Psycho",
+            "name": "Champagne McPapis",
             "image": "../../../static/oweek/Captaingroup.png"
         },
         {
-            "name": "Dark Knight at the Musuem",
+            "name": "Cloudy with a Chance of Murtballs",
             "image": "../../../static/oweek/Darkgroup.png"
         },
         {
-            "name": "Criminal MegaMinds",
+            "name": "Dairy Queen's Gambit",
             "image": "../../../static/oweek/Criminalgroup.png"
         },
         {
-            "name": "How To Get Away With McMurter",
+            "name": "Ice-screaming for O-Week",
             "image": "../../../static/oweek/Howtogroup.png"
         },
         {
-            "name": "MCIS",
+            "name": "French Onion Snoup Dogg",
             "image": "../../../static/oweek/MCISgroup.png"
         },
         {
-            "name": "Scoobanana Doo",
+            "name": "Lord of the Onion Rings",
             "image": "../../../static/oweek/Scoobananagroup.png"
         },
         {
-            "name": "Detective Pi-kilt-chu",
+            "name": "McChelin Stars",
             "image": "../../../static/oweek/Detectivegroup.png"       
         },
         {
-            "name": "Sherlock Homies",
+            "name": "Murt-atouille",
             "image": "../../../static/oweek/Sherlockgroup.png"
         },
         {
-            "name": "BerMURTa Triangle",
+            "name": "Murtberry Shortcake",
             "image": "../../../static/oweek/Bermurtagroup.png"
         },
         {
-            "name": "Murty Little Liars",
+            "name": "Stranger Wings",
             "image": "../../../static/oweek/Liarsgroup.png"
         }
     ]

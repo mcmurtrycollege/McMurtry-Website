@@ -8,7 +8,7 @@ const coords = [
         year: "Junior",
         major: "English w/ Creative Writing Concentration, minor in Anthropology and Sociology",
         from: "Memphis, TN",
-        image: "../../../static/oweek/JamesCoord.png"
+        image: "../../../static/oweek/EssenceCoord.png"
     },
     {
         name: "Ishani Kaul",
@@ -16,7 +16,7 @@ const coords = [
         year: "Junior",
         major: "Health Sciences and History, Pre-Law",
         from: "Frisco, TX",
-        image: "../../../static/oweek/PrernaCoord.png"
+        image: "../../../static/oweek/IshaniCoord.png"
     },
     {
         name: "Marina Klein",
@@ -24,7 +24,7 @@ const coords = [
         year: "Junior",
         major: "Mathematics and Sociology, minor in Environmental Studies",
         from: "Rockford, IL",
-        image: "../../../static/oweek/VidalCoord.png"
+        image: "../../../static/oweek/MarinaCoord.png"
     }
 ]
 

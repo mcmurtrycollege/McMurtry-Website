@@ -14,7 +14,7 @@ class Countdown extends React.Component {
     }
 
     updateTime() {
-        this.setState({ time: countdown(new Date(2023, 7, 10)).toString() })
+        this.setState({ time: countdown(new Date(2023, 7, 11)).toString() })
     }
 
     componentDidMount() {
@@ -47,7 +47,7 @@ const Homepage = () => (
                 <h1 className='oweek-welcome'>Welcome to McMurtry!</h1>
             </Box>
             <Box width={[1, 1 / 3]} style={{ backgroundColor: '#87799C', marginBottom: '4px' }}>
-                <h1 className='oweek-welcome'>MysteriO-Week</h1>
+                <h1 className='oweek-welcome'>BistrO-Week</h1>
             </Box>
             <Box width={[1, 1 / 3]} style={{ margin: 0, padding: 0 }}>
                 <Image src='../../../static/oweek/2023Coords.png' alt='' />

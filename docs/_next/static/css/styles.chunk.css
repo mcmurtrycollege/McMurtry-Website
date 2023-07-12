@@ -218,6 +218,51 @@
         display: none;
     }
 }
+.oweek-groups-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.oweek-group-link {
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    border: 1px solid #BFBFCC;
+    padding: 5px 10px;
+    margin: 10px;
+    font-size: 1.2em;
+    transition: 0.3s ease-in-out;
+}
+
+.oweek-group-link:hover {
+    box-shadow: 0 0 10px 3px #BFBFCC;
+    transform: scale(1.07);
+    cursor: pointer;
+}
+
+.oweek-group {
+    padding: 3% 0;
+}
+
+.advisor-card {
+    margin: 1%;
+    box-shadow: 0 0 15px 5px #BFBFCC;
+    padding: 10px 20px;
+    font-size: 0.8em;
+}
+
+.toplink {
+    position: fixed;
+    right: 2%;
+    bottom: 3%;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2B2F3A;
+    opacity: 0.9;
+    color: #DCDFE5;
+}
 html {
     margin: 0;
     padding: 0;

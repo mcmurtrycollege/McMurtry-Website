@@ -1,56 +1,52 @@
 {
     "oweek_groups": [
         {
-            "name": "Murt-der on the O-Week Express",
-            "image": "../../../static/oweek/Expressgroup.png"
+            "name": "Avocado Toast Malone",
+            "image": "../../../static/oweek/AvocadoToastMalone.png"
         },
         {
-            "name": "Doja Cat in the Hat",
-            "image": "../../../static/oweek/Dojagroup.png"
+            "name": "Banh Migos",
+            "image": "../../../static/oweek/BanhMigos.png"
         },
         {
-            "name": "The Lil Nas X-Files",
-            "image": "../../../static/oweek/Lilnasgroup.png"
+            "name": "Breaking Bread",
+            "image": "../../../static/oweek/BreakingBread.png"
         },
         {
-            "name": "Captain American Psycho",
-            "image": "../../../static/oweek/Captaingroup.png"
+            "name": "Champagne McPapis",
+            "image": "../../../static/oweek/ChampagneMcPapis.png"
         },
         {
-            "name": "Dark Knight at the Musuem",
-            "image": "../../../static/oweek/Darkgroup.png"
+            "name": "Cloudy with a Chance of Murtballs",
+            "image": "../../../static/oweek/CloudyWithAChanceOfMurtballs.png"
         },
         {
-            "name": "Criminal MegaMinds",
-            "image": "../../../static/oweek/Criminalgroup.png"
+            "name": "Dairy Queen's Gambit",
+            "image": "../../../static/oweek/DairyQueen'sGambit.png"
         },
         {
-            "name": "How To Get Away With McMurter",
-            "image": "../../../static/oweek/Howtogroup.png"
+            "name": "French Onion Snoup Dogg",
+            "image": "../../../static/oweek/FrenchOnionSnoupDogg.png"
         },
         {
-            "name": "MCIS",
-            "image": "../../../static/oweek/MCISgroup.png"
+            "name": "Lord of the Onion Rings",
+            "image": "../../../static/oweek/LordOfTheOnionRings.png"
         },
         {
-            "name": "Scoobanana Doo",
-            "image": "../../../static/oweek/Scoobananagroup.png"
+            "name": "McChelin Stars",
+            "image": "../../../static/oweek/McChelinStars.png"       
         },
         {
-            "name": "Detective Pi-kilt-chu",
-            "image": "../../../static/oweek/Detectivegroup.png"       
+            "name": "Murt-atouille",
+            "image": "../../../static/oweek/Murt-atouille.png"
         },
         {
-            "name": "Sherlock Homies",
-            "image": "../../../static/oweek/Sherlockgroup.png"
+            "name": "Murtberry Shortcake",
+            "image": "../../../static/oweek/MurtberryShortcake.png"
         },
         {
-            "name": "BerMURTa Triangle",
-            "image": "../../../static/oweek/Bermurtagroup.png"
-        },
-        {
-            "name": "Murty Little Liars",
-            "image": "../../../static/oweek/Liarsgroup.png"
+            "name": "Stranger Wings",
+            "image": "../../../static/oweek/StrangerWings.png"
         }
     ]
 }

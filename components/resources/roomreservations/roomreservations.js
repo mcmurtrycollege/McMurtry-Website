@@ -18,15 +18,16 @@ const RoomReservations = () => (
                         </ul>
                     </li>
                 </ul>
-                <p>Our online reservation system (directions below) allows you to book rooms under Category 1 up to 3 weeks in advance.</p>
-                <p><strong>When booking for the first time: </strong>Please set up and confirm your account using this{' '}
-                 <strong><a href='https://mcmurtryreservation.skedda.com/register?key=576c21c' target="_blank" style={{ color: '#515768' }} rel="noopener noreferrer">link</a></strong>.
-                 A confirmation of your registration will be sent to your email and will take approximately one minute to complete. Please select the 'Remember Me' option when entering your login information. Once registering, double click on the calendar located below, log in, and create your reservation.</p>
-                <p><strong>For every subsequent booking: </strong>Use the calendar located below to make your reservation. You will automatically be logged in as a registered user. Bookings can be viewed and cancelled through your account after making your first reservation. We ask that you provide a title and brief description for the purpose of your reservation as well as contact information. Note: Failure to include this information may result in the cancellation of your reservation.</p>
+                <p>Our online reservation system (directions below) allows you to book rooms under Category 1 up to 3 weeks in advance. Please fill out the following form in order to make a reservation:</p>
+                <a class = 'reservation-link' href = "https://docs.google.com/forms/d/e/1FAIpQLSco26DjasAvhMKl-CNafI35-wtoLtoYJBGHPd8v8FxgMbbhYQ/viewform?usp=sf_link">Room Reservation Form</a>
+                <p>PLEASE CHECK your room's availability on the following Google Calendar before booking. After completing the form, your reservation should immediately appear on the calendar; you will receive a confirmation email if so. </p>
+                <p>IF YOU DO NOT RECEIVE A CONFIRMATION EMAIL, or your reservation does not appear on the calendar, please fill out the form again carefully or email the secretaries (see below).
+                    If you would like to cancel your reservation, create a recurring reservation, or have any other questions or concerns, please email the secretaries. 
+                </p>
             </div>
         </Box>
         <Box width={[0.9, 0.7]} className='room-catagory' >
-            <h2 className='catagory-subheader'>Catagory 2 Reservations</h2>
+            <h2 className='catagory-subheader'>Category 2 Reservations</h2>
             <div>
                 <ul>
                     <li><strong>McMurtry Quad</strong></li>
@@ -43,8 +44,9 @@ const RoomReservations = () => (
             </a>
         </Box>
         <div className='scheduler-container'>
-            <iframe src="https://mcmurtryreservation.skedda.com/booking?embedded=true" className='scheduler' title='scheduler'></iframe>
+            <iframe src="https://calendar.google.com/calendar/embed?src=2357af8ea321219e69f5f08fe7bd16bf6663c3a5a5f54a9a1f5052972ed93726%40group.calendar.google.com&ctz=America%2FChicago"  width="800" height="600" frameborder="0" scrolling="no"></iframe>
         </div>
+        <Box width={[0.9, 0.7]} className='room-catagory'><p>Having trouble seeing the calendar? Uncheck "Prevent cross-site tracking" in your browser settings or visit <a href = "https://calendar.google.com/calendar/u/1?cid=MjM1N2FmOGVhMzIxMjE5ZTY5ZjVmMDhmZTdiZDE2YmY2NjYzYzNhNWE1ZjU0YTlhMWY1MDUyOTcyZWQ5MzcyNkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t">this link.</a></p></Box>
     </div>
 )
 

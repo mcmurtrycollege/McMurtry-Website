@@ -6,14 +6,14 @@ import { content, hours, personnel } from './mis.json';
 
 const MISLinks = [
     {
-        text: "Safety Guidlines",
+        text: "Safety Guidelines",
         icon: "https://icon.now.sh/security",
         link: '../../../../static/mis_safety.pdf'
     },
     {
         text: "Equipment Information",
         icon: "../../../../static/icon/building.svg",
-        link: "https://docs.google.com/spreadsheets/d/18Lu5pL6v0oYOnZQu4kYPGuUyiMvAfOHZXBH39udHVXI/edit"
+        link: "https://docs.google.com/document/d/1kNjTbBWRYK3Xxpgr73z7EFU3-pTms47MdRyTEex4w_E/edit?usp=sharing"
     },
     {
         text: "Email us at",

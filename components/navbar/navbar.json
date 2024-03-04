@@ -25,8 +25,8 @@
                     "to": "/events/artevents"
                 },
                 {
-                    "name": "Budget Sheet",
-                    "to": "/events/budgetsheet"
+                    "name": "Budget/Expenses",
+                    "to": "/events/budget"
                 }
             ]
         },
@@ -109,10 +109,6 @@
                 {
                     "name": "Diversity Resources",
                     "to": "/resources/diversityResources"
-                },
-                {
-                    "name": "Expense Forms",
-                    "to": "/resources/expenseforms"
                 },
                 {
                     "name": "Work Orders",

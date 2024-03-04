@@ -1,0 +1,15 @@
+webpackHotUpdate_N_E("pages/resources/mis",{
+
+/***/ "./components/resources/mis/mis.json":
+/*!*******************************************!*\
+  !*** ./components/resources/mis/mis.json ***!
+  \*******************************************/
+/*! exports provided: content, hours, personnel, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"content\":[\"The McMurtry Innovation Space is an interdisciplinary design space open to all Rice students. The mission of the space is to support the projects of individuals and groups on campus. All students or faculty who complete the safety quiz gain swipe access to the space. In the space we have, Hand tools, Art supplies, Sewing supplies, Electronic prototyping supplies, Computers, Projector, 3D printers, and more! Some of the equipment is locked and you must visit during a time when a member of our team can assist you. Please see the calendar and team descriptions below for more information.\",\"To gain swipe access to the MIS, first read the following safety guidelines. Then take the safety quiz, which is provided in the guidelines.\",\"The MIS is located in Room 107 of McMurtry College, between B stairwell and the computer lab. Email us at mcminnovationspace@gmail.com for more information on what we have in the space, room reservations, or any questions.\"],\"hours\":[{\"day\":\"Monday\",\"hours\":\"8 AM - Midnight\"},{\"day\":\"Tuesday\",\"hours\":\"8 AM - Midnight\"},{\"day\":\"Wednesday\",\"hours\":\"8 AM - Midnight\"},{\"day\":\"Thursday\",\"hours\":\"8 AM - Midnight\"},{\"day\":\"Friday\",\"hours\":\"8 AM - 10PM\"},{\"day\":\"Saturday\",\"hours\":\"8 AM - 10PM\"},{\"day\":\"Sunday\",\"hours\":\"8 AM - Midnight\"}],\"personnel\":[{\"name\":\"Raj Anthony\",\"major\":\"Electrical and Computer Engineering\",\"college\":\"McMurtry\",\"email\":\"rra2@rice.edu\",\"askMeAbout\":\"Computer/tech repair and troubleshooting, 3D printing, CAD, hand tools, shop tools, microcontrollers, soldering\"},{\"name\":\"Bri Schulstad\",\"major\":\"Chemical Engineering + Earth, Environmental, and Planetary Sciences\",\"college\":\"McMurtry\",\"email\":\"bts8@rice.edu\",\"askMeAbout\":\"CAD, 3D printing, hand tools\"},{\"name\":\"Owen Krum\",\"major\":\"Mechanical Engineering\",\"college\":\"McMurtry\",\"email\":\"otk1@rice.edu\",\"askMeAbout\":\"Woodworking, Wood species, Vintage hand tools, Tool Restoration, Carpentry, Cabinet Making, CAD, Laser Cutting, Wood Finishing\"},{\"name\":\"Tristen Flores\",\"major\":\"Mechanical Engineering, Minor in CAAM\",\"college\":\"McMurtry\",\"email\":\"trf5@rice.edu\",\"askMeAbout\":\"CAD, Arduino, 3D Printing, Laser Cutting, Woodworking, Hand Tools, Power Tools\"}]}");
+
+/***/ })
+
+})
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdGF0aWMvd2VicGFjay9wYWdlcy9yZXNvdXJjZXMvbWlzLmE1NTIxZmFjNjM2M2RkNjZhYzVhLmhvdC11cGRhdGUuanMiLCJzb3VyY2VSb290IjoiIn0=

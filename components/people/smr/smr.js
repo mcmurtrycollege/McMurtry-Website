@@ -8,8 +8,8 @@ const SMR = () => (
     <div className='smr-page'>
         <Title title='Student Maintenance Rep' width={350} smallTest={true} />
         <Box width={[0.8, 0.5]} ml='auto' mr='auto'>
-            <h2 className = 'smr-name'>Berny Guerra Arthur</h2>
-            <h4 className = 'smr-email'>Email: bgg1@rice.edu</h4>
+            <h2 className = 'smr-name'>Krishna Chandra</h2>
+            <h4 className = 'smr-email'>Email: kc60@rice.edu</h4>
         </Box>
     </div>
 )

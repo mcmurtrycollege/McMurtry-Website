@@ -36,32 +36,46 @@
     ],
     "personnel":[
         {
-            "name":"Raj Anthony",
-            "major":"Electrical and Computer Engineering",
+            "name":"Grant Lu",
+            "major":"Bioengineering",
             "college":"McMurtry",
-            "email":"rra2@rice.edu",
-            "askMeAbout":"Computer/tech repair and troubleshooting, 3D printing, CAD, hand tools, shop tools, microcontrollers, soldering"
+            "email":"gwl3@rice.edu",
+            "askMeAbout":"Hand Tools, Electronic Prototyping, Power Tools, 3D Printing, Vinyl, Screen Printing, Projector, MATLAB, Soldering, Laminator, Raspberry Pi/Arduino"
         },
         {
-            "name":"Bri Schulstad",
-            "major":"Chemical Engineering + Earth, Environmental, and Planetary Sciences",
+            "name":"Jeffrey Sheng",
+            "major":"Computer Science",
             "college":"McMurtry",
-            "email":"bts8@rice.edu",
-            "askMeAbout":"CAD, 3D printing, hand tools"
+            "email":"qs4@rice.edu",
+            "askMeAbout":"Hand Tools, Power Tools, Laminator"
         },
         {
-            "name":"Owen Krum",
+            "name":"Matthew Whaley",
             "major":"Mechanical Engineering",
             "college":"McMurtry",
-            "email":"otk1@rice.edu",
-            "askMeAbout":"Woodworking, Wood species, Vintage hand tools, Tool Restoration, Carpentry, Cabinet Making, CAD, Laser Cutting, Wood Finishing"
+            "email":"mfw3@rice.edu",
+            "askMeAbout":"Hand Tools, Power Tools"
         },
         {
-            "name":"Tristen Flores",
-            "major":"Mechanical Engineering, Minor in CAAM",
+            "name":"Michael Angino",
+            "major":"Electrical Engineering ",
             "college":"McMurtry",
-            "email":"trf5@rice.edu",
-            "askMeAbout":"CAD, Arduino, 3D Printing, Laser Cutting, Woodworking, Hand Tools, Power Tools"
+            "email":"mfa7@rice.edu",
+            "askMeAbout":"Hand Tools, Adobe Suite, Adobe Illustrator, AutoCAD, Electronic Prototyping, Power Tools, 3D Printing, Vinyl, Projector, Soldering, Laminator, Raspberry Pi/Arduino"
+        },
+        {
+            "name":"Myra Ramdenbourg",
+            "major":"Computer Science",
+            "college":"Will Rice",
+            "email":"mmr7@rice.edu",
+            "askMeAbout":"Electronic Prototyping, 3D Printing, Soldering, Raspberry Pi/Arduino"
+        },
+        {
+            "name":"Shaquille Que",
+            "major":"Computer Science, Mathematics",
+            "college":"McMurtry",
+            "email":"stq1@rice.edu",
+            "askMeAbout":"Adobe Suite, Projector, MATLAB, Soldering, Laminator"
         }
     ]
 }

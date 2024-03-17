@@ -42,7 +42,7 @@ class NavbarDesktop extends React.Component {
                         <p>McMurtry College</p>
                     </div>
                 </Link>
-                <div className='navbar-catagories'>
+                <div className='navbar-categories'>
                     {
                         navbar_headers.map(({ name, subheaders }) => (
                             <div className='navbar-category' key={name}>

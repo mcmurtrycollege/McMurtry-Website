@@ -22,7 +22,7 @@ const MISLinks = [
     }
 ]
 
-const McmInovationSpace = () => (
+const McmInnovationSpace = () => (
     <div className='mis-page'>
         <Title width={350} title='McMurtry Innovation Space' smallText={true} />
         <Box className='mis-paragraphs' width={[1, 0.8, 0.7, 0.6]} ml='auto' mr='auto'>
@@ -73,7 +73,7 @@ const McmInovationSpace = () => (
                         <div className="mis-contact">
                             <h2 className='mis-name'>{name}</h2>
                             <h2 className='mis-major'>Major: {major}</h2>
-                            <h2 className='mis-college'>College: {college}</h2>
+                            {/* <h2 className='mis-college'>College: {college}</h2> */}
                             <a href={`mailto:${email}`} style={{ textDecoration: 'none' }}>
                                 <h2 className='mis-email'><img src="../../../static/icons/email.svg" alt="" />{' '}{email}</h2>
                             </a>
@@ -87,4 +87,4 @@ const McmInovationSpace = () => (
     </div>
 )
 
-export default McmInovationSpace;
+export default McmInnovationSpace;

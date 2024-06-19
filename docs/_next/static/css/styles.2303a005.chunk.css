@@ -565,7 +565,7 @@
     cursor: pointer;
 }
 
-.navbar-catagories {
+.navbar-categories {
     float: right;
 }
 
@@ -1454,7 +1454,7 @@ a {
         display: none;
     }
 }
-.budget-sheet-page {
+.budget-page {
     padding-top: 10%;
     margin-bottom: 5%;
 }

@@ -47,15 +47,10 @@ const Intro = () => (
                 <p>Click here for Resources and Questions regarding the coronavirus response at Rice/McMurtry</p>
             </Box>
         </Link> */}
-        <Link href={"/resources/BlackLivesMatter"}>
-            <Box className="blm-banner" width={[0.9, 0.5]}>
-                <p>McMurtry College stands with the Black Lives Matter movement &#8594;</p>
-            </Box>
-        </Link>
+        <h1 className='welcome-title'>Welcome to McMurtry!</h1>
         <Box width={[0.95, 0.8]} className='yurt-graphic'>
             <Image src='../../static/YurtTrees.svg' />
         </Box>
-        <h1 className='welcome-title'>Welcome to McMurtry!</h1>
         <a href={"https://goo.gl/forms/KEyPplLhclljdSOm2"}>
             <Box className="accessibility-fund-banner" width={[0.9, 0.5]}>
                 <p>McMurtry Magisters' Accessibility Fund &#8594;</p>

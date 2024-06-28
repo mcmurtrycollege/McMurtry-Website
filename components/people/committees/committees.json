@@ -172,29 +172,16 @@
           ]
         },
         {
-          "name": "Tech",
-          "description": "The Technology Committee is responsible for everything from maintaining our computer lab to all of the A/V equipment in the Commons and PDR and this very website. The roles on this committee include Director of Technology, Webmaster, Computer Lab Associate, and Technology Associate.",
-          "heads": [
-            {
-              "name": "Mustafa Latif",
-              "email": "ml123@rice.edu"
-            }
-          ],
-          "members": [
-
-          ]
-        },
-        {
           "name": "Website",
           "description": "The Website Committee works on developing and updating the McMurtry Website.",
           "heads": [
             {
-              "name": "Tate Ward",
-              "email": "tgw2@rice.edu"
+              "name": "Stone Li",
+              "email": "sjl10@rice.edu"
             },
             {
-              "name": "Emily Huang",
-              "email": "emh13@rice.edu "
+              "name": "Andrew Chu",
+              "email": "ahc12@rice.edu "
             }
           ],
           "members": [

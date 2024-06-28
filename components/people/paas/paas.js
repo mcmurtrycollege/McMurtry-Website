@@ -19,7 +19,7 @@ const PAAs = () => (
         </div>
         <div>
             <Box width={320} ml='auto' mr='auto'>
-                <h1 className='paas-title'>O-Week Paas</h1>
+                <h1 className='paas-title'>O-Week PAAs</h1>
             </Box>
             <ContactCards content={o_week_paas} width={320} height={180} />
         </div>

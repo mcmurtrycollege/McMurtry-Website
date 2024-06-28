@@ -26,38 +26,6 @@
     cursor: pointer;
 }
 
-.blm-banner {
-    margin: 8% auto 4% auto;
-    background-color: black;
-    color: #DCDFE5;
-    font-size: 2em;
-    text-align: center;
-    padding: 5px 10px;
-    position: relative;
-    transition: 0.3s ease-in-out;
-    z-index: 100;
-}
-
-.blm-banner:before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 0;
-    top: 0;
-    left: 0;
-    background-color: #515768;
-    z-index: -1;
-    transition: 0.1s ease-in-out;
-}
-
-.blm-banner:hover {
-    cursor: pointer;
-}
-
-.blm-banner:hover:before {
-    height: 100%;
-}
-
 .accessibility-fund-banner {
     margin: 0 auto 0 auto;
     background-color: #515768;
@@ -126,6 +94,7 @@
 .yurt-graphic {
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 5%;
     text-align: center;
 }
 

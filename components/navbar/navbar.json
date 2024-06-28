@@ -21,10 +21,6 @@
                     "to": "/events/calendar"
                 },
                 {
-                    "name": "Arts Calendar",
-                    "to": "/events/artevents"
-                },
-                {
                     "name": "Budget/Expenses",
                     "to": "/events/budget"
                 }
@@ -72,10 +68,6 @@
                 {
                     "name": "Head Caregivers",
                     "to": "/people/headcaregivers"
-                },
-                {
-                    "name": "Strive Liaisons",
-                    "to": "/people/striveliaisons"
                 },
                 {
                     "name": "SMR",

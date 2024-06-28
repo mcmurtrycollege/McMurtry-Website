@@ -1,12 +1,18 @@
 import React from 'react';
 import Title from '../../general/title';
 import { Box } from "rebass";
+import Link from 'next/link';
 import './diversityResources.css';
 import resources from './diversityResources.json';
 
 const WorkOrder = () => (
     <div className='diversity-resources'>
         <Title width={320} title="Diversity Resources" />
+        <Link href={"/resources/BlackLivesMatter"}>
+            <Box className="blm-banner" width={[0.9, 0.5]}>
+                <p>McMurtry College stands with the Black Lives Matter movement &#8594;</p>
+            </Box>
+        </Link>
         <div className='embedded-doc'>
             <embed src='../../../static/mcmurtry_resources.pdf' type="application/pdf" width="600" height="820px" page="7" scrollbar="1" toolbar="1" />
         </div>

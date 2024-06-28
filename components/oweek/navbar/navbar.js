@@ -30,7 +30,7 @@ class Navbar extends React.Component {
                     <div className='oweek-navbar-close' onClick={this.toggleNavbar}>
                         <img src='../../../static/icons/x.svg' alt='X' />
                     </div>
-                    <Link href='/oweek'>
+                    <Link href='/'>
                         <a>
                             <Box width={[0.2, 0.3]} ml='auto' mr='auto'>
                                 <Image src='../../../static/logo.svg' alt="" />

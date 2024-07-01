@@ -1,4 +1,12 @@
-@media screen and (min-width: 900px){
+.division-title {
+    font-size: 2em;
+    text-align: center;
+    font-weight: normal;
+    padding: 8px;
+    color: #515768;
+}
+
+@media screen and (min-width: 900px) {
     .court-page {
         margin-top: 12%;
         margin-bottom: 5%;

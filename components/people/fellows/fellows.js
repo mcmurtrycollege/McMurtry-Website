@@ -1,8 +1,8 @@
 import React from 'react';
-import { Box } from 'rebass';
+import { Box, Flex } from 'rebass';
 import Title from '../../general/title';
 import ContactCards from '../../general/contactcards';
-import {fellows_description, fellows } from './fellows.json';
+import { fellows_description, headFellows, fellows } from './fellows.json';
 import './fellows.css';
 
 const AcademicFellows = () => (
@@ -11,7 +11,16 @@ const AcademicFellows = () => (
         <Box width={[1, 0.7, 0.6, 0.5]} ml='auto' mr='auto' className='fellows-description'>
             {fellows_description}
         </Box>
-        <div style={{marginTop: '2%'}}>
+        <Box width={[0.7, 0.2]} className='subtitle' ml='auto' mr='auto'>
+            <h2>Head Academic Fellows</h2>
+        </Box>
+        <div style={{ marginTop: '2%' }}>
+            <ContactCards content={headFellows} width={280} height={230} />
+        </div>
+        <Box width={[0.7, 0.2]} className='subtitle' ml='auto' mr='auto'>
+            <h2>Academic Fellows</h2>
+        </Box>
+        <div style={{ marginTop: '2%' }}>
             <ContactCards content={fellows} width={280} height={230} />
         </div>
     </div>

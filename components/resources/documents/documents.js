@@ -7,7 +7,6 @@ import './documents.css'
 // import mcm_bylaws from '../../../../static/documents/mcm_bylaws.pdf';
 // import mcm_housing_bylaws from '../../../../static/documents/mcm_housing_bylaws.pdf';
 // import mcm_parking_bylaws from '../../../../static/documents/mcm_parking_bylaws.pdf';
-// import tax_exempt_form from '../../../../static/documents/tax_exempt_form.pdf';
 
 const documents = [
     {
@@ -30,11 +29,6 @@ const documents = [
         document: '../../../../static/documents/mcm_parking_bylaws.pdf',
         icon: "https://icon.now.sh/directions_car"
     },
-    {
-        name: "Tax Exempt Form",
-        document: '../../../../static/documents/tax_exempt_form.pdf',
-        icon: "https://icon.now.sh/attach_money"
-    }
 ]
 
 class Documents extends React.Component {

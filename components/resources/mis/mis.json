@@ -34,6 +34,15 @@
             "hours": "8 AM - Midnight"
         }
     ],
+    "leadership":[
+        {
+            "name":"John Smith",
+            "major":"Electrical and Computer Engineering",
+            "college":"McMurtry",
+            "email":"js@rice.edu",
+            "askMeAbout":"Ask me about anything!"
+        }
+    ],
     "personnel":[
         {
             "name":"Raj Anthony",

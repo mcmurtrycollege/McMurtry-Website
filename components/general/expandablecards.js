@@ -33,7 +33,7 @@ class ExpandableCard extends React.Component {
                     <h3 className="contact-phone"><img src="../../../../static/icons/phone.svg" alt="Phone: " />{' '}{this.props.phone}</h3>
                     {this.props.email &&
                         <a href={`mailto:${this.props.email}`} className='link'>
-                            <h3 className={this.state.contentVisible ? 'contact-email-visible' : 'contact-email-hidden'}><img src="../../../../static/icons/email.svg" alt="Email: " />{' '}{this.props.email}</h3>
+                            <h3 className={this.state.contentVisible ? 'contact-email-visible' : 'contact-email-hidden'}><img src="../../../../static/icons/email.svg" alt="Email: " />{this.props.email}</h3>
                         </a>
                     }
 

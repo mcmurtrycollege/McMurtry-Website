@@ -1,52 +1,52 @@
 {
     "oweek_groups": [
         {
-            "name": "Avocado Toast Malone",
-            "image": "../../../static/oweek/AvocadoToastMalone.png"
+            "name": "Ben & Jaries",
+            "image": "../../../static/oweek/Aries.jpeg"
         },
         {
-            "name": "Banh Migos",
-            "image": "../../../static/oweek/BanhMigos.png"
+            "name": "Quentin Taurustino: Kill Bull",
+            "image": "../../../static/oweek/Taurus.JPG"
         },
         {
-            "name": "Breaking Bread",
-            "image": "../../../static/oweek/BreakingBread.png"
+            "name": "Geminight at the Murtseum",
+            "image": "../../../static/oweek/Gemini.jpeg"
         },
         {
-            "name": "Champagne McPapis",
-            "image": "../../../static/oweek/ChampagneMcPapis.png"
+            "name": "Yo Crabba Crabba",
+            "image": "../../../static/oweek/Cancer.jpg"
         },
         {
-            "name": "Cloudy with a Chance of Murtballs",
-            "image": "../../../static/oweek/CloudyWithAChanceOfMurtballs.png"
+            "name": "Leo & Stitch: Ohana Means O-Week Family",
+            "image": "../../../static/oweek/Leo.JPG"
         },
         {
-            "name": "Dairy Queen's Gambit",
-            "image": "../../../static/oweek/DairyQueen'sGambit.png"
+            "name": "Vincent Vir-gogh: McStarry Night",
+            "image": "../../../static/oweek/Virgo.png"
         },
         {
-            "name": "French Onion Snoup Dogg",
-            "image": "../../../static/oweek/FrenchOnionSnoupDogg.png"
+            "name": "Librally Blonde",
+            "image": "../../../static/oweek/Libra.jpg"
         },
         {
-            "name": "Lord of the Onion Rings",
-            "image": "../../../static/oweek/LordOfTheOnionRings.png"
+            "name": "McScorpi-Old Town Road",
+            "image": "../../../static/oweek/Scorpio.jpg"
         },
         {
-            "name": "McChelin Stars",
-            "image": "../../../static/oweek/McChelinStars.png"       
+            "name": "Teenage Mutant Ninja Centaurs",
+            "image": "../../../static/oweek/Saggitarius.png"       
         },
         {
-            "name": "Murt-atouille",
-            "image": "../../../static/oweek/Murt-atouille.png"
+            "name": "Goatbusters",
+            "image": "../../../static/oweek/Capricorn.jpg"
         },
         {
-            "name": "Murtberry Shortcake",
-            "image": "../../../static/oweek/MurtberryShortcake.png"
+            "name": "Aquatar the Last Airbender",
+            "image": "../../../static/oweek/Aquarius.jpg"
         },
         {
-            "name": "Stranger Wings",
-            "image": "../../../static/oweek/StrangerWings.png"
+            "name": "Ice Pisces: McMunch",
+            "image": "../../../static/oweek/Pisces.jpg"
         }
     ]
 }

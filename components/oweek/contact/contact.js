@@ -17,24 +17,24 @@ const Contact = () => (
         </p>
         <h2 className='oweek-subtitle'>Contact the O-Week Coordinators</h2>
         <p>General Email: mcmurtryoweek@gmail.com</p>
-        <p>Essence Ratliff</p>
+        <p>Gale Gai</p>
         <ul>
-            <li>efr1@rice.edu</li>
-            <li>(901) 279-7835</li>
+            <li>gg35@rice.edu</li>
+            <li>(413) 265-4938</li>
         </ul>
-        <p>Ishani Kaul</p>
+        <p>Francesca Nemati</p>
         <ul>
-            <li>ik17@rice.edu</li>
-            <li>(626) 485-0703</li>
+            <li>fn11@rice.edu</li>
+            <li>(917) 301-7610</li>
         </ul>
-        <p>Marina Klein</p>
+        <p>Sean Nyangeri</p>
         <ul>
-            <li>mnk3@rice.edu</li>
-            <li>(832) 434-2341</li>
+            <li>sn68@rice.edu</li>
+            <li>(832) 839-1443</li>
         </ul>
 
         <h2 className='oweek-subtitle'>Contact the McMurtry College President</h2>
-        <p>Jackson Hughes: jth9@rice.edu</p>
+        <p>Adeel Sumar: aas24@rice.edu</p>
 
         <h2 className='oweek-subtitle'>Contact the College Coordinator and Magisters</h2>
         <p>College Coordinator: Jackie Carrizales</p>

@@ -11,10 +11,13 @@ const Theme = () => (
                 <Image src="../../../static/oweek/2019AdvisingTeam.jpg" alt='' />
             </Box>
             <p>
-                Our mission for BistrO-Week is to equip you with the tools needed to craft your own recipe for success here at McMurtry and within the Rice community. We know that being at Rice can feel like being at a restaurant: there are so many good options to choose from, and even O-Week can feel like a multi-course meal. While this can be overwhelming at times, during BistrO-Week we seek to boil it down to the essentials. We also recognize and appreciate that every chef draws inspiration from their home kitchen and brings with them their own batch of ingredients. We want our incoming Murts to know that all identities and backgrounds are welcome at McMurtry. 
+                Welcome to McMurtry’s AstrO-Week 2024, where we embark on a cosmic journey among the celestial wonders that have fascinated us for millennia! Just as stars align in the vast expanse of the universe, so too do the unique paths of our New Students converging at Rice, and more specifically, at McMurtry.
             </p>
             <p>
-                These diverse identities and backgrounds will aid you in all of the new meals you'll begin to cook up here at Rice. We are ready and excited to watch you become confident and comfortable here at Rice as you develop new tastes and techniques that will stay with you forever!                       
+                AstrO-Week invites New Students from all backgrounds to illuminate their perspectives and passions as diverse as the characteristics of the zodiac signs. Together, we hope to bring them in joining McMurtry’s constellation full of memories as timeless as the night sky! 
+            </p>
+            <p>
+                Throughout this cosmic week, we will be the guiding light for our new students as they embark on a journey to chart their own paths to personal and academic success, providing them with the resources and support along the way. We aspire to facilitate lifelong connections and raise New Students up to new heights as they pursue their dreams!
             </p>
         </div>
     </div>

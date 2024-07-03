@@ -8,57 +8,69 @@
     },
     {
       "position": "Chief Justice",
-      "name": "Jackson Hughes",
-      "year": "2024",
+      "name": "Kile Stenoien",
+      "year": "2026",
+      "email": "mcmurtrycj@gmail.com"
+    },
+    {
+      "position": "Chief Justice",
+      "name": "Jackson Harvey",
+      "year": "2026",
       "email": "mcmurtrycj@gmail.com"
     },
     {
       "position": "Prime Minister",
-      "name": "Morike Ayodeji",
-      "year": "2024",
+      "name": "Gale Gai",
+      "year": "2026",
       "email": "murtpm@gmail.com"
     },
     {
       "position": "Internal VP",
-      "name": "Vidal Saenz",
-      "year": "2024",
+      "name": "Jay Messina",
+      "year": "2026",
       "email": "mcmurtryivp@gmail.com"
     },
     {
       "position": "External VP",
-      "name": "Kate Mischlich",
-      "year": "2024",
+      "name": "Berny Guerra Arthur",
+      "year": "2026",
       "email": "mcmurtryevp@gmail.com"
     },
     {
-      "position": "SA Senator",
-      "name": "Ariah Richards",
+      "position": "At-Large Rep",
+      "name": "Anadaysi Lopez",
       "year": "2025",
+      "email": "mcmurtrypc@gmail.com"
+    },
+    {
+      "position": "SA Senator",
+      "name": "Shriya Pendyala",
+      "year": "2026",
       "email": "mcmurtrysenator@gmail.com"
     },
     {
+      "position": "Senior Treasurer",
+      "name": "Conner Huang",
+      "year": "2026",
+      "email": "mcmurtrytreasurer@gmail.com"
+    },
+    {
+      "position": "Junior Treasurer",
+      "name": "Sudip Poudyal",
+      "year": "2027",
+      "email": "mcmurtrytreasurer@gmail.com"
+    },
+    {
       "position": "Secretary",
-      "name": "Melody He",
-      "year": "2025",
+      "name": "Carmine Steiner",
+      "year": "2027",
       "email": "mcmsecretary@gmail.com"
     },
     {
       "position": "Secretary",
-      "name": "Joon Lee",
-      "year": "2025",
+      "name": "Bennett Reddig",
+      "year": "2027",
       "email": "mcmsecretary@gmail.com"
-    },
-    {
-      "position": "Treasurer",
-      "name": "Josh Posada",
-      "year": "2025",
-      "email": "mcmurtrytreasurer@gmail.com"
-    },
-    {
-      "position": "Treasurer",
-      "name": "Shreyan Das",
-      "year": "2025",
-      "email": "mcmurtrytreasurer@gmail.com"
     }
   ],
   "peoples_council": [

@@ -50,7 +50,7 @@ const Homepage = () => (
                 <h1 className='oweek-welcome'>AstrO-Week</h1>
             </Box>
             <Box width={[1, 1 / 3]} style={{ margin: 0, padding: 0 }}>
-                <Image src='../../../static/oweek/2024Coords.JPG' alt='' />
+                <Image src='../../../static/oweek/2024coords.JPG' alt='' />
             </Box>
             <Box width={[1, 1 / 3]}>
                 <Image src='../../../static/oweek/welcome.png' alt='' />

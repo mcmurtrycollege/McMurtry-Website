@@ -8,19 +8,19 @@ import { justices } from './court.json';
 const chiefs = justices.filter((justice) => (justice.position === "Chief Justice")).map(justice =>
     <ExpandableCard key={`${justice.name}`} name={justice.name}
         bio={justice.bio} email={justice.email}
-        phone={justice.phone} />
+        phone={justice.phone} room={justice.room} />
 )
 const associates = justices.filter((justice) => (justice.position === "Associate Justice")).map(justice =>
     <ExpandableCard key={`${justice.name}`} name={justice.name}
-        bio={justice.bio} email={justice.email}
-        phone={justice.phone} />
+        phone={justice.phone}
+        room={justice.room} />
 )
 
 export default class Court extends React.Component {
     render() {
         return (
             <div className='court-page'>
-                <Title width={150} title="Court" />
+                <Title width={200} title="McCourt" />
                 <Box width={[330]} ml='auto' mr='auto'>
                     <h2 className='division-title'>Chief Justices</h2>
                 </Box>

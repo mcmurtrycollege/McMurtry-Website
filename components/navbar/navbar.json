@@ -1,15 +1,20 @@
 {
     "navbar_headers": [
         {
+            "name": "O-Week",
+            "subheaders": [
+                {
+                    "name": "O-Week",
+                    "to": "/oweek"
+                }
+            ]
+        },
+        {
             "name": "About",
             "subheaders": [
                 {
                     "name": "About",
                     "to": "/about"
-                },
-                {
-                    "name": "O-Week",
-                    "to": "/oweek"
                 }
             ]
         },
@@ -46,12 +51,12 @@
                     "to": "/people/committees"
                 },
                 {
-                    "name": "Associates",
-                    "to": "/people/associates"
+                    "name": "Affinity Groups",
+                    "to": "/people/mcmurtryaffinitygroups"
                 },
                 {
-                    "name": "Divisional Advisors",
-                    "to": "/people/divisionaladvisors"
+                    "name": "Associates",
+                    "to": "/people/associates"
                 },
                 {
                     "name": "Peer Academic Advisors",
@@ -74,8 +79,8 @@
                     "to": "/people/SMR"
                 },
                 {
-                    "name": "McMurtry Affinity Groups",
-                    "to": "/people/mcmurtryaffinitygroups"
+                    "name": "Divisional Advisors",
+                    "to": "/people/divisionaladvisors"
                 }
             ]
         },

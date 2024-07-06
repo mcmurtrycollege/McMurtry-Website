@@ -12,8 +12,7 @@ const chiefs = justices.filter((justice) => (justice.position === "Chief Justice
 )
 const associates = justices.filter((justice) => (justice.position === "Associate Justice")).map(justice =>
     <ExpandableCard key={`${justice.name}`} name={justice.name}
-        phone={justice.phone}
-        room={justice.room} />
+        email={justice.email} />
 )
 
 export default class Court extends React.Component {

@@ -73,140 +73,146 @@
       "email": "mcmsecretary@gmail.com"
     }
   ],
+  "mccabinet": [
+    {
+      "position": "Parliamentarian",
+      "name": "Sophiya Sami",
+      "year": "2027",
+      "email": "sss21@rice.edu"
+    }
+  ],
   "peoples_council": [
     {
-      "position": "At Large Rep (Leads the PC)",
-      "name": "Vale Ortega",
-      "year": "2024",
+      "position": "At-Large Rep (Leads PC)",
+      "name": "Anadaysi Lopez",
+      "year": "2025",
       "email": "mcmurtrypc@gmail.com"
     },
     {
       "position": "2Y Hall Rep",
-      "name": "Joanna Coram",
-      "year": "2025",
-      "email": "joanna.n.coram@rice.edu"
+      "name": "Grenna Vasquez",
+      "year": "2027",
+      "email": "gv21@rice.edu"
     },
     {
       "position": "2O Hall Rep",
       "name": "Emily Gianotti",
       "year": "2025",
-      "email": "emily.j.gianotti@rice.edu"
+      "email": "ejg4@rice.edu"
     },
     {
       "position": "3Y Hall Rep",
-      "name": "James Hwang",
-      "year": "2024",
-      "email": "james.hwang@rice.edu"
+      "name": "Aidan Vyas",
+      "year": "2025",
+      "email": "ahv2@rice.edu"
     },
     {
       "position": "3O Hall Rep",
-      "name": "Anusha Srivastava",
-      "year": "2024",
-      "email": "anusha.srivastava@rice.edu"
+      "name": "Ananya Kar",
+      "year": "2025",
+      "email": "ack4@rice.edu"
     },
     {
       "position": "4Y Hall Rep",
-      "name": "Robin Whitehead",
-      "year": "2025",
-      "email": "robin.m.whitehead@rice.edu"
+      "name": "Connor Gibbons",
+      "year": "2027",
+      "email": "cg102@rice.edu"
     },
     {
       "position": "4O Hall Rep",
-      "name": "Max Grayer",
-      "year": "2023",
-      "email": "max.grayer@rice.edu"
+      "name": "Carlos Cruz",
+      "year": "2027",
+      "email": "cc211@rice.edu"
     },
     {
       "position": "5th Floor Rep",
-      "name": "Cecelia Curtis",
-      "year": "2025",
-      "email": "cecelia.e.curtis@rice.edu"
+      "name": "Brianna Schulstad",
+      "year": "2027",
+      "email": "bts8@rice.edu"
     },
     {
-      "position": "Off Campus",
-      "name": "Damian Gonzalez ",
-      "year": "2024",
-      "email": "damian.gonzalez@rice.edu"
-    },
-    {
-      "position": "Off Campus",
-      "name": "Bela Nelson",
-      "year": "2024",
-      "email": "bela.g.nelson@rice.edu"
+      "position": "Off Campus Rep",
+      "name": "Megan Worstell",
+      "year": "2026",
+      "email": "mnw3@rice.edu"
     },
     {
       "position": "First Year Rep",
-      "name": "Shelby Williams",
-      "year": "2026",
-      "email": "shelby.a.williams@rice.edu"
+      "name": "TBD",
+      "year": "TBD",
+      "email": "TBD"
     },
     {
       "position": "First Year Rep",
-      "name": "Ben Liu",
-      "year": "2026",
-      "email": ""
+      "name": "TBD",
+      "year": "TBD",
+      "email": "TBD"
     },
     {
       "position": "First Year Rep",
-      "name": "Conner Huang",
+      "name": "TBD",
+      "year": "TBD",
+      "email": "TBD"
+    },
+    {
+      "position": "Sophomore Class Rep",
+      "name": "Sophiya Sami",
+      "year": "2027",
+      "email": "sss21@rice.edu"
+    },
+    {
+      "position": "Sophomore Class Rep",
+      "name": "Yazmine Miles",
+      "year": "2027",
+      "email": "yam1@rice.edu"
+    },
+    {
+      "position": "Sophomore Class Rep",
+      "name": "Xiaoyu (Melissa) Geng",
+      "year": "2027",
+      "email": "xg32@rice.edu"
+    },
+    {
+      "position": "Junior Class Rep",
+      "name": "Berny Guerra Arthur",
       "year": "2026",
-      "email": "conner.h.huang@rice.edu"
-    },
-    {
-      "position": "Sophomore Class Rep",
-      "name": "Ishani Kaul",
-      "year": "2025",
-      "email": "ishani.kaul@rice.edu"
-    },
-    {
-      "position": "Sophomore Class Rep",
-      "name": "Jimin Lee",
-      "year": "2025",
-      "email": "jimin.lee@rice.edu"
-    },
-    {
-      "position": "Sophomore Class Rep",
-      "name": "Zoe Wang",
-      "year": "2025",
-      "email": "zoe.y.wang@rice.edu"
+      "email": "bgg1@rice.edu"
     },
     {
       "position": "Junior Class Rep",
-      "name": "Emma Chestnut",
-      "year": "2024",
-      "email": "etc3@rice.edu"
+      "name": "Alice Zhong",
+      "year": "2026",
+      "email": "anz2@rice.edu"
     },
     {
       "position": "Junior Class Rep",
-      "name": "Jackson Hughes",
-      "year": "2024",
-      "email": "jackson.t.hughes@rice.edu"
+      "name": "Will Marsden",
+      "year": "2026",
+      "email": "wm27@rice.edu"
     },
     {
-      "position": "Junior Class Rep",
-      "name": "Sathvik Kakanuru",
-      "year": "2024",
-      "email": "sathvikk19@rice.edu"
+      "position": "Diversity Committee Head",
+      "name": "Sohani Sandhu",
+      "year": "2026",
+      "email": "sks15@rice.edu"
     },
     {
-      "position": "Honor Council Rep",
-      "name": "Paige Sutter",
-      "year": "2025",
-      "email": "paige.e.sutter@rice.edu"
+      "position": "Diversity Committee Head",
+      "name": "Ashley Ramirez",
+      "year": "2027",
+      "email": "amr28@rice.edu"
     },
     {
-      "position": "RPC Rep",
-      "name": "Timmy Hays",
-      "year": "2024",
-      "email": "twh5@rice.edu"
-    }
-  ],
-  "mccabinet": [
+      "position": "Culturals Committee Head",
+      "name": "Carlos Cruz",
+      "year": "2027",
+      "email": "cc211@rice.edu"
+    },
     {
-      "position": "Parliamentarian",
-      "name": "Prayag Gordy",
-      "year": "2024",
-      "email": "prayag.gordy@rice.edu"
+      "position": "Culturals Committee Head",
+      "name": "Katie Voong",
+      "year": "2027",
+      "email": "kv31@rice.edu"
     }
   ]
 }

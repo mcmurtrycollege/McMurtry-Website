@@ -5,43 +5,100 @@
       "name": "Kile Stenoien",
       "email": "mcmurtrycj@gmail.com",
       "phone": "832-416-0948",
-      "room": "52432432"
+      "room": "480",
+      "bio": ""
+    },
+    {
+      "position": "Chief Justice",
+      "name": "Jackson Harvey",
+      "email": "mcmurtrycj@gmail.com",
+      "phone": "832-370-6826",
+      "room": "486",
+      "bio": ""
     },
     {
       "position": "Associate Justice",
-      "name": "Vidal Saenz",
-      "phone": "956-605-9308",
-      "room": "334"
+      "name": "Berny Guerra Arthur",
+      "email": "bgg1@rice.edu",
+      "room": ""
     },
     {
       "position": "Associate Justice",
-      "name": "Jimin Lee",
-      "phone": "516-455-2667",
-      "room": "446"
+      "name": "Will Marsden",
+      "email": "wm27@rice.edu",
+      "room": ""
     },
     {
       "position": "Associate Justice",
-      "name": "Pedro Ribeiro",
-      "phone": "561-562-2507",
-      "room": "290"
+      "name": "Andrew Larsen",
+      "email": "adl10@rice.edu",
+      "room": ""
     },
     {
       "position": "Associate Justice",
-      "name": "Shreyan Das",
-      "phone": "732-688-8293",
-      "room": "549"
+      "name": "Cal Mascardo",
+      "email": "mascardo@rice.edu",
+      "room": ""
     },
     {
       "position": "Associate Justice",
-      "name": "Sabrina Sun",
-      "phone": "626-823-1115",
-      "room": "502"
+      "name": "Charlie Friz",
+      "email": "cf56@rice.edu",
+      "room": ""
     },
     {
       "position": "Associate Justice",
-      "name": "Nick He",
-      "phone": "626-222-6363",
-      "room": "OC"
+      "name": "Connor Gibbons",
+      "email": "cg102@rice.edu",
+      "room": ""
+    },
+    {
+      "position": "Associate Justice",
+      "name": "Davinia Ibizugbe",
+      "email": "doi1@rice.edu",
+      "room": ""
+    },
+    {
+      "position": "Associate Justice",
+      "name": "Lajward Zahra",
+      "email": "lz77@rice.edu",
+      "room": ""
+    },
+    {
+      "position": "Associate Justice",
+      "name": "Grenna Vasquez",
+      "email": "gv21@rice.edu",
+      "room": ""
+    },
+    {
+      "position": "Associate Justice",
+      "name": "Jonah Torres",
+      "email": "jat7@rice.edu",
+      "room": ""
+    },
+    {
+      "position": "Associate Justice",
+      "name": "Melanie Vazquez",
+      "email": "msv6@rice.edu",
+      "room": ""
+    },
+    {
+      "position": "Associate Justice",
+      "name": "Owen Yuhas",
+      "email": "oy2@rice.edu",
+      "room": ""
+    },
+    {
+      "position": "Associate Justice",
+      "name": "Pedro Magarao Ribeiro",
+      "email": "pm41@rice.edu",
+      "room": ""
+    },
+    {
+      "position": "Associate Justice",
+      "name": "Theo Au-Yeung",
+      "email": "ta58@rice.edu",
+      "room": ""
     }
   ]
 }

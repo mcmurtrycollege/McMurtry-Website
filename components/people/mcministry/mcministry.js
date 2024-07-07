@@ -14,15 +14,15 @@ export default class McMinistry extends React.Component {
                     <h1 className='division-title'>Executive Council</h1>
                 </Box>
                 <Cards content={executive_council} height={150} width={[270]} />
+                <Box width={270} ml='auto' mr='auto'>
+                    <h1 className='division-title'>McCabinet</h1>
+                </Box>
+                <Cards content={mccabinet} height={150} width={300} />
                 <Box width={300} ml='auto' mr='auto'>
                     <h1 className='division-title'>People's Council</h1>
                 </Box>
                 <Cards content={[peoples_council[0]]} height={150} width={270} />
                 <Cards content={peoples_council.slice(1)} height={150} width={270} />
-                <Box width={270} ml='auto' mr='auto'>
-                    <h1 className='division-title'>McCabinet</h1>
-                </Box>
-                <Cards content={mccabinet} height={150} width={300} />
             </div>
         )
     }

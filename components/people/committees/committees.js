@@ -71,7 +71,7 @@ export default class Committees extends React.Component {
                             <Image key={committee_divisions[this.state.division].committees[this.state.committee].image}
                                    src={committee_divisions[this.state.division].committees[this.state.committee].image} />
                         </Box>
-                        {committee_divisions[this.state.division].committees[this.state.committee].description}
+                        <div dangerouslySetInnerHTML={{ __html: committee_divisions[this.state.division].committees[this.state.committee].description }}></div>
                     </Box>
                     {
                         (committee_divisions[this.state.division].committees[this.state.committee].heads.length > 0)

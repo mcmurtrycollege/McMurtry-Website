@@ -1,6 +1,10 @@
 {
     "navbar_links":[
         {
+            "name": "O-Week Home",
+            "link": "/oweek" 
+        },
+        {
             "name": "About the Theme",
             "link": "/oweek/theme"
         },

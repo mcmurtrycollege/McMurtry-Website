@@ -27,7 +27,7 @@ const PAAs = () => (
             <Box width={320} ml='auto' mr='auto'>
                 <h1 className='paas-title'>Year Long PAAs</h1>
             </Box>
-            <ContactCards content={year_long_paas} width={300} height={180} />
+            <ContactCards content={year_long_paas} width={300} height={200} />
         </div>
     </div>
 )

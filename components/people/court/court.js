@@ -22,6 +22,7 @@ export default class Court extends React.Component {
                 <Title width={200} title="McCourt" />
                 <Box width={[330]} ml='auto' mr='auto'>
                     <h2 className='division-title'>Chief Justices</h2>
+                    <p align="center"><strong>Click to view the CJs' bios!</strong></p>
                 </Box>
                 <Box width={[1, 1, 0.9, 0.8]} ml='auto' mr='auto'>
                     <Flex flexWrap='wrap' flexDirection='row' justifyContent='center'>

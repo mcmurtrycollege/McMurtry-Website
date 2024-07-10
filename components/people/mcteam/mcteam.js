@@ -50,14 +50,17 @@ export default class McTeam extends React.Component {
                         ))
                     }
                     {
-                        this.state.current === 4 ? (
+                        this.state.current === 1 ? (
                             <ul>
-                                <li>Buy stamps and get envelopes</li>
                                 <li>Pick up mail and packages</li>
-                                <li>Borrow an extra key to your room</li>
+                                <li>Buy stamps and get envelopes</li>
+                                <li>Catch up with Jackie!</li>
+                                <li>Borrow an extra room key</li>
+                                <li>Do homework</li>
                                 <li>Use the staplers, packing tape, scissors, shredder, etc.</li>
-                                <li>Get a hug</li>
-                                <li>Do homework or take a study break</li>
+                                <li>Take a study break</li>
+                                <li>Relax with other Murts</li>
+                                <li>Solve puzzles</li>
                             </ul>
                         ) : (
                                 null

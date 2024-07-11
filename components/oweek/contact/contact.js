@@ -34,7 +34,7 @@ const Contact = () => (
         </ul>
 
         <h2 className='oweek-subtitle'>Contact the McMurtry College President</h2>
-        <p>Adeel Sumar: aas24@rice.edu</p>
+        <p>Adeel Sumar: mcmurtrypresident@gmail.com</p>
 
         <h2 className='oweek-subtitle'>Contact the College Coordinator and Magisters</h2>
         <p>College Coordinator: Jackie Carrizales</p>

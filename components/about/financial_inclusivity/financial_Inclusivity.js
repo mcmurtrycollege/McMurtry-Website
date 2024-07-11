@@ -12,7 +12,7 @@ const FinancialInclusivity = () => (
             <p><b> Our mission:</b> To create a residential college experience in which events and Murtchandise are accessible to all students regardless of socioeconomic status.</p>
             <p><b>Guidelines</b></p>
             <ul>
-                <li>Make all events and merchandise as inexpensive as possible (if possible, free), with a cap of $5/event or $5/merchandise.</li>
+                <li>Make all events and merchandise as inexpensive as possible (if possible, free), with a cap of $7/event or $7/merchandise.</li>
                 <li>Provide Beer Bike shirts free of cost.</li>
                 <li>Establish the Magister's Fund so students (when in need) can opt into extra funding. This fund is intended to cover ground we may miss with blanket subsidization, to offer extra support to students in difficult circumstances, and to avoid limiting students to social events that the college has deemed essential.</li>
             </ul>

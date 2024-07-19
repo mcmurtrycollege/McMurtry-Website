@@ -48,19 +48,24 @@ const Intro = () => (
             </Box>
         </Link> */}
         <h1 className='welcome-title'>Welcome to McMurtry!</h1>
-        <Box width={[0.95, 0.8]} className='yurt-graphic'>
-            <Image src='../../static/YurtTrees.svg' />
-        </Box>
-        <a href={"https://goo.gl/forms/KEyPplLhclljdSOm2"}>
-            <Box className="accessibility-fund-banner" width={[0.9, 0.5]}>
-                <p>McMurtry Magisters' Accessibility Fund &#8594;</p>
-            </Box>
-        </a>
-        <a href={"https://docs.google.com/spreadsheets/d/14kvozYUheCTkH-QqxSWfO8OMQrILdgr7cW3wF2ePQJs/edit#gid=1352693617"}>
-            <Box className="student-resources-banner" width={[0.9, 0.5]}>
-                <p>Student/Academic Resources Spreadsheet &#8594;</p>
-            </Box>
-        </a>
+        <div className='yurt-graphic'>
+            <Image width = {[ .95, .8 ]} src='../../static/YurtTrees.svg'/>
+        </div>
+        <div className='center-div'>
+            <a href={"https://goo.gl/forms/KEyPplLhclljdSOm2"}>
+                <Box className="accessibility-fund-banner">
+                    <p>McMurtry Magisters' Accessibility Fund &#8594;</p>
+                </Box>
+            </a>
+        </div>
+        <div className='center-div'>
+            <a href={"https://docs.google.com/spreadsheets/d/14kvozYUheCTkH-QqxSWfO8OMQrILdgr7cW3wF2ePQJs/edit#gid=1352693617"}>
+                <Box className="student-resources-banner" >
+                    <p>Student/Academic Resources Spreadsheet &#8594;</p>
+                </Box>
+            </a>
+        </div>
+        
         <Flex justifyContent='center' flexWrap='wrap' flexDirection='row' >
             {
                 quickLinks.map(({ name, icon, to, absolute }) => (

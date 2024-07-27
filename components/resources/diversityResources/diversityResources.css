@@ -15,6 +15,13 @@
   z-index: 100;
 }
 
+.center-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1%;
+}
+
 .blm-banner:before {
   content: '';
   position: absolute;
@@ -40,6 +47,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 4%;
+    margin-bottom: 5%;
 }
 
 .doc-link-container {
@@ -65,6 +73,8 @@
 .diversity-resources-subtitle {
   text-align: center;
   margin: 120px 0 40px 0;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .diversity-resources-subtitle p {

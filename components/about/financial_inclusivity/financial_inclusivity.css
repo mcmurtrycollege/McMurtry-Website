@@ -3,6 +3,13 @@
     margin-bottom: 5%;
 }
 
+.center-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1%;
+}
+
 .fin-inc-content {
     margin-left: auto;
     margin-right: auto;

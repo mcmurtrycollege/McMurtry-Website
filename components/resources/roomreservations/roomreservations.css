@@ -3,7 +3,14 @@
     margin-bottom: 5%;
 }
 
-.room-catagory {
+.center-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1%;
+}
+
+.room-category {
     color: #515768;
     padding: 30px;
     margin-bottom: 1%;
@@ -11,7 +18,7 @@
     margin-right: auto;
 }
 
-.catagory-subheader {
+.category-subheader {
     text-align: left;
     background-color: #515768;
     display: inline;

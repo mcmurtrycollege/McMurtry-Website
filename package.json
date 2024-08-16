@@ -21,6 +21,7 @@
   },
   "homepage": "https://mcmurtry.rice.edu",
   "dependencies": {
+    "@zeit/next-css": "^1.0.1",
     "countdown": "^2.6.0",
     "lodash": "^4.17.19",
     "next": "^9.5.5",

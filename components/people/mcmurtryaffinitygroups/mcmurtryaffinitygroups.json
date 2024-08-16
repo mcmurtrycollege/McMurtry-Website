@@ -1,29 +1,49 @@
 {
-    "heads": [
+  "affinity_groups": [
+    {
+      "title": "LGBTQ+",
+      "heads": [
         {
-            "position": "LGBTQ+",
-            "name": "Hannah Boyd",
-            "email": "hrb3@rice.edu"
-        },
-        {
-            "position": "Latinx",
-            "name": "Angelica Torres",
-            "email": "alt7@rice.edu"
-        },
-        {
-            "position": "First Gen / Low Income",
-            "name": "Jazmine Castillo",
-            "email": "jdc12@rice.edu"
-        },
-        {
-            "position": "Black",
-            "name": "Catelin Davis",
-            "email": "cnd3@rice.edu"
-        },
-        {
-            "position": "Jewish",
-            "name": "Alyson Resnick",
-            "email": "amr21@rice.edu"
+          "name": "Hannah Boyd",
+          "email": "hrb3@rice.edu"
         }
-    ]
+      ]
+    },
+    {
+      "title": "Latinx",
+      "heads": [
+        {
+          "name": "Angelica Torres",
+          "email": "alt7@rice.edu"
+        }
+      ]
+    },
+    {
+      "title": "First Gen / Low Income",
+      "heads": [
+        {
+          "name": "Jazmine Castillo",
+          "email": "jdc12@rice.edu"
+        }
+      ]
+    },
+    {
+      "title": "Black",
+      "heads": [
+        {
+          "name": "Catelin Davis",
+          "email": "cnd3@rice.edu"
+        }
+      ]
+    },
+    {
+      "title": "Jewish",
+      "heads": [
+        {
+          "name": "Alyson Resnick",
+          "email": "amr21@rice.edu"
+        }
+      ]
+    }
+  ]
 }

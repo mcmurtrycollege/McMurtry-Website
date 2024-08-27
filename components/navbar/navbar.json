@@ -112,7 +112,7 @@
                     "to": "/resources/workorders"
                 },
                 {
-                    "name": "Initiative Requests",
+                    "name": "McFUNd Requests",
                     "to": "/resources/initiativerequests"
                 },
                 {

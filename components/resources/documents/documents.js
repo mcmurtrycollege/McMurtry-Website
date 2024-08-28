@@ -47,7 +47,7 @@ class Documents extends React.Component {
     render() {
         return (
             <div className='documents-page'>
-                <Title title='McLegislation' width={250} smallText={true} />
+                <Title title='McLegislation' width={350} smallText={true} />
                 <Flex flexDirection='row' justifyContent='center'>
                     {
                         documents.map(document => (

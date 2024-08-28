@@ -11,17 +11,17 @@ import './documents.css'
 const documents = [
     {
         name: "Constitution",
-        document: '../../../../static/documents/mcm_constitution.pdf',
+        document: '../../../../static/documents/mcm_constitution_jan_2024.pdf',
         icon: "https://icon.now.sh/account_balance"
     },
     {
         name: "General By-Laws",
-        document: '../../../../static/documents/mcm_bylaws.pdf',
+        document: '../../../../static/documents/mcm_general_bylaws_jan_2024.pdf',
         icon: "https://icon.now.sh/import_contacts"
     },
     {
         name: "Housing By-Laws",
-        document: '../../../../static/documents/mcm_housing_bylaws.pdf',
+        document: '../../../../static/documents/mcm_housing_bylaws_jan_2024.pdf',
         icon: "https://icon.now.sh/home"
     },
     {
@@ -47,7 +47,7 @@ class Documents extends React.Component {
     render() {
         return (
             <div className='documents-page'>
-                <Title title='Documents' width={250} smallText={true} />
+                <Title title='McLegislation' width={250} smallText={true} />
                 <Flex flexDirection='row' justifyContent='center'>
                     {
                         documents.map(document => (

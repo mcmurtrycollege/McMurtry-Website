@@ -1,8 +1,8 @@
 {
     "content":[
-    "The McMurtry Innovation Space is an interdisciplinary design space open to all Rice students. The mission of the space is to support the projects of individuals and groups on campus. All students or faculty who complete the safety quiz gain swipe access to the space. In the space we have, Hand tools, Art supplies, Sewing supplies, Electronic prototyping supplies, Computers, Projector, 3D printers, and more! Some of the equipment is locked and you must visit during a time when a member of our team can assist you. Please see the calendar and team descriptions below for more information.",
-    "To gain swipe access to the MIS, first read the following safety guidelines. Then take the safety quiz, which is provided in the guidelines.",
-    "The MIS is located in Room 107 of McMurtry College, between B stairwell and the computer lab. Email us at mcminnovationspace@gmail.com for more information on what we have in the space, room reservations, or any questions."
+    "Like to build, create, or innovate? The MIS is your place! The McMurtry Innovation Space (MIS) is an interdisciplinary design space open to all Rice students designed to support the projects of individuals and groups on campus, and it's an awesome place to go for all things creative. We offer a ton of things, including woodworking tools (with a miter saw and multiple other types of saws), 3D printing, CAD software (with 2 powerful computers), electronics, a whiteboard wall, and a projector! This is also the home base for our Arts Committee, and we have a ton of supplies to fit your artsy needs as well. Since some of the equipment is locked, you must have the General Manager unlock it for you. Please see below for more information on our technicians.",
+    "Fun fact: NO other college has anything like this! Join us to help us not only make the space cooler, but also to help host workshops and events for the Murt (and Rice) community that teach people about different aspects of engineering or art. We would love to hear your thoughts and work with your ideas to make the MIS the best space it can be!",
+    "To gain swipe access to the MIS, first read the following safety guidelines. Then take the safety quiz, which is provided in the guidelines document. All students or faculty who complete the safety quiz with a 100% will gain swipe access to the space. The MIS is located in Room 107 of McMurtry College, between the B and C stairwells. Email us at mcminnovationspace@gmail.com for more information on what we have in the space, room reservations, or any questions."
     ],
     "hours": [
         {
@@ -36,11 +36,11 @@
     ],
     "leadership":[
         {
-            "name":"John Smith",
-            "major":"Electrical and Computer Engineering",
+            "name":"Lucas Dovalina (General Manager)",
+            "major":"Mechanical Engineering",
             "college":"McMurtry",
-            "email":"js@rice.edu",
-            "askMeAbout":"Ask me about anything!"
+            "email":"lbd1@rice.edu",
+            "askMeAbout":"3D Printing, Assembly, Advanced CAD (Fusion 360, SOLIDWORKS, Inventor), Arduino and Raspberry Pi, Woodworking, Welding, Soldering, Hand Tools"
         }
     ],
     "personnel":[
@@ -49,14 +49,14 @@
             "major":"Electrical and Computer Engineering",
             "college":"McMurtry",
             "email":"rra2@rice.edu",
-            "askMeAbout":"Computer/tech repair and troubleshooting, 3D printing, CAD, hand tools, shop tools, microcontrollers, soldering"
+            "askMeAbout":"Computer/tech repair and troubleshooting, 3D Printing, CAD, Hand Tools, Shop Tools, Microcontrollers, Soldering"
         },
         {
             "name":"Bri Schulstad",
             "major":"Chemical Engineering + Earth, Environmental, and Planetary Sciences",
             "college":"McMurtry",
             "email":"bts8@rice.edu",
-            "askMeAbout":"CAD, 3D printing, hand tools"
+            "askMeAbout":"CAD, 3D printing, Hand Tools"
         },
         {
             "name":"Owen Krum",

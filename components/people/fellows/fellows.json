@@ -70,12 +70,12 @@
     {
       "name": "Ishani Kaul",
       "email": "ik17@rice.edu",
-      "major": "Health Sciences?, History",
+      "major": "Health Sciences, History",
       "pre_prof_path":"Pre-law",
       "subjects": "FWIS, HIST, PHIL"
     },
     {
-      "name": "Owen Kum",
+      "name": "Owen Krum",
       "email": "otk1@rice.edu",
       "major": "Mechanical Engineering, CAAM Minor",
       "subjects": "MATH 211/212, MECH 200/202/203/310/315/343 PHYS 101"
@@ -89,94 +89,90 @@
     },
     {
       "name": "Miki Law",
-      "email": "",
-      "major": "",
-      "pre_prof_path":"",
-      "subjects": ""
+      "email": "mal21@rice.edu",
+      "major": "Managerial Economics and Organizational Sciences, Chinese Minor",
+      "pre_prof_path":"Business"
     },
     {
       "name": "Cal Mascardo",
-      "email": "",
-      "major": "",
-      "pre_prof_path":"",
-      "subjects": ""
+      "email": "ccm16@rice.edu",
+      "major": "Anthropology, VADA (Film/Photo), SWGS Minor",
+      "pre_prof_path":"Pre-grad",
+      "subjects": "ANTH 201, FOTO 210, SWGS 101, Photoshop/Premiere "
     },
     {
       "name": "Nathan Nguyen",
-      "email": "",
-      "major": "",
-      "pre_prof_path":"",
-      "subjects": ""
+      "email": "nan3@rice.edu",
+      "major": "Neuroscience",
+      "pre_prof_path":"Pre-med",
+      "subjects": "PHYS 125/126"
     },
     {
       "name": "Amy Park",
-      "email": "",
-      "major": "",
-      "pre_prof_path":"",
-      "subjects": ""
+      "email": "asp16@rice.edu",
+      "major": "Biosciences, English",
+      "pre_prof_path":"Pre-med",
+      "subjects": "BIOS 300/301, CHEM 211, ENG 200/300/311/372, PSYC 203"
     },
     {
       "name": "Nishita Prasad",
-      "email": "",
-      "major": "",
-      "pre_prof_path":"",
-      "subjects": ""
+      "email": "np45@rice.edu",
+      "major": "Biosciences, Business",
+      "pre_prof_path":"Pre-med",
+      "subjects": "BUSI 305"
     },
     {
       "name": "Max Scholl",
-      "email": "",
-      "major": "",
-      "pre_prof_path":"",
-      "subjects": ""
+      "email": "ms273@rice.edu",
+      "major": "Anthropology, English, PLST Minor",
+      "pre_prof_path":"Pre-grad",
+      "subjects": "ENGL 200/300, FWIS"
     },
     {
       "name": "Sachin Shurpalekar",
-      "email": "",
-      "major": "",
-      "pre_prof_path":"",
-      "subjects": ""
+      "email": "sss20@rice.edu",
+      "major": "Computer Science, Data Science Minor",
+      "subjects": "DSCI 304, MATH 101, MATH 102, STAT 310"
     },
     {
       "name": "Zabrina Sidhu",
-      "email": "",
-      "major": "",
-      "pre_prof_path":"",
-      "subjects": ""
+      "email": "zks1@rice.edu",
+      "major": "Health Science, MDHM Minor",
+      "pre_prof_path":"Pre-med",
+      "subjects": "HEAL 222"
     },
     {
       "name": "Huaijin (Juliet) Sun",
-      "email": "",
-      "major": "",
-      "pre_prof_path":"",
-      "subjects": ""
+      "email": "hs100@rice.edu",
+      "major": "CAAM, Physics",
+      "pre_prof_path":"Pre-grad",
+      "subjects": "COMP 140, MATH 101/102/211/355, PHYS 101/102/111/112"
     },
     {
       "name": "Catey Thomas",
-      "email": "",
-      "major": "",
-      "pre_prof_path":"",
-      "subjects": ""
+      "email": "ct75@rice.edu",
+      "major": "Neuroscience",
+      "pre_prof_path":"Pre-med",
+      "subjects": "CHEM 121, CMOR 220, PSYC 203"
     },
     {
       "name": "Eleanor Tucker",
-      "email": "",
-      "major": "",
-      "pre_prof_path":"",
-      "subjects": ""
+      "email": "est2@rice.edu",
+      "major": "Bioengineering",
+      "subjects": "BIOE, PHYS 101/102"
     },
     {
       "name": "Sam Wu",
-      "email": "",
-      "major": "",
-      "pre_prof_path":"",
-      "subjects": ""
+      "email": "sxw2@rice.edu",
+      "major": "Bioengineering",
+      "pre_prof_path":"Pre-med",
+      "subjects": "BIOE, PHYS 125/126"
     },
     {
       "name": "Belinda Zhu",
-      "email": "",
-      "major": "",
-      "pre_prof_path":"",
-      "subjects": ""
+      "email": "bhz1@rice.edu",
+      "major": "Mathematical Economic Analysis, Statistic Minor",
+      "subjects": "ECON200/203, STAT310/405"
     }
   ]
 }

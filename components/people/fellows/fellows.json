@@ -2,267 +2,177 @@
   "fellows_description": "Fellows are upperclassmen who were selected based on proven academic achievement and demonstrated willingness to help fellow students. As part of their charge, Fellows provide free academic assistance on a regular basis through advertised review sessions, “office hours” in the college commons, and individual tutoring by request.",
   "headFellows": [
     {
-      "name": "John Smith",
-      "email": "js@rice.edu",
-      "year": "2020",
-      "major": "Bioengineering",
-      "pre_prof_path": "Pre-Grad",
-      "subjects": "BIOE"
-    }
-  ],
-  "fellows": [
-    {
-      "name": "Jordan Ngo",
-      "email": "jtn3@rice.edu",
-      "year": "2023",
-      "major": "Bioengineering",
-      "pre_prof_path": "Pre-Business",
-      "subjects": "BIOE"
-    },
-    {
-      "name": "Rhea Rungta",
-      "email": "rr56@rice.edu",
-      "year": "2025",
-      "major": "Cognitive Science",
-      "pre_prof_path": "Pre-Grad, Pre-Law",
-      "subjects": "PSYC"
-    },
-    {
-      "name": "Eliot Solomon",
-      "email": "ehs3@rice.edu",
-      "year": "2023",
-      "major": "Computer Science",
-      "pre_prof_path": "Pre-Grad",
-      "subjects": "COMP"
-    },
-    {
-      "name": "Rajpal Bal",
-      "email": "rsb4@rice.edu",
-      "year": "2023",
-      "major": "Social Policy Analysis, Sport Analytics",
-      "pre_prof_path": "Pre-Business",
-      "subjects": "SOPA"
-    },
-    {
-      "name": "Mimi Chang",
-      "email": "myc5@rice.edu",
-      "year": "2023",
-      "major": "Biosciences (Cell Biology and Genetics), Business Minor",
-      "pre_prof_path": "Pre-Health (not pre-med)",
-      "subjects": "BIOS 372/341"
-    },
-    {
-      "name": "Xiaowei Chen",
-      "email": "xc36@rice.edu",
-      "year": "2024",
-      "major": "Chemistry, Physics Minor",
-      "pre_prof_path": "Pre-Grad",
-      "subjects": "CHEM 211/212"
-    },
-    {
-      "name": "Katherine Cheng",
-      "email": "kc71@rice.edu",
-      "year": "2024",
-      "major": "Business (Finance), Financial Computation and Modeling Minor, Statistics Minor",
-      "pre_prof_path": "Pre-Business",
-      "subjects": "BUSI"
-    },
-    {
-      "name": "Raphael Dela Cruz",
-      "email": "rld6@rice.edu",
-      "year": "2025",
-      "major": "Civil and Environmental Engineering, RCEL Certificate",
-      "subjects": "PHYS 101/102"
-    },
-    {
-      "name": "Jacob Givoni",
-      "email": "jfg4@rice.edu",
-      "year": "2024",
-      "major": "Biosciences (Cell Biology and Genetics)",
-      "pre_prof_path": "Pre-Health (pre-med)",
-      "subjects": "CHEM 121/122"
-    },
-    {
-      "name": "Maria Hancu",
-      "email": "mch12@rice.edu",
-      "year": "2024",
-      "major": "Biology, Chemistry, Art History Minor",
-      "pre_prof_path": "Pre-Grad, Pre-Health (pre-med)",
-      "subjects": "CHEM 211/212"
-    },
-    {
-      "name": "James Hwang",
-      "email": "jkh7@rice.edu",
-      "year": "2024",
-      "major": "Biosciences (Biochemistry), Medical Humanities Minor",
-      "pre_prof_path": "Pre-Health (pre-med)",
-      "subjects": "CHEM 211/212"
-    },
-    {
-      "name": "Shreya Jain",
-      "email": "sj59@rice.edu",
-      "year": "2023",
-      "major": "Cognitive Science, Biochemistry and Cell Biology Minor",
-      "pre_prof_path": "Pre-Health (pre-med)",
-      "subjects": "CHEM 121/122"
-    },
-    {
-      "name": "Harveen Kaur",
-      "email": "hk50@rice.edu",
-      "year": "2024",
-      "major": "Health Sciences, Business, Biochemistry and Cell Biology Minor",
-      "pre_prof_path": "Pre-Health (pre-med)",
-      "subjects": "BIOS 201/202"
-    },
-    {
-      "name": "Brandon Khek",
-      "email": "bnk1@rice.edu",
-      "year": "2023",
-      "major": "Astrophysics, Math",
-      "pre_prof_path": "Pre-Grad",
-      "subjects": "PHYS 101/102"
-    },
-    {
-      "name": "Rachel Lee",
-      "email": "hl92@rice.edu",
-      "year": "2024",
-      "major": "Bioengineering, Engineering Design Minor",
-      "pre_prof_path": "Pre-Grad",
-      "subjects": "ENGI"
-    },
-    {
-      "name": "Prerna Mohan",
-      "email": "pm40@rice.edu",
-      "year": "2024",
-      "major": "Chemistry, Classical Studies",
-      "pre_prof_path": "Pre-Health (pre-med)",
-      "subjects": "BIOS/CLAS"
-    },
-    {
-      "name": "Olivia Mudrick",
-      "email": "osm2@rice.edu",
-      "year": "2024",
-      "major": "Electrical Engineering",
-      "pre_prof_path": "Pre-Business, Pre-Grad",
-      "subjects": "ELEC"
-    },
-    {
-      "name": "Josselyn Munoz",
-      "email": "jsm18@rice.edujsm18@rice.edu",
-      "year": "2023",
-      "major": "Cognitive Sciences",
-      "pre_prof_path": "Pre-Grad",
-      "subjects": "PSYC"
-    },
-    {
-      "name": "Liliana Nikolova",
-      "email": "lnn3@rice.edu",
-      "year": "2025",
-      "major": "Mathematical Economic Analysis",
-      "pre_prof_path": "Pre-Health (pre-med)",
-      "subjects": "MATH 101/102/212, ECON/MTEC"
-    },
-    {
-      "name": "Manshi Patel",
-      "email": "mpp5@rice.edu",
-      "year": "2023",
-      "major": "Biosciences (Biochemistry), Medical Humanities Minor",
-      "pre_prof_path": "Pre-Grad",
-      "subjects": "BIOS 300"
-    },
-    {
-      "name": "Natasha Patnaik",
-      "email": "np37@rice.edu",
-      "year": "2024",
-      "major": "Operations Research, Mathematical Economic Analysis",
-      "pre_prof_path": "Pre-Business, Pre-Grad",
-      "subjects": "CAAM"
-    },
-    {
-      "name": "Nishita Prasad",
-      "email": "np45@rice.edu",
-      "year": "2025",
-      "major": "Biosciences (Cell Biology), Business (Finance)",
-      "pre_prof_path": "Pre-Business, Pre-Health (pre-med)",
-      "subjects": "BUSI, STAT 315"
+      "name": "Nikhil Mummaneni",
+      "email": "nvm3@rice.edu",
+      "major": "Cognitive Science, Spanish Minor",
+      "pre_prof_path": "Pre-med",
+      "subjects": "BIOS 301, CHEM 211/213"
     },
     {
       "name": "Pedro Ribeiro",
       "email": "pm41@rice.edu",
-      "year": "2025",
-      "major": "Political Science, Philosophy, Politics Minor, Law and Social Thought Minor",
-      "pre_prof_path": "Pre-Law",
-      "subjects": "FWIS, POLI"
+      "major": "Political Science, Philosophy, PLST Minor",
+      "pre_prof_path":"Pre-law",
+      "subjects": "FREN, PHIL, POLI, FWIS"
+    }
+  ],
+
+  "fellows": [
+    {
+      "name": "Safee Baig",
+      "email": "sab21@rice.edu",
+      "major": "Physics, Math, Biochemistry Minor",
+      "pre_prof_path":"Pre-med",
+      "subjects": "CHEM 211, MATH 101/211/354"
     },
     {
-      "name": "Maham Sewani",
-      "email": "mas35@rice.edu",
-      "year": "2024",
-      "major": "Biosciences, Social Policy Analysis",
-      "pre_prof_path": "Pre-Health (pre-med)",
-      "subjects": "MATH 101/102"
+      "name": "Jiya Bhatia",
+      "email": "jb166@rice.edu",
+      "major": "Chemistry, Sociology Minor",
+      "pre_prof_path":"Pre-med",
+      "subjects": "BIOS 301, CHEM 211/313"
     },
     {
-      "name": "Aman Shanbhag",
-      "email": "as212@rice.edu",
-      "year": "2023",
-      "major": "Computer Science, Mathematics, Entrepreneurship Minor",
-      "subjects": "COMP"
+      "name": "Kirthi Chandra",
+      "email": "kc83@rice.edu",
+      "major": "VADA, Sports Medicine, Biochemistry Minor",
+      "pre_prof_path":"Pre-med",
+      "subjects": "ART/FOTO classes, BIOS 301, CHEM 211/213"
     },
     {
-      "name": "Wendy Tan",
-      "email": "jt58@rice.edu",
-      "year": "2025",
-      "major": "Electrical Engineering",
-      "pre_prof_path": "Pre-Grad",
-      "subjects": "COMP"
+      "name": "Alison Colvis",
+      "email": "alc15@rice.edu",
+      "major": "Biosciences, Chemistry",
+      "pre_prof_path":"Pre-pharmacy",
+      "subjects": "CHEM 121"
+    },
+    {
+      "name": "Mike Guo",
+      "email": "mg168@rice.edu",
+      "major": "Math, Operation Research",
+      "pre_prof_path":"Pre-grad",
+      "subjects": "CMOR 360, COMP 140/182, MATH 102/212/232/354/355"
+    },
+    {
+      "name": "Abhi Jain",
+      "email": "aj80@rice.edu",
+      "major": "Biosciences",
+      "pre_prof_path":"Pre-grad",
+      "subjects": "CHEM 211/213"
+    },
+    {
+      "name": "Erin Kang",
+      "email": "edk5@rice.edu",
+      "major": "Sociology, Art History Minor",
+      "pre_prof_path":"Pre-law/Pre-business",
+      "subjects": "SOCI 101/302/380"
+    },
+    {
+      "name": "Ishani Kaul",
+      "email": "ik17@rice.edu",
+      "major": "Health Sciences, History",
+      "pre_prof_path":"Pre-law",
+      "subjects": "FWIS, HIST, PHIL"
+    },
+    {
+      "name": "Owen Krum",
+      "email": "otk1@rice.edu",
+      "major": "Mechanical Engineering, CAAM Minor",
+      "subjects": "MATH 211/212, MECH 200/202/203/310/315/343 PHYS 101"
+    },
+    {
+      "name": "Andrew Larsen",
+      "email": "adl10@rice.edu",
+      "major": "Biosciences",
+      "pre_prof_path":"Pre-med",
+      "subjects": "BIOS 201/202, CHEM 211/313"
+    },
+    {
+      "name": "Miki Law",
+      "email": "mal21@rice.edu",
+      "major": "Managerial Economics and Organizational Sciences, Chinese Minor",
+      "pre_prof_path":"Business"
+    },
+    {
+      "name": "Cal Mascardo",
+      "email": "ccm16@rice.edu",
+      "major": "Anthropology, VADA (Film/Photo), SWGS Minor",
+      "pre_prof_path":"Pre-grad",
+      "subjects": "ANTH 201, FOTO 210, SWGS 101, Photoshop/Premiere"
+    },
+    {
+      "name": "Nathan Nguyen",
+      "email": "nan3@rice.edu",
+      "major": "Neuroscience",
+      "pre_prof_path":"Pre-med",
+      "subjects": "PHYS 125/126"
+    },
+    {
+      "name": "Amy Park",
+      "email": "asp16@rice.edu",
+      "major": "Biosciences, English",
+      "pre_prof_path":"Pre-med",
+      "subjects": "BIOS 300/301, CHEM 211, ENG 200/300/311/372, PSYC 203"
+    },
+    {
+      "name": "Nishita Prasad",
+      "email": "np45@rice.edu",
+      "major": "Biosciences, Business",
+      "pre_prof_path":"Pre-med",
+      "subjects": "BUSI 305"
+    },
+    {
+      "name": "Max Scholl",
+      "email": "ms273@rice.edu",
+      "major": "Anthropology, English, PLST Minor",
+      "pre_prof_path":"Pre-grad",
+      "subjects": "ENGL 200/300, FWIS"
+    },
+    {
+      "name": "Sachin Shurpalekar",
+      "email": "sss20@rice.edu",
+      "major": "Computer Science, Data Science Minor",
+      "subjects": "DSCI 304, MATH 101/102, STAT 310"
+    },
+    {
+      "name": "Zabrina Sidhu",
+      "email": "zks1@rice.edu",
+      "major": "Health Science, MDHM Minor",
+      "pre_prof_path":"Pre-med",
+      "subjects": "HEAL 222"
+    },
+    {
+      "name": "Huaijin (Juliet) Sun",
+      "email": "hs100@rice.edu",
+      "major": "CAAM, Physics",
+      "pre_prof_path":"Pre-grad",
+      "subjects": "COMP 140, MATH 101/102/211/355, PHYS 101/102/111/112"
+    },
+    {
+      "name": "Catey Thomas",
+      "email": "ct75@rice.edu",
+      "major": "Neuroscience",
+      "pre_prof_path":"Pre-med",
+      "subjects": "CHEM 121, CMOR 220, PSYC 203"
     },
     {
       "name": "Eleanor Tucker",
       "email": "est2@rice.edu",
-      "year": "2025",
       "major": "Bioengineering",
-      "subjects": "PHYS 101/102"
-    },
-    {
-      "name": "Annabelle Tzou",
-      "email": "ast5@rice.edu",
-      "year": "2023",
-      "major": "Civil Engineering (Structures)",
-      "pre_prof_path": "Pre-Grad",
-      "subjects": "CEVE"
-    },
-    {
-      "name": "Camille Villar",
-      "email": "cfv1@rice.edu",
-      "year": "2023",
-      "major": "Biosciences (Cell Biology and Genetics), English",
-      "pre_prof_path": "Pre-Health (pre-med)",
-      "subjects": "FWIS"
-    },
-    {
-      "name": "Jacob Wong",
-      "email": "jcw12@rice.edu",
-      "year": "2024",
-      "major": "Sports Medicine and Exercise Physiology, Entrepreneurship Minor",
-      "pre_prof_path": "Pre-Health (pre-med)",
-      "subjects": "CHEM 121/122"
+      "subjects": "BIOE, PHYS 101/102"
     },
     {
       "name": "Sam Wu",
       "email": "sxw2@rice.edu",
-      "year": "2025",
       "major": "Bioengineering",
-      "pre_prof_path": "Pre-Health (pre-med)",
-      "subjects": "PHYS 125/126"
+      "pre_prof_path":"Pre-med",
+      "subjects": "BIOE, PHYS 125/126"
     },
     {
-      "name": "Brandon Zimmer",
-      "email": "blz1@rice.edu",
-      "year": "2023",
-      "major": "Bioengineering, Biochemistry and Cell Biology Minor",
-      "pre_prof_path": "Pre-Health (pre-med)",
-      "subjects": "BIOE"
+      "name": "Belinda Zhu",
+      "email": "bhz1@rice.edu",
+      "major": "Mathematical Economic Analysis, Statistic Minor",
+      "subjects": "ECON200/203, STAT310/405"
     }
   ]
 }

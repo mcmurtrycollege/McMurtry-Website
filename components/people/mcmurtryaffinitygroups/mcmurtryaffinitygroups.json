@@ -4,17 +4,41 @@
       "title": "LGBTQ+",
       "heads": [
         {
-          "name": "Hannah Boyd",
-          "email": "hrb3@rice.edu"
+          "name": "Charlie Maxson",
+          "email": "cm112@rice.edu"
+        },
+        {
+          "name": "Lindsay White",
+          "email": "lmw12@rice.edu"
+        },
+        {
+          "name": "Bennett Reddig",
+          "email": "bjr8@rice.edu"
+        },
+        {
+          "name": "Grenna Vasquez",
+          "email": "gv21@rice.edu"
         }
       ]
     },
     {
-      "title": "Latinx",
+      "title": "Latine",
       "heads": [
         {
-          "name": "Angelica Torres",
-          "email": "alt7@rice.edu"
+          "name": "Karina Manrique",
+          "email": "klm15@rice.edu"
+        },
+        {
+          "name": "Ana Dragomir",
+          "email": "ad161@rice.edu"
+        },
+        {
+          "name": "Melanie Vasquez",
+          "email": "msv6@rice.edu"
+        },
+        {
+          "name": "Grenna Vasquez",
+          "email": "gv21@rice.edu"
         }
       ]
     },
@@ -22,17 +46,67 @@
       "title": "First Gen / Low Income",
       "heads": [
         {
-          "name": "Jazmine Castillo",
-          "email": "jdc12@rice.edu"
+          "name": "Catey Thomas",
+          "email": "ct75@rice.edu"
+        },
+        {
+          "name": "Marina Klein",
+          "email": "mnk3@rice.edu"
         }
       ]
     },
     {
-      "title": "Black",
+      "title": "Black Caucus",
       "heads": [
         {
-          "name": "Catelin Davis",
-          "email": "cnd3@rice.edu"
+          "name": "Essence Ratliff",
+          "email": "efr1@rice.edu"
+        },
+        {
+          "name": "Lily Burdett",
+          "email": "leb11@rice.edu"
+        },
+        {
+          "name": "Alana Stull",
+          "email": "acs19@rice.edu"
+        }
+      ]
+    },
+    {
+      "title": "East Asian",
+      "heads": [
+        {
+          "name": "Belinda Zhu",
+          "email": "bhz1@rice.edu"
+        },
+        {
+          "name": "Xiaoyu (Melissa) Geng",
+          "email": "xg32@rice.edu"
+        }
+      ]
+    },
+    {
+      "title": "South Asian",
+      "heads": [
+        {
+          "name": "Ananya Kar",
+          "email": "ack4@rice.edu"
+        },
+        {
+          "name": "Sam Balakrishnan",
+          "email": "sb150@rice.edu"
+        },
+        {
+          "name": "Jiya Bhatia",
+          "email": "jb166@rice.edu"
+        },
+        {
+          "name": "Shriya Pendyala",
+          "email": "sp202@rice.edu"
+        },
+        {
+          "name": "Riya Seth",
+          "email": "rs150@rice.edu"
         }
       ]
     },
@@ -40,8 +114,8 @@
       "title": "Jewish",
       "heads": [
         {
-          "name": "Alyson Resnick",
-          "email": "amr21@rice.edu"
+          "name": "Gregory Chekler",
+          "email": "gsc8@rice.edu"
         }
       ]
     }

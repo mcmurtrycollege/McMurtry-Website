@@ -11,7 +11,7 @@
     {
       "name": "Pedro Ribeiro",
       "email": "pm41@rice.edu",
-      "major": "Political Science and Philosophy, PLST Minor",
+      "major": "Political Science, Philosophy, PLST Minor",
       "pre_prof_path":"Pre-law",
       "subjects": "FREN, PHIL, POLI, FWIS"
     }
@@ -27,7 +27,7 @@
     },
     {
       "name": "Jiya Bhatia",
-      "email": "placeholder@rice.edu",
+      "email": "jb166@rice.edu",
       "major": "Chemistry, Sociology Minor",
       "pre_prof_path":"Pre-med",
       "subjects": "BIOS 301, CHEM 211/313"
@@ -98,7 +98,7 @@
       "email": "ccm16@rice.edu",
       "major": "Anthropology, VADA (Film/Photo), SWGS Minor",
       "pre_prof_path":"Pre-grad",
-      "subjects": "ANTH 201, FOTO 210, SWGS 101, Photoshop/Premiere "
+      "subjects": "ANTH 201, FOTO 210, SWGS 101, Photoshop/Premiere"
     },
     {
       "name": "Nathan Nguyen",
@@ -132,7 +132,7 @@
       "name": "Sachin Shurpalekar",
       "email": "sss20@rice.edu",
       "major": "Computer Science, Data Science Minor",
-      "subjects": "DSCI 304, MATH 101, MATH 102, STAT 310"
+      "subjects": "DSCI 304, MATH 101/102, STAT 310"
     },
     {
       "name": "Zabrina Sidhu",

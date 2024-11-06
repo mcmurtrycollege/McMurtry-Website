@@ -103,19 +103,13 @@
     ]
   },
   "head_caregivers": {
-    "description": "Head Caregivers for McMurtry College.",
+    "description": "Caregiving is for us to express our culture of care, allowing for our peers to be able to drink and have fun in a safe environment. We are dedicated to giving care to those who might need it by giving them water, giving them food, providing a safe space to recuperate, and calling REMS if the situation requires it.",
     "members": [
       {
-        "name": "Akshaya Venkatesh",
-        "phone": "(805) 428-9475",
-        "email": "av54@rice.edu",
-        "room": "332"
-      },
-      {
-        "name": "Lucy Hernandez",
-        "phone": "",
-        "email": "lfh1@rice.edu",
-        "room": ""
+        "name": "Robin Whitehead",
+        "phone": "(832) 776-1195",
+        "email": "rmw9@rice.edu",
+        "photo": "../../../../static/head_caregiver/Robin_Whitehead.jpg"
       }
     ]
   }

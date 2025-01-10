@@ -229,6 +229,197 @@
     text-align: center;
     font-size: 0.6em;
 }
+.intro-page {
+    /* W/O BANNER */
+    /* padding-top: 10%; */
+    /* W/ BANNER */
+    padding-top: 3%;
+    margin-bottom: 5%;
+}
+
+@media screen and (max-width: 850px) {
+    .intro-page {
+        padding-top: 20%;
+        margin-bottom: 5%;
+    }
+}
+
+.coronavirus-banner {
+    margin: 8% auto 4% auto;
+    background-color: #87799C;
+    color: #DCDFE5;
+    font-size: 1.4em;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.coronavirus-banner:hover {
+    cursor: pointer;
+}
+
+.accessibility-fund-banner {
+    margin: 0 auto 0 auto;
+    background-color: #515768;
+    color: #DCDFE5;
+    font-size: 2em;
+    text-align: center;
+    padding: 5px 10px;
+    position: relative;
+    transition: 0.3s ease-in-out;
+    z-index: 100;
+}
+
+.accessibility-fund-banner:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: #87799C;
+    z-index: -1;
+    transition: 0.1s ease-in-out;
+}
+
+.accessibility-fund-banner:hover {
+    font-weight: bold;
+}
+
+.accessibility-fund-banner:hover:before{
+    height: 100%;
+}
+
+.student-resources-banner {
+    margin: 0 auto 0 auto;
+    background-color: #515768;
+    color: #DCDFE5;
+    font-size: 2em;
+    text-align: center;
+    padding: 5px 10px;
+    position: relative;
+    transition: 0.3s ease-in-out;
+    z-index: 100;
+    margin-top: 14px;
+}
+
+.student-resources-banner:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: #87799C;
+    z-index: -1;
+    transition: 0.1s ease-in-out;
+}
+
+.student-resources-banner:hover {
+    font-weight: bold;
+}
+
+.student-resources-banner:hover:before{
+    height: 100%;
+}
+
+.yurt-graphic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
+.center-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1%;
+}
+
+.welcome-title {
+    color: #87799C;
+    text-align: center;
+    font-size: 3em;
+    font-weight: normal;
+}
+
+.quick-link-container {
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.quick-link {
+    color: #DCDFE5;
+    position: relative;
+    padding: 15px;
+    text-align: center;
+    background-color: #515768;
+    height: 150px;
+    transition: 0.3s ease-in-out;
+    z-index: 100;
+}
+
+.quick-link:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: #87799C;
+    z-index: -1;
+    transition: 0.3s ease-in-out;
+}
+
+.quick-link:hover {
+    cursor: pointer;
+}
+
+.quick-link:hover:before {
+    height: 100%;
+}
+
+.quick-link-name {
+    font-weight: normal;
+    margin-top: 2%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.intro-link-img-small {
+    margin-top: 10%;
+}
+
+.intro-link-img-large {
+    margin-top: 10%;
+}
+
+@media screen and (min-width: 801px) {
+    .intro-link-img-small {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .quick-link-container {
+        margin-top: 6%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .quick-links-title {
+        font-size: 0.8em;
+    }
+    .quick-link {
+        height: 80px;
+        font-size: 0.6em;
+    }
+    .intro-link-img-large {
+        display: none;
+    }
+}
 .title-container {
     margin-top: 10%;
 }
@@ -241,90 +432,11 @@
     padding: 5px 10px;
     text-align: center;
 }
-.position-card {
-    margin: 10px;
-}
-
-.contact-card-content {
-    color: #515768;
-    /* border: 1px solid #2B2F3A; */
-    border: 1px solid #DCDFE5;
-    /* border: 1px solid #BFBFCC; */
-    box-shadow: 0 0 5px 2px #BFBFCC;
-    padding: 15px;
-    transition: 0.2s ease-in-out;
-}
-
-.contact-card-content:hover {
-    /* background-color: #BFBFCC; */
-    border-color: #515768;
-}
-
-.position {
-    font-weight: normal;
-    font-size: 0.9em;
-}
-
-.name {
-    font-size: 1.25em;
-    font-weight: normal;
-}
-
-.link {
-    text-decoration: none;
-    color: #515768;
-    font-weight: normal;
-}
-
-.year {
-    font-weight: normal;
-    font-size: 0.8em;
-}
-
-.contact-email {
-    font-size: 0.8em;
-    font-weight: normal;
-    transition: 0.3s ease-in-out;
-}
-
-.contact-email:hover {
-    text-decoration: underline;
-}
-
-.contact-phone {
-    font-size: 1em;
-    font-weight: normal;
-}
-
-.major {
-    font-size: 0.9em;
-    font-weight: normal;
-}
-
-.subjects {
-    font-size: 0.9em;
-    font-weight: normal;
-}
-
-.room {
-    font-weight: normal;
-    font-size: 1em;
-}
-
-.pre_prof_path {
-    font-size: 0.9em;
-    font-weight: normal;
-}
-.wellbeing-page {
+.budget-page {
     padding-top: 10%;
     margin-bottom: 5%;
 }
 
-.wellbeing-description {
-    margin-top: 30px;
-    padding: 30px;
-    color: #515768;
-}
 html {
     margin: 0;
     padding: 0;

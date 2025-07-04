@@ -7,13 +7,13 @@ class Countdown extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            time: countdown(new Date(2024, 7, 18)).toString(),
-        };
+            time: countdown(new Date(2025, 8, 17)).toString(),
+        }; //pls make it countdown to August 17, 2025 which is move-in day
         this.updateTime = this.updateTime.bind(this);
     }
 
     updateTime() {
-        this.setState({ time: countdown(new Date(2024, 7, 18)).toString() });
+        this.setState({ time: countdown(new Date(2025, 8, 17)).toString() });
     }
 
     componentDidMount() {
@@ -47,10 +47,10 @@ const Homepage = () => (
                 <h1 className='oweek-welcome'>Welcome to McMurtry!</h1>
             </Box>
             <Box width={[1, 1 / 3]} style={{ backgroundColor: '#87799C', marginBottom: '4px' }}>
-                <h1 className='oweek-welcome'>AstrO-Week</h1>
+                <h1 className='oweek-welcome'>PicassO-Week</h1>
             </Box>
             <Box width={[1, 1 / 3]} style={{ margin: 0, padding: 0 }}>
-                <Image src='../../../static/oweek/2024coords.JPG' alt='' />
+                <Image src='../../../static/oweek/2025coords.JPG' alt='' />
             </Box>
             <Box width={[1, 1 / 3]}>
                 <Image src='../../../static/oweek/welcome.png' alt='' />

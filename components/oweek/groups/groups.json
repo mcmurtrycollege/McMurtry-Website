@@ -1,52 +1,50 @@
 {
     "oweek_groups": [
         {
-            "name": "Ben & Jaries",
-            "image": "../../../static/oweek/Aries.jpeg"
+            "name": "The Realism Housewives",
+            "image": "../../../static/oweek/therealismhousewivesgroup.jpeg"
         },
         {
-            "name": "Quentin Taurustino: Kill Bull",
-            "image": "../../../static/oweek/Taurus.JPG"
+            "name": "The Brushlorette: One Lucky Murt",
+            "image": "../../../static/oweek/BrushloretteGroup.jpg"
         },
         {
-            "name": "Geminight at the Murtseum",
-            "image": "../../../static/oweek/Gemini.jpeg"
+            "name": "The Murtropolitan Museum Of Art (McMET)",
+            "image": "../../../static/oweek/Murtropolitan.jpg"
         },
         {
-            "name": "Yo Crabba Crabba",
-            "image": "../../../static/oweek/Cancer.jpg"
+            "name": "Bohemian Tapestry - I See A Little Silhouetto Of A Murt",
+            "image": "../../../static/oweek/BohemianTapestrygroup.png"
         },
         {
-            "name": "Leo & Stitch: Ohana Means O-Week Family",
-            "image": "../../../static/oweek/Leo new.jpeg"
+            "name": "Guardians Of The Gallery",
+            "image": "../../../static/oweek/guardiansofthegallery.png"
         },
         {
-            "name": "Vincent Vir-gogh: McStarry Night",
-            "image": "../../../static/oweek/Virgo.png"
+            "name": "Candy Brush"
         },
         {
-            "name": "Librally Blonde",
-            "image": "../../../static/oweek/Libra.jpg"
+            "name": "Pendrick Lamar: Etch Don't Kill My Vibe",
+            "image": "../../../static/oweek/pendricklamar.JPG"
         },
         {
-            "name": "McScorpi-Old Town Road",
-            "image": "../../../static/oweek/Scorpio.jpg"
+            "name": "Kahlo Me By Your Name"
         },
         {
-            "name": "Teenage Mutant Ninja Centaurs",
-            "image": "../../../static/oweek/Saggitarius.png"       
+            "name": "MoMA Mia! Here We Gogh Again",
+            "image": "../../../static/oweek/MoMAGroup.jpeg"       
         },
         {
-            "name": "Goatbusters",
-            "image": "../../../static/oweek/Capricorn.jpg"
+            "name": "Total Drawma Island",
+            "image": "../../../static/oweek/totaldrawmaisland.jpg"
         },
         {
-            "name": "Aquatar the Last Airbender",
-            "image": "../../../static/oweek/Aquarius.jpg"
+            "name": "Tyler the McCreator: Call Me If Hue Get Lost",
+            "image": "../../../static/oweek/callmeifhuegetlostgroupsmiley.jpg"
         },
         {
-            "name": "Ice Pisces: McMunch",
-            "image": "../../../static/oweek/Pisces.jpg"
+            "name": "The PiCostco Guys - We Bring The Hue",
+            "image": "../../../static/oweek/picostcoguys.png"
         }
     ]
 }

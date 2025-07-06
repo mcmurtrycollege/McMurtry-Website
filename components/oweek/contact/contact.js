@@ -17,24 +17,24 @@ const Contact = () => (
         </p>
         <h2 className='oweek-subtitle'>Contact the O-Week Coordinators</h2>
         <p>General Email: mcmurtryoweek@gmail.com</p>
-        <p>Gale Gai</p>
+        <p>Cara Brown</p>
         <ul>
-            <li>gg35@rice.edu</li>
-            <li>(413) 265-4938</li>
+            <li>cb116@rice.edu</li>
+            <li>(480) 341-9841</li>
         </ul>
-        <p>Francesca Nemati</p>
+        <p>Carlos Cruz</p>
         <ul>
-            <li>fn11@rice.edu</li>
-            <li>(917) 301-7610</li>
+            <li>cc211@rice.edu</li>
+            <li>(832) 878-1009</li>
         </ul>
-        <p>Sean Nyangeri</p>
+        <p>Yazmine Miles</p>
         <ul>
-            <li>sn68@rice.edu</li>
-            <li>(832) 839-1443</li>
+            <li>yam1@rice.edu</li>
+            <li>(928) 304-4418</li>
         </ul>
 
         <h2 className='oweek-subtitle'>Contact the McMurtry College President</h2>
-        <p>Adeel Sumar: mcmurtrypresident@gmail.com</p>
+        <p>Berny Guerra Arthur: mcmurtrypresident@gmail.com</p>
 
         <h2 className='oweek-subtitle'>Contact the College Coordinator and Magisters</h2>
         <p>College Coordinator: Jackie Carrizales</p>
@@ -43,10 +43,10 @@ const Contact = () => (
             <li>Office: (713) 348-4583</li>
             <li>Fax: (713) 348-3135</li>
         </ul>
-        <p>Magisters: Jenifer Bratter and Noe Perez</p>
+        <p>Magisters: Elizabeth Vann and Jeffery Fleisher</p>
         <ul>
-            <li>jbratter@rice.edu | np17@rice.edu</li>
-            <li>(713) 348-4908</li>
+            <li>evann@rice.edu | jfleisher@rice.edu</li>
+            <li>(281) 889-1159</li>
         </ul>
     </div>
 )

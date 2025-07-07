@@ -7,6 +7,7 @@ const Book = () => (
             <div className='oweek-book-download'>
                 {<img src="https://icon.now.sh/file_download/DCDFE5/60" alt="" />}
                 {<p>The O-Week Book</p>}
+                {<p>is coming soon...</p>}
             </div>
         </a>
         <div className='oweek-book'>

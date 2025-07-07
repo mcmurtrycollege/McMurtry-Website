@@ -7,10 +7,10 @@ const Tour = () => (
             <h2 className='oweek-subtitle'>McMurtry Double and Facilities Tour</h2>
         </div>
         <div className='oweek-video-desktop'>
-            <iframe width="560" height="315" src="https://youtu.be/09bT6qW7mDw" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/09bT6qW7mDw" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </div>
         <div className='oweek-video-mobile'>
-            <iframe width="320" height="200" src="https://youtu.be/09bT6qW7mDw" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            <iframe width="320" height="200" src="https://www.youtube.com/embed/09bT6qW7mDw" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </div>
         <p style={{textAlign: 'center', marginTop: '50px'}}>If you were assigned a single, please email mcmutryoweek@gmail.com for your room video.</p>
     </div>

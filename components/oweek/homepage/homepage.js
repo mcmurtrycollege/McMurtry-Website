@@ -7,13 +7,13 @@ class Countdown extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            time: countdown(new Date(2025, 8, 17)).toString(),
+            time: countdown(new Date(2025, 7, 17)).toString(),
         }; //pls make it countdown to August 17, 2025 which is move-in day
         this.updateTime = this.updateTime.bind(this);
     }
 
     updateTime() {
-        this.setState({ time: countdown(new Date(2025, 8, 17)).toString() });
+        this.setState({ time: countdown(new Date(2025, 7, 17)).toString() });
     }
 
     componentDidMount() {

@@ -46,7 +46,7 @@ const Contact = () => (
         <p>Magisters: Elizabeth Vann and Jeffery Fleisher</p>
         <ul>
             <li>evann@rice.edu | jfleisher@rice.edu</li>
-            <li>(281) 889-1159</li>
+            <li>(713) 348-4908</li>
         </ul>
     </div>
 )

@@ -2,217 +2,223 @@
   "executive_council": [
     {
       "position": "President",
-      "name": "Adeel Sumar",
-      "year": "2025",
+      "name": "Berny Guerra Arthur",
+      "year": "2026",
       "email": "mcmurtrypresident@gmail.com"
     },
     {
       "position": "Chief Justice",
-      "name": "Kile Stenoien",
-      "year": "2026",
-      "email": "mcmurtrycj@gmail.com"
-    },
-    {
-      "position": "Chief Justice",
-      "name": "Jackson Harvey",
-      "year": "2026",
+      "name": "Carmine Steiner",
+      "year": "2027",
       "email": "mcmurtrycj@gmail.com"
     },
     {
       "position": "Prime Minister",
-      "name": "Gale Gai",
-      "year": "2026",
+      "name": "Carlos Cruz",
+      "year": "2027",
       "email": "murtpm@gmail.com"
     },
     {
       "position": "Internal VP",
-      "name": "Jay Messina",
-      "year": "2026",
+      "name": "Sophiya Sami",
+      "year": "2027",
       "email": "mcmurtryivp@gmail.com"
     },
     {
       "position": "External VP",
-      "name": "Berny Guerra Arthur",
-      "year": "2026",
+      "name": "Yazmine Miles",
+      "year": "2027",
       "email": "mcmurtryevp@gmail.com"
     },
     {
       "position": "At-Large Rep",
-      "name": "Anadaysi Lopez",
-      "year": "2025",
+      "name": "Bennett Reddig",
+      "year": "2027",
       "email": "mcmurtrypc@gmail.com"
     },
     {
       "position": "SA Senator",
-      "name": "Shriya Pendyala",
+      "name": "Rohan Dharia",
       "year": "2026",
       "email": "mcmurtrysenator@gmail.com"
     },
     {
       "position": "Senior Treasurer",
-      "name": "Conner Huang",
-      "year": "2026",
+      "name": "Teresa Morgado",
+      "year": "2027",
       "email": "mcmurtrytreasurer@gmail.com"
     },
     {
       "position": "Junior Treasurer",
-      "name": "Sudip Poudyal",
+      "name": "Lilly Smith",
       "year": "2027",
       "email": "mcmurtrytreasurer@gmail.com"
     },
     {
       "position": "Secretary",
-      "name": "Carmine Steiner",
-      "year": "2027",
+      "name": "Crystal Valtierra",
+      "year": "2028",
       "email": "mcmsecretary@gmail.com"
     },
     {
       "position": "Secretary",
-      "name": "Bennett Reddig",
-      "year": "2027",
+      "name": "Collin DeSoto",
+      "year": "2028",
       "email": "mcmsecretary@gmail.com"
     }
   ],
   "mccabinet": [
     {
       "position": "Parliamentarian",
-      "name": "Sophiya Sami",
-      "year": "2027",
-      "email": "sss21@rice.edu"
+      "name": "Ananya A. Nair",
+      "year": "2028",
+      "email": "an115@rice.edu"
     }
   ],
   "peoples_council": [
     {
       "position": "At-Large Rep (Leads PC)",
-      "name": "Anadaysi Lopez",
-      "year": "2025",
+      "name": "Bennett Reddig",
+      "year": "2027",
       "email": "mcmurtrypc@gmail.com"
     },
     {
       "position": "2Y Hall Rep",
-      "name": "Grenna Vasquez",
-      "year": "2027",
-      "email": "gv21@rice.edu"
+      "name": "TBD",
+      "year": "TBD",
+      "email": "TBD"
     },
     {
       "position": "2O Hall Rep",
-      "name": "Emily Gianotti",
-      "year": "2025",
-      "email": "ejg4@rice.edu"
+      "name": "Paige Matthys-Pearce",
+      "year": "2026",
+      "email": "pcm6@rice.edu"
     },
     {
       "position": "3Y Hall Rep",
-      "name": "Aidan Vyas",
-      "year": "2025",
-      "email": "ahv2@rice.edu"
+      "name": "TBD",
+      "year": "TBD",
+      "email": "TBD"
     },
     {
       "position": "3O Hall Rep",
-      "name": "Ananya Kar",
-      "year": "2025",
-      "email": "ack4@rice.edu"
+      "name": "Rosario Castro-Rosas",
+      "year": "2026",
+      "email": "rc152@rice.edu"
     },
     {
       "position": "4Y Hall Rep",
-      "name": "Connor Gibbons",
-      "year": "2027",
-      "email": "cg102@rice.edu"
+      "name": "TBD",
+      "year": "TBD",
+      "email": "TBD"
     },
     {
       "position": "4O Hall Rep",
-      "name": "Carlos Cruz",
-      "year": "2027",
-      "email": "cc211@rice.edu"
+      "name": "Elijah White",
+      "year": "2028",
+      "email": "ew75@rice.edu"
     },
     {
       "position": "5th Floor Rep",
-      "name": "Brianna Schulstad",
-      "year": "2027",
-      "email": "bts8@rice.edu"
+      "name": "Rani Sooda",
+      "year": "202?",
+      "email": "rs218@rice.edu"
     },
     {
       "position": "Off Campus Rep",
-      "name": "Megan Worstell",
+      "name": "Cameron Badiey",
+      "year": "2027",
+      "email": "cwb10@rice.edu"
+    },
+    {
+      "position": "Off Campus Rep",
+      "name": "Charlie Holtz",
+      "year": "2027",
+      "email": "ch153@rice.edu"
+    },
+    {
+      "position": "Off Campus Rep",
+      "name": "Rahul Prakash",
       "year": "2026",
-      "email": "mnw3@rice.edu"
+      "email": "rpp5@rice.edu"
     },
     {
       "position": "First Year Rep",
-      "name": "Madison Suh",
-      "year": "2028",
-      "email": "ms355@rice.edu"
+      "name": "TBD",
+      "year": "2029",
+      "email": "TBD"
     },
     {
       "position": "First Year Rep",
-      "name": "Ananya A. Nair",
-      "year": "2028",
-      "email": "an115@rice.edu"
+      "name": "TBD",
+      "year": "2029",
+      "email": "TBD"
     },
     {
       "position": "First Year Rep",
-      "name": "Sebastian Molina",
+      "name": "TBD",
+      "year": "2029",
+      "email": "TBD"
+    },
+    {
+      "position": "Sophomore Class Rep",
+      "name": "Bela Jotwani",
       "year": "2028",
-      "email": "sm311@rice.edu"
+      "email": "bj35@rice.edu"
     },
     {
       "position": "Sophomore Class Rep",
-      "name": "Sophiya Sami",
-      "year": "2027",
-      "email": "sss21@rice.edu"
+      "name": "Chad Federico",
+      "year": "2028",
+      "email": "cf70@rice.edu"
     },
     {
       "position": "Sophomore Class Rep",
-      "name": "Yazmine Miles",
-      "year": "2027",
-      "email": "yam1@rice.edu"
+      "name": "Stella Shrinsky-de Armas",
+      "year": "2028",
+      "email": "ss527@rice.edu"
     },
     {
-      "position": "Sophomore Class Rep",
-      "name": "Xiaoyu (Melissa) Geng",
+      "position": "Junior Class Rep",
+      "name": "Melissa Geng",
       "year": "2027",
       "email": "xg32@rice.edu"
     },
     {
       "position": "Junior Class Rep",
-      "name": "Berny Guerra Arthur",
-      "year": "2026",
-      "email": "bgg1@rice.edu"
+      "name": "Sophiya Sami",
+      "year": "2027",
+      "email": "sss21@rice.edu"
     },
     {
       "position": "Junior Class Rep",
-      "name": "Alice Zhong",
-      "year": "2026",
-      "email": "anz2@rice.edu"
-    },
-    {
-      "position": "Junior Class Rep",
-      "name": "Will Marsden",
-      "year": "2026",
-      "email": "wm27@rice.edu"
+      "name": "Yazmine Miles",
+      "year": "2027",
+      "email": "yam1@rice.edu"
     },
     {
       "position": "Diversity Committee Head",
-      "name": "Sohani Sandhu",
-      "year": "2026",
-      "email": "sks15@rice.edu"
+      "name": "Crystal Valtierra",
+      "year": "2028",
+      "email": "cv50@rice.edu"
     },
     {
       "position": "Diversity Committee Head",
-      "name": "Ashley Ramirez",
-      "year": "2027",
-      "email": "amr28@rice.edu"
+      "name": "Eriyana Woolfolk",
+      "year": "2028",
+      "email": "ew73@rice.edu"
     },
     {
       "position": "Culturals Committee Head",
-      "name": "Carlos Cruz",
-      "year": "2027",
-      "email": "cc211@rice.edu"
+      "name": "Shirin Mumtaz",
+      "year": "2028",
+      "email": "sm312@rice.edu"
     },
     {
       "position": "Culturals Committee Head",
-      "name": "Katie Voong",
-      "year": "2027",
-      "email": "kv31@rice.edu"
+      "name": "TBD",
+      "year": "TBD",
+      "email": "TBD"
     }
   ]
 }

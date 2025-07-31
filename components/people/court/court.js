@@ -35,10 +35,10 @@ export default class Court extends React.Component {
         <Box width={[330]} ml="auto" mr="auto">
           <h2 className="division-title">Chief Justices</h2>
           <p align="center">
-            <strong>Watch:&nbsp;</strong>
+            {/* <strong>Watch:&nbsp;</strong>
             <a href="https://youtu.be/-FCBsQJaz0c" target="_blank">
               <strong>Chief and Justice, Origins</strong>
-            </a>
+            </a> */}
           </p>
 
           <p align="center">

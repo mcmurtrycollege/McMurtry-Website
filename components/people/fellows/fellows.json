@@ -2,18 +2,25 @@
   "fellows_description": "Fellows are upperclassmen who were selected based on proven academic achievement and demonstrated willingness to help fellow students. As part of their charge, Fellows provide free academic assistance on a regular basis through advertised review sessions, “office hours” in the college commons, and individual tutoring by request.",
   "headFellows": [
     {
-      "name": "Nikhil Mummaneni",
-      "email": "nvm3@rice.edu",
-      "major": "Cognitive Science, Spanish Minor",
+      "name": "Abhi Jain",
+      "email": "aj80@rice.edu",
+      "major": "BioSciences Major, Spanish Minor",
       "pre_prof_path": "Pre-med",
-      "subjects": "BIOS 301, CHEM 211/213"
+      "subjects": "BIOS 301, CHEM 211/313, BIOS 341"
     },
     {
-      "name": "Pedro Ribeiro",
-      "email": "pm41@rice.edu",
-      "major": "Political Science, Philosophy, PLST Minor",
-      "pre_prof_path":"Pre-law",
-      "subjects": "FREN, PHIL, POLI, FWIS"
+      "name": "Amy Park",
+      "email": "asp16@rice.edu",
+      "major": "Biosciences Major, English Major",
+      "pre_prof_path":"Pre-med",
+      "subjects": "BIOS 301, PHYS 125, CHEM 211, ENGL 200, ENGL 300, ENGL 301, MDHM"
+    },
+    {
+      "name": "Caitlynn (Catey) Thomas",
+      "email": "ct75@rice.edu",
+      "major": "Neuroscience Major, Sociology Minor",
+      "pre_prof_path":"Pre-med",
+      "subjects": "CHEM 121/122, CMOR 220, PSYC 203"
     }
   ],
 
@@ -52,13 +59,6 @@
       "major": "Math, Operation Research",
       "pre_prof_path":"Pre-grad",
       "subjects": "CMOR 360, COMP 140/182, MATH 102/212/232/354/355"
-    },
-    {
-      "name": "Abhi Jain",
-      "email": "aj80@rice.edu",
-      "major": "Biosciences",
-      "pre_prof_path":"Pre-med",
-      "subjects": "BIOS 301, CHEM 211/313, BIOS 341"
     },
     {
       "name": "Erin Kang",
@@ -108,13 +108,6 @@
       "subjects": "PHYS 125/126"
     },
     {
-      "name": "Amy Park",
-      "email": "asp16@rice.edu",
-      "major": "Biosciences, English",
-      "pre_prof_path":"Pre-med",
-      "subjects": "BIOS 300/301, CHEM 211, ENG 200/300/311/372, PSYC 203"
-    },
-    {
       "name": "Nishita Prasad",
       "email": "np45@rice.edu",
       "major": "Biosciences, Business",
@@ -147,13 +140,6 @@
       "major": "CAAM, Physics",
       "pre_prof_path":"Pre-grad",
       "subjects": "COMP 140, MATH 101/102/211/355, PHYS 101/102/111/112"
-    },
-    {
-      "name": "Catey Thomas",
-      "email": "ct75@rice.edu",
-      "major": "Neuroscience",
-      "pre_prof_path":"Pre-med",
-      "subjects": "CHEM 121, CMOR 220, PSYC 203"
     },
     {
       "name": "Eleanor Tucker",

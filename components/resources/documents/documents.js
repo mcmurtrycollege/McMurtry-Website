@@ -16,7 +16,7 @@ const documents = [
     },
     {
         name: "General By-Laws",
-        document: '../../../../static/documents/mcm_general_bylaws_jan_2024.pdf',
+        document: '../../../../static/documents/mcm_general_bylaws_sep_2025.pdf',
         icon: "https://icon.now.sh/import_contacts"
     },
     {

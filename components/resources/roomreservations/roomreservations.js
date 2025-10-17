@@ -14,10 +14,18 @@ const RoomReservations = () => (
                         <li><strong>Private Dining Room </strong>(located above West Servery)</li>
                         <li><strong>McMurtry Private Rooms</strong>(located on the first floor)
                                 <ul>
-                                <li>Room 114 & 115 (study rooms)</li>
+                                <li>Room 114 (study room)</li>
                                 <li>TV Lounge</li>
+                                <li>4th Floor Lounge</li>
                             </ul>
                         </li>
+                        <li><strong>McMurtry Music Room</strong> (located on the first floor)</li>
+                        <li><strong>McMurtry Bonfire</strong> (located in the Quad; this is not the same as a Quad Reservation)</li>
+                    </ul>
+                    <p>There is a<strong> new </strong>reservation cap. Students may now only reserve a room for <strong><u>up to 4 hours per room per day</u></strong>.</p>
+                    <ul style={{listStyleType: 'none', paddingLeft: '20px'}}>
+                        <li style={{textIndent: '-10px'}}>- If you want to reserve room X, you can only reserve it for up to 4 hours.</li>
+                        <li style={{textIndent: '-10px'}}>- You can still, however, make reservations for other spaces on the same day. If you need the space for longer, just email us at mcmsecretary@gmail.com to make a request.</li>
                     </ul>
                     <p>Our online reservation system (directions below) allows you to book rooms under Category 1 up to 3 weeks in advance. Please fill out the following form in order to make a reservation:</p>
                     <a className = 'reservation-link' href = "https://docs.google.com/forms/d/e/1FAIpQLSco26DjasAvhMKl-CNafI35-wtoLtoYJBGHPd8v8FxgMbbhYQ/viewform?usp=sf_link">Room Reservation Form</a>

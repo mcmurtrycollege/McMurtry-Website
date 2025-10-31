@@ -24,20 +24,20 @@
   "head_RHAs": {
     "members": [
       {
-        "name": "Karen Martinez Perez (she/her/hers)",
-        "pronouns": "she/her/hers",
-        "bio": "Hi, I'm one of the head RHAs at McMurtry this year! I love grabbing boba, going shopping, hugs, watching Studio Ghibli movies, and learning/practicing languages. Feel free to reach out about managing anxiety, imposter syndrome, relationships (romantic/platonic), confidence/self-esteem, burnout, and feeling lonely or homesick.",
-        "phone": "(936) 439-3319",
-        "email": "kmm10@rice.edu",
-        "photo": "../../../../static/rhas/Karen_Martinez_Perez.jpeg"
+        "name": "Charlie Maxson",
+        "pronouns": "they/them",
+        "bio": "",
+        "phone": "404-580-4724",
+        "email": "charmax@rice.edu",
+        "photo": "../../../../static/rhas/Charlie_Maxson.jpeg"
       },
       {
-        "name": "Sophia Peng (she/her/hers)",
-        "pronouns": "she/her/hers",
-        "bio": "Hi, I'm one of the head RHAs at McMurtry this year! I love writing poetry, reading, medical humanities, and thrift shopping. Feel free to reach out about social anxiety, loneliness, imposter syndrome, time management, insomnia, body image/body dysmorphia, or how to seek health resources!",
-        "phone": "(508) 808-2677",
-        "email": "sp95@rice.edu",
-        "photo": "../../../../static/rhas/Sophia_Peng.jpg"
+        "name": "Aspen Viamontes",
+        "pronouns": "they/them",
+        "bio": "",
+        "phone": "346-978-2260",
+        "email": "aspen.viamontes@rice.edu",
+        "photo": ""
       }
     ]
   },
@@ -45,60 +45,28 @@
     "description": "RHAs are students who have been trained on a variety of wellbeing topics. These students work at their college to provide health education opportunities, health supplies and peer guidance. RHAs also act as a liaison between the Student Wellbeing Office and the residential colleges, staying up to date on campus-wide wellbeing programming.",
     "members": [
       {
-        "name": "Brandon Zimmer (he/him/his)",
-        "pronouns": "he/him/his",
-        "bio": "I love playing soccer and volleyball in my spare time. I also enjoy reading and watching the newest shows on Netflix. Feel free to reach out about any topics really, but I would say mental health especially!",
-        "phone": "(469) 601-2401",
-        "email": "blz1@rice.edu",
-        "photo": "../../../../static/rhas/Brandon_Zimmer.jpg"
+        "name": "Alison Colvis",
+        "pronouns": "she/her",
+        "bio": "",
+        "phone": "618-971-0409",
+        "email": "alc15@rice.edu",
+        "photo": ""
       },
       {
-        "name": "Kate Hilton (she/her/hers)",
-        "pronouns": "she/her/hers",
-        "bio": "I love museums, long walks, listening to music, and exploring new places. Feel free to reach out about depression, self-love, relationships, academic pressure, etc!",	
-        "phone": "(513) 954-6700",
-        "email": "kah14@rice.edu",
-        "photo": "../../../../static/rhas/Kate_Hilton.jpeg"
+        "name": "Van Hernandez",
+        "pronouns": "he/him",
+        "bio": "",
+        "phone": "210-488-0648",
+        "email": "vh20@rice.edu",
+        "photo": ""
       },
       {
-        "name": "Zoe Wang (she/her/hers)",
-        "pronouns": "she/her/hers",
-        "bio": "Hello!! I love biking, finding local aesthetic matcha + coffee shops, planning picnics with friends, and recently, playing pickle ball. Feel free to reach out about mental health and wellbeing, ALLY, stress relief, suicide prevention, body acceptance, etc!" ,
-        "phone": "(936) 520-4832",
-        "email": "zyw1@rice.edu",
-        "photo": "../../../../static/rhas/Zoe_Wang.jpg"
-      },
-      {
-        "name": "Manshi Patel (she/her/hers)",
-        "pronouns": "she/her/hers",
-        "bio": "I love watching Criminal Minds and bullet journaling! Feel free to reach out about imposter syndrome, mental health, or relationships!",
-        "phone": "(615) 724-8243",
-        "email": "mpp5@rice.edu",
-        "photo": "../../../../static/rhas/Manshi_Patel.jpg"
-      },
-      {
-        "name": "Annika Nambiar (she/her/hers)",
-        "pronouns": "she/her/hers",
-        "bio": "I love reading, playing volleyball, and boardgames. Feel free to reach out about imposter syndrome, stress, relationships, and anything else!",
-        "phone": "(650) 730-6539",
-        "email": "an44@rice.edu",
-        "photo": "../../../../static/rhas/Annika_Nambiar.jpg"
-      },
-      {
-        "name": "Ahalya Lettenberger (she/her/hers)",
-        "pronouns": "she/her/hers",
-        "bio": "I am on the swim team at Rice, and in my free time I love to do anything outdoors, golf, cook, and play board games with friends. Feel free to reach out about any physical or mental health questions!",
-        "phone": "(630) 956-4608",
-        "email": "abl10@rice.edu",
-        "photo": "../../../../static/rhas/Ahalya_Lettenberger.jpg"
-      },
-      {
-        "name": "Nathan Nguyen (he/him/his)",
-        "pronouns": "he/him/his",
-        "bio": "I like sports (running, beer bike, tennis), short cat naps, and watching documentaries at 2x speed. Feel free to reach out about relationships, dealing with loneliness, stress, etc!",
-        "phone": "(832) 904-4499",
-        "email": "nan3@rice.edu",
-        "photo": "../../../../static/rhas/Nathan_Nguyen.jpeg"
+        "name": "Carmen Tidwell",
+        "pronouns": "",
+        "bio": "",
+        "phone": "",
+        "email": "cdt7@rice.edu",
+        "photo": ""
       }
     ]
   },
@@ -106,16 +74,12 @@
     "description": "Caregiving is for us to express our culture of care, allowing for our peers to be able to drink and have fun in a safe environment. We are dedicated to giving care to those who might need it by giving them water, giving them food, providing a safe space to recuperate, and calling REMS if the situation requires it.",
     "members": [
       {
-        "name": "Robin Whitehead",
-        "phone": "(832) 776-1195",
-        "email": "rmw9@rice.edu",
-        "photo": "../../../../static/head_caregiver/Robin_Whitehead.jpg"
+        "name": "Abby Castro",
+        "email": "ac301@rice.edu"
       },
       {
-        "name": "Lydia Hanje",
-        "phone": "(205) 203-5401",
-        "email": "lih5@rice.edu",
-        "photo": "../../../../static/head_caregiver/Lydia_Hanje.jpg"
+        "name": "Rosario Castro",
+        "email": "rc152@rice.edu"
       }
     ]
   }

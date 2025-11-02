@@ -1,15 +1,15 @@
 import Header from '../../components/general/header';
-import Navbar from '../../components/navbar/navbarDesktop';
-import NavbarMobile from '../../components/navbar/navbarMobile';
+import StaggeredMenu from '../../components/navbar/StaggeredMenu';
+
 import Footer from '../../components/general/footer/footer';
 import Paas from '../../components/people/paas/paas';
 import '../../components/general/page.css';
 
 const PaasPage = () => (
-    <div className='page'>
+    <div className='page page-with-staggered-menu'>
         <Header />
-        <Navbar />
-        <NavbarMobile />
+        <StaggeredMenu />
+        
         <Paas />
         <Footer />
     </div>

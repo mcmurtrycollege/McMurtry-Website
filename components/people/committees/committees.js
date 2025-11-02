@@ -1,7 +1,6 @@
 import React from 'react';
 import { Box, Flex, Image } from 'rebass';
 import Cards from '../../general/contactcards';
-import Title from '../../general/title';
 import { committee_divisions } from './committees.json';
 import './committees.css';
 
@@ -53,7 +52,9 @@ export default class Committees extends React.Component {
 
         return (
             <div className="committee-page">
-                <Title width={280} title="Committees" />
+                <div className='committee-hero'>
+                    <h1 className='committee-main-title'>Committees</h1>
+                </div>
                 <div>
                     <Flex justifyContent='center' flex='wrap' flexDirection='row'>
                         {division_keys}

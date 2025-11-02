@@ -6,13 +6,14 @@ import FeedbackForm from "../../components/resources/feedbackform/feedbackform";
 import "../../components/general/page.css";
 
 const FeedbackFormPage = () => (
-  <div className="page">
+  <div className='page page-with-staggered-menu'>
     <Header />
-    <Navbar />
-    <NavbarMobile />
+    <StaggeredMenu />
+    
     <FeedbackForm />
     <Footer />
   </div>
 );
 
 export default FeedbackFormPage;
+

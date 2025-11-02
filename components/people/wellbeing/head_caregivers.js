@@ -1,13 +1,14 @@
 import React from "react";
 import { Box } from "rebass";
-import Title from "../../general/title";
 import ContactCards from "../../general/contactcards";
 import "./wellbeing.css";
 import { head_caregivers } from "./wellbeing.json";
 
 const HeadCaregivers = () => (
   <div className="wellbeing-page">
-    <Title width={300} title="Caregiving" />
+    <div className='wellbeing-hero'>
+      <h1 className='wellbeing-main-title'>Caregiving</h1>
+    </div>
     <Box
       width={[1, 0.7, 0.6, 0.5]}
       ml="auto"

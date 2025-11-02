@@ -1,18 +1,19 @@
 import Header from '../../components/general/header';
 import StaggeredMenu from '../../components/navbar/StaggeredMenu';
-
 import Footer from '../../components/general/footer/footer';
-import Associates from '../../components/people/associates/associates';
+import Events from '../../components/events/events/events';
 import '../../components/general/page.css'
 
-const AssociatesPage = () => (
+const CalendarPage = () => (
     <div className='page page-with-staggered-menu'>
         <Header />
         <StaggeredMenu />
-        
-        <Associates />
+        <Events />
         <Footer />
     </div>
 )
 
-export default AssociatesPage;
+export default CalendarPage;
+
+
+

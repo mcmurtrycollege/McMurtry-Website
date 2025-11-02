@@ -9,55 +9,28 @@ class Navbar extends React.Component {
         super(props);
         this.state = {
             hidden: true,
-            subheader: null
+            expandedCategories: []
         }
         this.toggleNavbar = this.toggleNavbar.bind(this);
-        this.showSubheader = this.showSubheader.bind(this);
-        this.closeSubheader = this.closeSubheader.bind(this);
+        this.toggleCategory = this.toggleCategory.bind(this);
     }
 
     toggleNavbar() {
         this.setState({ hidden: !this.state.hidden })
     }
 
-    showSubheader(index) {
-        this.setState({ subheader: index })
-    }
-
-    closeSubheader() {
-        this.setState({ subheader: null })
+    toggleCategory(index) {
+        const { expandedCategories } = this.state;
+        if (expandedCategories.includes(index)) {
+            this.setState({ expandedCategories: expandedCategories.filter(i => i !== index) });
+        } else {
+            this.setState({ expandedCategories: [...expandedCategories, index] });
+        }
     }
 
     render() {
-        let mainHeaders = []
-        let menus = []
         let hidden = this.state.hidden ? { left: '100%' } : { left: 0 }
-        for (let i = 0; i < navbar_headers.length; i++) {
-            mainHeaders.push(
-                <div className='main-header' key={navbar_headers[i].name}>
-                    <a onClick={() => this.showSubheader(i)}>{navbar_headers[i].name}</a>
-                </div>
-            )
-            menus.push(
-                <div className={(this.state.subheader === i) ? ('subheader-display') : ('subheader-hidden')} key={`${navbar_headers[i].name}-menu`}>
-                    <div className='mobile-navbar__container'>
-                        <div onClick={this.closeSubheader} className='subheader-back'>
-                            <p>← Back</p>
-                        </div>
-                        {
-                            navbar_headers[i].subheaders.map(({ name, to }) => (
-                                <Link href={to} key={name}>
-                                    <div className='subheader-item'>
-                                        {name}
-                                   </div>
-                                </Link>
-                            ))
-                        }
-                    </div>
-                </div>
-            )
-        }
-
+        
         return (
             <div>
                 <div className='fixed-mobile-header'>
@@ -72,11 +45,36 @@ class Navbar extends React.Component {
                     </Link>
                 </div>
                 <div className='mobile-navbar' style={hidden}>
-                    <div className='main-menu'>
+                    <div className='mobile-navbar__container'>
                         <img className='close-navbar' src="../../static/icons/x.svg" alt="X" onClick={this.toggleNavbar} />
-                        {mainHeaders}
+                        <div className='accordion-menu'>
+                            {navbar_headers.map((header, index) => {
+                                const isExpanded = this.state.expandedCategories.includes(index);
+                                return (
+                                    <div className='accordion-category' key={header.name}>
+                                        <div 
+                                            className='accordion-header' 
+                                            onClick={() => this.toggleCategory(index)}
+                                        >
+                                            <span>{header.name}</span>
+                                            <span className={`accordion-arrow ${isExpanded ? 'expanded' : ''}`}>
+                                                ›
+                                            </span>
+                                        </div>
+                                        <div className={`accordion-content ${isExpanded ? 'expanded' : ''}`}>
+                                            {header.subheaders.map(({ name, to }) => (
+                                                <Link href={to} key={name}>
+                                                    <div className='accordion-item' onClick={this.toggleNavbar}>
+                                                        {name}
+                                                    </div>
+                                                </Link>
+                                            ))}
+                                        </div>
+                                    </div>
+                                );
+                            })}
+                        </div>
                     </div>
-                    {menus}
                 </div>
             </div>
         )

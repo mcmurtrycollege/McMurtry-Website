@@ -1,15 +1,13 @@
 import Header from '../../components/general/header';
-import Navbar from '../../components/navbar/navbarDesktop';
-import NavbarMobile from '../../components/navbar/navbarMobile';
+import StaggeredMenu from '../../components/navbar/StaggeredMenu';
 import Footer from '../../components/general/footer/footer';
 import RoomReservations from '../../components/resources/roomreservations/roomreservations';
 import '../../components/general/page.css'
 
 const RoomReservationsPage = () => (
-    <div className='page'>
+    <div className='page page-with-staggered-menu'>
         <Header />
-        <Navbar />
-        <NavbarMobile />
+        <StaggeredMenu />
         <RoomReservations />
         <Footer />
     </div>

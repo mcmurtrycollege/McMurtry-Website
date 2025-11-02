@@ -1,6 +1,5 @@
 import React from 'react';
 import { Box, Flex, Image } from 'rebass';
-import Title from '../../general/title';
 import './associates.css';
 import { associates } from './associates.json';
 
@@ -54,7 +53,9 @@ const Associates = () => {
     }
     return (
         <div className='associates-page'>
-            <Title title={'Associates'} width={240} smallText={false} />
+            <div className='associates-hero'>
+                <h1 className='associates-main-title'>Associates</h1>
+            </div>
             <Box width={[0.9, 0.55]} ml='auto' mr='auto'>
                 <p className="associates-mission">Every residential college at Rice has an associates program, where faculty, staff, and community members support students in their intellectual, cultural and social lives through providing mentorship, guidance and support.</p>
             </Box>

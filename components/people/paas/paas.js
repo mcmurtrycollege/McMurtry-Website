@@ -1,6 +1,5 @@
 import React from 'react';
 import { Box } from 'rebass';
-import Title from '../../general/title';
 import ContactCards from '../../general/contactcards';
 import { paas_description, head_paas, o_week_paas, year_long_paas } from './paas.json';
 import './paas.css';
@@ -9,7 +8,9 @@ export default class PAAs extends React.Component {
     render() {
         return (
             <div className='paas-page'>
-        <Title width={330} title="Peer Academic Advisors" smallText={true} />
+        <div className='paas-hero'>
+            <h1 className='paas-main-title'>Peer Academic Advisors</h1>
+        </div>
         <Box width={[1, 0.7, 0.6, 0.5]} ml='auto' mr='auto' className='paas-description'>
             {paas_description}
         </Box>

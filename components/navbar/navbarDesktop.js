@@ -27,12 +27,14 @@ class NavbarDesktop extends React.Component {
 
     render() {
         let style = this.state.permanent ? {
-            backgroundColor: "#515768"
+            backgroundColor: "rgba(26, 22, 37, 0.95)",
+            backdropFilter: "blur(30px)",
+            boxShadow: "0 4px 30px rgba(0, 0, 0, 0.3)"
         } : {
                 paddingTop: '15px',
                 paddingBottom: '15px',
-                color: "#515768",
-                backgroundColor: "#DCDFE5"
+                backgroundColor: "rgba(26, 22, 37, 0.85)",
+                backdropFilter: "blur(30px)"
             }
         return (
             <div className='navbar-wrapper' style={style}>

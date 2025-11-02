@@ -1,15 +1,15 @@
 import Header from '../../components/general/header';
-import Navbar from '../../components/navbar/navbarDesktop';
-import NavbarMobile from '../../components/navbar/navbarMobile';
+import StaggeredMenu from '../../components/navbar/StaggeredMenu';
+
 import Footer from '../../components/general/footer/footer';
 import Committees from '../../components/people/committees/committees';
 import '../../components/general/page.css'
 
 const CommitteesPage = () => (
-    <div className='page'>
+    <div className='page page-with-staggered-menu'>
         <Header />
-        <Navbar />
-        <NavbarMobile />
+        <StaggeredMenu />
+        
         <Committees />
         <Footer />
     </div>

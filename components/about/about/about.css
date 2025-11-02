@@ -1,9 +1,87 @@
 .about-page {
-    padding-top: 10%;
-    margin-bottom: 5%;
+    padding-top: var(--space-2xl);
+    margin-bottom: var(--space-3xl);
 }
 
 .about-text {
-    padding: 20px;
-    color: #515768;
+    padding: var(--space-xl);
+    background: transparent;
+    border-radius: var(--radius-2xl);
+    box-shadow: none;
+    border: none;
+    transition: all var(--transition-base);
+    animation: fadeSlideUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) backwards;
+}
+
+.about-text:hover {
+    transform: translateY(-2px);
+}
+
+.about-text p {
+    color: var(--white);
+    font-size: var(--font-base);
+    line-height: var(--leading-relaxed);
+    margin-bottom: var(--space-md);
+    text-align: justify;
+}
+
+.about-text img {
+    border-radius: var(--radius-lg);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+    transition: all var(--transition-base);
+    border: 3px solid rgba(255, 255, 255, 0.1);
+}
+
+.float-left-img {
+    transform: rotate(-3deg) !important;
+}
+
+.float-left-img:hover {
+    transform: rotate(-1deg) scale(1.05) !important;
+    box-shadow: 0 15px 50px rgba(139, 111, 199, 0.5) !important;
+}
+
+.float-right-img {
+    transform: rotate(3deg) !important;
+}
+
+.float-right-img:hover {
+    transform: rotate(1deg) scale(1.05) !important;
+    box-shadow: 0 15px 50px rgba(255, 107, 53, 0.5) !important;
+}
+
+@media (max-width: 768px) {
+    .about-text {
+        padding: var(--space-sm) var(--space-md);
+        margin-bottom: var(--space-sm) !important;
+        margin-top: var(--space-sm) !important;
+    }
+    
+    .about-text img {
+        float: none !important;
+        display: block;
+        margin: var(--space-sm) auto !important;
+        max-width: 100%;
+        width: 100% !important;
+        max-height: 180px;
+        object-fit: cover;
+    }
+    
+    .float-left-img,
+    .float-right-img {
+        transform: rotate(0deg) !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    
+    .float-left-img:hover,
+    .float-right-img:hover {
+        transform: scale(1.05) !important;
+    }
+    
+    .about-text p {
+        font-size: 0.9rem;
+        line-height: 1.5;
+        margin-bottom: 0.5rem;
+    }
 }

@@ -1,20 +1,61 @@
 {
   "navbar_headers": [
     {
-      "name": "O-Week",
+      "name": "About",
       "subheaders": [
         {
-          "name": "O-Week",
-          "to": "/oweek"
+          "name": "Home",
+          "to": "/"
+        },
+        {
+          "name": "Calendar",
+          "to": "/about/calendar"
+        },
+        {
+          "name": "Financial Inclusivity",
+          "to": "/about/financialinclusivity"
         }
       ]
     },
     {
-      "name": "About",
+      "name": "Room Reservations",
+      "to": "/resources/roomreservations",
+      "subheaders": []
+    },
+    {
+      "name": "O-Week",
       "subheaders": [
         {
-          "name": "About",
-          "to": "/about"
+          "name": "O-Week Home",
+          "to": "/oweek"
+        },
+        {
+          "name": "About the Theme",
+          "to": "/oweek/theme"
+        },
+        {
+          "name": "Meet the Coords",
+          "to": "/oweek/coords"
+        },
+        {
+          "name": "O-Week Groups",
+          "to": "/oweek/oweekgroups"
+        },
+        {
+          "name": "Tour of McMurtry",
+          "to": "/oweek/mcmtour"
+        },
+        {
+          "name": "Your Room",
+          "to": "/oweek/yourroom"
+        },
+        {
+          "name": "O-Week Book",
+          "to": "/oweek/oweekbook"
+        },
+        {
+          "name": "Contact Info",
+          "to": "/oweek/oweekcontact"
         }
       ]
     },
@@ -22,12 +63,12 @@
       "name": "Events",
       "subheaders": [
         {
-          "name": "Calendar",
-          "to": "/events/calendar"
+          "name": "Budget Sheet",
+          "to": "https://docs.google.com/spreadsheets/d/1imNFy7cyadxieh7JPcPRvMzB-LgMHozNkRzUX_Lwp1A/edit?usp=sharing"
         },
         {
-          "name": "Budget/Expenses",
-          "to": "/events/budget"
+          "name": "Expense Form",
+          "to": "https://docs.google.com/forms/d/e/1FAIpQLSd4M9RPpgO0XhHrSFvcexGYXwu11w0F5LntvUEljN3AQI_Klg/viewform?usp=sf_link"
         }
       ]
     },

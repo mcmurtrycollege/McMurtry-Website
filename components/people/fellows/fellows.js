@@ -1,13 +1,14 @@
 import React from 'react';
 import { Box, Flex } from 'rebass';
-import Title from '../../general/title';
 import ContactCards from '../../general/contactcards';
 import { fellows_description, headFellows, fellows } from './fellows.json';
 import './fellows.css';
 
 const AcademicFellows = () => (
     <div className='fellows-page'>
-        <Title width={340} title="Academic Fellows" />
+        <div className='fellows-hero'>
+            <h1 className='fellows-main-title'>Academic Fellows</h1>
+        </div>
         <Box width={[1, 0.7, 0.6, 0.5]} ml='auto' mr='auto' className='fellows-description'>
             {fellows_description}
         </Box>

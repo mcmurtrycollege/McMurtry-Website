@@ -1,15 +1,15 @@
 import Header from '../../components/general/header';
-import Navbar from '../../components/navbar/navbarDesktop';
-import NavbarMobile from '../../components/navbar/navbarMobile';
+import StaggeredMenu from '../../components/navbar/StaggeredMenu';
+
 import Footer from '../../components/general/footer/footer';
 import InitiativeRequests from '../../components/resources/initiativerequest/initiativerequest';
 import '../../components/general/page.css'
 
 const InitiativeRequestsPage = () => (
-    <div className='page'>
+    <div className='page page-with-staggered-menu'>
         <Header />
-        <Navbar />
-        <NavbarMobile />
+        <StaggeredMenu />
+        
         <InitiativeRequests />
         <Footer />
     </div>

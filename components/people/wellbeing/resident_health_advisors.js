@@ -1,6 +1,5 @@
 import React from 'react';
 import { Box, Flex } from 'rebass';
-import Title from '../../general/title';
 import ExpandableCard from '../../general/expandablecards';
 import './wellbeing.css';
 import { head_RHAs, RHAs } from './wellbeing.json';
@@ -25,7 +24,9 @@ const ResidentHealthAdvisors = () => {
     }
     return (
         <div className='wellbeing-page'>
-            <Title width={300} title="Rice Health Advisors" smallText={true} />
+            <div className='wellbeing-hero'>
+                <h1 className='wellbeing-main-title'>Rice Health Advisors</h1>
+            </div>
             <Box width={[1, 0.7, 0.6, 0.5]} ml='auto' mr='auto' className='wellbeing-description'>
                 {RHAs.description}
                 <p align="center"><strong>Click to view the RHAs' bios!</strong></p>

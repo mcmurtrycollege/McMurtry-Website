@@ -1,0 +1,14 @@
+webpackHotUpdate_N_E("pages/people/mcmurtryaffinitygroups",{
+
+/***/ "./components/people/mcmurtryaffinitygroups/mcmurtryaffinitygroups.json":
+/*!******************************************************************************!*\
+  !*** ./components/people/mcmurtryaffinitygroups/mcmurtryaffinitygroups.json ***!
+  \******************************************************************************/
+/*! exports provided: affinity_groups, default */
+/***/ (function(module) {
+
+eval("module.exports = JSON.parse(\"{\\\"affinity_groups\\\":[{\\\"title\\\":\\\"LGBTQ+\\\",\\\"heads\\\":[{\\\"name\\\":\\\"Charlie Maxson\\\",\\\"email\\\":\\\"cm112@rice.edu\\\"},{\\\"name\\\":\\\"Lindsay White\\\",\\\"email\\\":\\\"lmw12@rice.edu\\\"},{\\\"name\\\":\\\"Brian Messar\\\",\\\"email\\\":\\\"bm83@rice.edu\\\"}]},{\\\"title\\\":\\\"Latine\\\",\\\"heads\\\":[{\\\"name\\\":\\\"Rosario Castro\\\",\\\"email\\\":\\\"rc152@rice.edu\\\"},{\\\"name\\\":\\\"Yael Ochoa\\\",\\\"email\\\":\\\"yo21@rice.edu\\\"},{\\\"name\\\":\\\"Carmina Andrade\\\",\\\"email\\\":\\\"ca77@rice.edu\\\"}]},{\\\"title\\\":\\\"First Gen / Low Income\\\",\\\"heads\\\":[{\\\"name\\\":\\\"Catey Thomas\\\",\\\"email\\\":\\\"ct75@rice.edu\\\"},{\\\"name\\\":\\\"Elijah White\\\",\\\"email\\\":\\\"ew75@rice.edu\\\"}]},{\\\"title\\\":\\\"Black Caucus\\\",\\\"heads\\\":[{\\\"name\\\":\\\"Ashley Omwoyo\\\",\\\"email\\\":\\\"ano2@rice.edu\\\"},{\\\"name\\\":\\\"Asyiah Bray\\\",\\\"email\\\":\\\"akb12@rice.edu\\\"},{\\\"name\\\":\\\"Didi Ibizugbe\\\",\\\"email\\\":\\\"doi1@rice.edu\\\"},{\\\"name\\\":\\\"Kayla McPherson\\\",\\\"email\\\":\\\"kam25@rice.edu\\\"}]},{\\\"title\\\":\\\"East Asian\\\",\\\"heads\\\":[{\\\"name\\\":\\\"Xiaoyu (Melissa) Geng\\\",\\\"email\\\":\\\"xg32@rice.edu\\\"},{\\\"name\\\":\\\"Martin Xie\\\",\\\"email\\\":\\\"mx16\\\"},{\\\"name\\\":\\\"Jack Lee\\\",\\\"email\\\":\\\"jl377@rice.edy\\\"}]},{\\\"title\\\":\\\"South Asian\\\",\\\"heads\\\":[{\\\"name\\\":\\\"Sohani Sandhu\\\",\\\"email\\\":\\\"\\\"},{\\\"name\\\":\\\"Sam Balakrishnan\\\",\\\"email\\\":\\\"sb150@rice.edu\\\"},{\\\"name\\\":\\\"Trisha Kandi\\\",\\\"email\\\":\\\"tk62@rice.edu\\\"},{\\\"name\\\":\\\"Shriya Pendyala\\\",\\\"email\\\":\\\"sp202@rice.edu\\\"},{\\\"name\\\":\\\"Riya Seth\\\",\\\"email\\\":\\\"rs150@rice.edu\\\"}]},{\\\"title\\\":\\\"Jewish\\\",\\\"heads\\\":[{\\\"name\\\":\\\"Gregory Chekler\\\",\\\"email\\\":\\\"gsc8@rice.edu\\\"},{\\\"name\\\":\\\"Jonathan Goldfeder\\\",\\\"email\\\":\\\"jg225@rice.edu\\\"}]}]}\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuL2NvbXBvbmVudHMvcGVvcGxlL21jbXVydHJ5YWZmaW5pdHlncm91cHMvbWNtdXJ0cnlhZmZpbml0eWdyb3Vwcy5qc29uLmpzIiwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./components/people/mcmurtryaffinitygroups/mcmurtryaffinitygroups.json\n");
+
+/***/ })
+
+})

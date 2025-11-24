@@ -66,10 +66,17 @@
 }
 
 .wellbeing-description {
-    margin-top: 30px;
-    padding: 30px;
+    margin-top: var(--space-xl);
+    padding: var(--space-xl);
     color: var(--white);
     line-height: var(--leading-relaxed);
+    background: transparent;
+    border-radius: var(--radius-2xl);
+    transition: all var(--transition-base);
+}
+
+.wellbeing-description:hover {
+    transform: translateY(-2px);
 }
 
 .wellbeing-description p {
@@ -88,6 +95,7 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     margin-bottom: var(--space-lg);
+    margin-top: var(--space-lg);
 }
 
 .division-title {
@@ -102,6 +110,7 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     margin-bottom: var(--space-lg);
+    margin-top: var(--space-lg);
 }
 
 @media (max-width: 768px) {
@@ -114,6 +123,10 @@
         line-height: 1.15;
         margin-bottom: var(--space-xs);
         font-size: 2rem !important;
+    }
+
+    .wellbeing-description {
+        padding: var(--space-md);
     }
 }
 

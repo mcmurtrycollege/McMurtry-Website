@@ -1,34 +1,154 @@
-@media screen and (min-width: 700px){
-    .wide-workorder-form {
-        width: 660px;
-        text-align:center;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 5%;
-        display: flex;
-    }
-
-    .narrow-workorder-form {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 699px){
-    .wide-workorder-form {
-        display: none;
-    }
-
-    .narrow-workorder-form {
-        width: 360px;
-        text-align:center;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 5%;
-        display: flex;
-    }
-}
-
 .workorder-page {
-    padding-top: 10%;
-    padding-bottom: 10%;
+    min-height: 100vh;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100vw;
+}
+
+.workorder-hero {
+    text-align: center;
+    padding: var(--space-3xl) var(--space-xl) var(--space-2xl);
+    margin: 0 auto;
+    max-width: 100%;
+    background: transparent;
+    animation: fadeSlideUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) backwards;
+}
+
+.workorder-main-title {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: clamp(2.5rem, 7vw, 6rem);
+    color: var(--white);
+    margin-bottom: var(--space-md);
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+    text-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(135deg, #ffffff 0%, #b8a3d9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: titleEntry 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes titleEntry {
+    from { opacity: 0; transform: translateY(40px); filter: blur(10px); }
+    to { opacity: 1; transform: translateY(0); filter: blur(0); }
+}
+
+@keyframes fadeSlideUp {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Match standardized container width and style */
+.workorder-card {
+    background: rgba(26, 22, 37, 0.6);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(139, 111, 199, 0.3);
+    border-radius: var(--radius-2xl);
+    padding: 3rem;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    /* Override any max-width to respect the responsive Box width from JS */
+    max-width: none !important; 
+}
+
+.workorder-icon {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 2rem auto;
+}
+
+.workorder-icon img {
+    width: 40px;
+    height: 40px;
+    filter: brightness(0) invert(1);
+}
+
+.workorder-text {
+    color: var(--white);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.workorder-list {
+    text-align: left;
+    display: inline-block;
+    margin: 0 auto 2rem auto;
+    color: rgba(255, 255, 255, 0.9);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.highlight-link {
+    color: #FFD700;
+    text-decoration: none;
+    font-weight: 700;
+    border-bottom: 1px dashed #FFD700;
+    transition: all 0.2s ease;
+}
+
+.highlight-link:hover {
+    color: var(--white);
+    border-bottom-style: solid;
+}
+
+.workorder-divider {
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    margin: 2rem 0;
+}
+
+.workorder-button {
+    display: inline-block;
+    background: linear-gradient(135deg, #6b5197 0%, #8b6fc7 100%);
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: var(--radius-full);
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    box-shadow: 0 4px 15px rgba(107, 81, 151, 0.4);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.workorder-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(107, 81, 151, 0.6);
+    background: linear-gradient(135deg, #7b5fa7 0%, #9b7fd7 100%);
+}
+
+@media (max-width: 768px) {
+    .workorder-main-title {
+        font-size: 2.5rem !important;
+    }
+    
+    .workorder-card {
+        padding: 1.5rem;
+        width: 100% !important; /* Full width on mobile */
+        border-radius: 0; /* Remove border radius for full width look */
+        border-left: none;
+        border-right: none;
+    }
+    
+    .workorder-text {
+        font-size: 1rem;
+    }
+    
+    .workorder-list {
+        font-size: 1rem;
+        padding-left: 1.5rem;
+    }
 }

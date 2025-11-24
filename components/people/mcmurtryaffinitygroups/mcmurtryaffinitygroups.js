@@ -1,7 +1,6 @@
 import React from "react";
 import { Box } from "rebass";
 import ContactCards from "../../general/contactcards";
-import "./mcmurtryaffinitygroups.css";
 import { affinity_groups } from "./mcmurtryaffinitygroups.json";
 
 export default class McMurtryAffinityGroups extends React.Component {
@@ -41,7 +40,7 @@ export default class McMurtryAffinityGroups extends React.Component {
               <Box width={320} ml="auto" mr="auto">
                 <h1 className="affinity-group-title">{group.title}</h1>
               </Box>
-              <ContactCards content={group.heads} width={280} height={180} />
+              <ContactCards content={group.heads} width={280} minHeight="180px" />
             </>
           );
         })}

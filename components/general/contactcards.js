@@ -18,33 +18,33 @@ const Card = props => (
             {props.phone !== undefined && (
                 <h3 className="contact-phone">
                     <img src="../../static/icons/phone.svg" alt="" aria-hidden="true" />
-                    {props.phone}
+                    <span>{props.phone}</span>
                 </h3>
             )}
             {props.email !== undefined && (
                 <a href={`mailto:${props.email}`} className='link'>
                     <h3 className="contact-email">
                         <img src="../../static/icons/email.svg" alt="" aria-hidden="true" />
-                        {props.email}
+                        <span>{props.email}</span>
                     </h3>
                 </a>
             )}
             {props.major !== undefined && (
                 <h2 className='major'>
                     <img src="../../static/icons/file.svg" alt="" aria-hidden="true" />
-                    {props.major}
+                    <span>{props.major}</span>
                 </h2>
             )}
             {props.subjects !== undefined && (
                 <h2 className="subjects">
                     <img src="../../static/icons/book.svg" alt="" aria-hidden="true" />
-                    {props.subjects}
+                    <span>{props.subjects}</span>
                 </h2>
             )}
             {props.pre_prof_path !== undefined && (
                 <h2 className='pre_prof_path'>
                     <img src="../../static/icons/file.svg" alt="" aria-hidden="true" />
-                    {props.pre_prof_path}
+                    <span>{props.pre_prof_path}</span>
                 </h2>
             )}
         </div>

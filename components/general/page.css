@@ -179,25 +179,6 @@ body::before {
     }
 }
 
-/* Custom Scrollbar */
-::-webkit-scrollbar {
-    width: 14px;
-}
-
-::-webkit-scrollbar-track {
-    background: rgba(26, 22, 37, 0.5);
-}
-
-::-webkit-scrollbar-thumb {
-    background: var(--gradient-primary);
-    border-radius: 10px;
-    border: 3px solid rgba(26, 22, 37, 0.5);
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: var(--purple-500);
-}
-
 /* Selection */
 ::selection {
     background: var(--purple-500);

@@ -2,7 +2,6 @@ import React from 'react';
 import { Box, Flex, Image } from 'rebass';
 import Cards from '../../general/contactcards';
 import { committee_divisions } from './committees.json';
-import './committees.css';
 
 export default class Committees extends React.Component {
     constructor(props) {
@@ -56,12 +55,14 @@ export default class Committees extends React.Component {
                     <h1 className='committee-main-title'>Committees</h1>
                 </div>
                 <div>
-                    <Flex justifyContent='center' flex='wrap' flexDirection='row'>
+                    {/* Fixed flexWrap prop */}
+                    <Flex justifyContent='center' flexWrap='wrap' flexDirection='row'>
                         {division_keys}
                     </Flex>
                 </div>
                 <div>
-                    <Flex justifyContent='center' flex='wrap' flexDirection='row'>
+                    {/* Fixed flexWrap prop */}
+                    <Flex justifyContent='center' flexWrap='wrap' flexDirection='row'>
                         {committee_keys}
                     </Flex>
                 </div>
@@ -79,13 +80,7 @@ export default class Committees extends React.Component {
                             ? <h2 className='committee-subtitle'>Committee Heads</h2>
                             : null
                     }
-                    <Cards content={committee_divisions[this.state.division].committees[this.state.committee].heads} height={110} width={240} />
-                    {/* {
-                        (committee_divisions[this.state.division].committees[this.state.committee].members.length > 0)
-                            ? <h2 className='committee-subtitle'>Members</h2>
-                            : null
-                    }    
-                    <Cards content={committee_divisions[this.state.division].committees[this.state.committee].members} height={110} width={240} /> */}
+                    <Cards content={committee_divisions[this.state.division].committees[this.state.committee].heads} minHeight="110px" width={240} />
                 </div>
             </div>
         )

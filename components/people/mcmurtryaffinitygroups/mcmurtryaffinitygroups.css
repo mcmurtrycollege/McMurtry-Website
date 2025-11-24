@@ -68,6 +68,8 @@
 .mcmurtry-affinity-groups-page p {
     color: var(--white);
     line-height: var(--leading-relaxed);
+    font-size: var(--font-base);
+    margin-bottom: var(--space-md);
 }
 
 .affinity-group-title {
@@ -82,6 +84,21 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     margin-bottom: var(--space-lg);
+    margin-top: var(--space-xl);
+}
+
+/* Intro Text Box styling */
+.mcmurtry-affinity-groups-page > div:nth-child(2) {
+    padding: var(--space-xl);
+    background: transparent;
+    border-radius: var(--radius-2xl);
+    box-shadow: none;
+    border: none;
+    transition: all var(--transition-base);
+}
+
+.mcmurtry-affinity-groups-page > div:nth-child(2):hover {
+    transform: translateY(-2px);
 }
 
 @media (max-width: 768px) {
@@ -94,6 +111,10 @@
         line-height: 1.15;
         margin-bottom: var(--space-xs);
         font-size: 2rem !important;
+    }
+
+    .mcmurtry-affinity-groups-page > div:nth-child(2) {
+        padding: var(--space-md);
     }
 }
 

@@ -66,6 +66,7 @@
     }
 }
 
+/* Updated Tabs/Keys Styling - Matching McTeam */
 .inactive-division, .active-division {
     border: none;
     text-align: center;
@@ -82,6 +83,12 @@
     overflow: hidden;
     padding: var(--space-sm);
     margin: 0.5rem;
+    width: 180px; /* Fixed width for evenness */
+    height: 100px; /* Fixed height for evenness */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .inactive-division::before, .active-division::before {
@@ -125,6 +132,12 @@
     transform: scaleX(0.5);
 }
 
+.division-key, .committee-key {
+    margin: 0;
+    width: 100%;
+}
+
+/* Committee Sub-tabs */
 .inactive-committee, .active-committee {
     border: none;
     text-align: center;
@@ -137,8 +150,16 @@
     border-radius: var(--radius-md);
     box-shadow: 0 2px 10px rgba(139, 111, 199, 0.15);
     border: 1px solid rgba(139, 111, 199, 0.2);
-    padding: 5px;
+    padding: 0 12px;
     margin: 0.3rem;
+    font-family: 'DM Sans', sans-serif;
+    width: 140px; /* Fixed width */
+    height: 80px; /* Fixed height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    line-height: 1.2;
 }
 
 .inactive-committee {
@@ -157,38 +178,12 @@
     color: var(--white);
     background: rgba(139, 111, 199, 0.25);
     border-color: rgba(139, 111, 199, 0.3);
-}
-
-@media screen and (max-width: 670px) {
-    .division-key {
-        font-size: 0.6em;
-        max-width: 90px;
-    }
-    .committee-key {
-        font-size: 0.5em;
-        max-width: 50px;
-        height: 20px;
-        padding: 0px 5px;
-    }
-}
-
-@media screen and (min-width: 671px) {
-    .division-key {
-        font-size: 1em;
-        max-width: 120px;
-        padding: 0px 20px;
-    }
-    .committee-key {
-        font-size: 0.7em;
-        max-width: 75px;
-        height: 30px;
-        padding: 0px 10px;
-    }
+    transform: translateY(-1px);
 }
 
 .division-title {
     font-family: 'DM Sans', sans-serif;
-    font-size: clamp(1.5rem, 4vw, 2.2rem);
+    font-size: clamp(1.8rem, 4vw, 2.5rem);
     text-align: center;
     font-weight: 700;
     padding: var(--space-md);
@@ -197,7 +192,8 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    margin-bottom: var(--space-lg);
+    margin-bottom: var(--space-xl);
+    margin-top: var(--space-lg);
 }
 
 .committee-subtitle {
@@ -217,15 +213,29 @@
     margin-top: var(--space-xl);
     padding: var(--space-xl);
     background: transparent;
-    border-radius: var(--radius-xl);
+    border-radius: var(--radius-2xl); /* increased radius */
     box-shadow: none;
     border: none;
     color: var(--white);
     line-height: var(--leading-relaxed);
+    transition: all var(--transition-base);
+    text-align: center;
+}
+
+.committee-description:hover {
+    transform: translateY(-2px);
 }
 
 .committee-description p {
     color: var(--white);
+}
+
+/* Images in description */
+.committee-description img {
+    border-radius: var(--radius-lg);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+    border: 3px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: var(--space-lg);
 }
 
 @media screen and (max-width: 899px) {
@@ -246,10 +256,65 @@
         margin-bottom: var(--space-xs);
         font-size: 2rem !important;
     }
+    
+    .division-title {
+        font-size: 1.5rem;
+    }
+    
+    .committee-description {
+        padding: var(--space-md);
+    }
+
+    /* Mobile specific for tabs */
+    .inactive-division, .active-division {
+        width: 120px; /* Consistent width */
+        height: 80px; /* Consistent height */
+        padding: 8px;
+        font-size: 0.8rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .inactive-committee, .active-committee {
+        width: 100px; /* Consistent width */
+        height: 70px; /* Consistent height */
+        padding: 0 5px;
+        font-size: 0.75rem; /* Slightly smaller font to fit text */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        line-height: 1.1;
+    }
 }
 
 @media (max-width: 480px) {
     .committee-main-title {
         font-size: 1.5rem !important;
+    }
+
+    /* Even smaller for very small screens */
+    .inactive-division, .active-division {
+        width: 110px;
+        height: 70px;
+        font-size: 0.75rem;
+        padding: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .inactive-committee, .active-committee {
+        width: 90px;
+        height: 60px;
+        font-size: 0.7rem;
+        padding: 4px 2px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
 }

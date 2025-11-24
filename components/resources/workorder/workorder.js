@@ -1,16 +1,39 @@
 import React from 'react';
 import { Box } from 'rebass';
-import Title from '../../general/title';
 import './workorder.css';
-
 
 const WorkOrder = () => (
     <div className='workorder-page'>
-        <Title width={320} title="Work Order" />
-        <Box width={[0.8, 0.6]} ml='auto' mr='auto'>
-            <p>To complete a work order, please email work@rice.edu with your name and phone number, 
-            residential college and room number, and a description of the problem and a photo if applicable.
-            For complaints/work orders related to McMurtry public spaces, please use <a href="https://docs.google.com/forms/d/e/1FAIpQLScCPOKCzAF0CCLFZg7hfNpfiVOVDt6dZjh-iomdNsljjmLykQ/viewform">this link</a>.</p>
+        <div className='workorder-hero'>
+            <h1 className='workorder-main-title'>Work Order</h1>
+        </div>
+        
+        {/* Updated container to match standardized responsive width */}
+        <Box width={[1, 1, 0.9, 0.8]} ml='auto' mr='auto' mb={[20, 50]} mt={[10, 20]} px={[0, 0, 'auto', 'auto']} className='workorder-card'>
+            <div className='workorder-icon'>
+                <img src="/static/icons/building.svg" alt="" />
+            </div>
+            
+            <p className='workorder-text'>
+                To complete a work order, please email <a href="mailto:work@rice.edu" className='highlight-link'>work@rice.edu</a> with:
+            </p>
+            
+            <ul className='workorder-list'>
+                <li>Your name and phone number</li>
+                <li>Residential college and room number</li>
+                <li>A description of the problem</li>
+                <li>A photo (if applicable)</li>
+            </ul>
+
+            <div className='workorder-divider'></div>
+
+            <p className='workorder-text'>
+                For complaints or work orders related to <strong>McMurtry public spaces</strong>, please use our dedicated form:
+            </p>
+
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScCPOKCzAF0CCLFZg7hfNpfiVOVDt6dZjh-iomdNsljjmLykQ/viewform" target="_blank" rel="noopener noreferrer" className='workorder-button'>
+                Public Space Work Order Form
+            </a>
         </Box>     
     </div>
 )

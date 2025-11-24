@@ -1,133 +1,212 @@
 .mis-page {
-    padding-top: 10%;
-    margin-bottom: 5%;
+    min-height: 100vh;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100vw;
 }
 
-.subtitle {
-    margin-top: 3%;
-    margin-bottom: 2%;
-    background-color: #515768;
+/* Reuse Hero Styles for Consistency */
+.mis-hero {
     text-align: center;
-    color: #DCDFE5;
-    font-weight: normal;
+    padding: var(--space-3xl) var(--space-xl) var(--space-2xl);
+    margin: 0 auto;
+    max-width: 100%;
+    background: transparent;
+    animation: fadeSlideUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) backwards;
 }
 
-.subtitle h2 {
-    font-weight: normal;
-    padding: 5px 10px;
+.mis-main-title {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: clamp(2.5rem, 7vw, 6rem);
+    color: var(--white);
+    margin-bottom: var(--space-md);
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+    text-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(135deg, #ffffff 0%, #b8a3d9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: titleEntry 1.2s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .mis-paragraphs {
-    padding: 20px;
-    color: #515768;
+    padding: var(--space-lg);
+    color: var(--white);
+    line-height: var(--leading-relaxed);
+    font-size: 1.1rem;
+    text-align: justify;
+    margin-bottom: var(--space-2xl);
 }
 
-.schedule-box {
-    margin-top: 2%;
-    margin-bottom: 4%;
-    /* background-color: #BFBFCC; */
-    padding: 1%;
+/* Links Container Spacing */
+.mis-links-container {
+    gap: 2rem;
+    margin-bottom: 4rem;
 }
 
-.schedule {
-    border: 1px solid #515768;
-    margin: 1%;
+/* Action Cards (Top Links) */
+.mis-action-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(139, 111, 199, 0.15);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(139, 111, 199, 0.3);
+    border-radius: var(--radius-xl);
+    padding: 2rem;
+    width: 280px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin: 1rem; /* Extra margin for spacing */
 }
 
-.schedule-item {
+.mis-action-card:hover {
+    transform: translateY(-5px);
+    background: rgba(139, 111, 199, 0.25);
+    border-color: #FFD700;
+    box-shadow: 0 10px 30px rgba(139, 111, 199, 0.2);
+}
+
+.mis-action-icon {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease;
+}
+
+.mis-action-card:hover .mis-action-icon {
+    background: #FFD700;
+    transform: scale(1.1);
+}
+
+.mis-action-icon img {
+    width: 30px;
+    height: 30px;
+    filter: brightness(0) invert(1);
+}
+
+.mis-action-card:hover .mis-action-icon img {
+    filter: brightness(0); /* Make icon black on gold background */
+}
+
+.mis-action-title {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    color: var(--white);
+    font-size: 1.2rem;
     text-align: center;
-    color: #515768;
-    font-size: 1em;
+    margin: 0;
 }
 
-.mis-contact-card {
-    margin: 2%;
-}
-
-.mis-info {
-    padding: 30px;
-    background-color: none;
+.mis-action-subtitle {
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 0.5rem;
     text-align: center;
-    background-color: #515768;
-    margin: 2%;
-    transition: 0.3s ease-in-out;
-    position: relative;
-    z-index: 100;
 }
 
-.mis-info:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 0;
-    width: 100%;
-    transition: 0.3s ease-in-out;
-    background-color: #87799C;
-    z-index: -1;
-}
-
-.mis-info:hover {
-    cursor: pointer;
-}
-
-.mis-info:hover:before {
-    height: 100%;
-}
-
-.mis-link {
+/* Hours Section - New List Layout */
+.mis-section-container {
+    background: rgba(26, 22, 37, 0.6);
+    border: 1px solid rgba(139, 111, 199, 0.3);
+    border-radius: var(--radius-2xl);
+    padding: 2.5rem;
     text-align: center;
-    font-size: 1.4em;
-    color: #DCDFE5;
+    backdrop-filter: blur(20px);
 }
 
-.mis-contact {
-    border: 1px solid #DCDFE5;
-    box-shadow: 0 0 5px 2px #BFBFCC;
-    padding: 20px;
-    height: 250px;
-    transition: 0.2s ease-in-out;
+.mis-section-title {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #FFD700;
+    margin-bottom: 2rem;
 }
 
-.mis-contact:hover {
-    /* background-color: #BFBFCC; */
-    border-color: #2B2F3A;
+.mis-hours-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
-.mis-name {
-    color: #515768;
-    font-weight: normal;
+.mis-hour-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.mis-major {
-    color: #515768;
-    font-size: 0.9em;
-    font-weight: normal;
+.mis-hour-row:last-child {
+    border-bottom: none;
 }
 
-.mis-college {
-    color: #2B2F3A;
-    font-size: 0.9em;
-    font-weight: normal;
+.mis-hour-row .day {
+    font-weight: 700;
+    color: var(--white);
+    font-size: 1.1rem;
 }
 
-.mis-email {
-    color: #515768;
-    font-size: 1em;
-    transition: transform 0.3s ease-in-out;
-    font-weight: normal;
+.mis-hour-row .separator {
+    flex-grow: 1;
+    margin: 0 1rem;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
+    opacity: 0.5;
 }
 
-.mis-email:hover {
-    transform: scale(1.07) translate(15px, 0);
+.mis-hour-row .time {
+    color: #FFD700;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
 }
 
-.mis-askMeHeader {
-    font-size: 0.8em;
-    color: #515768;
+.division-title {
+    font-family: 'DM Sans', sans-serif;
+    font-size: clamp(1.8rem, 4vw, 2.5rem);
+    text-align: center;
+    font-weight: 700;
+    padding: var(--space-md);
+    color: var(--white);
+    background: linear-gradient(135deg, #ffffff 0%, #b8a3d9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: var(--space-xl);
+    margin-top: var(--space-lg);
 }
 
-.mis-askMeAbout {
-    color: #515768;
-    font-size: 0.8em;
+@media (max-width: 768px) {
+    .mis-main-title {
+        font-size: 2rem !important;
+    }
+    
+    .mis-paragraphs {
+        padding: var(--space-md);
+        font-size: 1rem;
+    }
+    
+    .mis-links-container {
+        gap: 1rem;
+    }
+    
+    .mis-hour-row .day {
+        font-size: 1rem;
+    }
+    
+    .mis-hour-row .time {
+        font-size: 1rem;
+    }
 }

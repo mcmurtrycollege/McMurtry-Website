@@ -6,13 +6,14 @@ import BlackLivesMatter from "../../components/resources/blm/blm";
 import "../../components/general/page.css";
 
 const BlackLivesMatterPage = () => (
-  <div className="page">
+  <div className='page page-with-staggered-menu'>
     <Header />
-    <Navbar />
-    <NavbarMobile />
+    <StaggeredMenu />
+    
     <BlackLivesMatter />
     <Footer />
   </div>
 );
 
 export default BlackLivesMatterPage;
+

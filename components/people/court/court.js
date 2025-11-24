@@ -1,80 +1,47 @@
-import React from "react";
+import React, { useState } from "react";
 import { Box, Flex } from "rebass";
-import Title from "../../general/title";
-import ExpandableCard from "../../general/expandablecards";
-import "./court.css";
+import Cards from "../../general/contactcards";
 import { justices } from "./court.json";
 
-const chiefs = justices
-  .filter((justice) => justice.position === "Chief Justice")
-  .map((justice) => (
-    <ExpandableCard
-      key={`${justice.name}`}
-      name={justice.name}
-      bio={justice.bio}
-      email={justice.email}
-      phone={justice.phone}
-      room={justice.room}
-    />
-  ));
-const associates = justices
-  .filter((justice) => justice.position === "Associate Justice")
-  .map((justice) => (
-    <ExpandableCard
-      key={`${justice.name}`}
-      name={justice.name}
-      email={justice.email}
-    />
-  ));
+const Court = () => {
+  const [activeTab, setActiveTab] = useState('Chief Justices');
 
-export default class Court extends React.Component {
-  render() {
-    return (
-      <div className="court-page">
-        <Title width={200} title="McCourt" />
-        <Box width={[330]} ml="auto" mr="auto">
-          <h2 className="division-title">Chief Justices</h2>
-          <p align="center">
-            {/* <strong>Watch:&nbsp;</strong>
-            <a href="https://youtu.be/-FCBsQJaz0c" target="_blank">
-              <strong>Chief and Justice, Origins</strong>
-            </a> */}
-          </p>
+  const chiefs = justices.filter((justice) => justice.position === "Chief Justice");
+  const associates = justices.filter((justice) => justice.position === "Associate Justice");
 
-          <p align="center">
-            <strong>Click below to view the CJs' bios!</strong>
-          </p>
-        </Box>
-        <Box width={[1, 1, 0.9, 0.8]} ml="auto" mr="auto">
-          <Flex flexWrap="wrap" flexDirection="row" justifyContent="center">
-            {chiefs.map((entry) => (
-              <Flex
-                flexDirection="column"
-                width={[1, 0.33]}
-                key={`C+${chiefs.indexOf(entry)}`}
-              >
-                {entry}
-              </Flex>
-            ))}
-          </Flex>
-        </Box>
-        <Box width={[330]} ml="auto" mr="auto">
-          <h2 className="division-title">Associate Justices</h2>
-        </Box>
-        <Box width={[1, 1, 0.9, 0.8]} ml="auto" mr="auto">
-          <Flex flexWrap="wrap" flexDirection="row" justifyContent="center">
-            {associates.map((entry) => (
-              <Flex
-                flexDirection="column"
-                width={[1, 0.33]}
-                key={`C+${associates.indexOf(entry)}`}
-              >
-                {entry}
-              </Flex>
-            ))}
-          </Flex>
-        </Box>
+  const tabs = [
+    { id: 'Chief Justices', data: chiefs },
+    { id: 'Associate Justices', data: associates }
+  ];
+
+  const activeData = tabs.find(t => t.id === activeTab)?.data || [];
+
+  return (
+    <div className="court-page">
+      <div className='court-hero'>
+        <h1 className='court-main-title'>McCourt</h1>
       </div>
-    );
-  }
-}
+
+      <div className='court-tabs'>
+        {tabs.map(tab => (
+          <button
+            key={tab.id}
+            className={`court-tab ${activeTab === tab.id ? 'active' : ''}`}
+            onClick={() => setActiveTab(tab.id)}
+          >
+            {tab.id}
+          </button>
+        ))}
+      </div>
+
+      <div className='fade-in' key={activeTab}>
+        <Box width={[330]} ml="auto" mr="auto">
+          <h2 className="division-title">{activeTab}</h2>
+        </Box>
+        <Cards content={activeData} width={[270]} minHeight="160px" />
+      </div>
+    </div>
+  );
+};
+
+export default Court;

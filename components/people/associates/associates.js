@@ -1,72 +1,134 @@
-import React from 'react';
-import { Box, Flex, Image } from 'rebass';
-import Title from '../../general/title';
-import './associates.css';
+import React, { useState, useEffect } from 'react';
+import { Box, Image } from 'rebass';
 import { associates } from './associates.json';
 
-class AssociateCard extends React.Component {
-    constructor(props) {
-        super(props)
-        this.state = { contentVisible: false }
-        this.handleClick = this.handleClick.bind(this);
-    }
+const AssociateModal = ({ associate, onClose }) => {
+    if (!associate) return null;
 
-    handleClick() {
-        this.setState({ contentVisible: !this.state.contentVisible })
-    }
+    // Close on escape key
+    useEffect(() => {
+        const handleEsc = (e) => {
+            if (e.key === 'Escape') onClose();
+        };
+        window.addEventListener('keydown', handleEsc);
+        return () => window.removeEventListener('keydown', handleEsc);
+    }, [onClose]);
 
-    render() {
-        let dropdownStyle = {}
-        let dropdownImageStyle = {}
-        dropdownStyle.maxHeight = this.state.contentVisible ? ('650px') : ('0')
-        dropdownImageStyle.maxHeight = this.state.contentVisible ? ('0') : ('300px')
+    // Prevent body scroll when modal is open
+    useEffect(() => {
+        document.body.style.overflow = 'hidden';
+        return () => document.body.style.overflow = 'unset';
+    }, []);
 
-        return (
-            <Box width={1} onClick={this.handleClick}>
-                <div className={this.state.contentVisible ? 'associate-card-visible' : 'associate-card-hidden'}>
-                    <div className='associate-image-dropdown' style={dropdownImageStyle}>
-                        <Box className='associate-image' width={[0.8, 0.5]}>
-                            <Image src={this.props.image} alt='' />
-                        </Box>
-                    </div>
-                    <h2 className='associate-name'>{this.props.name}</h2>
-                    <p><strong>Career/Profession: </strong>{this.props.career}</p>
-                    <div style={dropdownStyle} className='associate-dropdown'>
-                        <p><strong>Bio: </strong>{this.props.bio}</p>
-                        <p><strong>Favorite Movie/TV Show: </strong>{this.props.movie_tv}</p>
-                        <p><strong>Hobbies: </strong>{this.props.hobbies}</p>
-                        <p><strong>Fun Fact: </strong>{this.props.fact}</p>
-                    </div>
+    return (
+        <div className="modal-overlay" onClick={onClose}>
+            <div className="modal-content" onClick={e => e.stopPropagation()}>
+                <button className="modal-close" onClick={onClose}>&times;</button>
+                
+                <div className="modal-image-side">
+                    {associate.image ? (
+                        <Image src={associate.image} className="modal-image" alt={associate.name} />
+                    ) : (
+                        <div className="modal-image-placeholder">
+                            <span style={{ fontSize: '4rem', color: 'rgba(255,255,255,0.2)' }}>
+                                {associate.name.charAt(0)}
+                            </span>
+                        </div>
+                    )}
                 </div>
-            </Box>
-        )
-    }
-}
+
+                <div className="modal-info-side">
+                    <h2 className="modal-name">{associate.name}</h2>
+                    <span className="modal-career">{associate.career}</span>
+
+                    {associate.bio && (
+                        <div className="modal-section">
+                            <span className="modal-label">About</span>
+                            <p className="modal-text">{associate.bio}</p>
+                        </div>
+                    )}
+
+                    {associate.movie_tv && (
+                        <div className="modal-section">
+                            <span className="modal-label">Favorite Movie/TV</span>
+                            <p className="modal-text">{associate.movie_tv}</p>
+                        </div>
+                    )}
+
+                    {associate.hobbies && (
+                        <div className="modal-section">
+                            <span className="modal-label">Hobbies</span>
+                            <p className="modal-text">{associate.hobbies}</p>
+                        </div>
+                    )}
+
+                    {associate.fact && (
+                        <div className="modal-section">
+                            <span className="modal-label">Fun Fact</span>
+                            <p className="modal-text">{associate.fact}</p>
+                        </div>
+                    )}
+                </div>
+            </div>
+        </div>
+    );
+};
 
 const Associates = () => {
-    let columns = [[], []];
-    for (let i = 0; i < associates.length; i++) {
-        columns[i % 2].push(
-            <AssociateCard key={`${associates[i].name}`} name={associates[i].name}
-                career={associates[i].career} bio={associates[i].bio} movie_tv={associates[i].movie_tv}
-                hobbies={associates[i].hobbies} fact={associates[i].fact} image={associates[i].image} />
-        )
-    }
+    const [selectedAssociate, setSelectedAssociate] = useState(null);
+
     return (
         <div className='associates-page'>
-            <Title title={'Associates'} width={240} smallText={false} />
+            <div className='associates-hero'>
+                <h1 className='associates-main-title'>Associates</h1>
+            </div>
+            
             <Box width={[0.9, 0.55]} ml='auto' mr='auto'>
-                <p className="associates-mission">Every residential college at Rice has an associates program, where faculty, staff, and community members support students in their intellectual, cultural and social lives through providing mentorship, guidance and support.</p>
+                <p className="associates-mission">
+                    Every residential college at Rice has an associates program, where faculty, staff, 
+                    and community members support students in their intellectual, cultural and social 
+                    lives through providing mentorship, guidance and support.
+                </p>
             </Box>
-            <Flex justifyContent='center' flexDirection='row' flexWrap='wrap' style={{ marginTop: '3%' }}>
-                {
-                    columns.map(column => (
-                        <Flex flexDirection='column' width={[1, 0.35]} key={`C+${columns.indexOf(column)}`}>
-                            {column}
-                        </Flex>
-                    ))
-                }
-            </Flex>
+
+            <div className="associates-grid">
+                {associates.map((associate, index) => (
+                    <div 
+                        key={index} 
+                        className="associate-profile-card"
+                        onClick={() => setSelectedAssociate(associate)}
+                    >
+                        <div className="profile-image-container">
+                            {associate.image ? (
+                                <Image src={associate.image} className="profile-image" alt={associate.name} />
+                            ) : (
+                                <div style={{ 
+                                    width: '100%', 
+                                    height: '100%', 
+                                    background: 'rgba(139,111,199,0.2)',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center'
+                                }}>
+                                    <span style={{ fontSize: '3rem', color: 'rgba(255,255,255,0.3)' }}>?</span>
+                                </div>
+                            )}
+                        </div>
+                        <div className="profile-content">
+                            <h3 className="profile-name">{associate.name}</h3>
+                            <p className="profile-career">{associate.career}</p>
+                            <span className="view-profile-btn">View Profile &rarr;</span>
+                        </div>
+                    </div>
+                ))}
+            </div>
+
+            {selectedAssociate && (
+                <AssociateModal 
+                    associate={selectedAssociate} 
+                    onClose={() => setSelectedAssociate(null)} 
+                />
+            )}
         </div>
     )
 }

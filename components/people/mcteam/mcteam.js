@@ -1,7 +1,5 @@
 import React from 'react';
 import { Box, Flex, Image } from 'rebass';
-import './mcteam.css';
-import Title from '../../general/title';
 import { mcteam_positions } from './mcteam.json';
 
 export default class McTeam extends React.Component {
@@ -22,7 +20,7 @@ export default class McTeam extends React.Component {
         let keys = []
         for (let n = 0; n < mcteam_positions.length; n++) {
             keys.push(
-                <Box key={mcteam_positions[n].position}>
+                <Box key={mcteam_positions[n].position} className={`mcteam-tab-item mcteam-tab-${n + 1}`}>
                     <div onClick={() => this.handleEvent(n)}
                         className={this.state.current === n ? "active-key" : "inactive-key"}>
                         <p className='mcteam-key'>{mcteam_positions[n].position}</p>
@@ -33,17 +31,24 @@ export default class McTeam extends React.Component {
 
         return (
             <div className='mcteam-page'>
-                <Title title="McTeam" width={200} />
-                <div>
-                    <Flex justifyContent='center' flex='wrap' flexDirection='row'>
+                <div className='mcteam-hero'>
+                    <h1 className='mcteam-main-title'>McTeam</h1>
+                </div>
+                <div className='mcteam-tabs-container'>
+                    <Flex justifyContent='center' flexWrap='wrap' flexDirection='row'>
                         {keys}
                     </Flex>
                 </div>
-                <Box width={[1, 0.9, 0.8, 0.7]} ml='auto' mr='auto' mb={50} className='position-content'>
+                <Box width={[0.9, 0.85, 0.8, 0.75]} ml='auto' mr='auto' mb={[10, 10]} className='mcteam-content'>
                     <h2 className='mcteam-name'>{mcteam_positions[this.state.current].names}</h2>
-                    <Box width={[0.8, 0.6, 0.4, 0.3]} mx='auto' >
-                        <Image key={this.state.current} src={mcteam_positions[this.state.current].image} />
-                    </Box>
+                    <Image 
+                        key={this.state.current} 
+                        src={mcteam_positions[this.state.current].image} 
+                        alt={mcteam_positions[this.state.current].names}
+                        width={280} 
+                        className='mcteam-float-img' 
+                        style={{ float: 'left', marginRight: '30px', marginBottom: '20px' }} 
+                    />
                     {
                         mcteam_positions[this.state.current].body.map(line => (
                             <p key={`L-${mcteam_positions[this.state.current].body.indexOf(line)}`}>{line}</p>

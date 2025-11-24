@@ -1,15 +1,13 @@
 import Header from '../../components/general/header';
-import Navbar from '../../components/navbar/navbarDesktop';
-import MobileNavbar from '../../components/navbar/navbarMobile';
+import StaggeredMenu from '../../components/navbar/StaggeredMenu';
 import Footer from '../../components/general/footer/footer';
 import About from '../../components/about/about/about';
 import '../../components/general/page.css'
 
 const AboutPage = () => (
-    <div className='page'>
+    <div className='page page-with-staggered-menu'>
         <Header />
-        <Navbar />
-        <MobileNavbar />
+        <StaggeredMenu />
         <About />
         <Footer />
     </div>

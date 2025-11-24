@@ -1,0 +1,171 @@
+/* Unified PDF Viewer Style - Matches O-Week Book Exactly */
+
+/* Container class to be applied to the Box/div wrapping the iframe/embed */
+.pdf-viewer-container {
+    width: 100%;
+    height: 1200px; /* Match O-Week desktop height */
+    border-radius: var(--radius-xl);
+    overflow-y: auto;
+    overflow-x: hidden;
+    box-shadow: 0 10px 40px rgba(139, 111, 199, 0.4);
+    border: 3px solid rgba(255, 255, 255, 0.1);
+    background: linear-gradient(135deg, rgba(139, 111, 199, 0.15) 0%, rgba(167, 143, 219, 0.1) 100%);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    position: relative;
+    margin: 0 auto; /* Ensure centering if width < 100% */
+}
+
+/* Important: Explicitly replicate the O-Week max-width behavior */
+@media (min-width: 769px) {
+    .pdf-viewer-container {
+        max-width: 90% !important;
+    }
+}
+
+@media (min-width: 1024px) {
+    .pdf-viewer-container {
+        max-width: 80% !important;
+    }
+}
+
+/* Target internal iframes/embeds to fill the container */
+.pdf-viewer-container embed,
+.pdf-viewer-container iframe {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    min-height: 100%;
+    border: none;
+    display: block;
+    background: white; /* Ensure PDF is readable */
+}
+
+/* Custom scrollbar styling for the PDF embed - Matches O-Week */
+.pdf-viewer-container::-webkit-scrollbar {
+    width: 14px;
+    background: transparent;
+}
+
+.pdf-viewer-container::-webkit-scrollbar-track {
+    background: linear-gradient(180deg, rgba(139, 111, 199, 0.15) 0%, rgba(167, 143, 219, 0.1) 100%);
+    border-radius: 10px;
+    margin: 8px 4px;
+    border: 1px solid rgba(139, 111, 199, 0.2);
+}
+
+.pdf-viewer-container::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, rgba(139, 111, 199, 0.9) 0%, rgba(167, 143, 219, 0.8) 100%);
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 2px 10px rgba(139, 111, 199, 0.4), inset 0 1px 3px rgba(255, 255, 255, 0.2);
+}
+
+.pdf-viewer-container::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, rgba(139, 111, 199, 1) 0%, rgba(167, 143, 219, 1) 100%);
+    border-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 4px 15px rgba(139, 111, 199, 0.6), inset 0 1px 3px rgba(255, 255, 255, 0.3);
+}
+
+.pdf-viewer-container::-webkit-scrollbar-thumb:active {
+    background: linear-gradient(180deg, rgba(167, 143, 219, 1) 0%, rgba(139, 111, 199, 1) 100%);
+    box-shadow: 0 2px 8px rgba(139, 111, 199, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Mobile Responsiveness - Matches O-Week Breakpoints */
+@media (max-width: 768px) {
+    .pdf-viewer-container {
+        height: 900px;
+        border-radius: 0;
+        border-left: none;
+        border-right: none;
+        width: 100% !important; /* Force full width on mobile */
+        max-width: 100% !important;
+    }
+    
+    .pdf-viewer-container::-webkit-scrollbar {
+        width: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .pdf-viewer-container {
+        height: 700px;
+    }
+}
+
+/* Legacy support for existing class names if they aren't updated immediately */
+.embedded-doc-container, 
+.embedded-doc,
+.wide-feedback-form,
+.narrow-feedback-form,
+.ir-form-container,
+.workorder-card {
+    /* Inherit these styles by default or via inclusion in the selector list above if desired.
+       For now, I'll leave them separate in the codebase search result but we should migrate.
+       To force the update requested by the user, I will map these classes to the new styles here. */
+    @extend .pdf-viewer-container; 
+}
+
+/* Explicitly apply properties to legacy classes to ensure they match exactly */
+.embedded-doc-container, 
+.embedded-doc,
+.wide-feedback-form,
+.narrow-feedback-form,
+.ir-form-container {
+    width: 100%;
+    height: 1200px;
+    border-radius: var(--radius-xl);
+    overflow-y: auto;
+    overflow-x: hidden;
+    box-shadow: 0 10px 40px rgba(139, 111, 199, 0.4);
+    border: 3px solid rgba(255, 255, 255, 0.1);
+    background: linear-gradient(135deg, rgba(139, 111, 199, 0.15) 0%, rgba(167, 143, 219, 0.1) 100%);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    position: relative;
+}
+
+@media (min-width: 769px) {
+    .embedded-doc-container, 
+    .embedded-doc,
+    .wide-feedback-form,
+    .narrow-feedback-form,
+    .ir-form-container {
+        max-width: 90% !important;
+    }
+}
+
+@media (min-width: 1024px) {
+    .embedded-doc-container, 
+    .embedded-doc,
+    .wide-feedback-form,
+    .narrow-feedback-form,
+    .ir-form-container {
+        max-width: 80% !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .embedded-doc-container, 
+    .embedded-doc,
+    .wide-feedback-form,
+    .narrow-feedback-form,
+    .ir-form-container {
+        height: 900px;
+        border-radius: 0;
+        border-left: none;
+        border-right: none;
+        max-width: 100% !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .embedded-doc-container, 
+    .embedded-doc,
+    .wide-feedback-form,
+    .narrow-feedback-form,
+    .ir-form-container {
+        height: 700px;
+    }
+}

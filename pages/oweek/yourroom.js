@@ -1,13 +1,15 @@
 import Header from '../../components/general/header';
-import Navbar from '../../components/oweek/navbar/navbar';
+import StaggeredMenu from '../../components/navbar/StaggeredMenu';
+import Footer from '../../components/general/footer/footer';
 import Page from '../../components/oweek/room/room';
 import '../../components/general/page.css';
 
 const OweekRoom = () => (
-    <div>
+    <div className='page-with-staggered-menu'>
         <Header/>
-        <Navbar/>
+        <StaggeredMenu />
         <Page/>
+        <Footer />
     </div>
 )
 

@@ -2,10 +2,12 @@
     position: fixed;
     width: 100%;
     height: 100vh;
-    background-color: #515768;
+    background: var(--gradient-hero);
     top: 0;
-    transition: 0.3s ease-in-out;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     z-index: 999;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
 }
 
 .mobile-navbar__container {
@@ -22,22 +24,34 @@
     position: fixed;
     display: flex;
     flex-direction: row;
-    background-color: #DCDFE5;
+    align-items: center;
+    background: rgba(26, 22, 37, 0.95);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     width: 100%;
+    padding: 16px 20px;
     z-index: 600;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
 }
 
 .header-crest-mobile {
     width: 80%;
-    margin: 10px 0;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    gap: 12px;
 }  
 
 .header-crest-mobile p {
-    color: #87799C;
-    font-size: 1.6em;
-    margin: 10px 0 5px 0;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 1.4em;
+    margin: 0;
 }
 
 .header-crest-mobile:hover {
@@ -46,70 +60,99 @@
 
 .show-navbar {
     margin: 3%;
+    color: var(--white);
+    font-size: 1.8em;
+    transition: all 0.3s ease;
+    cursor: pointer;
 }
 
-.main-header {
-    background: none;
-    color: #DCDFE5;
-    border: none;
-    font-size: 2em;
-    width: 100%;
-    font-weight: normal;
-    text-align: center;
-    margin: 10% 0;
+.show-navbar:hover {
+    color: var(--purple-300);
 }
-
 
 .close-navbar {
-    margin: 3% auto auto 90%;
+    display: block;
+    margin: 24px auto 40px auto;
+    color: var(--white);
+    font-size: 2.5em;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    text-align: center;
 }
 
-.main-header:nth-of-type(1) {
-    margin-top: 40%;
+.close-navbar:hover {
+    color: var(--accent-orange);
+    transform: rotate(90deg);
 }
 
-.main-header a {
-    font-weight: normal;
-    text-decoration: none;
+.accordion-menu {
+    padding: 0 20px 40px 20px;
 }
 
-.subheader-hidden, .subheader-display {
-    width: 100%;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    background-color: #DCDFE5;
-    transition: 0.4s ease-in-out;
+.accordion-category {
+    margin-bottom: 8px;
+    border-radius: 16px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.subheader-hidden {
-    left: 100%;
-}
-
-.subheader-display {
-    left: 0;
-}
-
-.subheader-back {
-    color: #DCDFE5;
-    margin: 5% auto auto 10%;
-    text-decoration: none;
+.accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 24px;
+    font-family: 'Space Grotesk', sans-serif;
     font-size: 1.3em;
-    color: #515768;
+    font-weight: 700;
+    color: var(--white);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: rgba(255, 255, 255, 0.03);
 }
 
-.subheader-item {
-    color: #DCDFE5;
-    margin-left: 13%;
-    margin-bottom: 6%;
-    text-decoration: none;
-    font-size: 1.3em;
-    color: #515768;
+.accordion-header:active {
+    background: rgba(139, 111, 199, 0.2);
 }
 
-.subheader-item:nth-of-type(1) {
-    margin-top: 20%;
+.accordion-arrow {
+    font-size: 1.5em;
+    transition: transform 0.3s ease;
+    transform: rotate(0deg);
 }
+
+.accordion-arrow.expanded {
+    transform: rotate(90deg);
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.accordion-content.expanded {
+    max-height: 1000px;
+}
+
+.accordion-item {
+    padding: 16px 24px 16px 40px;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1em;
+    font-weight: 500;
+    color: var(--gray-300);
+    border-left: 3px solid transparent;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.accordion-item:active {
+    background: rgba(139, 111, 199, 0.15);
+    border-left-color: var(--accent-orange);
+    color: var(--white);
+    padding-left: 48px;
+}
+
 
 @media screen and (min-width: 861px) {
     .mobile-navbar {

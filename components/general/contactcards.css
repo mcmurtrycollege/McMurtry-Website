@@ -1,74 +1,223 @@
 .position-card {
-    margin: 10px;
+    margin: var(--space-md) !important;
+    animation: cardSlideIn 0.6s ease-out backwards;
+    height: auto; /* Allow box to stretch */
+    display: flex; /* Flex layout for the card wrapper */
+}
+
+@keyframes cardSlideIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px) scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
 }
 
 .contact-card-content {
-    color: #515768;
-    /* border: 1px solid #2B2F3A; */
-    border: 1px solid #DCDFE5;
-    /* border: 1px solid #BFBFCC; */
-    box-shadow: 0 0 5px 2px #BFBFCC;
-    padding: 15px;
-    transition: 0.2s ease-in-out;
+    color: var(--white);
+    background: rgba(26, 22, 37, 0.6); /* Darker, more readable background */
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(139, 111, 199, 0.3);
+    border-radius: 20px; /* Smoother corners */
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    padding: 1.75rem;
+    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+    position: relative;
+    overflow: hidden;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Ensure content fills the flex container */
+    height: 100%; /* Take full height of the flex container */
+}
+
+/* Top Gold Accent Line */
+.contact-card-content::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, #FFD700, #FFE44D, #FFD700);
+    background-size: 200% 100%;
+    animation: shimmer 3s linear infinite;
+    opacity: 0.8;
+}
+
+@keyframes shimmer {
+    0% { background-position: 100% 0; }
+    100% { background-position: -100% 0; }
+}
+
+/* Hover Glow Effect */
+.contact-card-content::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(800px circle at var(--mouse-x, 50%) var(--mouse-y, 50%), rgba(139, 111, 199, 0.15), transparent 40%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 0;
+    pointer-events: none;
 }
 
 .contact-card-content:hover {
-    /* background-color: #BFBFCC; */
-    border-color: #515768;
+    border-color: rgba(139, 111, 199, 0.6);
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3), 0 0 20px rgba(139, 111, 199, 0.2);
+    background: rgba(26, 22, 37, 0.8);
 }
 
+.contact-card-content:hover::after {
+    opacity: 1;
+}
+
+/* Image Styling */
+.contact-card-content img {
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transition: all 0.4s ease;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 1.25rem;
+    height: 200px; /* Fixed height for consistent grid */
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: 1;
+}
+
+.contact-card-content:hover img {
+    transform: scale(1.02);
+    border-color: rgba(255, 215, 0, 0.3);
+}
+
+/* Typography */
 .position {
-    font-weight: normal;
-    font-size: 0.9em;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    color: #FFD700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+    z-index: 1;
+    line-height: 1.4;
 }
 
 .name {
-    font-size: 1.25em;
-    font-weight: normal;
-}
-
-.link {
-    text-decoration: none;
-    color: #515768;
-    font-weight: normal;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--white);
+    margin: 0 0 0.75rem 0;
+    line-height: 1.2;
+    z-index: 1;
 }
 
 .year {
-    font-weight: normal;
-    font-size: 0.8em;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 0 0 1rem 0;
+    z-index: 1;
 }
 
-.contact-email {
-    font-size: 0.8em;
-    font-weight: normal;
-    transition: 0.3s ease-in-out;
+/* Contact Links/Info */
+.link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    z-index: 1;
 }
 
-.contact-email:hover {
-    text-decoration: underline;
-}
-
-.contact-phone {
-    font-size: 1em;
-    font-weight: normal;
-}
-
-.major {
-    font-size: 0.9em;
-    font-weight: normal;
-}
-
-.subjects {
-    font-size: 0.9em;
-    font-weight: normal;
-}
-
+.contact-email,
+.contact-phone,
+.major,
+.subjects,
+.pre_prof_path,
 .room {
-    font-weight: normal;
-    font-size: 1em;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.85);
+    display: flex;
+    align-items: flex-start; /* Changed from center to align icon with first line */
+    gap: 0.75rem;
+    margin: 0.6rem 0;
+    line-height: 1.4;
+    transition: all 0.3s ease;
+    z-index: 1;
 }
 
-.pre_prof_path {
-    font-size: 0.9em;
-    font-weight: normal;
+.contact-email span,
+.contact-phone span,
+.major span,
+.subjects span,
+.pre_prof_path span,
+.room span {
+    word-break: break-word; /* Ensure text wraps */
+    overflow-wrap: anywhere;
+}
+
+/* Icons */
+.contact-email img,
+.contact-phone img,
+.major img,
+.subjects img,
+.pre_prof_path img {
+    width: 18px;
+    height: 18px;
+    opacity: 0.7;
+    transition: all 0.3s ease;
+    filter: brightness(0) invert(1);
+    flex-shrink: 0; /* Prevent icon from squishing */
+    margin-top: 3px; /* Align with first line of text cap-height */
+}
+
+/* Hover States for Links */
+.link:hover .contact-email {
+    color: #FFD700;
+    transform: translateX(4px);
+}
+
+.link:hover .contact-email img {
+    opacity: 1;
+    filter: brightness(0) invert(1) drop-shadow(0 0 4px rgba(255, 215, 0, 0.5));
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .contact-card-content {
+        padding: 1.5rem;
+        min-height: auto;
+    }
+
+    .name {
+        font-size: 1.3rem;
+    }
+    
+    .position {
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .position-card {
+        margin: 0.75rem 0 !important;
+        width: 100% !important; /* Full width on mobile */
+    }
+    
+    .contact-card-content {
+        padding: 1.25rem;
+    }
 }

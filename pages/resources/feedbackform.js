@@ -1,15 +1,14 @@
 import Header from "../../components/general/header";
-import Navbar from "../../components/navbar/navbarDesktop";
-import NavbarMobile from "../../components/navbar/navbarMobile";
 import Footer from "../../components/general/footer/footer";
+import StaggeredMenu from "../../components/navbar/StaggeredMenu";
 import FeedbackForm from "../../components/resources/feedbackform/feedbackform";
 import "../../components/general/page.css";
 
 const FeedbackFormPage = () => (
-  <div className="page">
+  <div className='page page-with-staggered-menu'>
     <Header />
-    <Navbar />
-    <NavbarMobile />
+    <StaggeredMenu />
+    
     <FeedbackForm />
     <Footer />
   </div>

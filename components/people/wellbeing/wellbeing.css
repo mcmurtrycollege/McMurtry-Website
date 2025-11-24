@@ -1,10 +1,137 @@
 .wellbeing-page {
-    padding-top: 10%;
-    margin-bottom: 5%;
+    min-height: 100vh;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100vw;
+}
+
+.wellbeing-hero {
+    text-align: center;
+    padding: var(--space-3xl) var(--space-xl) var(--space-2xl);
+    margin: 0 auto;
+    max-width: 100%;
+    background: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    position: relative;
+    overflow: visible;
+    animation: fadeSlideUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) backwards;
+}
+
+.wellbeing-hero::before {
+    display: none;
+}
+
+.wellbeing-main-title {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: clamp(3rem, 8vw, 7rem);
+    color: var(--white);
+    margin-bottom: var(--space-md);
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+    text-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(135deg, #ffffff 0%, #b8a3d9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: titleEntry 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes titleEntry {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+        filter: blur(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+        filter: blur(0);
+    }
+}
+
+@keyframes fadeSlideUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .wellbeing-description {
-    margin-top: 30px;
-    padding: 30px;
-    color: #515768;
+    margin-top: var(--space-xl);
+    padding: var(--space-xl);
+    color: var(--white);
+    line-height: var(--leading-relaxed);
+    background: transparent;
+    border-radius: var(--radius-2xl);
+    transition: all var(--transition-base);
+}
+
+.wellbeing-description:hover {
+    transform: translateY(-2px);
+}
+
+.wellbeing-description p {
+    color: var(--white);
+}
+
+.subtitle h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: clamp(1.5rem, 4vw, 2.2rem);
+    text-align: center;
+    font-weight: 700;
+    padding: var(--space-md);
+    color: var(--white);
+    background: linear-gradient(135deg, #ffffff 0%, #b8a3d9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: var(--space-lg);
+    margin-top: var(--space-lg);
+}
+
+.division-title {
+    font-family: 'DM Sans', sans-serif;
+    font-size: clamp(1.5rem, 4vw, 2.2rem);
+    text-align: center;
+    font-weight: 700;
+    padding: var(--space-md);
+    color: var(--white);
+    background: linear-gradient(135deg, #ffffff 0%, #b8a3d9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: var(--space-lg);
+    margin-top: var(--space-lg);
+}
+
+@media (max-width: 768px) {
+    .wellbeing-hero {
+        padding: var(--space-sm) var(--space-md) var(--space-xs);
+    }
+
+    .wellbeing-main-title {
+        padding: 8px var(--space-sm);
+        line-height: 1.15;
+        margin-bottom: var(--space-xs);
+        font-size: 2rem !important;
+    }
+
+    .wellbeing-description {
+        padding: var(--space-md);
+    }
+}
+
+@media (max-width: 480px) {
+    .wellbeing-main-title {
+        font-size: 1.5rem !important;
+    }
 }

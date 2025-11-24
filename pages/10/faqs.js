@@ -1,10 +1,12 @@
 import Header from '../../components/general/header';
+import StaggeredMenu from '../../components/navbar/StaggeredMenu';
 import Page from '../../components/10/faqs/faqs';
 import '../../components/general/page.css';
 
 const FAQS = () => (
-    <div>
+    <div className='page-with-staggered-menu'>
         <Header/>
+        <StaggeredMenu/>
         <Page/>
     </div>
 )

@@ -1,12 +1,12 @@
 import Header from '../../components/general/header';
-import Navbar from '../../components/oweek/navbar/navbar';
+import StaggeredMenu from '../../components/navbar/StaggeredMenu';
 import Page from '../../components/oweek/movein/move';
 import '../../components/general/page.css';
 
 const OweekMoveIn = () => (
-    <div>
+    <div className='page-with-staggered-menu'>
         <Header/>
-        <Navbar/>
+        <StaggeredMenu />
         <Page/>
     </div>
 )

@@ -1,10 +1,196 @@
 .fellows-page {
-    padding-top: 10%;
-    margin-bottom: 5%;
+    min-height: 100vh;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100vw;
+}
+
+.fellows-hero {
+    text-align: center;
+    padding: var(--space-3xl) var(--space-xl) var(--space-2xl);
+    margin: 0 auto;
+    max-width: 100%;
+    background: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    position: relative;
+    overflow: visible;
+    animation: fadeSlideUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) backwards;
+}
+
+.fellows-hero::before {
+    display: none;
+}
+
+.fellows-main-title {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: clamp(3rem, 8vw, 7rem);
+    color: var(--white);
+    margin-bottom: var(--space-md);
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+    text-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(135deg, #ffffff 0%, #b8a3d9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: titleEntry 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes titleEntry {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+        filter: blur(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+        filter: blur(0);
+    }
+}
+
+@keyframes fadeSlideUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .fellows-description {
-    margin-top: 30px;
-    padding: 30px;
-    color: #515768;
+    margin-top: var(--space-xl);
+    padding: var(--space-xl);
+    color: var(--white);
+    line-height: var(--leading-relaxed);
+    background: transparent;
+    border-radius: var(--radius-2xl);
+    transition: all var(--transition-base);
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fellows-description:hover {
+    transform: translateY(-2px);
+}
+
+.subtitle h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: clamp(1.5rem, 4vw, 2.2rem);
+    text-align: center;
+    font-weight: 700;
+    padding: var(--space-md);
+    color: var(--white);
+    background: linear-gradient(135deg, #ffffff 0%, #b8a3d9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: var(--space-lg);
+    margin-top: var(--space-lg);
+}
+
+/* Tab Navigation */
+.fellows-tabs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 0 auto var(--space-xl);
+    padding: 0 var(--space-md);
+    max-width: 1200px;
+    position: relative;
+    z-index: 10;
+}
+
+.fellows-tab {
+    background: rgba(139, 111, 199, 0.1);
+    border: 1px solid rgba(139, 111, 199, 0.2);
+    color: rgba(255, 255, 255, 0.6);
+    padding: 1rem 2rem;
+    border-radius: 16px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    position: relative;
+    overflow: hidden;
+    min-width: 160px;
+}
+
+.fellows-tab:hover {
+    background: rgba(139, 111, 199, 0.2);
+    color: var(--white);
+    transform: translateY(-3px);
+    box-shadow: 0 4px 20px rgba(139, 111, 199, 0.2);
+    border-color: rgba(139, 111, 199, 0.4);
+}
+
+.fellows-tab.active {
+    background: rgba(139, 111, 199, 0.4);
+    border-color: #FFD700;
+    color: var(--white);
+    box-shadow: 0 8px 30px rgba(139, 111, 199, 0.3);
+    transform: translateY(-3px);
+}
+
+.fellows-tab.active::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg, #FFD700, #FFE44D);
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+}
+
+/* Content Animations */
+.fade-in {
+    animation: fadeInContent 0.6s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+@media (max-width: 768px) {
+    .fellows-hero {
+        padding: var(--space-sm) var(--space-md) var(--space-xs);
+    }
+
+    .fellows-main-title {
+        padding: 8px var(--space-sm);
+        line-height: 1.15;
+        margin-bottom: var(--space-xs);
+        font-size: 2rem !important;
+    }
+
+    .fellows-description {
+        padding: var(--space-md);
+    }
+
+    .fellows-tabs {
+        gap: 0.5rem;
+    }
+
+    .fellows-tab {
+        padding: 0.75rem 1rem;
+        font-size: 0.9rem;
+        min-width: auto;
+        flex: 1;
+    }
+}
+
+@media (max-width: 480px) {
+    .fellows-main-title {
+        font-size: 1.5rem !important;
+    }
 }

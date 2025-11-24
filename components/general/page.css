@@ -1,11 +1,186 @@
-html {
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap');
+
+:root {
+    /* Primary Colors - Vibrant McMurtry Palette */
+    --purple-900: #4a3a6b;
+    --purple-700: #6b5197;
+    --purple-500: #8b6fc7;
+    --purple-300: #b8a3d9;
+    --purple-100: #e8e0f5;
+    
+    /* Accent Colors */
+    --accent-orange: #ff6b35;
+    --accent-cyan: #00d9ff;
+    --accent-green: #00e6a0;
+    
+    /* Neutrals */
+    --dark: #1a1625;
+    --gray-900: #2d2838;
+    --gray-700: #4a4458;
+    --gray-500: #8a8495;
+    --gray-300: #c5c0cf;
+    --gray-100: #f5f4f7;
+    --white: #ffffff;
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, #6b5197 0%, #8b6fc7 50%, #b8a3d9 100%);
+    --gradient-accent: linear-gradient(135deg, #ff6b35 0%, #ff8c42 100%);
+    --gradient-cyan: linear-gradient(135deg, #00d9ff 0%, #00a8cc 100%);
+    --gradient-hero: linear-gradient(135deg, #1a1625 0%, #2d2838 50%, #4a3a6b 100%);
+    
+    /* Professional Spacing System - 8pt grid */
+    --space-xs: 0.5rem;    /* 8px */
+    --space-sm: 1rem;       /* 16px */
+    --space-md: 1.5rem;     /* 24px */
+    --space-lg: 2rem;       /* 32px */
+    --space-xl: 3rem;       /* 48px */
+    --space-2xl: 4rem;      /* 64px */
+    --space-3xl: 6rem;      /* 96px */
+    
+    /* Border Radius System */
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 16px;
+    --radius-xl: 24px;
+    --radius-2xl: 32px;
+    --radius-full: 9999px;
+    
+    /* Professional Shadow System */
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.08);
+    --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.12);
+    --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.16);
+    --shadow-xl: 0 16px 48px rgba(0, 0, 0, 0.2);
+    --shadow-2xl: 0 24px 64px rgba(0, 0, 0, 0.24);
+    --shadow-purple: 0 8px 32px rgba(139, 111, 199, 0.3);
+    --shadow-orange: 0 8px 32px rgba(255, 107, 53, 0.3);
+    --shadow-inner: inset 0 2px 4px rgba(0, 0, 0, 0.06);
+    
+    /* Typography Scale */
+    --font-xs: 0.75rem;     /* 12px */
+    --font-sm: 0.875rem;    /* 14px */
+    --font-base: 1rem;      /* 16px */
+    --font-lg: 1.125rem;    /* 18px */
+    --font-xl: 1.25rem;     /* 20px */
+    --font-2xl: 1.5rem;     /* 24px */
+    --font-3xl: 1.875rem;   /* 30px */
+    --font-4xl: 2.25rem;    /* 36px */
+    --font-5xl: 3rem;       /* 48px */
+    
+    /* Line Heights */
+    --leading-tight: 1.25;
+    --leading-normal: 1.5;
+    --leading-relaxed: 1.75;
+    --leading-loose: 2;
+    
+    /* Transitions */
+    --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-base: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-slow: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: 600ms cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+* {
     margin: 0;
     padding: 0;
-    background-color: #DCDFE5;
-    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100vw;
 }
 
 body {
-    margin: 0;
-    padding: 0;
+    font-family: 'Work Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: var(--gradient-hero);
+    background-attachment: fixed;
+    color: var(--white);
+    font-size: var(--font-base);
+    line-height: var(--leading-relaxed);
+    font-weight: 400;
+    overflow-x: hidden;
+    position: relative;
+    text-rendering: optimizeLegibility;
+}
+
+/* Professional Typography Utilities */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+    line-height: var(--leading-tight);
+    letter-spacing: -0.01em;
+    margin-bottom: var(--space-md);
+    color: var(--white);
+}
+
+h1 { font-size: var(--font-5xl); }
+h2 { font-size: var(--font-4xl); }
+h3 { font-size: var(--font-3xl); }
+h4 { font-size: var(--font-2xl); }
+h5 { font-size: var(--font-xl); }
+h6 { font-size: var(--font-lg); }
+
+p {
+    margin-bottom: var(--space-md);
+    line-height: var(--leading-relaxed);
+    color: var(--white);
+}
+
+a {
+    color: var(--white);
+    text-decoration: none;
+    transition: color var(--transition-fast);
+}
+
+a:hover {
+    color: var(--accent-orange);
+}
+
+/* Animated Background Pattern for all pages */
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: 
+        radial-gradient(circle at 20% 50%, rgba(139, 111, 199, 0.2) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(255, 107, 53, 0.15) 0%, transparent 50%),
+        radial-gradient(circle at 40% 90%, rgba(0, 217, 255, 0.1) 0%, transparent 50%);
+    animation: backgroundShift 20s ease-in-out infinite;
+    pointer-events: none;
+    z-index: 0;
+}
+
+@keyframes backgroundShift {
+    0%, 100% { transform: translate(0, 0) scale(1); }
+    50% { transform: translate(20px, -20px) scale(1.05); }
+}
+
+/* Ensure content is above background */
+.page {
+    position: relative;
+    z-index: 1;
+}
+
+.page-with-staggered-menu {
+    padding-top: 140px;
+}
+
+@media (max-width: 1024px) {
+    .page-with-staggered-menu {
+        padding-top: 90px;
+    }
+}
+
+/* Selection */
+::selection {
+    background: var(--purple-500);
+    color: var(--white);
 }

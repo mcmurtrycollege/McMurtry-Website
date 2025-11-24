@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "cross-env NODE_OPTIONS=--openssl-legacy-provider next",
+    "dev": "cross-env NODE_OPTIONS=--openssl-legacy-provider next -H 0.0.0.0",
     "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider next build",
-    "export": "next export",
-    "deploy": "cross-env NODE_OPTIONS=--openssl-legacy-provider next build && next export -o docs && cd docs && touch CNAME && echo mcmurtry.rice.edu >> CNAME && touch .nojekyll && cd .. && git add ."
+    "export": "cross-env NODE_OPTIONS=--openssl-legacy-provider next export",
+    "deploy": "cross-env NODE_OPTIONS=--openssl-legacy-provider next build && cross-env NODE_OPTIONS=--openssl-legacy-provider next export -o docs && cd docs && touch CNAME && echo mcmurtry.rice.edu >> CNAME && touch .nojekyll && cd .. && git add ."
   },
   "repository": {
     "type": "git",
@@ -21,8 +21,13 @@
   },
   "homepage": "https://mcmurtry.rice.edu",
   "dependencies": {
+    "@fullcalendar/daygrid": "^6.1.19",
+    "@fullcalendar/google-calendar": "^6.1.19",
+    "@fullcalendar/interaction": "^6.1.19",
+    "@fullcalendar/react": "^6.1.19",
     "@zeit/next-css": "^1.0.1",
     "countdown": "^2.6.0",
+    "gsap": "^3.13.0",
     "lodash": "^4.17.19",
     "next": "^9.5.5",
     "npm-check-updates": "^3.1.18",

@@ -17,7 +17,7 @@ const HeadCaregivers = () => (
     >
       {head_caregivers.description}
     </Box>
-    <Box width={[0.8, 0.1]} className='subtitle' ml='auto' mr='auto'>
+    <Box width={[0.8, 0.8]} className='subtitle' ml='auto' mr='auto'>
             <h2>Head Caregivers</h2>
     </Box>
     <div>

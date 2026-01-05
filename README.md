@@ -30,3 +30,38 @@ will push the changes to the website.
 ### Contributors
 
 - Nicholas Meisburger ([nmeisburger0](https://github.com/nmeisburger0))
+
+---
+
+## Deployment Issue - January 2026
+
+### Current Situation
+The custom domain `mcmurtry.rice.edu` is currently stuck/verified at the organization level and cannot be attached to this repository.
+
+**What happened:**
+1. During deployment attempts on January 5-6, 2026, the CNAME file became corrupted (showing as binary instead of plain text in git history)
+2. This triggered GitHub's security system to move the domain verification to the organization level to prevent potential domain hijacking
+3. The domain is now "locked" and shows as "already taken" when trying to add it to the repository
+
+**Current deployment:**
+- Live at: https://mcmurtrycollege.github.io/McMurtry-Website/
+- CSS and images are working correctly with the `/McMurtry-Website/` base path
+
+**Custom domain status:**
+- Domain currently redirects to ESPN.com (incorrect)
+- DNS correctly points to `mcmurtrycollege.github.io`
+- Awaiting GitHub Support to release the domain
+
+### Solution in Progress
+A support ticket has been submitted to GitHub Support (January 6, 2026) requesting:
+1. Release of `mcmurtry.rice.edu` from organization-level verification, OR
+2. Transfer of organization ownership (original owner Nicholas Meisburger's Rice email is inactive)
+
+### When Domain is Released
+Once GitHub Support releases the domain:
+1. Update `next.config.js` to remove the basePath (deploy from root `/` instead of `/McMurtry-Website/`)
+2. Revert component changes (remove `/McMurtry-Website/` prefix from image paths)
+3. Run `npm run deploy`
+4. Site will deploy correctly to `https://mcmurtry.rice.edu`
+
+**Note:** The current codebase has temporary modifications to work with the subdirectory deployment. These will be reverted once the custom domain is functional.

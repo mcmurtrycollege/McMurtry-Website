@@ -1,0 +1,111 @@
+.pcard-management-page {
+    padding-top: 10%;
+    margin-bottom: 5%;
+}
+
+.center-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1%;
+}
+
+.pcard-category {
+    color: #515768;
+    margin-bottom: 1%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pcard-category h3 {
+    color: #515768;
+    font-size: 1.1em;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.category-subheader {
+    text-align: left;
+    background-color: #515768;
+    display: inline;
+    color: #DCDFE5;
+    padding: 5px 10px;
+    font-weight: normal;
+}
+
+.pcard-question {
+    font-weight: normal;
+    color: #515768;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.pcard-email-link {
+    text-align: center;
+    background-color: #515768;
+    transition: 0.2s ease-in-out;
+    position: relative;
+    z-index: 100;
+}
+
+.pcard-email-link a h2 {
+    color: #DCDFE5;
+}
+
+.pcard-email-link:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0;
+    width: 100%;
+    transition: 0.3s ease-in-out;
+    background-color: #87799C;
+    z-index: -1;
+}
+
+.pcard-email-link:hover:before {
+    height: 100%;
+}
+
+.pcard-email-link:hover {
+    cursor: pointer;
+}
+
+.pcard-link-text {
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
+.pcard-link {
+    color: #87799C;
+    text-decoration: underline;
+    font-weight: 500;
+    transition: 0.2s ease-in-out;
+}
+
+.pcard-link:hover {
+    color: #515768;
+}
+
+.scheduler-container {
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 900px) {
+    .scheduler {
+        width: 80%;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .scheduler {
+        width: 90%;
+        height: 500px;
+    }
+}

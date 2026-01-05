@@ -1,0 +1,15 @@
+webpackHotUpdate_N_E("pages/resources/feedbackform",{
+
+/***/ "./components/navbar/navbar.json":
+/*!***************************************!*\
+  !*** ./components/navbar/navbar.json ***!
+  \***************************************/
+/*! exports provided: navbar_headers, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"navbar_headers\":[{\"name\":\"About\",\"subheaders\":[{\"name\":\"Home\",\"to\":\"/\"},{\"name\":\"Calendar\",\"to\":\"/about/calendar\"},{\"name\":\"Financial Inclusivity\",\"to\":\"/about/financialinclusivity\"}]},{\"name\":\"Room Reservations\",\"to\":\"/resources/roomreservations\",\"subheaders\":[]},{\"name\":\"O-Week\",\"subheaders\":[{\"name\":\"O-Week Home\",\"to\":\"/oweek\"},{\"name\":\"About the Theme\",\"to\":\"/oweek/theme\"},{\"name\":\"Meet the Coords\",\"to\":\"/oweek/coords\"},{\"name\":\"O-Week Groups\",\"to\":\"/oweek/oweekgroups\"},{\"name\":\"Tour of McMurtry\",\"to\":\"/oweek/mcmtour\"},{\"name\":\"Your Room\",\"to\":\"/oweek/yourroom\"},{\"name\":\"O-Week Book\",\"to\":\"/oweek/oweekbook\"},{\"name\":\"Contact Info\",\"to\":\"/oweek/oweekcontact\"}]},{\"name\":\"Events\",\"subheaders\":[{\"name\":\"Budget Sheet\",\"to\":\"https://docs.google.com/spreadsheets/d/1imNFy7cyadxieh7JPcPRvMzB-LgMHozNkRzUX_Lwp1A/edit?usp=sharing\"},{\"name\":\"Expense Form\",\"to\":\"https://docs.google.com/forms/d/e/1FAIpQLSd4M9RPpgO0XhHrSFvcexGYXwu11w0F5LntvUEljN3AQI_Klg/viewform?usp=sf_link\"}]},{\"name\":\"People\",\"subheaders\":[{\"name\":\"McTeam\",\"to\":\"/people/mcteam\"},{\"name\":\"McMinistry\",\"to\":\"/people/mcministry\"},{\"name\":\"McCourt\",\"to\":\"/people/court\"},{\"name\":\"Committees\",\"to\":\"/people/committees\"},{\"name\":\"Affinity Groups\",\"to\":\"/people/mcmurtryaffinitygroups\"},{\"name\":\"Associates\",\"to\":\"/people/associates\"},{\"name\":\"Peer Academic Advisors\",\"to\":\"/people/paas\"},{\"name\":\"Academic Fellows\",\"to\":\"/people/academicfellows\"},{\"name\":\"RHAs\",\"to\":\"/people/RHAs\"},{\"name\":\"Head Caregivers\",\"to\":\"/people/headcaregivers\"},{\"name\":\"SMR\",\"to\":\"/people/SMR\"}]},{\"name\":\"Resources\",\"subheaders\":[{\"name\":\"Room Reservations\",\"to\":\"/resources/roomreservations\"},{\"name\":\"Financial Inclusivity\",\"to\":\"/about/financialinclusivity\"},{\"name\":\"McMurtry Innovation Space\",\"to\":\"/resources/mis\"},{\"name\":\"McLegislation\",\"to\":\"/resources/documents\"},{\"name\":\"Diversity Resources\",\"to\":\"/resources/diversityResources\"},{\"name\":\"Work Orders\",\"to\":\"/resources/workorders\"},{\"name\":\"McFUNd Requests\",\"to\":\"/resources/initiativerequests\"},{\"name\":\"Feedback Form\",\"to\":\"/resources/feedbackform\"}]}]}");
+
+/***/ })
+
+})
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdGF0aWMvd2VicGFjay9wYWdlcy9yZXNvdXJjZXMvZmVlZGJhY2tmb3JtLmI5ZmExZDI4OTFmNWJhNmY4MTJiLmhvdC11cGRhdGUuanMiLCJzb3VyY2VSb290IjoiIn0=

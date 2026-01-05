@@ -6,7 +6,7 @@ import './footer.css';
 const Footer = () => (
     <div className='footer-container'>
         {/* <Box width={[0.4, 0.3, 0.3, 0.2]} ml='auto' mr='auto'>
-            <Image src='../../static/crest.svg' alt="McMurtry College" />
+            <Image src='/McMurtry-Website/static/crest.svg' alt="McMurtry College" />
         </Box> */}
         <Flex flexDirection='row' justifyContent='center' className='footer-crest'>
             <Box width={40}>

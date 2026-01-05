@@ -55,7 +55,7 @@ const Intro = () => (
         </Link> */}
         <h1 className='welcome-title'>Welcome to McMurtry!</h1>
         <div className='yurt-graphic'>
-            <Image width = {[ .95, .8 ]} src='../../static/YurtTrees.svg'/>
+            <Image width = {[ .95, .8 ]} src='/McMurtry-Website/static/YurtTrees.svg'/>
         </div>
         <div className='center-div'>
             <a href={"https://goo.gl/forms/KEyPplLhclljdSOm2"}>

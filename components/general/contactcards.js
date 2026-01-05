@@ -22,7 +22,7 @@ const Card = props => (
             <h2 className="name">{props.name}</h2>
             {
                 props.phone !== undefined ? (
-                    <h3 className="contact-phone"><img src="../../static/icons/phone.svg" alt="Phone: " />{' '}{props.phone}</h3>
+                    <h3 className="contact-phone"><img src="/McMurtry-Website/static/icons/phone.svg" alt="Phone: " />{' '}{props.phone}</h3>
                 ) : (
                         null
                     )
@@ -30,7 +30,7 @@ const Card = props => (
             {
                 props.email !== undefined ? (
                     <a href={`mailto:${props.email}`} className='link'>
-                        <h3 className="contact-email"><img src="../../static/icons/email.svg" alt="Email: " />{' '}{props.email}</h3>
+                        <h3 className="contact-email"><img src="/McMurtry-Website/static/icons/email.svg" alt="Email: " />{' '}{props.email}</h3>
                     </a>
                 ) : (
                         null
@@ -45,14 +45,14 @@ const Card = props => (
             }
             {
                 props.major !== undefined ? (
-                    <h2 className='major'><img src="../../static/icons/file.svg" alt='Major: ' /> {props.major}</h2>
+                    <h2 className='major'><img src="/McMurtry-Website/static/icons/file.svg" alt='Major: ' /> {props.major}</h2>
                 ) : (
                         null
                     )
             }
             {
                 props.subjects !== undefined ? (
-                    <h2 className="subjects"><img src="../../static/icons/book.svg" alt='Subjects: ' /> {props.subjects}</h2>
+                    <h2 className="subjects"><img src="/McMurtry-Website/static/icons/book.svg" alt='Subjects: ' /> {props.subjects}</h2>
 
                 ) : (
                         null
@@ -67,7 +67,7 @@ const Card = props => (
             }
             {
                 props.pre_prof_path !== undefined ? (
-                    <h2 className='pre_prof_path'><img src="../../static/icons/file.svg" alt='Pre-Professional Path: ' /> {props.pre_prof_path}</h2>
+                    <h2 className='pre_prof_path'><img src="/McMurtry-Website/static/icons/file.svg" alt='Pre-Professional Path: ' /> {props.pre_prof_path}</h2>
                 ) : (
                         null
                     )

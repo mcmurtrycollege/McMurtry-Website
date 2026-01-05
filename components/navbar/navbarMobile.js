@@ -61,11 +61,11 @@ class Navbar extends React.Component {
         return (
             <div>
                 <div className='fixed-mobile-header'>
-                    <img className="show-navbar" src='../../static/icons/menu.svg' alt="Menu" onClick={this.toggleNavbar} />
+                    <img className="show-navbar" src='/McMurtry-Website/static/icons/menu.svg' alt="Menu" onClick={this.toggleNavbar} />
                     <Link href='/'>
                         <div className='header-crest-mobile'>
                             <Box width={40}>
-                                <Image src='../../static/logo.svg' alt="" />
+                                <Image src='/McMurtry-Website/static/logo.svg' alt="" />
                             </Box>
                             <p>McMurtry College</p>
                         </div>
@@ -73,7 +73,7 @@ class Navbar extends React.Component {
                 </div>
                 <div className='mobile-navbar' style={hidden}>
                     <div className='main-menu'>
-                        <img className='close-navbar' src="../../static/icons/x.svg" alt="X" onClick={this.toggleNavbar} />
+                        <img className='close-navbar' src="/McMurtry-Website/static/icons/x.svg" alt="X" onClick={this.toggleNavbar} />
                         {mainHeaders}
                     </div>
                     {menus}

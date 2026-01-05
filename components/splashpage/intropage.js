@@ -26,6 +26,12 @@ const quickLinks = [
         absolute: ""
     },
     {
+        name: "McExpenses",
+        icon: "hand-coin",
+        to: "/resources/pcardmanagement",
+        absolute: ""
+    },
+    {
         name: "Financial Inclusivity",
         icon: "hand-heart",
         to: "/about/financialinclusivity",

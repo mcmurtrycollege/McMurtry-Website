@@ -88,6 +88,10 @@
           "to": "/resources/roomreservations"
         },
         {
+          "name": "P-Card Requests & Purchases",
+          "to": "/resources/pcardmanagement"
+        },
+        {
           "name": "Financial Inclusivity",
           "to": "/about/financialinclusivity"
         },
